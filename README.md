@@ -6,7 +6,7 @@
 
 ## What This Is
 
-An open-source framework and execution toolkit for building AI-powered GTM systems in [Claude Code](https://docs.anthropic.com/en/docs/claude-code). Companion repo to the [Dirty Hands](https://dirtyhands.substack.com) newsletter.
+An open-source framework and execution toolkit for building AI-powered GTM systems in [Claude Code](https://docs.anthropic.com/en/docs/claude-code). Companion repo to the [Dirty Hands](https://dirtyhandsgtm.substack.com/) newsletter.
 
 This is not a prompt library. It is a structured system with three layers:
 
@@ -199,9 +199,9 @@ Each motion adds new skills, potentially new derived context modules, and update
 
 ## Links
 
-- [Dirty Hands newsletter](https://dirtyhands.substack.com) -- weekly deep-dives on tactical AI systems for GTM operators
+- [Dirty Hands newsletter](https://dirtyhandsgtm.substack.com/) -- weekly deep-dives on tactical AI systems for GTM operators
 - [Guest post on GTM Strategist](https://gtmstrategist.substack.com) -- the original walkthrough that introduced this framework
 
 ---
 
-Built by [Ben Gibert](https://www.linkedin.com/in/bengibert/). The systems are real. The failures are included. The hype is not.
+Built by [Ben Gibert](https://www.linkedin.com/in/benjamingibert/). The systems are real. The failures are included. The hype is not.

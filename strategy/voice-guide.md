@@ -2,6 +2,8 @@
 
 > Derived from the master knowledgebase. Specific enough that someone unfamiliar with the brand could write in this voice on the first try.
 
+> **Companion document:** `.claude/rules/writing-quality.md` applies to all content. That document handles anti-slop enforcement (consolidated prohibited terms list), structural patterns (Feature→Benefit→Proof), citation standards, and customer anonymization. This document handles brand voice, tone by context, competitor stance, and perspective (we/I/you). Both apply. Neither supersedes the other.
+
 ---
 
 ## Brand Voice in Three Words
@@ -214,9 +216,37 @@ Fewer than 13% of websites use structured data. Implementing it puts you ahead o
 - Never say "unlock", "empower", "leverage", or "drive" as verbs
 - Never say "best-in-class", "world-class", "cutting-edge", or "revolutionary"
 - Never promise "Master Dutch in X days" or similar hype
-- Never use AI slop patterns: "delve," "crucial," "foster," "landscape," "tapestry," "testament," "underscore," "vibrant," "showcase," "intricate," "pivotal," "enhance," "garner," "interplay," "enduring"
+- Never use AI slop patterns (see consolidated list in `.claude/rules/writing-quality.md`)
 - Never use negative parallelisms: "It's not X, it's Y" / "It's not just X, it's Y"
 - Never use rule of three for emphasis: "It's X, Y, and Z"
+- Never use reassurance-reframe patterns: "This is not your failure. It is a systemic problem." This structure is a telltale AI pattern. Rewrite as direct statements.
+
+### Technical Jargon Anti-Patterns
+
+Never use development or course-design jargon in reader-facing content:
+- "target vocabulary" → "the words from the lesson" or "vocabulary"
+- "completion criterion" → "what counts as done" or avoid the concept entirely
+- "production-based learning" → describe what happens, don't label the methodology
+- "recognition vs. production" → explain the difference without naming the framework
+- "cognitive pathways" → just describe what happens when you try to speak
+
+### AI/Technology Terminology Anti-Patterns
+
+Never label the technology. Describe the experience instead:
+- "AI-powered" → describe what it does ("practice anytime," "get feedback instantly")
+- "AI conversation partner" → "Joost" or "speaking practice"
+- "unlimited AI" → "practice whenever you want"
+- "human sessions" → "sessions with a teacher" or "classroom time"
+
+### Product-Specific Implementation as Universal Requirements
+
+Never present Dutchwithjoost's specific design choices as universal requirements:
+- Wrong: "Production-based learning requires 90% vocabulary usage with 2+ repetitions"
+- Right: "Dutchwithjoost considers a lesson complete when you've used most of the vocabulary in conversation"
+- Wrong: "This is what production-based learning requires"
+- Right: "This is how Dutchwithjoost works"
+
+If describing how the product works, be explicit that it's our approach, not a universal standard.
 
 ### Tone Anti-Patterns
 
@@ -228,41 +258,38 @@ Fewer than 13% of websites use structured data. Implementing it puts you ahead o
 - Never sell in contexts where selling is uninvited
 - Never direct frustration at a specific person or competitor
 
+### Dismissive Competitor Language
+
+When describing competitor limitations, state facts without implying lazy or obvious choices:
+- Wrong: "Building a course around exercises is straightforward. Create vocabulary lists. Add matching games."
+- Right: "Most courses use exercise completion as the progress metric. This measures engagement, not production ability."
+
+Avoid words that imply competitors took shortcuts:
+- "straightforward" (implies they took the easy path)
+- "simple" (implies lack of effort)
+- "just" (minimizes their work: "they just track clicks")
+- "only" (dismissive: "they only focus on recognition")
+
+State structural limitations factually:
+- "Classroom courses have limited speaking time per student" (fact)
+- Not: "Classroom courses give you maybe 5 minutes" (dismissive framing)
+
 ---
 
 ## Prohibited Terms
 
+> **Full list:** See `.claude/rules/writing-quality.md` for the consolidated prohibited terms list (hype words, corporate filler, weak qualifiers, AI slop vocabulary).
+
+**DutchwithJoost-specific prohibitions:**
+
 | Prohibited | Use Instead | Reason |
 |------------|-------------|--------|
-| Leverage | Use | Corporate jargon |
-| Utilize | Use | Unnecessary |
-| Synergy | (describe the specific benefit) | Meaningless buzzword |
-| Cutting-edge | (describe what's actually new) | Empty hype |
-| Revolutionary | (describe how it's different) | Overused |
-| Game-changer | (state the actual impact) | Hype |
-| Seamless | (describe the actual experience) | Vague filler |
-| Best-in-class | (provide evidence or drop claim) | Unsubstantiated |
-| World-class | (provide evidence or drop claim) | Unsubstantiated |
-| Holistic | Complete, comprehensive, or (specify scope) | Vague |
-| Empower | (say what they can now do) | Corporate |
-| Unlock | (say what they get access to) | Cliché |
-| Streamline | (say what step was removed or time saved) | Vague |
-| Optimize | (say what improved and by how much) | Vague |
 | Master Dutch in X days | Build real Dutch skills | Overpromising |
 | Effortless | (describe actual experience) | False promise |
-| Delve | Explore, examine, look at | AI slop |
-| Crucial | Important, key | AI slop |
-| Vibrant | (describe specifically) | AI slop |
-| Tapestry | (don't use at all) | AI slop |
-| Pivotal | Important, key | AI slop |
-| Underscore | Show, demonstrate | AI slop |
-| Foster | Build, create, encourage | AI slop |
-| Landscape | (describe the specific context) | AI slop |
-
-### Weak Qualifiers (Remove Entirely)
-
-These add nothing. Delete them:
-- very, really, quite, somewhat, fairly, rather, pretty much, basically, essentially
+| AI-powered | (describe what it does) | Don't label the technology |
+| AI conversation partner | "Joost" or "speaking practice" | Don't label the technology |
+| Unlimited AI | "practice whenever you want" | Don't label the technology |
+| Human sessions | "sessions with a teacher" | Avoid AI/human framing |
 
 ---
 

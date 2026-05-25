@@ -144,7 +144,6 @@ These are not required. The core pipeline works with Claude Code and local files
 | MCP Server | Enhances | What It Adds |
 |-----------|----------|-------------|
 | Firecrawl | `/research-brief` | SERP crawling, competitor content analysis, gap identification |
-| Webflow | `/seo-pipeline` (publisher) | Direct CMS draft creation with FAQ schema and category detection |
 | HubSpot | `/research-brief` | Deal and contact data for topic prioritization |
 | Clay | `/extract-insights` | Company enrichment from transcript mentions |
 | Lemlist | Future outbound motions | Sequence loading from extracted insights |
@@ -157,12 +156,15 @@ Skills detect MCP availability at runtime. If a server is not connected, the ski
 ## File Conventions
 
 ### Output naming
-- Content briefs: `outputs/briefs/{topic-slug}-brief.json`
-- Enriched briefs: `outputs/briefs/{topic-slug}-enriched.md`
-- Outlines: `outputs/briefs/{topic-slug}-outline.md`
-- Approved outlines: `outputs/briefs/{topic-slug}-outline-approved.md`
-- Articles: `outputs/articles/{topic-slug}.md`
-- SEO assets: `outputs/seo-assets/{topic-slug}-seo.yaml`
+- Content briefs: `outputs/briefs/{topic-slug}_brief.json`
+- Enriched briefs: `outputs/articles/{topic-slug}_enriched.md`
+- Outlines: `outputs/articles/{topic-slug}_outline.md`
+- Approved outlines: `outputs/articles/{topic-slug}_outline-approved.md`
+- Draft articles: `outputs/articles/{topic-slug}_draft.md`
+- Edited articles: `outputs/articles/{topic-slug}_edited.md`
+- Linked articles: `outputs/articles/{topic-slug}_linked.md`
+- Final articles: `outputs/articles/{topic-slug}_final.mdx`
+- SEO assets: `outputs/seo-assets/{topic-slug}_seo-assets.yaml`
 - LinkedIn posts: `outputs/linkedin/{topic-slug}-linkedin.md`
 
 ### Directory conventions

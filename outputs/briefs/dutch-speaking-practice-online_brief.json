@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "topic_id": "dutch-speaking-practice-online",
+    "priority_score": 8.45,
+    "stage": "mofu",
+    "format": "guide",
+    "target_word_count": 2000,
+    "estimated_effort": "3-4 hours"
+  },
+  "keyword": {
+    "primary": "Dutch speaking practice online",
+    "variants": [
+      "dutch speaking partner",
+      "practice speaking dutch",
+      "dutch conversation practice",
+      "find dutch speaking partner",
+      "dutch speaking practice app"
+    ],
+    "searcher_intent": "Someone learning Dutch who needs regular speaking practice but struggles to find it. May have tried language exchange sites, asked Dutch friends/partners, or looked for apps. Actively searching for solutions."
+  },
+  "audience": {
+    "persona": "Partner Visa Holder",
+    "industry_focus": null,
+    "pain_summary": "Finding consistent, low-pressure speaking practice is surprisingly hard. Dutch people switch to English. Language exchange partners are unreliable. Classroom time gives minutes of speaking per session. Private tutors are expensive.",
+    "awareness_level": "solution-aware"
+  },
+  "angle": "Comprehensive guide to all speaking practice options (free and paid) with honest trade-offs. Position AI conversation practice as the solution for unlimited, judgment-free practice that's always available.",
+  "thesis_sentence": "Finding Dutch speaking practice is harder than learning Dutch itself—but there are more options than you think, from free exchanges to AI conversation partners.",
+  "outline": [
+    {
+      "section": "Why Speaking Practice Is the Hardest Part to Find",
+      "notes": "Validate the struggle. Dutch people switch to English. Partners get tired of teaching. Classroom time is limited. This is documented across community discussions.",
+      "word_target": 300,
+      "evidence_needed": "Reddit quote: 'I've been trying to find other beginners to practice speaking with, but it's been harder than I expected.' Reddit thread title: 'Dutch partner won't speak Dutch.'"
+    },
+    {
+      "section": "Free Options: Language Exchange Sites and Discord",
+      "notes": "Honest review of ConversationExchange, Taalify, Nederlands Leren Discord. Pros: free, real humans. Cons: scheduling, reliability, skill mismatch.",
+      "word_target": 350,
+      "evidence_needed": "Mention Taalify.com from Reddit research. Link to Nederlands Leren Discord."
+    },
+    {
+      "section": "Paid Options: Private Tutors (iTalki, Preply)",
+      "notes": "Honest review. Pros: maximum speaking time, personalized, human connection. Cons: €20-60/hour adds up fast, need to schedule, variable quality.",
+      "word_target": 300,
+      "evidence_needed": "Pricing from competitive analysis: €20-60/hour, 100 hours = €2,000-6,000 to reach A2."
+    },
+    {
+      "section": "Classroom Courses: How Much Speaking Time Do You Actually Get?",
+      "notes": "Math problem: 8-15 students, 1 teacher, 2-hour session = maybe 5-10 minutes of actual speaking per person. Good for accountability, limited for practice.",
+      "word_target": 250,
+      "evidence_needed": "Classroom pricing from competitive analysis. Quote about limited speaking time per person in group settings."
+    },
+    {
+      "section": "AI Conversation Practice: The New Option",
+      "notes": "Overview of AI conversation tools. LangBuddy.ai, ChatGPT/Gemini for practice, structured AI courses. Pros: unlimited, no judgment, always available. Cons: not human, requires self-motivation.",
+      "word_target": 350,
+      "evidence_needed": "Reddit success story: 'After 4 months with AI, I passed all exams first try straight 10s.' Mention LangBuddy.ai from research."
+    },
+    {
+      "section": "What Makes Effective Speaking Practice",
+      "notes": "Criteria for good practice: frequency matters more than duration, low-stakes environment, immediate feedback, progressive difficulty, real scenarios not just phrases.",
+      "word_target": 250,
+      "evidence_needed": "General language learning principles. Sets up why unlimited AI practice works."
+    },
+    {
+      "section": "How Dutchwithjoost Approaches Speaking Practice",
+      "notes": "Explain our model: speaking isn't a separate skill to practice—it's the proof mechanism. Every lesson culminates in conversation. Practice prepares, conversation proves.",
+      "word_target": 200,
+      "evidence_needed": "Two-phase lesson structure. 90% vocabulary usage requirement. Unlimited practice."
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Can't find speaking partners—Dutch people switch to English",
+      "prop": "Unlimited AI speaking practice, available 24/7",
+      "proof": "No scheduling, no partner needed, practice as much as you want."
+    },
+    {
+      "pain": "Classroom courses give only minutes of speaking time",
+      "prop": "Every lesson culminates in conversation—speaking is the proof mechanism",
+      "proof": "Two-phase model: practice prepares, conversation proves. Speaking isn't bolted on."
+    },
+    {
+      "pain": "Private tutors are too expensive for consistent practice",
+      "prop": "One-time €399 for unlimited practice vs. €40/hour for tutoring",
+      "proof": "Cost comparison: 10 hours of tutoring = €400, or unlimited practice with us."
+    }
+  ],
+  "originality_nuggets": [
+    "Reddit user frustration: 'I've been trying to find other beginners to practice speaking with, but it's been harder than I expected'",
+    "Even Dutch partners switch to English—documented in Reddit thread title",
+    "Reddit success story validates AI for inburgering: passed all exams with straight 10s using ChatGPT/Gemini",
+    "Classroom speaking time math: 15 students, 2 hours = maybe 8 minutes of speaking each"
+  ],
+  "seo": {
+    "title_tag": "Dutch Speaking Practice Online: Free and Paid Options (2026 Guide)",
+    "meta_description": "Struggling to find Dutch speaking practice? Compare language exchanges, tutors, classroom courses, and AI conversation tools. Find what actually works.",
+    "url_slug": "dutch-speaking-practice-online"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "Where can I practice speaking Dutch online?",
+    "definition_paragraph": "Dutch speaking practice online includes language exchange sites (ConversationExchange, Taalify), Discord servers (Nederlands Leren), private tutors (iTalki, Preply at €20-60/hour), classroom courses (€500-2,000 but limited individual speaking time), and AI conversation tools (ChatGPT, LangBuddy.ai, or structured courses like Dutchwithjoost). The best option depends on your budget, schedule, and whether you need human interaction or prefer judgment-free AI practice.",
+    "faq_questions": [
+      "Where can I practice speaking Dutch online?",
+      "How can I find a Dutch speaking partner?",
+      "Is AI good for practicing Dutch speaking?",
+      "How much speaking time do you get in Dutch classroom courses?",
+      "What's the cheapest way to practice speaking Dutch?"
+    ]
+  }
+}

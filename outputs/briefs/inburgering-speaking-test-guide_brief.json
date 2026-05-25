@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "topic_id": "inburgering-speaking-test-guide",
+    "priority_score": 8.35,
+    "stage": "mofu",
+    "format": "guide",
+    "target_word_count": 2200,
+    "estimated_effort": "4-5 hours"
+  },
+  "keyword": {
+    "primary": "inburgering speaking exam",
+    "variants": [
+      "inburgering speaking exam tips",
+      "inburgering spreekexamen",
+      "A2 speaking test netherlands",
+      "how to pass inburgering speaking",
+      "inburgering speaking exam format"
+    ],
+    "searcher_intent": "Someone preparing for the inburgering exam who is anxious about the speaking component. They want to know exactly what to expect and how to prepare. High anxiety, seeking reassurance and practical guidance."
+  },
+  "audience": {
+    "persona": "Both personas",
+    "industry_focus": null,
+    "pain_summary": "Speaking exam anxiety is documented as the biggest fear. Unlike other components, you can't edit your work. You have limited time to respond. Many feel nervous walking into DUO's exam halls.",
+    "awareness_level": "problem-aware"
+  },
+  "angle": "Demystify the speaking exam with exact format details, then position consistent speaking practice as the anxiety reducer. Frame: 'Walk into DUO confident because you've already had hundreds of conversations.'",
+  "thesis_sentence": "The inburgering speaking exam is often called the hardest part—but once you know exactly what to expect and practice responding under time pressure, the anxiety disappears.",
+  "outline": [
+    {
+      "section": "Why the Speaking Exam Scares People Most",
+      "notes": "Validate the anxiety. It's documented as hardest because you can't edit, limited response time, feels like being put on the spot. This fear is normal.",
+      "word_target": 250,
+      "evidence_needed": "DutchReview: 'The spreken examen is often named as one of the hardest exams for internationals because, unlike with reading, listening, or writing, there's almost no chance to edit your work.' Facebook: 'I will soon take the A1 exam and I am very nervous.'"
+    },
+    {
+      "section": "Exactly What the A2 Speaking Exam Looks Like",
+      "notes": "Demystify the format. Computer-based, video prompts, timed responses. For A2: 8 short (20 sec) + 8 medium (30 sec) assessments. What the video says, what you need to respond with.",
+      "word_target": 400,
+      "evidence_needed": "DutchReview exam format details. Example prompt and response."
+    },
+    {
+      "section": "The Four Question Types You'll Face",
+      "notes": "Break down question categories: personal questions, situational responses, describing images, responding to scenarios. Give examples of each.",
+      "word_target": 350,
+      "evidence_needed": "Exam format research. Sample questions for each type."
+    },
+    {
+      "section": "How the Exam Is Scored (And What Actually Matters)",
+      "notes": "Explain scoring criteria. Being understood matters more than perfect grammar. Fluency and relevance over complexity. Remove perfectionism anxiety.",
+      "word_target": 300,
+      "evidence_needed": "Quote from voice guide: 'If your sentence is grammatically not completely correct but you're understandable, that's a huge improvement.'"
+    },
+    {
+      "section": "Why Most Preparation Doesn't Work",
+      "notes": "Explain why memorizing example answers fails. The exam tests production under pressure, not recognition. You need practice responding, not memorizing.",
+      "word_target": 300,
+      "evidence_needed": "Dutch-online.com: 'Most learners don't fail because they don't know Dutch — they underestimate speaking and writing.'"
+    },
+    {
+      "section": "How to Actually Prepare for the Speaking Exam",
+      "notes": "Practical tips: practice timed responses, record yourself, get comfortable with silence, learn filler phrases, practice scenarios not scripts.",
+      "word_target": 350,
+      "evidence_needed": "Practical guidance. Set up why consistent practice > cramming."
+    },
+    {
+      "section": "The Confidence Advantage: Why Practice Hours Matter",
+      "notes": "Frame unlimited practice as anxiety reducer. Walk into DUO having already had hundreds of conversations. Confidence comes from repetition, not cramming.",
+      "word_target": 250,
+      "evidence_needed": "Position Dutchwithjoost's unlimited speaking practice as the solution."
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Speaking exam anxiety—can't edit, limited time, feel judged",
+      "prop": "Unlimited speaking practice builds confidence through repetition",
+      "proof": "Practice hundreds of conversations before the exam. Walk into DUO confident."
+    },
+    {
+      "pain": "Memorizing example answers doesn't work under pressure",
+      "prop": "Practice producing responses, not recognizing correct ones",
+      "proof": "Two-phase model: every lesson culminates in conversation with Joost."
+    },
+    {
+      "pain": "Can't find enough speaking practice",
+      "prop": "24/7 AI speaking practice, as much as you want",
+      "proof": "No scheduling, no judgment, make mistakes without embarrassment."
+    }
+  ],
+  "originality_nuggets": [
+    "DutchReview verbatim: 'Many internationals have stepped nervously into DUO's exam halls'—this is the universal experience",
+    "Speaking exam format details demystify the unknown: computer-based, video prompts, 20-30 second responses",
+    "Dutch-online.com insight: 'Most learners don't fail because they don't know Dutch — they underestimate speaking and writing'",
+    "Confidence reframe: anxiety comes from uncertainty; practice removes uncertainty"
+  ],
+  "seo": {
+    "title_tag": "Inburgering Speaking Exam: Format, Tips, and How to Prepare (2026)",
+    "meta_description": "Nervous about the inburgering speaking exam? Learn exactly what to expect: format, question types, scoring, and how to prepare so you walk in confident.",
+    "url_slug": "inburgering-speaking-exam-guide"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "What is the inburgering speaking exam like?",
+    "definition_paragraph": "The inburgering speaking exam (spreekexamen) at A2 level is computer-based. You watch video prompts and record timed responses: 8 short assessments (20 seconds each) and 8 medium assessments (30 seconds each). Questions include personal questions, situational responses, and image descriptions. You're scored on being understood and giving relevant answers—perfect grammar is not required. Most test-takers report it's the hardest component because you can't edit your response.",
+    "faq_questions": [
+      "What is the inburgering speaking exam like?",
+      "How long is the inburgering speaking test?",
+      "How is the inburgering speaking exam scored?",
+      "What questions are on the inburgering speaking exam?",
+      "How do I prepare for the inburgering speaking exam?",
+      "Is the inburgering speaking exam hard?"
+    ]
+  }
+}

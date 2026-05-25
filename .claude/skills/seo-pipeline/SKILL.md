@@ -81,11 +81,13 @@ Proceed automatically to Stage 2.
    - Key argument to make
    - AEO formatting directive (e.g., "Open with a definition paragraph", "Structure as FAQ with self-contained answers", "Include a summary box for featured snippet targeting")
 3. Generate SEO assets YAML with:
-   - title_tag
-   - meta_description
-   - url_slug
-   - og_title and og_description
-   - faq_schema items
+   - title (for title tag and OG title)
+   - description (SEO meta description, concise and search-focused)
+   - excerpt (blog card teaser, slightly more editorial and click-friendly than description)
+   - slug (URL slug)
+   - category (one of: `dutch-learning`, `inburgering`, `expat-life`, `product`)
+   - tags (array of relevant keyword tags)
+   - faqs (array of {question, answer} objects for FAQ schema and rendered FAQ section)
    - internal_link_targets (if sitemap or URL inventory exists)
 
 **Output:**
@@ -212,27 +214,37 @@ Proceed automatically to Stage 6.
 **Workflow:**
 
 1. Read the linked article and SEO assets.
-2. Check for Webflow MCP availability.
+2. Generate MDX file with frontmatter in this exact format:
 
-**If Webflow MCP is available:**
-- Convert markdown to clean HTML.
-- Inject FAQ schema (JSON-LD) based on FAQ sections in the article and SEO assets YAML.
-- Create a CMS draft item in Webflow with:
-  - Title from SEO assets
-  - Slug from SEO assets
-  - Body HTML
-  - Meta description
-  - OG fields
-- Report the draft URL to the user.
+```yaml
+---
+title: "[from SEO assets]"
+description: "[from SEO assets - SEO meta description]"
+date: "[YYYY-MM-DD of generation]"
+author: "Wesley Lam"
+category: "[from SEO assets - one of: dutch-learning, inburgering, expat-life, product]"
+coverImage: "/images/blog/PLACEHOLDER.jpg"
+coverImageAlt: "PLACEHOLDER - describe the cover image"
+excerpt: "[from SEO assets - blog card teaser]"
+published: false
+tags: [from SEO assets]
+faqs:
+  - question: "[from SEO assets]"
+    answer: "[from SEO assets]"
+---
+```
 
-**If Webflow MCP is not available:**
-- Write a final markdown file with front matter containing all SEO metadata.
-- Include the FAQ schema as a JSON-LD code block at the bottom for easy copy-paste.
-- Note to the user: "Webflow MCP not connected. The article is ready for manual publishing. Connect the Webflow MCP server to enable direct CMS draft creation."
+3. Append the article body (from the linked article) as standard markdown after the frontmatter.
+4. Do NOT include JSON-LD scripts in the body. The blog framework generates structured data from frontmatter.
+5. Write the final output file.
 
-3. Write the final output file.
+**Important frontmatter notes:**
+- `published: false` by default. User sets to `true` after adding cover image and final review.
+- `coverImage` and `coverImageAlt` are placeholders. User must replace before publishing.
+- `faqs` must be an array of `{question, answer}` objects. If no FAQs, use `faqs: []`.
+- `author` defaults to "Wesley Lam". Change to "Nina Lari" only if explicitly requested.
 
-**Output:** `outputs/articles/[slug]_final.md`
+**Output:** `outputs/articles/[slug]_final.mdx`
 
 ---
 
@@ -254,7 +266,7 @@ Files produced:
   - outputs/articles/[slug]_draft.md
   - outputs/articles/[slug]_edited.md
   - outputs/articles/[slug]_linked.md
-  - outputs/articles/[slug]_final.md
+  - outputs/articles/[slug]_final.mdx
 
 Article stats:
   - Word count: [number]
@@ -264,7 +276,11 @@ Article stats:
 
 Evidence gaps: [any sections that lacked strong proof points]
 Editorial changes: [count of corrections made in Stage 4]
-Publishing: [Webflow draft URL | ready for manual publishing]
+
+Before publishing:
+  - [ ] Add cover image and update coverImage/coverImageAlt in frontmatter
+  - [ ] Set published: true
+  - [ ] Copy to content/blog/ in your blog repo
 
 Next step: [what the user should do next]
 ```

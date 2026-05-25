@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "topic_id": "passed-inburgering-cant-speak-dutch",
+    "priority_score": 8.95,
+    "stage": "mofu",
+    "format": "thought-leadership",
+    "target_word_count": 1800,
+    "estimated_effort": "3-4 hours"
+  },
+  "keyword": {
+    "primary": "passed inburgering but can't speak Dutch",
+    "variants": [
+      "pass inburgering cant speak",
+      "inburgering exam useless",
+      "recognize dutch cant speak",
+      "understand dutch but cant speak",
+      "memorized dutch forgot everything"
+    ],
+    "searcher_intent": "Someone who passed the inburgering exam (or knows someone who did) but is frustrated that they still cannot hold conversations in Dutch. They're questioning whether the exam/course was worth it and looking for validation or solutions."
+  },
+  "audience": {
+    "persona": "Partner Visa Holder (primary), Work Visa Holder (secondary)",
+    "industry_focus": null,
+    "pain_summary": "The 'pass but can't speak' problem: learners complete recognition-based courses, pass the exam, but cannot produce Dutch in real conversations. They feel deceived by courses that promised fluency.",
+    "awareness_level": "problem-aware"
+  },
+  "angle": "Diagnose WHY this happens (recognition vs. production gap) and position production-based learning as the solution. Not attacking competitors, but explaining the fundamental difference in pedagogy.",
+  "thesis_sentence": "Most Dutch courses train you to recognize correct answers, not produce them—which is why you can pass the exam but still freeze when someone asks 'Hoe gaat het?'",
+  "outline": [
+    {
+      "section": "The 'Pass But Can't Speak' Problem Is Real",
+      "notes": "Validate the reader's experience with evidence. Use verbatim quotes from research. Establish that this is common, not their personal failure.",
+      "word_target": 250,
+      "evidence_needed": "Facebook group quote: 'They read, they listen, they understand… but when it's time to talk, they freeze.' Taalhammer quote about isolated words fading."
+    },
+    {
+      "section": "Why Recognition-Based Learning Creates This Gap",
+      "notes": "Explain the cognitive science: recognition is easier than production. Picking the right answer from 4 options is not the same as generating the sentence yourself. Most courses optimize for completion, not production.",
+      "word_target": 350,
+      "evidence_needed": "Clozemaster quote: 'Many learners struggle because they can recognize Dutch vocabulary but cannot use it.' Explain the difference between passive and active vocabulary."
+    },
+    {
+      "section": "How Memorization Courses Are Designed (And Why)",
+      "notes": "Be honest about why courses use recognition-based completion. It's faster, cheaper to build, easier to measure. Learners feel progress. Not malicious, but optimized for wrong outcome.",
+      "word_target": 300,
+      "evidence_needed": "Competitor analysis showing completion criteria are exercise-based, not production-based."
+    },
+    {
+      "section": "The Speaking Exam Doesn't Fix This",
+      "notes": "Even courses with speaking components often treat it as one more exam section to pass, not as a proof mechanism throughout. You cram for speaking like you cram for reading.",
+      "word_target": 250,
+      "evidence_needed": "DutchReview quote about speaking exam being hardest because 'there's almost no chance to edit your work.' Contrast with how production should be woven throughout."
+    },
+    {
+      "section": "What Production-Based Learning Looks Like",
+      "notes": "Describe what it means to require active production for completion. Lessons aren't done when you finish exercises—they're done when you've used the vocabulary in conversation. This is harder, but it's why learning sticks.",
+      "word_target": 350,
+      "evidence_needed": "Explain Dutchwithjoost's two-phase model: practice prepares, conversation proves. The 90% vocabulary usage requirement. This is the value prop."
+    },
+    {
+      "section": "How to Know If a Course Will Actually Make You Speak",
+      "notes": "Give practical criteria for evaluating any course. What is the completion criterion? How much production is required? Is speaking integrated throughout or bolted on at the end?",
+      "word_target": 300,
+      "evidence_needed": "Checklist format. Applies to any course, including ours. Builds trust through objectivity."
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Recognition vs. production gap—can recognize Dutch but can't produce it",
+      "prop": "Lessons complete when you've used 90% of vocabulary in conversation, not when you've finished exercises",
+      "proof": "Course architecture requires active production for completion. Two-phase model: practice prepares, conversation proves."
+    },
+    {
+      "pain": "Isolated word memorization doesn't stick",
+      "prop": "Vocabulary is learned in context through conversation, not flashcards",
+      "proof": "Each word requires 2+ successful uses in conversation before counting as learned."
+    },
+    {
+      "pain": "Speaking practice is hard to find",
+      "prop": "Unlimited speaking practice with AI, available 24/7",
+      "proof": "No scheduling, no judgment, make mistakes without embarrassment."
+    }
+  ],
+  "originality_nuggets": [
+    "Verbatim customer language: 'They read, they listen, they understand… but when it's time to talk, they freeze'—this is the exact problem we solve",
+    "The completion criterion is the hidden variable: most courses are 'done' when you click through screens, we're 'done' when you can produce",
+    "Even Dutch partners switch to English—documented Reddit thread 'Dutch partner won't speak Dutch'—so AI practice fills a real gap",
+    "Reddit success story shows passing with AI alone, but speaking practice was the hardest part to find"
+  ],
+  "seo": {
+    "title_tag": "Why You Pass Inburgering But Can't Speak Dutch (And How to Fix It)",
+    "meta_description": "Passed the inburgering exam but still can't hold a conversation? Here's why recognition-based learning fails and what production-based learning looks like.",
+    "url_slug": "passed-inburgering-cant-speak-dutch"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "Why can't I speak Dutch after passing the inburgering exam?",
+    "definition_paragraph": "The 'pass but can't speak' problem happens because most Dutch courses train recognition (picking the right answer) rather than production (generating sentences yourself). You complete exercises by clicking correct options, but never practice producing Dutch from scratch. The exam tests whether you can recognize correct Dutch—not whether you can speak it.",
+    "faq_questions": [
+      "Why can't I speak Dutch after passing the inburgering exam?",
+      "What is the difference between recognition and production in language learning?",
+      "How can I actually learn to speak Dutch, not just pass the test?",
+      "Do inburgering courses teach real Dutch?",
+      "What should I look for in a Dutch course if I want to actually speak?"
+    ]
+  }
+}

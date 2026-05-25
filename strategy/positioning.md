@@ -66,16 +66,35 @@ The result: you pass the inburgering exam because you can actually use Dutch. No
 
 ## Validated Pain Points (From Web Research, May 2026)
 
-> These pain points are documented across community discussions, competitor sites, and reviews. Use them in content with attribution.
+> These pain points are documented across community discussions, competitor sites, and reviews. Use them to inform content angles, but follow citation guidelines below.
 
-| Pain Point | Evidence Quote | Content Angle |
+| Pain Point | Evidence Source | Content Angle |
 |------------|----------------|---------------|
-| **Speaking exam anxiety** | "Many internationals have stepped nervously into DUO's exam halls" (DutchReview) | Position unlimited practice as anxiety reducer |
-| **Recognition vs. production gap** | "Many learners struggle because they can recognize Dutch vocabulary but cannot use it" (Clozemaster) | Core positioning — we require production |
-| **Underestimating production skills** | "Most learners don't fail because they don't know Dutch — they underestimate speaking and writing" (Dutch-online.com) | Content angle: production skills are where people fail |
-| **Isolated word memorization fails** | "You can memorize fiets, huis, and eten all week — and still stumble when trying to use them in conversation" (Taalhammer) | Context-based learning vs. flashcards |
-| **Finding speaking partners is hard** | "I've been trying to find other beginners to practice speaking with, but it's been harder than I expected" (Reddit) | Unlimited AI speaking practice solves this |
-| **Course value uncertainty** | "Are those €1000 inburgering courses actually worth it? Or scam?" (Reddit thread title) | One-time €399 pricing, clear completion criteria |
+| **Speaking exam anxiety** | DutchReview (named publication, citable) | Position unlimited practice as anxiety reducer |
+| **Recognition vs. production gap** | Seidlitz Education (education publisher, citable) | Core positioning — we require production |
+| **Underestimating production skills** | Dutch-online.com (named publication, citable) | Content angle: production skills are where people fail |
+| **Isolated word memorization fails** | Taalhammer blog (named publication, citable) | Context-based learning vs. flashcards |
+| **Finding speaking partners is hard** | Community discussions (anonymize in content) | Speaking practice solves this |
+| **Course value uncertainty** | Community discussions (anonymize in content) | One-time €399 pricing, clear completion criteria |
+| **Speaking partners don't match your level** | Customer intelligence (internal use) | Joost always speaks at the lesson's difficulty level |
+
+### Citation Guidelines for Pain Points
+
+**Citable sources (name them):**
+- Named publications: DutchReview, Taalhammer, Seidlitz Education, Dutch-online.com
+- Industry reports with author/date
+- Named expert quotes
+
+**Anonymize (use the insight, not the source):**
+- Reddit threads → "A common frustration in Dutch learner communities..."
+- Facebook groups → "Many expats preparing for inburgering report..."
+- Forum posts → "Learners often describe..."
+
+**Internal use only (informs writing, never cited):**
+- Customer intelligence from transcripts
+- Specific implementation details from our product
+
+The insight matters more than the source. Readers don't need to know you found something on Reddit. They need to feel recognized.
 
 ---
 
@@ -125,6 +144,37 @@ The result: you pass the inburgering exam because you can actually use Dutch. No
 - Language learning apps (but we're structured for a specific exam, not general learning)
 - Exam prep (but we focus on production, not cramming)
 - Online courses (but completion requires active output, not passive consumption)
+
+---
+
+## Competitor Mention Guidelines
+
+### When naming competitors
+
+Only name competitors when:
+1. Citing specific public information (pricing, features from their website)
+2. Making honest comparisons where naming helps the reader decide
+3. Recommending them as a better fit for certain goals
+
+Never name competitors when:
+1. Describing general category limitations (say "most self-paced courses" instead)
+2. The mention could sound dismissive or superior
+3. You're implying they made lazy or obvious choices
+
+### Describing alternative approaches
+
+State structural limitations factually, without implying motive:
+
+| Approach | Factual limitation | NOT this (dismissive) |
+|----------|-------------------|----------------------|
+| Classroom courses | "With 15 students, individual speaking time is limited" | "You get maybe 5 minutes" |
+| Self-paced courses | "Progress is measured by exercises completed" | "They just track clicks" |
+| Private tutors | "Sessions are scheduled and priced per hour" | "You're paying for every minute" |
+| Language exchange | "Partner availability varies" | "Partners are unreliable" |
+
+### The matchmaker test
+
+Before publishing competitor mentions, ask: "Would I be comfortable if the competitor read this?" If no, rewrite. We're matchmakers helping readers find the right solution, not salespeople putting down the competition.
 
 ---
 

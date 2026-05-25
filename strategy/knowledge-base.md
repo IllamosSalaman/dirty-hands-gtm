@@ -197,7 +197,7 @@ Partner visa holder with a Dutch partner. Family gatherings are in Dutch. Cannot
 **Functional outcome**: Real conversational ability that persists beyond the exam.
 
 **Evidence**:
-- "Many learners struggle because they can recognize Dutch vocabulary but cannot use it." (Clozemaster)
+- "Comprehension is not enough if the students are to demonstrate their knowledge through speaking or writing. Words need to travel from the passive lexicon into the active lexicon so we can retrieve them on-demand and produce comprehensible utterances quickly. This transfer does not happen on its own." (Seidlitz Education)
 - "They read, they listen, they understand… but when it's time to talk, they freeze." (Facebook group)
 - "If you've ever tried learning Dutch, you've probably noticed how quickly isolated words fade away. You can memorize fiets, huis, and eten all week — and still stumble when trying to use them in conversation." (Taalhammer)
 
@@ -250,7 +250,7 @@ Partner visa holder with a Dutch partner. Family gatherings are in Dutch. Cannot
 
 **Evidence**:
 - "How quickly isolated words fade away" (Taalhammer)
-- "If you memorize only the dictionary form, you won't recognize it in real conversation" (Clozemaster)
+- "Moving words from Passive Vocabulary into the corresponding Active Reservoir takes time and effort (and practice!)" (Seidlitz Education)
 - Spaced repetition apps acknowledge the problem with phrases like "Cards repeat right before you forget them"
 
 **Emotional dimension**: Frustration at forgetting, wasted effort, desire for "real" learning.
@@ -308,6 +308,8 @@ These phrases appear in actual customer discussions. Use them in content.
 
 ## Communication Guidelines
 
+> **Sync note:** When generating `voice-guide.md`, include a cross-reference to `.claude/rules/writing-quality.md` at the top. That document contains the consolidated anti-slop rules (prohibited terms, AI vocabulary, structural anti-patterns). Voice-guide.md handles brand voice; writing-quality.md handles universal quality enforcement. Both apply to all content.
+
 ### Voice and Tone
 
 | Attribute | Description |
@@ -343,6 +345,63 @@ Respectful. No talking down to competitors. Honest when another option is a bett
 - No overpromising or hype ("Master Dutch in 30 days!")
 - No condescending tone ("It's easy!", "Anyone can do it!")
 - No academic stiffness
+
+### AI Writing Pattern Anti-Patterns
+
+> **Full list:** See `.claude/rules/writing-quality.md` for the complete anti-slop enforcement rules (AI vocabulary, significance puffery, structural anti-patterns like copula avoidance, trailing -ing analysis, elegant variation, false ranges, vague attributions).
+
+These DutchwithJoost-specific patterns also signal AI-generated content. Avoid them:
+
+- **Reassurance-reframe structure**: "This is not your failure. It is a systemic problem." Rewrite as direct statements.
+- **Rule of three for emphasis**: "It's fast, flexible, and effective." Vary sentence structure.
+- **Negative parallelisms**: "It's not X, it's Y" / "It's not just X, it's Y"
+
+### Technical Jargon Anti-Patterns
+
+Never use development or course-design jargon in reader-facing content:
+
+| Don't Say | Say Instead |
+|-----------|-------------|
+| target vocabulary | the words from the lesson, vocabulary |
+| completion criterion | what counts as done (or avoid the concept) |
+| production-based learning | describe what happens, don't label the methodology |
+| recognition vs. production | explain the difference without naming the framework |
+| cognitive pathways | just describe what happens when you try to speak |
+
+### AI/Technology Terminology
+
+Never label the technology. Describe the experience instead:
+
+| Don't Say | Say Instead |
+|-----------|-------------|
+| AI-powered | describe what it does ("practice anytime," "get feedback instantly") |
+| AI conversation partner | "Joost" or "speaking practice" |
+| unlimited AI | "practice whenever you want" |
+| human sessions | "sessions with a teacher" or "classroom time" |
+
+### Product Implementation vs. Universal Requirements
+
+Never present Dutchwithjoost's specific design as universal requirements:
+
+| Wrong | Right |
+|-------|-------|
+| "Production-based learning requires 90% vocabulary usage" | "Dutchwithjoost considers a lesson complete when you've used most of the vocabulary in conversation" |
+| "This is what effective learning requires" | "This is how we designed the course" |
+| "You need 2+ successful uses per word" | "In our course, each word needs multiple successful uses before it counts" |
+
+If describing how the product works, be explicit: "Dutchwithjoost does X" not "Learning requires X."
+
+### Dismissive Competitor Language
+
+When describing competitor limitations, state facts without implying lazy or obvious choices:
+
+| Wrong | Right |
+|-------|-------|
+| "Building a course around exercises is straightforward" | "Most courses use exercise completion as the progress metric" |
+| "They just track clicks" | "Progress is measured by exercises completed" |
+| "You get maybe 5 minutes of speaking" | "With 15 students, individual speaking time is limited" |
+
+Avoid words that imply competitors took shortcuts: "straightforward," "simple," "just," "only"
 
 ### Prohibited Terms
 
@@ -448,14 +507,56 @@ We win when someone wants to actually produce Dutch, not just recognize it on a 
 
 These pain points are documented across community discussions, competitor sites, and reviews:
 
-| Pain Point | Evidence Quote | Content Angle |
-|------------|----------------|---------------|
-| **Speaking exam anxiety** | "Many internationals have stepped nervously into DUO's exam halls" (DutchReview) | Position unlimited practice as anxiety reducer |
-| **Recognition vs. production gap** | "Many learners struggle because they can recognize Dutch vocabulary but cannot use it" (Clozemaster) | Core positioning — we require production |
-| **Underestimating production skills** | "Most learners don't fail because they don't know Dutch — they underestimate speaking and writing" (Dutch-online.com) | Content angle: production skills are where people fail |
-| **Isolated word memorization fails** | "You can memorize fiets, huis, and eten all week — and still stumble when trying to use them in conversation" (Taalhammer) | Context-based learning vs. flashcards |
-| **Finding speaking partners is hard** | "I've been trying to find other beginners to practice speaking with, but it's been harder than I expected" (Reddit) | Unlimited AI speaking practice solves this |
-| **Course value uncertainty** | "Are those €1000 inburgering courses actually worth it? Or scam?" (Reddit thread title) | One-time €399 pricing, clear completion criteria |
+| Pain Point | Evidence Source | Content Angle |
+|------------|-----------------|---------------|
+| **Speaking exam anxiety** | DutchReview (named publication, citable) | Position unlimited practice as anxiety reducer |
+| **Recognition vs. production gap** | Seidlitz Education (education publisher, citable) | Core positioning — we require production |
+| **Underestimating production skills** | Dutch-online.com (named publication, citable) | Content angle: production skills are where people fail |
+| **Isolated word memorization fails** | Taalhammer blog (named publication, citable) | Context-based learning vs. flashcards |
+| **Finding speaking partners is hard** | Community discussions (anonymize in content) | Speaking practice solves this |
+| **Speaking partners don't match your level** | Customer intelligence (internal use) | Joost always speaks at the lesson's difficulty level |
+| **Course value uncertainty** | Community discussions (anonymize in content) | One-time €399 pricing, clear completion criteria |
+
+### Citation Guidelines
+
+**Citable sources (name them in content):**
+- Named publications: DutchReview, Taalhammer, Seidlitz Education, Dutch-online.com
+- Official sources: DUO, government sites, exam bodies
+- Named expert quotes with credentials
+
+**Anonymize (use the insight, not the source):**
+- Reddit threads → "A common frustration among Dutch learners..."
+- Facebook groups → "Many expats preparing for inburgering report..."
+- Forum posts → "Learners often describe..."
+
+**Internal use only (informs writing, never cited):**
+- Customer intelligence from transcripts
+- Specific implementation details from our product
+
+The insight matters more than the source. Readers don't need to know you found something on Reddit.
+
+### Sales and Pricing in Content
+
+**Include pricing in:**
+- BOFU content (comparison pages, pricing pages, "is X worth it" articles)
+- Direct response content where price is the point
+- Product pages
+
+**Never include pricing in:**
+- MOFU thought leadership content
+- Educational articles where you're building trust through insight
+- Sections that would otherwise feel like advice
+
+Price mentions in thought leadership break the frame. The reader was learning, now they're being sold to.
+
+### Advice Section Guidelines
+
+When giving advice (e.g., "What to look for in a Dutch course"), criteria must be:
+- Genuinely useful even if the reader chooses a competitor
+- Applicable to multiple options, not just us
+- Not suspiciously specific to our product's features
+
+**Test:** If a competitor satisfied these criteria, would you be happy? If no, you've written criteria to disqualify competitors, not to help readers.
 
 ### Content Opportunities from Research
 

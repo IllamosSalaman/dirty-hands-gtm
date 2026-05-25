@@ -43,16 +43,17 @@ The Dutch partner helps with questions about Dutch but won't (or can't) actually
 
 ### Validated Pain Points (From Web Research, May 2026)
 
-These are verbatim quotes from community discussions, competitor sites, and reviews:
+These pain points are documented across community discussions, competitor sites, and reviews. Follow citation guidelines when using in content.
 
-| Pain Point | Evidence Quote | Source |
-|------------|----------------|--------|
-| Speaking exam anxiety | "Many internationals have stepped nervously into DUO's exam halls" | DutchReview |
-| Recognition vs. production | "They read, they listen, they understand… but when it's time to talk, they freeze." | Facebook group |
-| Can't find speaking partners | "I've been trying to find other beginners to practice speaking with, but it's been harder than I expected." | Reddit r/learndutch |
-| Even partners switch to English | "Dutch partner won't speak Dutch" | Reddit thread title |
-| Memorization doesn't stick | "You can memorize fiets, huis, and eten all week — and still stumble when trying to use them in conversation." | Taalhammer |
-| Course value uncertainty | "Are those €1000 inburgering courses actually worth it? Or scam?" | Reddit thread title |
+| Pain Point | Evidence Source | How to Use in Content |
+|------------|-----------------|----------------------|
+| Speaking exam anxiety | DutchReview (named publication, citable) | Can cite by name |
+| Recognition vs. production | Community discussions (anonymize) | "Many expats report understanding Dutch but freezing when speaking" |
+| Can't find speaking partners | Community discussions (anonymize) | "A common frustration among Dutch learners..." |
+| Even partners switch to English | Community discussions (anonymize) | "Even Dutch partners often switch to English" |
+| Memorization doesn't stick | Taalhammer blog (named publication, citable) | Can cite by name |
+| Speaking partners don't match level | Customer intelligence (internal use) | Joost always speaks at the lesson's difficulty level |
+| Course value uncertainty | Community discussions (anonymize) | "Many learners question whether expensive courses are worth it" |
 
 ### Decision Criteria
 
@@ -127,11 +128,11 @@ They may also want to integrate more genuinely — tired of the expat bubble, wa
 
 ### Validated Pain Points (From Web Research, May 2026)
 
-| Pain Point | Evidence Quote | Source |
-|------------|----------------|--------|
-| Underestimating production | "Most learners don't fail because they don't know Dutch — they underestimate speaking and writing." | Dutch-online.com |
-| Vocabulary doesn't stick | "If you've ever tried learning Dutch, you've probably noticed how quickly isolated words fade away." | Taalhammer |
-| Recognition isn't production | "Many learners struggle because they can recognize Dutch vocabulary but cannot use it." | Clozemaster |
+| Pain Point | Evidence Source | How to Use in Content |
+|------------|-----------------|----------------------|
+| Underestimating production | Dutch-online.com (named publication, citable) | Can cite by name |
+| Vocabulary doesn't stick | Taalhammer blog (named publication, citable) | Can cite by name |
+| Recognition isn't production | Seidlitz Education (education publisher, citable) | Can cite by name |
 
 ### Decision Criteria
 

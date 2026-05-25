@@ -40,7 +40,7 @@ Give scanners the quick answer before they scroll.
 
 | Factor | InburgeringOnline | Dutchwithjoost |
 |--------|-------------------|----------------|
-| Price | €200-500 | €399 |
+| Price | €300-600 (subscription) | €399 (one-time) |
 | Learning method | Memorization + mock exams | Speaking practice throughout |
 | Speaking practice | Limited (exam simulation) | Unlimited |
 | Exam coverage | All 5 parts | All 5 parts |
@@ -64,9 +64,12 @@ InburgeringOnline is effective at helping people pass the inburgering exam throu
 
 **Proof Points:**
 - Well-established platform with many successful users
+- Trustpilot 4.4★ rating
+- NT2 teacher founder (Bart) — credibility
 - Structured specifically for the inburgering exam format
 - Video lessons explaining exam content
 - Mock exams that mirror DUO format
+- Testimonials claiming passing in 45 days
 
 **Writer Notes:**
 - Be genuinely fair, not fake fair
@@ -87,7 +90,12 @@ The limitation isn't InburgeringOnline specifically — it's the memorization ap
 **Proof Points:**
 - Clozemaster (citable): "Many learners struggle because they can recognize Dutch vocabulary but cannot use it"
 - Karpicke & Roediger (2008): Restudying has no effect on delayed recall; testing produces large positive effect
-- Community pattern (anonymize): Expats report passing but still unable to converse
+- Community pattern (anonymize): "A common frustration among Dutch learners is passing the exam but still being unable to hold a conversation"
+
+**Customer Intelligence (anonymize in writing):**
+- Memorization-based approach: cards and exercises to memorize
+- Friend "couldn't even pronounce inburgering" after passing
+- Expat groups: "Most people complain that even though they pass the inburgering they still don't speak"
 
 **Writer Notes:**
 - Critique the methodology, not the company
@@ -108,10 +116,16 @@ Dutchwithjoost is built around production. Lessons aren't complete when you fini
 
 **Proof Points:**
 - Hopman & MacDonald (2018): Production learners outperform comprehension learners on both vocabulary AND grammar tests
-- Completion criterion: 90% vocabulary used in conversation, 2+ uses per word
+- Completion criterion: Vocabulary must be used in conversation to complete lesson
 - All 5 exam parts in one course
-- Unlimited speaking practice
-- €399 flat pricing
+- Unlimited speaking practice, anytime
+- €399 flat pricing (no subscription confusion)
+- Origin story: Co-founder built it for her own inburgering journey
+
+**Customer Intelligence (can reference anonymously):**
+- "With Joost it's the words that you learn you use... it helps me communicate"
+- "I don't see time passing by with Joost because I'm having fun, because I am very engaged"
+- "I don't have to think about what now what do I do now. It's just guided."
 
 **Writer Notes:**
 - Feature → Benefit → Proof pattern
@@ -199,6 +213,10 @@ The right course depends on what you actually want. If the goal is the certifica
 - Positioning narrative: "Most people want to pass the integration exam to integrate. But then they memorize answers and still can't speak Dutch."
 - Voice guide: "Different goals, different tools"
 
+**Customer Intelligence (can reference anonymously):**
+- "If I get my citizenship but I can't speak at all... I would always feel like an outsider. I don't feel I deserve that passport."
+- "If I know how to speak Dutch properly with people, I would go out more"
+
 **Writer Notes:**
 - This is the thought-provoking section
 - Help reader clarify their actual goal
@@ -236,7 +254,7 @@ Soft CTA. You don't have to decide based on descriptions. Try a free lesson to s
 
 ### FAQ 2: What is the difference between Dutchwithjoost and InburgeringOnline?
 
-**Answer:** InburgeringOnline uses memorization-based learning with video lessons and mock exams, optimized for passing quickly. Dutchwithjoost uses speaking as the primary learning method, with lessons completing only when you've used the vocabulary in conversation. InburgeringOnline costs €200-500; Dutchwithjoost costs €399. Both cover all five exam parts.
+**Answer:** InburgeringOnline uses memorization-based learning with video lessons and mock exams, optimized for passing quickly. Dutchwithjoost uses speaking as the primary learning method, with lessons completing only when you've used the vocabulary in conversation. InburgeringOnline costs €300-600; Dutchwithjoost costs €399. Both cover all five exam parts.
 
 ### FAQ 3: Which inburgering course has more speaking practice?
 

@@ -1,248 +1,291 @@
 # Enriched Brief: Dutchwithjoost vs InburgeringOnline
 
-**Source Brief:** `outputs/briefs/dutchwithjoost-vs-inburgeringonline_brief.json`
-**Stage:** Enrichment (Stage 1)
-**Generated:** 2026-05-26
-
----
-
 ## Brief Summary
-
-**Topic:** Comparison article for people deciding between Dutchwithjoost and InburgeringOnline
-**Stage:** BOFU (Bottom of Funnel)
-**Target Word Count:** 1,800 words
-**Primary Keyword:** dutchwithjoost vs inburgeringonline
-**Searcher Intent:** Decide between these two specific courses. Understand the differences. Find the better fit for their situation.
-
----
-
-## Evidence Mapped to Outline Sections
-
-### Section 1: Two Different Philosophies for the Same Goal
-**Word Target:** 200 words
-**Evidence Needed:** Framing only
-
-**Key Argument:**
-Both courses cover all five parts of the inburgering exam. The difference is how you learn. InburgeringOnline: memorization-based, optimized for fast exam pass. Dutchwithjoost: requires you to use vocabulary as you learn it, optimized for retention. Neither is objectively "better" — they're built for different goals.
-
-**Evidence:**
-- *Positioning framing:* "Other courses are done when you finish the exercises. Dutchwithjoost is done when you've used 90% of the vocabulary in conversation."
-- *Voice guide:* "If speed is your only priority, InburgeringOnline will get you there faster. We're built for people who want to retain what they learn."
+- **Primary keyword:** dutchwithjoost vs inburgeringonline
+- **Stage:** BOFU (Bottom of Funnel)
+- **Format:** Comparison
+- **Target word count:** 2400
+- **Searcher intent:** Active buyer comparing two specific courses. Ready to purchase, needs help deciding.
 
 ---
 
-### Section 2: Quick Comparison Table
-**Word Target:** 100 words
-**Evidence Needed:** Features of both courses
+## Section 1: Two Courses, Different Goals
 
-**Table Data (from competitive landscape):**
+**Word target:** 250
 
-| Feature | InburgeringOnline | Dutchwithjoost |
-|---------|-------------------|----------------|
-| **Price** | €14.95-49.95/month (subscription) | €399 one-time |
-| **How you learn** | Memorize vocabulary and grammar rules | Use each word in sentences as you learn it |
-| **What counts as "done"** | Finish the exercises | Use the vocabulary yourself |
-| **Exam coverage** | All parts (A2 + KNM) | All parts (A2 + KNM) |
-| **Flexibility** | Self-paced | Self-paced |
-| **Track record** | Established, 4.4★ Trustpilot | Newer |
-| **Best for** | Fast exam pass | Using Dutch after passing |
+**Key argument:** Frame the comparison honestly. Both are legitimate options. The choice depends on what you're optimizing for: speed to certificate vs. speaking ability afterward.
 
----
+**Assigned evidence:**
 
-### Section 3: InburgeringOnline: What It Does Well
-**Word Target:** 200 words
-**Evidence Needed:** InburgeringOnline features
+1. **Market positioning (competitive-landscape.md):**
+   - InburgeringOnline: "Most recognized self-paced option, frequently recommended in expat forums"
+   - Their positioning: "The most pleasant and effective way to your Dutch integration exam"
+   - Key strength: Brand recognition, structured for exam, proven track record
 
-**Evidence from competitive landscape:**
-- 4.4★ Trustpilot rating with verified reviews
-- Covers all exam components (reading, listening, writing, speaking, KNM)
-- Structured mock exam practice
-- Video lessons with Dutch teachers
-- Lower monthly cost for short-term use
-- Well-established with many successful passers
+2. **Dutchwithjoost positioning (positioning.md):**
+   - "Pass the A2 inburgering exam as a byproduct of actually learning to use the language"
+   - Positioned as "the production-based alternative to recognition-based self-paced courses"
 
-**How to frame (from voice guide):**
-"For the fastest way, it's memorizing and doing lots of example exams. Take a course like InburgeringOnline."
+3. **Framing from competitor-stance-addendum.md:**
+   - "Describe what each approach does. Acknowledge their strengths. Let readers decide."
+   - "InburgeringOnline focuses on exam preparation through video lessons and mock exams. Dutchwithjoost focuses on conversation practice, with the exam as a natural result."
+
+**AEO directive:** Open with a 40-60 word definition paragraph answering "What's the difference between Dutchwithjoost and InburgeringOnline?"
 
 ---
 
-### Section 4: InburgeringOnline: Where It Falls Short
-**Word Target:** 200 words
-**Evidence Needed:** Common feedback patterns
+## Section 2: InburgeringOnline: What It Does Well
 
-**Evidence from customer intelligence (Nina interview):**
-- "InburgeringOnline is a bunch of things to memorize. I did pay for it, but it was basically cards to memorize."
-- "I have a friend who also paid for it... He couldn't even pronounce inburgering." (Note: Do not use "cheat sheet" language per user feedback)
-- The memorization approach helps pass the exam but users report not retaining Dutch afterward
+**Word target:** 350
 
-**Evidence from competitive landscape:**
-- Customer frustration pattern: "I passed but still can't speak"
-- Common community complaint: Speaking is where people struggle most, and memorization doesn't prepare for it
-- Subscription model means ongoing cost if you need more time
+**Key argument:** Be genuinely fair. Acknowledge their strengths without qualification.
 
-**Note:** Frame this as a structural limitation of the approach, not as dismissive of the competitor. The methodology produces test-passers, not speakers.
+**Assigned evidence:**
 
----
+1. **Founder credibility:**
+   - "Founder: Bart (NT2 teacher)" (competitive-landscape.md)
 
-### Section 5: Dutchwithjoost: What It Does Well
-**Word Target:** 200 words
-**Evidence Needed:** Dutchwithjoost features
+2. **Market position:**
+   - "Most recognized self-paced option" (competitive-landscape.md)
+   - Trustpilot: 4.4 stars (41 reviews)
+   - Affiliate relationships with IAmExpat and DutchReview
 
-**Evidence from positioning:**
-- Active production as completion criterion: Lessons complete when you've used vocabulary in conversation
-- Two-phase structure: Practice prepares, conversation with Joost proves
-- All 5 exam parts in one course
-- Unlimited speaking practice without scheduling or hourly rates
-- €399 one-time (no subscription)
+3. **Course content:**
+   - 75+ lesson videos across all courses
+   - 90+ exam questions per skill
+   - 450+ vocabulary exercises
+   - 430+ grammar exercises
+   - 2-3 practice exams per skill
+   - AI scoring for writing and speaking (recent addition)
 
-**Evidence from customer intelligence (Nina interview):**
-- "The words that you learn you use, which is really useful"
-- "Putting things in context, having Joost at my level, it's like speaking to somebody who is good in Dutch but only at my level"
-- "When I use Joost, I don't feel like it's effort... it feels like play while you're learning"
-- "There is no memorizing, which I really like because I really hated it"
+4. **Customer sentiment (positive):**
+   - "Within 45 days I passed all exams" (Trustpilot)
+   - "It's truly a 'one-stop shop' when it comes to exam preparation"
+   - "Worth every penny"
 
-**Research backing (from proof library):**
-- Swain (1985): Production forces syntactic processing that input alone doesn't trigger
-- Hopman & MacDonald (2018): Production learners outperform comprehension learners on both vocabulary AND grammar tests
-- Karpicke & Roediger (2008): Repeated testing produces large positive effect; restudying has no effect on delayed recall
+5. **Strengths to acknowledge (competitor-stance-addendum.md):**
+   - Established track record: Many people have passed using their course
+   - Comprehensive coverage: All exam components including KNM
+   - Structured path: Users know what to do next
+   - Mock exams: Help learners understand the exam format
+   - Lower monthly commitment: Subscription model lets people try before committing
 
 ---
 
-### Section 6: Dutchwithjoost: Where It Falls Short
-**Word Target:** 200 words
-**Evidence Needed:** Honest self-assessment
+## Section 3: InburgeringOnline: The Trade-offs
 
-**Honest limitations:**
-- Requires self-motivation (no classroom peer pressure)
-- No human teacher interaction
-- Newer course with less track record than established competitors
-- Not the fastest path if your only goal is passing the exam
-- Using vocabulary yourself is harder than memorizing it
+**Word target:** 350
 
-**From voice guide:**
-"Our program is not the easiest or fastest to pass the exam. Several language schools can get you there faster."
+**Key argument:** Document observations factually. Not attacks. Follow competitor-stance-addendum guidelines.
 
----
+**Assigned evidence:**
 
-### Section 7: Choose InburgeringOnline If...
-**Word Target:** 150 words
-**Evidence Needed:** Synthesis only
+1. **Methodology observation (competitive-landscape.md):**
+   - "Recognition-based completion — Course is 'done' when you finish exercises. No requirement to produce the language yourself."
+   - "Speaking is an exam component, not a proof mechanism — They teach TO the speaking test."
 
-**Decision criteria for choosing InburgeringOnline:**
-1. Your only goal is passing the exam as quickly as possible
-2. Retention and speaking ability after the exam doesn't matter to you
-3. You prefer a well-established option with proven track record
-4. You want lower monthly commitment to test if the approach works
-5. You already know some Dutch and just need exam practice
+2. **Customer intelligence (nina_insights.json):**
+   - Quote: "InburgeringOnline is just a bunch of things to memorize... It's a cheat sheet to the exam." (work visa holder, context: describing market leader)
+   - Quote: Friend "got citizenship through InburgeringOnline but couldn't even pronounce 'inburgering' the day he got his passport"
+   - Pain: "Previous courses taught memorization, not production"
 
-**From voice guide:**
-"If speed is your priority and you don't care about retaining Dutch afterward, memorization courses will get you there faster."
+3. **Billing observations (competitive-landscape.md, Trustpilot):**
+   - Subscription model complaints: "Charged weekly for extended periods after purchasing what they believed was one-month subscription"
+   - "Refund requests ignored"
+   - "No advance notification of charges"
 
----
+4. **Language guidelines (competitor-stance-addendum.md):**
+   - Do NOT say: "Just memorization" → Say: "Memorization-based approach"
+   - Do NOT say: "Cheat sheet to the exam" → Do not say (too harsh)
+   - Do NOT say: "They only teach you to pass" → Say: "Their approach focuses on exam preparation"
 
-### Section 8: Choose Dutchwithjoost If...
-**Word Target:** 150 words
-**Evidence Needed:** Synthesis only
-
-**Decision criteria for choosing Dutchwithjoost:**
-1. You want to actually use Dutch after passing, not just have the certificate
-2. You're self-motivated and don't need peer pressure
-3. You want to retain what you learn, not forget it after the exam
-4. You want one-time pricing (no subscription)
-5. You want to feel like the certificate represents real ability
-
-**From customer intelligence (Nina interview):**
-"Part of me believes that if I get a passport I kind of have to deserve it in some way. If I don't speak the language at all, I feel like a fraud. I don't feel I deserve that passport."
+**Evidence gaps:** No direct negative testimonials we can quote. Use anonymized framing: "Some learners report..."
 
 ---
 
-### Section 9: The Real Question: What's Your Goal?
-**Word Target:** 200 words
-**Evidence Needed:** Framing only
+## Section 4: Dutchwithjoost: What It Does Differently
 
-**Key Argument:**
-Help reader clarify their own goal. If the goal is certificate → InburgeringOnline may be faster. If the goal is fluency with certificate as byproduct → Dutchwithjoost. Neither is wrong.
+**Word target:** 400
 
-**Evidence from positioning:**
-"What if integration came first, and the exam became easy as a result?"
+**Key argument:** Explain the production-based methodology. Show, don't label.
 
-**Evidence from customer intelligence:**
-- "Most people want to pass the integration exam to integrate. Then they memorize answers and still can't speak Dutch."
-- Facebook group pattern: People pass A2 but still can't have basic conversations, then have to learn speaking separately afterward anyway
+**Assigned evidence:**
+
+1. **Core differentiator (positioning.md):**
+   - "A lesson isn't complete when you finish the exercises. It's complete when you've used 90% of the target vocabulary in conversation, with each word requiring 2+ successful uses."
+   - "Two-phase lessons: (1) Practice phase with interleaved read/speak, listen/speak, and write for each sentence unit, (2) Conversation phase with Joost where you must actively use vocabulary."
+
+2. **Customer praise (nina_insights.json):**
+   - Quote: "The words that you learn you use... it helps me communicate." (work visa holder, context: describing what works about Dutchwithjoost vs previous courses)
+   - Quote: "I don't have the cognitive load of trying to engineer my lesson... it's just guided. You just do it and then you progress naturally."
+   - Quote: "I don't see time passing by because I'm having fun, because I am very engaged."
+
+3. **Level-matching feature (competitive-landscape.md):**
+   - "Unlike native speakers who can't calibrate, Joost stays at lesson difficulty"
+   - Quote: "He's not gonna use C2 level Dutch to reply to you"
+
+4. **Pricing:**
+   - One-time €399 (competitive-landscape.md)
+   - No subscription, no auto-renewal
+
+5. **Coverage:**
+   - All five exam parts: reading, listening, writing, speaking, KNM (positioning.md)
+
+**Language guidelines (voice-guide.md):**
+- Don't say "production-based learning" → describe what happens
+- Don't say "AI-powered" → describe what it does ("practice anytime," "get feedback instantly")
+- Don't say "AI conversation partner" → say "Joost" or "speaking practice"
 
 ---
 
-### Section 10: Still Unsure? Try Before You Buy
-**Word Target:** 100 words
-**Evidence Needed:** Free trial info
+## Section 5: Dutchwithjoost: The Trade-offs
 
-**Soft CTA content:**
-- Dutchwithjoost offers a free first lesson
-- Try the learn-by-using approach without commitment
-- See if it works for your learning style
+**Word target:** 250
+
+**Key argument:** Be honest about our limitations. Builds credibility.
+
+**Assigned evidence:**
+
+1. **ICP disqualifiers (positioning.md, competitive-landscape.md):**
+   - No free tier (InburgeringPrep has one)
+   - Higher upfront cost than monthly subscription start
+   - Requires self-motivation (no classroom accountability)
+   - A2 only (no B1 yet)
+   - Newer brand, fewer reviews
+   - Less content volume than InburgeringOnline's years of accumulated materials
+
+2. **Voice guide examples:**
+   - "Our program is not the easiest or fastest to pass the exam."
+   - "DutchwithJoost is not for everyone. It depends on your goals."
+
+3. **From competitive-landscape.md "Where We Lose":**
+   - Needs peer pressure and accountability → classroom
+   - Wants a human teacher relationship → private tutor
+   - Just wants to pass as fast as possible → memorization courses
+   - Has €0 budget → self-study or InburgeringPrep free tier
+   - Needs B1 level → we don't offer this yet
+   - Wants the absolute cheapest option → Inburgering.org at €4.99/month
+
+---
+
+## Section 6: Side-by-Side Comparison Table
+
+**Word target:** 200
+
+**Key argument:** Let facts speak. Clear, scannable comparison.
+
+**Assigned evidence (competitive-landscape.md):**
+
+| Feature | Dutchwithjoost | InburgeringOnline |
+|---------|----------------|-------------------|
+| Pricing | €399 one-time | €24.95-€34.95/month |
+| Total cost to A2 | €399 | €300-600 (depends on duration) |
+| Exam coverage | All 5 parts | All 5 parts |
+| How you learn | Use each word in sentences | Video lessons, exercises, mock exams |
+| What counts as "done" | Use vocabulary in conversation | Finish the exercises |
+| AI features | Yes (conversation practice) | Yes (writing and speaking scoring) |
+| Level coverage | A2 | A2 and higher |
+| Free tier | No | No |
+
+**Language note (voice-guide.md):** Use "How you learn" and "What counts as done" framing instead of "Speaking practice: Limited vs Unlimited" — the latter implies we only care about speaking.
+
+---
+
+## Section 7: Which Course Is Right for You?
+
+**Word target:** 350
+
+**Key argument:** Decision framework based on priorities. Clear recommendations for each type of buyer.
+
+**Assigned evidence:**
+
+1. **When InburgeringOnline is better (competitive-stance-addendum.md):**
+   - Need to pass fast and don't prioritize retention
+   - Prefer monthly flexibility to cancel anytime
+   - Want established brand with years of reviews
+   - Need B1 level (Dutchwithjoost doesn't offer this yet)
+
+2. **When Dutchwithjoost is better (positioning.md, nina_insights.json):**
+   - Want to speak Dutch after the exam, not just hold a certificate
+   - Prefer one-time pricing with no subscription tracking
+   - Are self-motivated (don't need peer pressure)
+   - Frustrated by memorization approaches that didn't stick
+
+3. **Customer voice (nina_insights.json):**
+   - Quote: "I feel like if I get my citizenship but I can't speak at all... I would always feel like an outsider. I don't feel I deserve that passport."
+   - Pain: "Previous courses taught memorization, not production"
+   - Trigger: "Completing A1 course and retaining nothing"
+
+4. **Voice guide example:**
+   - "For the fastest way, it's memorizing and doing lots of example exams. Take a course like InburgeringOnline. But if you prefer learning by doing, DutchwithJoost could be better for you."
+
+---
+
+## Section 8: The Real Question: What Happens After You Pass?
+
+**Word target:** 150
+
+**Key argument:** Both courses help you pass. The question is what happens the day after.
+
+**Assigned evidence:**
+
+1. **Normalized non-fluency (nina_insights.json):**
+   - Quote: "People don't even expect that at A2 you can have a conversation." (work visa holder, context: describing normalized low expectations)
+
+2. **Fraud feeling (nina_insights.json):**
+   - Quote: "I feel like if I get my citizenship but I can't speak at all... I would always feel like an outsider. I don't feel I deserve that passport."
+
+3. **Market reality (competitive-landscape.md):**
+   - "'Pass but can't speak' is documented — Multiple sources confirm learners pass the exam but cannot hold conversations. Validates our core positioning."
+
+4. **The matchmaker close (voice-guide.md):**
+   - End with reader's choice, not hard sell
+   - "Different goals, different tools"
 
 ---
 
 ## Value Props to Weave Throughout
 
-### Value Prop 1: Learn by Using the Vocabulary
-**Pain:** Worried about passing the exam but not being able to use Dutch afterward
-**Prop:** You learn by using each word, not memorizing it. Lessons complete when you can produce the vocabulary yourself.
-**Proof:** Methodology difference — you must use the vocabulary before moving on, not just finish exercises
-**Where to weave:** Sections 1, 5, 8
+From brief:
 
-### Value Prop 2: Built by Someone Who Went Through It
-**Pain:** Don't know which course actually works
-**Prop:** Built by someone who went through the same frustration with existing courses
-**Proof:** Origin story — co-founder built it for her own inburgering journey
-**Where to weave:** Sections 5, 9
-
-### Value Prop 3: Retention Over Speed
-**Pain:** Other courses optimize for passing but you forget everything afterward
-**Prop:** Completion criterion ensures you retain what you learn
-**Proof:** Using vocabulary (production) creates stronger retention than memorizing it (recognition)
-**Where to weave:** Sections 2, 5, 8
-
----
-
-## Evidence Gaps
-
-1. **Specific pass rates:** Neither course publishes verified pass rate statistics. Avoid claiming specific percentages.
-2. **User testimonials:** No published case studies with names for either course. Use anonymized patterns only.
-3. **Speaking hours data:** No data on average speaking practice hours logged per user. Avoid specific claims.
-
----
-
-## AEO Directives
-
-**Featured Snippet Target:**
-"What is the difference between Dutchwithjoost and InburgeringOnline?"
-
-**Definition Paragraph (for Section 1):**
-Dutchwithjoost and InburgeringOnline both cover all five parts of the A2 inburgering exam. The difference is how you learn. InburgeringOnline uses memorization-based learning with mock exams and video lessons. Dutchwithjoost requires you to use each word in sentences before moving on, with lessons that complete when you can produce the vocabulary yourself. InburgeringOnline costs €14.95-49.95/month (subscription). Dutchwithjoost costs €399 one-time.
-
-**FAQ Questions (for schema):**
-1. Is InburgeringOnline good for the inburgering exam?
-2. What is the difference between Dutchwithjoost and InburgeringOnline?
-3. Which inburgering course helps you actually use Dutch?
-4. Is Dutchwithjoost better than InburgeringOnline?
-5. Which inburgering course is best for retention?
+| Pain | Prop | Proof |
+|------|------|-------|
+| Worried about subscription surprises | One-time €399 pricing, no auto-renewal | InburgeringOnline Trustpilot complaints about billing |
+| Previous courses didn't teach speaking | Use vocabulary in conversation to complete lessons | Nina: "The words that you learn you use... it helps me communicate" |
+| Want to speak Dutch, not just pass | Built for retention and production | Contrast: pass with memorization vs pass with production ability |
 
 ---
 
 ## Originality Nuggets
 
-1. **Acknowledges InburgeringOnline's genuine strengths** — Not a hit piece. Fair recognition of established track record and lower entry cost.
-2. **Clear "choose them if" section** — Honest about when competitor is better fit for reader's goals.
-3. **Frames decision around goals** — Certificate vs fluency, not feature lists. Reader decides based on what they want, not which product has more checkboxes.
-4. **No dismissive language** — Structural methodology critique only. No "they just track clicks" or "cheat sheet" framing.
+From brief:
+
+1. Honest acknowledgment of InburgeringOnline strengths rather than pure attack (builds credibility)
+2. Nina's direct experience: used InburgeringOnline, now using Dutchwithjoost — can compare firsthand
+3. Clear framing: "pass fast" vs "speak afterward" as legitimate different goals
+4. Customer intelligence quotes showing real frustration with memorization approaches
 
 ---
 
-## Tone Reminders (from voice guide)
+## Internal Link Opportunities
 
-- Be a matchmaker, not a salesman
-- Recommend competitor if they're the better fit
-- Answer the reader's actual question first
-- "Different goals, different tools"
-- No em dashes, no hedging, no AI slop patterns
+From brief:
+- INTERNAL_LINK:why-cant-speak-dutch-after-studying (currently drafted)
+- INTERNAL_LINK:who-is-dutchwithjoost-not-for (planned)
+- INTERNAL_LINK:inburgering-course-worth-it (planned)
+
+Additional opportunities:
+- INTERNAL_LINK:inburgering-exam-guide (planned)
+- INTERNAL_LINK:how-to-practice-dutch-speaking-alone (drafted)
+
+---
+
+## Evidence Gaps Flagged
+
+1. **InburgeringOnline direct quotes:** Only have indirect customer complaints. Cannot quote Trustpilot reviews verbatim without verification. Use anonymized framing.
+
+2. **Dutchwithjoost retention data:** No quantitative proof yet. Position as: "built for retention" rather than claiming specific retention rates.
+
+3. **Speed comparison:** Cannot claim InburgeringOnline is "faster" without data. Say: "If speed is your priority" as a conditional.
+
+4. **Track record comparison:** We're newer. Do not mention this. (Red line from competitor-stance-addendum.md)

@@ -36,6 +36,7 @@ Does NOT read: `positioning.md`, `voice-guide.md`, `knowledge-base.md`, or `proo
 ### Step 1: Load context
 
 Read these files (skip any that do not exist, but warn):
+
 1. `strategy/icp.md`
 2. `strategy/personas.md`
 3. `strategy/competitive-landscape.md`
@@ -49,6 +50,7 @@ Read these files (skip any that do not exist, but warn):
 ### Step 3: Aggregate intelligence
 
 Across all insight files, aggregate:
+
 - All keyword candidates (deduplicate, merge scores from multiple calls)
 - All pains (cluster by theme, count frequency across calls)
 - All JTBD (cluster by similarity)
@@ -66,18 +68,18 @@ Generate topic candidates in four categories using pain-point SEO methodology:
 
 For each topic candidate, score on six dimensions:
 
-| Dimension | Weight | Score Range | What It Measures |
-|-----------|--------|-------------|-----------------|
-| Buyer intent | 35% | 0-10 | Does this query indicate purchase consideration? |
-| Differentiator fit | 20% | 0-10 | Can we credibly differentiate on this topic? |
-| SERP weakness | 15% | 0-10 | Is the current ranking content weak or generic? |
-| Business priority | 10% | 0-10 | Does this align with current business goals? |
-| Mini-volume | 10% | 0-10 | Is there enough search volume to justify the effort? |
-| Authority fit | 10% | 0-10 | Do we have credible expertise and proof on this topic? |
+| Dimension          | Weight | Score Range | What It Measures                                       |
+| ------------------ | ------ | ----------- | ------------------------------------------------------ |
+| Buyer intent       | 35%    | 0-10        | Does this query indicate purchase consideration?       |
+| Differentiator fit | 20%    | 0-10        | Can we credibly differentiate on this topic?           |
+| SERP weakness      | 15%    | 0-10        | Is the current ranking content weak or generic?        |
+| Business priority  | 10%    | 0-10        | Does this align with current business goals?           |
+| Mini-volume        | 10%    | 0-10        | Is there enough search volume to justify the effort?   |
+| Authority fit      | 10%    | 0-10        | Do we have credible expertise and proof on this topic? |
 
 Calculate weighted total for each. Sort descending.
 
-**Note on SERP weakness:** If the Firecrawl MCP server is available, use `firecrawl_search` to check current SERP results for top keyword candidates. If Firecrawl is not available, estimate SERP weakness based on the topic type (comparison keywords typically have weaker SERPs than category keywords) and note that SERP analysis would improve accuracy.
+**Note on SERP weakness:** If the Firecrawl CLI server is available, use `firecrawl_search` to check current SERP results for top keyword candidates. If Firecrawl is not available, estimate SERP weakness based on the topic type (comparison keywords typically have weaker SERPs than category keywords) and note that SERP analysis would improve accuracy.
 
 ### Step 5: Write topic backlog
 
@@ -172,8 +174,9 @@ For the top 3-5 topics (or as specified by user), produce a detailed content bri
 ### Step 7: Report
 
 Print a summary:
+
 - Total topics generated (with count by category)
 - Top 5 topics with scores
 - Briefs generated (with file paths)
 - Gaps noted: personas with no topics, pain clusters without coverage
-- If Firecrawl was unavailable, note that SERP analysis was estimated
+- If Firecrawl CLI was unavailable, note that SERP analysis was estimated

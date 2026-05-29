@@ -1,142 +1,132 @@
-# Dutchwithjoost vs InburgeringOnline: An Honest Comparison
+# Dutchwithjoost vs InburgeringOnline: Which Course Is Right for You?
 
-Dutchwithjoost and InburgeringOnline both prepare expats for the [A2 inburgering exam](INTERNAL_LINK: inburgering-exam-guide). Both cover reading, listening, writing, speaking, and [KNM (Knowledge of Dutch Society)](INTERNAL_LINK: knm-exam-guide). The difference is how you learn. InburgeringOnline uses memorization and mock exams. Dutchwithjoost requires you to use each word in sentences before moving on. Neither is objectively better. They're built for different goals.
+## Two Courses, Different Goals
 
-## Two Different Approaches to the Same Exam
+InburgeringOnline uses video lessons and mock exams to prepare you for the A2 inburgering exam. Dutchwithjoost requires you to use vocabulary in conversation before a lesson counts as complete. One course optimizes for passing the exam efficiently. The other optimizes for speaking ability afterward. Neither is universally better.
 
-InburgeringOnline and Dutchwithjoost both cover all five parts of the A2 inburgering exam. The difference is how you learn. InburgeringOnline uses memorization and mock exams to help you pass quickly. Dutchwithjoost requires you to use each word you learn in sentences before moving on. Neither is better. They're built for different goals.
+Both courses cover all five parts of the inburgering exam: reading, listening, writing, speaking, and KNM (Knowledge of Dutch Society). Both are self-paced and online. Both will help you pass.
 
-If your goal is passing the exam as fast as possible, memorization works. You learn to recognize correct answers, practice with mock exams, and build test-taking skills. Many people have passed this way.
+The difference is methodology. InburgeringOnline focuses on exam preparation through structured content and practice tests. Dutchwithjoost focuses on building the ability to use Dutch, with the exam pass as a natural result.
 
-If your goal is using Dutch after passing, the learn-by-using approach works better. You practice producing sentences yourself, which builds the ability to speak and write, not just recognize correct answers on a test.
-
-Different goals, different tools.
-
-## Quick Comparison
-
-| Feature | InburgeringOnline | Dutchwithjoost |
-|---------|-------------------|----------------|
-| **Price** | €14.95-49.95/month | €399 one-time |
-| **How you learn** | Memorize vocabulary and grammar rules | Use each word in sentences as you learn it |
-| **What counts as "done"** | Finish the exercises | Use the vocabulary yourself |
-| **Exam coverage** | All parts (A2 + KNM) | All parts (A2 + KNM) |
-| **Flexibility** | Self-paced | Self-paced |
-| **Track record** | Established (4.4★ Trustpilot) | Newer |
-| **Best for** | Fast exam pass | Using Dutch after passing |
+This comparison covers what each course does well, the trade-offs of each approach, a side-by-side feature comparison, and a decision framework to help you choose. Different goals call for different tools.
 
 ## InburgeringOnline: What It Does Well
 
-InburgeringOnline has a strong track record for helping people pass the inburgering exam. It covers all exam components with video lessons, structured mock exams, and memorization exercises. At €14.95-49.95/month, the subscription model keeps costs low for focused test prep. Many people have passed using this approach.
+InburgeringOnline is the most recognized self-paced option for A2 inburgering preparation. It was founded by Bart, an NT2 (Dutch as a Second Language) teacher, and has built a track record over several years.
 
-The course includes video lessons from Dutch teachers explaining grammar and vocabulary. The mock exams mirror the actual test format, so you know what to expect. The subscription pricing means you can start with a lower commitment and see if the approach works for you.
+The course includes 75+ lesson videos, 90+ exam questions per skill, 450+ vocabulary exercises, and 430+ grammar exercises. Practice exams match the DUO format, so you know what to expect on test day.
 
-InburgeringOnline has a 4.4-star rating on Trustpilot with verified reviews. It's an established option with years of results. For expats preparing for the A2 inburgering exam who want a proven path to passing, this track record matters.
+Trustpilot reviews average 4.4 stars. Reviewers frequently mention passing all exams, sometimes quickly. One reviewer wrote that they passed all exams within 45 days. The course structure makes it clear what to study and in what order.
 
-## InburgeringOnline: The Limitation
+InburgeringOnline covers all exam components: reading, listening, writing, speaking, and KNM. They recently added AI scoring for writing and speaking exercises, providing feedback on your responses.
 
-InburgeringOnline optimizes for exam pass, not long-term retention. The memorization approach builds recognition (picking correct answers) but not production (generating sentences yourself). Expats commonly report [passing the exam but still struggling in conversation](INTERNAL_LINK: passed-inburgering-cant-speak-dutch). If using Dutch after passing matters to you, this is a structural limitation.
+The subscription model (€24.95-€34.95/month) offers flexibility. You can start with a lower commitment and cancel when you pass. If you study intensively, your total cost stays lower. If you need more time, you pay for more months.
 
-This is not a flaw. It's a trade-off. Memorization is faster for passing tests. The course is designed to help you pass, and it does that well.
+For expats preparing for the A2 inburgering exam who want a structured path with proven results, InburgeringOnline delivers. Many people have passed using this course. If you are wondering whether [an inburgering course is worth the investment](INTERNAL_LINK:inburgering-course-worth-it), their track record is real.
 
-But recognition and production are different skills. You can recognize "Ik woon in Amsterdam" as correct on a test without being able to say it yourself when someone asks where you live. Many expats describe this exact experience: they passed A2 but still can't hold a basic conversation.
+## InburgeringOnline: The Trade-offs
 
-If the certificate is your goal, this trade-off is acceptable. If using Dutch afterward is your goal, it's worth considering.
+The trade-off is methodology, not quality. InburgeringOnline's approach focuses on exam preparation: watch lessons, complete exercises, practice with mock exams. A lesson is complete when you finish the exercises.
 
-## Dutchwithjoost: What It Does Well
+This approach works for passing the exam. The question is what happens afterward.
 
-Dutchwithjoost covers all five exam parts, but you learn by using the vocabulary, not memorizing it. Each lesson has practice (reading, listening, writing) followed by conversation where you use what you learned. A lesson is done when you can produce the words yourself, not when you finish the exercises.
+A common frustration in Dutch learner communities is passing the exam but struggling to hold a conversation. This is not unique to InburgeringOnline. It is a pattern across courses that measure progress by exercise completion rather than language production. You can recognize the correct answer on a test without being able to produce it yourself.
 
-This approach is grounded in research. Hopman and MacDonald (2018) found that production learners outperform comprehension learners on both vocabulary and grammar tests. Using words yourself creates stronger memory traces than recognizing them.
+Some learners report this experience after using memorization-based courses. They pass the exam, get their certificate, and then realize they cannot order coffee in Dutch or follow a conversation with colleagues. The knowledge was there for the test but did not transfer to real situations. If this sounds familiar, we have written about [why studying does not always lead to speaking ability](INTERNAL_LINK:why-cant-speak-dutch-after-studying).
 
-The course costs €399 one-time, with no subscription. One learner described the difference: "The words that you learn you use, which is really useful." Instead of memorizing isolated vocabulary, you practice using words in context. The conversation practice adapts to your level, so you're challenged but not overwhelmed.
+The subscription model also requires attention. Some Trustpilot reviewers mention confusion about billing, including charges they did not expect. This is not universal, but it is worth understanding the subscription terms before signing up.
 
-The result: you pass the exam because you can actually use Dutch, not because you memorized the right answers.
+If your goal is passing the exam and you are disciplined about canceling when done, these trade-offs may not matter to you. If long-term speaking ability is your priority, they are worth considering.
 
-## Dutchwithjoost: The Limitation
+## Dutchwithjoost: What It Does Differently
 
-Dutchwithjoost requires self-motivation. There's no classroom, no scheduled sessions, no peer pressure. Using vocabulary yourself is harder than memorizing it. It's a newer course with less track record than established alternatives. If your only goal is passing the exam quickly, this approach takes longer.
+Dutchwithjoost measures progress differently. A lesson is not complete when you finish the exercises. It is complete when you have used the vocabulary in conversation.
 
-Our program is not the easiest or fastest to pass the exam. Several language schools can get you there faster. Memorization courses are faster for passing.
+Each lesson has two phases. First, you practice: reading sentences, listening and repeating, writing responses. This prepares you with the material. Second, you have a conversation with Joost where you use what you learned. The conversation is the proof that you can produce the language, not just recognize it.
 
-There's no human teacher to ask questions or provide accountability. You need to motivate yourself to practice. If you work better with external structure and deadlines, a [classroom course or private tutor](INTERNAL_LINK: self-paced-vs-classroom-dutch-courses) provides that.
+Joost responds at your level. If you are learning A2 vocabulary, Joost replies in A2 Dutch. Native speakers often cannot calibrate this way. They speak at their natural level, which can be overwhelming for beginners. Joost stays matched to the lesson difficulty.
 
-And because the course is newer, there's less social proof. InburgeringOnline has years of Trustpilot reviews. Dutchwithjoost does not have that history yet.
+One learner described it this way: "The words that you learn, you use. It helps me communicate." Another said: "I don't have the cognitive load of trying to engineer my lesson. It's just guided."
 
-## Choose InburgeringOnline If...
+The pricing model is different too. Dutchwithjoost costs €399 one-time. No subscription, no monthly charges, no need to remember to cancel. You pay once and have access to complete the course.
 
-Choose InburgeringOnline if speed is your priority. It's optimized for passing the exam quickly through memorization and mock exams. If you don't care about retaining Dutch after passing, if you want a proven track record, or if you want to test with a low monthly cost, InburgeringOnline fits.
+The course covers all five exam parts: reading, listening, writing, speaking, and KNM. The differentiation is not what you learn but how you learn it. You learn by using each word in sentences as you go, rather than memorizing vocabulary lists and reviewing them before the exam.
 
-InburgeringOnline is the right choice if:
+For expats preparing for the A2 inburgering exam who want to [practice speaking Dutch on their own](INTERNAL_LINK:how-to-practice-dutch-speaking-alone) and retain what they learn, Dutchwithjoost is built for that goal.
 
-- Your only goal is passing the exam as quickly as possible
-- Retention and using Dutch after the exam doesn't matter to you
-- You prefer a well-established option with proven track record
-- You want lower monthly commitment to test if the approach works
-- You already know some Dutch and just need exam practice
+## Dutchwithjoost: The Trade-offs
 
-For the fastest way to pass, it's memorizing and doing lots of example exams. InburgeringOnline specializes in this.
+Dutchwithjoost is not for everyone. It depends on your goals and situation.
 
-## Choose Dutchwithjoost If...
+There is no free tier. If you want to try before committing, InburgeringPrep offers a free tier with limited content. Dutchwithjoost requires the €399 commitment upfront.
 
-Choose Dutchwithjoost if you want to actually use Dutch after passing. It's built for people who want the vocabulary to stick, not just pass the test. If you're self-motivated, want to retain what you learn, and prefer one-time pricing over subscriptions, Dutchwithjoost fits.
+The upfront cost is higher than starting a subscription. €399 is more than the first month of InburgeringOnline (€24.95-€34.95). If you are unsure whether you will stick with studying, the subscription model offers lower initial risk.
 
-Dutchwithjoost is the right choice if:
+The course requires self-motivation. There is no classroom, no scheduled sessions, no peer pressure to show up. If you need external accountability to stay consistent, a classroom course or study group works better for you.
 
-- You want to actually use Dutch after passing, not just have the certificate
-- You're self-motivated and don't need peer pressure
-- You want to retain what you learn, not forget it after the exam
-- You want one-time pricing (no subscription)
-- You want to feel like the certificate represents real ability
+Dutchwithjoost currently covers A2 level only. If you need B1 preparation, InburgeringOnline and other courses offer that. We do not have B1 content yet.
 
-One learner explained why this mattered to her: "If I get a passport but don't speak the language at all, I feel like a fraud. I don't feel I deserve that passport."
+The brand is newer with fewer reviews than InburgeringOnline. If you prefer choosing courses with years of documented results, that is a reasonable consideration.
 
-## The Real Question: What's Your Goal?
+For a more detailed look at [who Dutchwithjoost is not for](INTERNAL_LINK:who-is-dutchwithjoost-not-for), we have written honestly about our limitations.
 
-The right course depends on your goal. If the goal is passing the exam quickly, InburgeringOnline's memorization approach is faster. If the goal is retaining Dutch and using it after passing, Dutchwithjoost's learn-by-using approach builds that ability. Most people want both, so the question is which outcome matters more.
+## Side-by-Side Comparison
 
-Many expats pass the A2 exam but can't hold basic conversations afterward. They then have to [learn speaking separately](INTERNAL_LINK: dutch-speaking-practice-online), which costs more time and money in the long run. If you plan to live in the Netherlands long-term, you'll need [Dutch for work](INTERNAL_LINK: dutch-for-career-netherlands), for your kids' school, for healthcare, for daily life.
+Here is a direct comparison of the two courses:
 
-What if integration came first, and the exam became easy as a result? That's the question Dutchwithjoost was built to answer. The exam becomes a byproduct of actually learning Dutch, not the other way around.
+| Feature | Dutchwithjoost | InburgeringOnline |
+|---------|----------------|-------------------|
+| Pricing model | €399 one-time | €24.95-€34.95/month |
+| Typical total cost | €399 | €300-600 |
+| Exam coverage | All 5 parts | All 5 parts |
+| How you learn | Use vocabulary in sentences | Video lessons and exercises |
+| What counts as "done" | Use vocabulary yourself | Finish the exercises |
+| AI features | Conversation practice | Writing and speaking scoring |
+| Level coverage | A2 | A2 and higher |
+| Free tier | No | No |
 
-But if you need the certificate quickly and plan to learn speaking later, InburgeringOnline gets you there faster.
+Both courses cover the same exam content. The difference is in the "How you learn" and "What counts as done" rows.
 
-## Still Unsure? Try Before You Buy
+InburgeringOnline uses video lessons where you watch explanations, then complete exercises to practice. Progress is measured by finishing the content.
 
-Dutchwithjoost offers a free first lesson. Try the learn-by-using approach to see if it works for your learning style. No commitment, no payment required. If it doesn't fit, you've lost nothing. If it does, you'll know before you buy.
+Dutchwithjoost uses practice sessions followed by conversation. Progress is measured by using the vocabulary yourself. You cannot advance until you demonstrate that you can produce the words, not just recognize them.
 
-The decision comes down to your goal. Neither course is wrong. They're optimized for different outcomes. Pick the one that matches what you actually want.
+This is a methodology difference, not a quality difference. Both approaches have trade-offs. The right choice depends on what you are optimizing for.
 
----
+## Which Course Is Right for You?
 
-## Frequently Asked Questions
+### Choose InburgeringOnline if:
 
-### Is InburgeringOnline good for the inburgering exam?
+**You want to pass the exam as efficiently as possible.** InburgeringOnline's video lessons and mock exams are structured to prepare you for exactly what the test covers. If passing quickly is your priority, this approach works.
 
-Yes. InburgeringOnline has helped many people pass the A2 inburgering exam. It uses memorization and mock exams to prepare you for the test format. It works well if your primary goal is passing quickly.
+**You prefer monthly flexibility.** The subscription model lets you start with a lower commitment. If you study intensively and pass in two months, your total cost is under €100. If your timeline is uncertain, you can cancel anytime.
 
-### What is the difference between Dutchwithjoost and InburgeringOnline?
+**You want an established brand.** InburgeringOnline has years of reviews and documented pass rates. If choosing a proven option matters to you, they have that track record.
 
-Both cover all five exam parts. The difference is how you learn. InburgeringOnline uses memorization and mock exams, optimizing for fast exam pass. Dutchwithjoost requires you to use each word in sentences before moving on, so you retain what you learn.
+**You need B1 level.** Dutchwithjoost currently offers A2 only. If you need to prepare for B1, InburgeringOnline and other courses cover that level.
 
-### Which inburgering course helps you actually use Dutch?
+### Choose Dutchwithjoost if:
 
-Dutchwithjoost requires you to produce the vocabulary (speak it, write it) as you learn it. Lessons complete when you can use the words, not when you finish exercises. InburgeringOnline focuses on memorization and recognition, which helps you pass but is harder to retain.
+**You want to speak Dutch after the exam, not just hold a certificate.** If your goal extends beyond the test, a course that requires producing the language (rather than just recognizing it) builds the skills you need afterward.
 
-### Is Dutchwithjoost better than InburgeringOnline?
+**You prefer one-time pricing.** €399 once, no subscription tracking, no surprise charges. If you dislike managing subscriptions, this model is simpler.
 
-Neither is objectively better. InburgeringOnline is better for fast exam pass. Dutchwithjoost is better for using Dutch after passing. The right choice depends on your goal.
+**You are self-motivated.** You can study consistently without external deadlines or peer pressure. The flexibility works for you rather than against you.
 
-### Which inburgering course is best for actually learning Dutch?
+**Previous memorization approaches did not work for you.** If you have tried courses before and found that you forgot everything after the test, a different methodology produces different results. One self-employed expat described the frustration: "I feel like if I get my citizenship but I can't speak at all, I would always feel like an outsider."
 
-If using Dutch after passing is your goal, choose a course where completion means you can use the language, not that you finished exercises. Dutchwithjoost uses this criterion. Most memorization courses complete when you finish the content.
+Different goals, different tools. The right choice depends on what you are optimizing for.
 
-<!-- Internal Links Added (Stage 5):
-1. "A2 inburgering exam" → inburgering-exam-guide
-2. "KNM (Knowledge of Dutch Society)" → knm-exam-guide
-3. "passing the exam but still struggling in conversation" → passed-inburgering-cant-speak-dutch
-4. "classroom course or private tutor" → self-paced-vs-classroom-dutch-courses
-5. "learn speaking separately" → dutch-speaking-practice-online
-6. "Dutch for work" → dutch-for-career-netherlands
+## The Real Question: What Happens After You Pass?
 
-Note: These are placeholder links. Replace INTERNAL_LINK targets with actual URLs before publishing.
--->
+Both courses will help you pass the [A2 inburgering exam](INTERNAL_LINK:inburgering-exam-guide). The question is what happens the day after you get your certificate.
+
+Some people pass and can speak Dutch. They order coffee, follow conversations at work, understand what their Dutch in-laws are saying. The exam was a checkpoint on a path they were already walking.
+
+Others pass and cannot hold a basic conversation. They have the certificate but not the ability. One learner put it simply: "People don't even expect that at A2 you can have a conversation."
+
+That expectation does not have to be your reality. The choice of course affects the outcome. Memorization-based approaches optimize for the test. Usage-based approaches optimize for the skill. Both can get you past the exam. Only one builds the habit of actually using Dutch.
+
+If you have already [passed the exam but cannot speak Dutch](INTERNAL_LINK:passed-inburgering-cant-speak-dutch), that is a solvable problem. And understanding why this gap exists is the first step.
+
+Factor that into your decision.

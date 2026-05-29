@@ -1,59 +1,39 @@
 {
-  "generated_date": "2026-05-24",
-  "updated_date": "2026-05-26",
+  "generated_date": "2026-05-28",
+  "updated_date": "2026-05-28",
   "intelligence_sources": [
     "strategy/icp.md",
     "strategy/personas.md",
     "strategy/competitive-landscape.md",
-    "customer-intelligence/web-research-jtbd.md",
-    "firecrawl SERP research (May 2026)"
+    "customer-intelligence/insights/nina_2026-05-28_insights.json"
   ],
-  "methodology": "Big 5 Topics (They Ask, You Answer) + Pain-Point SEO + JTBD Web Research + Product Methodology Content",
-  "filter_applied": "BOFU/MOFU priority + Product explainer content",
-  "notes": "Added 5 product-focused briefs explaining Dutchwithjoost methodology: production-based learning, interleaved practice, AI tutoring comparison, and pain-point articles that explain the product through problem-solving. SERP analysis shows low competition for methodology terms. May 26: Added comprehensive exam logistics guide and honest 'who is NOT for' BOFU content.",
+  "methodology": "Big 5 Topics (They Ask, You Answer) + Pain-Point SEO + JTBD Web Research + Product Methodology Content + Customer Interview Intelligence + Firecrawl SERP Analysis",
+  "filter_applied": "BOFU/MOFU priority + Production-based positioning + Customer voice topics + SERP gap analysis",
+  "notes": "Fresh research conducted May 28 using Firecrawl CLI for live SERP analysis. Key findings: (1) 'passed but can't speak' problem is documented in social but no authoritative content addresses it, (2) Dutch partner teaching limitation has strong social proof but only one IAmExpat article, (3) Shame/anxiety content exists but nothing Dutch-specific for expats, (4) Production-based learning term has zero Dutch-specific content, (5) InburgeringOnline dominates SEO but competitor comparison content is weak.",
+  "serp_analysis_summary": {
+    "major_gaps_identified": [
+      "No authoritative content explaining recognition vs production gap for Dutch learners",
+      "No content addressing 'passed exam but can't speak' with solution framing",
+      "Dutch partner teaching limitation covered superficially (IAmExpat) but no deep analysis",
+      "Shame cycle for expats has Medium/Instagram content but no actionable guide",
+      "Production-based learning methodology has zero Dutch-specific content",
+      "Work visa anxiety + Dutch learning intersection completely unaddressed"
+    ],
+    "competitor_dominance": {
+      "InburgeringOnline": "Dominates SEO for 'inburgering course' and exam prep queries via DutchReview affiliate",
+      "Inburgering.org": "Rising challenger with aggressive pricing positioning",
+      "Kaiwa Blog": "Owns 'practice Dutch without tutor' with solid methods article",
+      "DutchReview": "Hub for all inburgering content, InburgeringOnline affiliate partner"
+    },
+    "content_opportunities": [
+      "Comparison content against InburgeringOnline with honest differentiation",
+      "Thought leadership on production-based learning methodology",
+      "Emotional/experiential content addressing shame cycle and belonging",
+      "Integration lifestyle content (what you miss without Dutch)",
+      "Course disqualifier content (who we're NOT for) for trust building"
+    ]
+  },
   "topics": [
-    {
-      "topic_id": "inburgering-exam-complete-guide",
-      "title": "Inburgering Exam Complete Guide: Booking, Timing, Results, and Citizenship Coordination",
-      "category": "jtbd",
-      "primary_keyword": "inburgering exam guide",
-      "secondary_keywords": ["inburgering exam schedule", "inburgering exam booking", "DUO inburgering exam", "inburgering certification timeline"],
-      "persona": "Both",
-      "pain_cluster": "Exam logistics confusion",
-      "funnel_stage": "MOFU",
-      "priority_score": {
-        "buyer_intent": 8,
-        "differentiator_fit": 7,
-        "serp_weakness": 9,
-        "business_priority": 9,
-        "mini_volume": 8,
-        "authority_fit": 8,
-        "weighted_total": 8.2
-      },
-      "brief_status": "generated",
-      "research_evidence": "Massive content gap. Existing content covers preparation, nobody owns the logistics bible. High AEO potential — AI assistants will cite definitive procedural guides. Critical for citizenship timing coordination."
-    },
-    {
-      "topic_id": "who-is-dutchwithjoost-not-for",
-      "title": "Who Is Dutchwithjoost NOT For? Honest Guide Before You Buy",
-      "category": "bofu",
-      "primary_keyword": "is dutchwithjoost right for me",
-      "secondary_keywords": ["dutchwithjoost review", "dutchwithjoost worth it", "should I buy dutchwithjoost"],
-      "persona": "Both",
-      "pain_cluster": "Decision paralysis",
-      "funnel_stage": "BOFU",
-      "priority_score": {
-        "buyer_intent": 10,
-        "differentiator_fit": 9,
-        "serp_weakness": 10,
-        "business_priority": 9,
-        "mini_volume": 5,
-        "authority_fit": 10,
-        "weighted_total": 9.1
-      },
-      "brief_status": "generated",
-      "research_evidence": "Counter-intuitive trust-builder. Clear disqualifiers (B1, municipality-assigned, zero budget, classroom preference, pass-fast-only). Reduces refund friction, builds credibility with ideal customers."
-    },
     {
       "topic_id": "why-cant-speak-dutch-after-studying",
       "title": "Why You Can't Speak Dutch After Studying (And How to Fix It)",
@@ -70,94 +50,55 @@
         "business_priority": 10,
         "mini_volume": 7,
         "authority_fit": 10,
-        "weighted_total": 9.2
+        "weighted_total": 9.35
       },
-      "brief_status": "generated",
-      "research_evidence": "SERP analysis: mostly Reddit/Quora/Facebook community posts, no authoritative explainer content. High search intent, directly positions production-based methodology."
+      "brief_status": "pending",
+      "research_evidence": "SERP analysis shows mostly Reddit/Quora/Facebook community posts with no authoritative explainer content. One Instagram post from Dutchwithjoost addresses this. High search intent, directly positions production-based methodology. Nina verbatim: 'I did it, I finished it. But I didn't feel like I retained anything.' Core positioning opportunity.",
+      "serp_competitors": ["Reddit r/learndutch", "Quora", "thedutchminds.com (surface level)"]
     },
     {
-      "topic_id": "how-to-practice-dutch-speaking-alone",
-      "title": "How to Practice Dutch Speaking Alone: 5 Methods That Work",
-      "category": "jtbd",
-      "primary_keyword": "how to practice Dutch speaking alone",
-      "secondary_keywords": ["practice Dutch speaking without partner", "Dutch speaking practice at home", "solo Dutch speaking practice"],
-      "persona": "Both",
-      "pain_cluster": "Finding Speaking Partners",
+      "topic_id": "dutch-partner-cant-teach-dutch",
+      "title": "Why Your Dutch Partner Can't Teach You Dutch (And What Actually Works)",
+      "category": "deviant",
+      "primary_keyword": "Dutch partner can't teach me Dutch",
+      "secondary_keywords": ["learn dutch from partner", "native speaker can't teach", "level mismatch language learning", "dutch partner won't speak dutch"],
+      "persona": "Pattern A: Partner Visa + Family Pressure",
+      "pain_cluster": "Access to Practice",
       "funnel_stage": "MOFU",
       "priority_score": {
         "buyer_intent": 8,
         "differentiator_fit": 10,
         "serp_weakness": 8,
         "business_priority": 9,
-        "mini_volume": 7,
-        "authority_fit": 9,
-        "weighted_total": 8.8
-      },
-      "brief_status": "generated",
-      "research_evidence": "SERP analysis: Kaiwa blog ranks with methods article, limited Dutch-specific content. Directly showcases unlimited AI practice feature."
-    },
-    {
-      "topic_id": "what-is-production-based-language-learning",
-      "title": "What Is Production-Based Language Learning? A Complete Guide",
-      "category": "deviant",
-      "primary_keyword": "production-based language learning",
-      "secondary_keywords": ["production-based learning", "active production language learning", "output-based language learning"],
-      "persona": "Both",
-      "pain_cluster": "Method Uncertainty",
-      "funnel_stage": "TOFU",
-      "priority_score": {
-        "buyer_intent": 6,
-        "differentiator_fit": 10,
-        "serp_weakness": 10,
-        "business_priority": 10,
-        "mini_volume": 5,
+        "mini_volume": 6,
         "authority_fit": 10,
-        "weighted_total": 8.5
+        "weighted_total": 8.70
       },
-      "brief_status": "generated",
-      "research_evidence": "SERP analysis: only academic papers and project-based learning (different concept). Can own this term with accessible explainer. Defines core methodology."
+      "brief_status": "pending",
+      "research_evidence": "SERP shows IAmExpat article 'Why speaking Dutch can be really hard… if your partner is Dutch!' plus Reddit/forum discussions. No comprehensive guide with solution framing. Nina verbatim: 'Your level of Dutch is native and mine is total beginner... It's just impossible to learn.' Also: 'Native person... they can't really explain why it is like that. They just do it.' Unique angle with high social proof but weak authoritative coverage.",
+      "serp_competitors": ["IAmExpat (1 article)", "Reddit r/learndutch", "taaltraining.trancemissie.eu"]
     },
     {
-      "topic_id": "interleaved-practice-dutch-learning",
-      "title": "Interleaved Practice for Dutch Learning: The Science-Backed Method",
+      "topic_id": "shame-cycle-speaking-dutch",
+      "title": "The Shame Cycle: Why Expats Avoid Speaking Dutch (And How to Break Free)",
       "category": "deviant",
-      "primary_keyword": "interleaved practice language learning",
-      "secondary_keywords": ["interleaved practice Dutch", "interleaving language learning", "mixed practice language learning"],
-      "persona": "Both",
-      "pain_cluster": "Retention Problem",
-      "funnel_stage": "TOFU",
-      "priority_score": {
-        "buyer_intent": 5,
-        "differentiator_fit": 9,
-        "serp_weakness": 9,
-        "business_priority": 7,
-        "mini_volume": 5,
-        "authority_fit": 9,
-        "weighted_total": 7.8
-      },
-      "brief_status": "generated",
-      "research_evidence": "SERP analysis: academic content and general learning blogs. No Dutch-specific application content. Explains lesson design methodology."
-    },
-    {
-      "topic_id": "ai-dutch-tutor-vs-human-tutor",
-      "title": "AI Dutch Tutor vs Human Tutor: Which Is Better for You?",
-      "category": "comparison",
-      "primary_keyword": "AI Dutch tutor vs human tutor",
-      "secondary_keywords": ["AI language tutor vs human", "AI Dutch teacher", "learn Dutch with AI", "ChatGPT Dutch tutor"],
-      "persona": "Both",
-      "pain_cluster": "Course Selection",
+      "primary_keyword": "afraid to speak dutch",
+      "secondary_keywords": ["embarrassed speaking dutch", "ashamed can't speak dutch", "dutch people switch to english", "expat shame dutch"],
+      "persona": "Pattern C: Work Visa + Full Motivation Stack",
+      "pain_cluster": "Shame Cycle",
       "funnel_stage": "MOFU",
       "priority_score": {
-        "buyer_intent": 8,
-        "differentiator_fit": 9,
-        "serp_weakness": 7,
-        "business_priority": 8,
-        "mini_volume": 6,
-        "authority_fit": 8,
-        "weighted_total": 7.5
+        "buyer_intent": 7,
+        "differentiator_fit": 10,
+        "serp_weakness": 9,
+        "business_priority": 9,
+        "mini_volume": 5,
+        "authority_fit": 10,
+        "weighted_total": 8.30
       },
-      "brief_status": "generated",
-      "research_evidence": "SERP analysis: growing category with mydutchai.com, SpeakPal, Talkio AI. Reddit success story validates AI approach. Comparison positions against both alternatives."
+      "brief_status": "pending",
+      "research_evidence": "SERP shows Medium article 'The Hidden Shame of Many Long-Term Expats', Instagram content, and general expat shame content. Nothing Dutch-specific with actionable solutions. Nina verbatim: 'Shame plays a big role when you don't speak a language. Everyone around you expects you to just know.' Also: 'You avoid speaking Dutch completely. And then you avoid people completely.' Self-reinforcing cycle documented with specificity no competitor addresses. Positions AI practice as judgment-free solution.",
+      "serp_competitors": ["Medium (general expat shame)", "InterNations", "Instagram lifestyle content"]
     },
     {
       "topic_id": "dutchwithjoost-vs-inburgeringonline",
@@ -166,7 +107,7 @@
       "primary_keyword": "dutchwithjoost vs inburgeringonline",
       "secondary_keywords": ["inburgeringonline review", "inburgeringonline alternative", "inburgering course comparison"],
       "persona": "Both",
-      "pain_cluster": "competitor evaluation",
+      "pain_cluster": "Decision paralysis",
       "funnel_stage": "BOFU",
       "priority_score": {
         "buyer_intent": 10,
@@ -175,10 +116,55 @@
         "business_priority": 10,
         "mini_volume": 5,
         "authority_fit": 9,
-        "weighted_total": 9.1
+        "weighted_total": 9.35
       },
-      "brief_status": "generated",
-      "research_evidence": "InburgeringOnline Trustpilot complaints about billing issues, 'charged without notification'. We own one-time €399 pricing."
+      "brief_status": "pending",
+      "research_evidence": "SERP shows InburgeringOnline Trustpilot (4.4★), DutchReview affiliate content, and Reddit discussions asking for reviews. No honest comparison content exists. Trustpilot complaints about billing issues. Nina verbatim: 'InburgeringOnline is just a bunch of things to memorize... It's a cheat sheet to the exam.' Opportunity for honest comparison that acknowledges competitor strengths while differentiating on production-based completion.",
+      "serp_competitors": ["Trustpilot reviews", "DutchReview (affiliate)", "Reddit r/learndutch"]
+    },
+    {
+      "topic_id": "who-is-dutchwithjoost-not-for",
+      "title": "Who Is Dutchwithjoost NOT For? Honest Guide Before You Buy",
+      "category": "bofu",
+      "primary_keyword": "is dutchwithjoost right for me",
+      "secondary_keywords": ["dutchwithjoost review", "dutchwithjoost worth it", "should I buy dutchwithjoost"],
+      "persona": "Both",
+      "pain_cluster": "Decision paralysis",
+      "funnel_stage": "BOFU",
+      "priority_score": {
+        "buyer_intent": 10,
+        "differentiator_fit": 9,
+        "serp_weakness": 10,
+        "business_priority": 9,
+        "mini_volume": 4,
+        "authority_fit": 10,
+        "weighted_total": 9.05
+      },
+      "brief_status": "pending",
+      "research_evidence": "Counter-intuitive trust-builder. No competitor owns disqualifier content. Clear disqualifiers from ICP: B1 required, municipality-assigned, zero budget, classroom preference, pass-fast-only mindset. Reduces refund friction, builds credibility with ideal customers, filters out poor fits before they buy.",
+      "serp_competitors": ["None - uncontested"]
+    },
+    {
+      "topic_id": "how-to-practice-dutch-speaking-alone",
+      "title": "How to Practice Dutch Speaking Alone: 5 Methods That Actually Work",
+      "category": "jtbd",
+      "primary_keyword": "how to practice Dutch speaking alone",
+      "secondary_keywords": ["practice Dutch speaking without partner", "Dutch speaking practice at home", "solo Dutch speaking practice"],
+      "persona": "Both",
+      "pain_cluster": "Access to Practice",
+      "funnel_stage": "MOFU",
+      "priority_score": {
+        "buyer_intent": 8,
+        "differentiator_fit": 10,
+        "serp_weakness": 7,
+        "business_priority": 9,
+        "mini_volume": 7,
+        "authority_fit": 9,
+        "weighted_total": 8.55
+      },
+      "brief_status": "pending",
+      "research_evidence": "SERP shows Kaiwa blog ranking with '7 Tutor-Free Methods' article. Reddit discussions about ChatGPT for practice. YouTube shadowing content. Opportunity to provide Dutch-specific, inburgering-focused guide that positions AI conversation practice. Nina on taalcafes: 'Everyone comes with different levels. They're not teachers. So you're just mumbling together.'",
+      "serp_competitors": ["Kaiwa Blog (strongest)", "YouTube shadowing videos", "Reddit suggestions"]
     },
     {
       "topic_id": "passed-inburgering-cant-speak-dutch",
@@ -196,122 +182,86 @@
         "business_priority": 10,
         "mini_volume": 6,
         "authority_fit": 9,
-        "weighted_total": 8.95
+        "weighted_total": 9.05
       },
-      "brief_status": "generated",
-      "research_evidence": "Verbatim quotes: 'Many learners struggle because they can recognize Dutch vocabulary but cannot use it' (Clozemaster). 'They read, they listen, they understand… but when it's time to talk, they freeze' (Facebook group). Core positioning validated."
+      "brief_status": "pending",
+      "research_evidence": "SERP shows Instagram post from Dutchwithjoost addressing this, Facebook groups with users complaining 'Passed all my exams, but still cannot speak Dutch', and Reddit success stories. No authoritative content explains WHY this happens and HOW to avoid it. Nina verbatim on friend: 'He had just gotten his passport. He couldn't even pronounce inburgering.' Also: 'People don't even expect that at A2 you can have a conversation.'",
+      "serp_competitors": ["Instagram (own content)", "Facebook groups", "inburgering.org (acknowledges issue)"]
     },
     {
-      "topic_id": "best-dutch-course-a2-inburgering",
-      "title": "Best Dutch Course for Passing the A2 Inburgering Exam (2026)",
-      "category": "best_in_class",
-      "primary_keyword": "best dutch course inburgering",
-      "secondary_keywords": ["best inburgering course", "best A2 dutch course", "inburgering exam preparation course"],
-      "persona": "Both",
-      "pain_cluster": "decision paralysis",
-      "funnel_stage": "BOFU",
+      "topic_id": "life-without-dutch-netherlands",
+      "title": "What You're Missing by Not Speaking Dutch in the Netherlands",
+      "category": "deviant",
+      "primary_keyword": "living in netherlands without dutch",
+      "secondary_keywords": ["expat life without dutch", "cant do activities without dutch", "english bubble netherlands", "integration without dutch"],
+      "persona": "Pattern D: Long-term Resident + Integration Focus",
+      "pain_cluster": "Integration Limits",
+      "funnel_stage": "TOFU",
       "priority_score": {
-        "buyer_intent": 10,
-        "differentiator_fit": 9,
-        "serp_weakness": 7,
-        "business_priority": 10,
-        "mini_volume": 8,
-        "authority_fit": 7,
-        "weighted_total": 8.8
-      },
-      "brief_status": "generated"
-    },
-    {
-      "topic_id": "pass-inburgering-remember-dutch",
-      "title": "How to Pass the Inburgering Exam and Actually Remember Dutch Afterward",
-      "category": "problems",
-      "primary_keyword": "pass inburgering exam",
-      "secondary_keywords": ["remember dutch after inburgering", "inburgering exam tips", "learn dutch not just pass exam"],
-      "persona": "Partner Visa Holder",
-      "pain_cluster": "retention anxiety",
-      "funnel_stage": "MOFU",
-      "priority_score": {
-        "buyer_intent": 8,
-        "differentiator_fit": 10,
-        "serp_weakness": 8,
-        "business_priority": 9,
-        "mini_volume": 8,
-        "authority_fit": 9,
-        "weighted_total": 8.7
-      },
-      "brief_status": "generated",
-      "research_evidence": "Verbatim: 'If you've ever tried learning Dutch, you've probably noticed how quickly isolated words fade away. You can memorize fiets, huis, and eten all week — and still stumble when trying to use them in conversation' (Taalhammer)"
-    },
-    {
-      "topic_id": "dutch-speaking-practice-online",
-      "title": "Dutch Speaking Practice Online: Where to Find It and What Actually Works",
-      "category": "category",
-      "primary_keyword": "Dutch speaking practice online",
-      "secondary_keywords": ["dutch speaking partner", "practice speaking dutch", "dutch conversation practice"],
-      "persona": "Partner Visa Holder",
-      "pain_cluster": "Finding Speaking Partners",
-      "funnel_stage": "MOFU",
-      "priority_score": {
-        "buyer_intent": 8,
-        "differentiator_fit": 10,
-        "serp_weakness": 7,
-        "business_priority": 9,
-        "mini_volume": 7,
-        "authority_fit": 9,
-        "weighted_total": 8.45
-      },
-      "brief_status": "generated",
-      "research_evidence": "Verbatim: 'I've been trying to find other beginners to practice speaking with, but it's been harder than I expected' (Reddit). 'Dutch partner won't speak Dutch' (Reddit thread title). We offer unlimited AI speaking practice."
-    },
-    {
-      "topic_id": "inburgering-course-cost",
-      "title": "How Much Does It Cost to Learn Dutch for the Inburgering Exam? (Complete Pricing Guide)",
-      "category": "cost",
-      "primary_keyword": "inburgering exam cost",
-      "secondary_keywords": ["dutch course price", "inburgering course cost", "cheapest inburgering course"],
-      "persona": "Both",
-      "pain_cluster": "price uncertainty",
-      "funnel_stage": "BOFU",
-      "priority_score": {
-        "buyer_intent": 9,
+        "buyer_intent": 5,
         "differentiator_fit": 8,
-        "serp_weakness": 7,
-        "business_priority": 9,
-        "mini_volume": 8,
-        "authority_fit": 8,
-        "weighted_total": 8.4
+        "serp_weakness": 8,
+        "business_priority": 7,
+        "mini_volume": 6,
+        "authority_fit": 9,
+        "weighted_total": 6.85
       },
-      "brief_status": "generated"
+      "brief_status": "pending",
+      "research_evidence": "SERP shows Quora 'What's it like to live in the Netherlands without speaking Dutch?', YouTube vlogs, and Expatica general guide. No content deeply explores what's actually LOST - therapy, activities, culture, career depth. Nina verbatim: 'My narrow world became my new world... I totally forgot that those things existed.' Specific domains: yoga classes, group therapy, theater, comedy, sports. Quote: 'There are no English-speaking group therapies, so I don't have access to that, although I probably need it.'",
+      "serp_competitors": ["Quora (surface level)", "Expatica (general)", "YouTube vlogs"]
     },
     {
-      "topic_id": "inburgering-course-worth-it",
-      "title": "Are Inburgering Courses Worth €1000? Honest Cost-Benefit Analysis",
-      "category": "cost",
-      "primary_keyword": "inburgering course worth it",
-      "secondary_keywords": ["is inburgering course worth it", "inburgering course scam", "should i pay for inburgering course"],
-      "persona": "Both",
-      "pain_cluster": "Course Value Uncertainty",
-      "funnel_stage": "BOFU",
+      "topic_id": "work-visa-dutch-citizenship-path",
+      "title": "Work Visa to Dutch Citizenship: The Emotional Reality of the 5-Year Path",
+      "category": "category",
+      "primary_keyword": "work visa dutch citizenship",
+      "secondary_keywords": ["work visa netherlands naturalization", "5 year citizenship netherlands", "expat citizenship anxiety", "work permit to dutch passport"],
+      "persona": "Pattern B: Work Visa + Security Focus",
+      "pain_cluster": "Security Anxiety",
+      "funnel_stage": "TOFU",
       "priority_score": {
-        "buyer_intent": 10,
-        "differentiator_fit": 7,
+        "buyer_intent": 6,
+        "differentiator_fit": 6,
         "serp_weakness": 8,
-        "business_priority": 8,
+        "business_priority": 6,
         "mini_volume": 7,
         "authority_fit": 7,
-        "weighted_total": 8.20
+        "weighted_total": 6.40
       },
-      "brief_status": "generated",
-      "research_evidence": "Exact Reddit thread title: 'Are those €1000 inburgering courses actually worth it? Or scam?' High purchase intent query. Trust-building opportunity."
+      "brief_status": "pending",
+      "research_evidence": "SERP shows government checklists and procedural guides. ZERO content addresses the emotional reality. Nina verbatim: 'You continuously have to prove your existence almost... your actions now will determine whether it will be renewed.' Also: 'You have to have five continuous years. That means if your visa gets discontinued for two days, the whole chain is gone. You start over.' Emotional reality missing from factual guides. Positions Dutch proficiency as security investment.",
+      "serp_competitors": ["NetherlandsWorldwide (procedural)", "Government.nl", "Immigration lawyers"]
+    },
+    {
+      "topic_id": "production-based-language-learning",
+      "title": "What Is Production-Based Language Learning? A Complete Guide",
+      "category": "deviant",
+      "primary_keyword": "production-based language learning",
+      "secondary_keywords": ["production-based learning", "active production language learning", "output-based language learning", "speaking-first methodology"],
+      "persona": "Both",
+      "pain_cluster": "Method Uncertainty",
+      "funnel_stage": "TOFU",
+      "priority_score": {
+        "buyer_intent": 5,
+        "differentiator_fit": 10,
+        "serp_weakness": 10,
+        "business_priority": 10,
+        "mini_volume": 4,
+        "authority_fit": 10,
+        "weighted_total": 7.95
+      },
+      "brief_status": "pending",
+      "research_evidence": "SERP shows academic papers, Extempore blog on 'Speaking-to-Learn', and general language learning theory. ZERO Dutch-specific application content. ZERO accessible explainer content. Can own this term with accessible, Dutch-focused guide. Defines core methodology. Nina on past courses: 'No speaking at all. Just memorizing words and rules.'",
+      "serp_competitors": ["Academic papers", "Extempore (general theory)", "polyglot forums"]
     },
     {
       "topic_id": "inburgering-speaking-test-guide",
-      "title": "Inburgering Speaking Exam: What to Expect and How to Prepare (2026)",
+      "title": "Inburgering Speaking Exam: What to Expect and How to Prepare",
       "category": "jtbd",
       "primary_keyword": "inburgering speaking exam",
-      "secondary_keywords": ["inburgering speaking exam tips", "inburgering spreekexamen", "A2 speaking test netherlands"],
+      "secondary_keywords": ["inburgering speaking exam tips", "inburgering spreekexamen", "A2 speaking test netherlands", "spreken exam preparation"],
       "persona": "Both",
-      "pain_cluster": "speaking fear",
+      "pain_cluster": "Speaking fear",
       "funnel_stage": "MOFU",
       "priority_score": {
         "buyer_intent": 9,
@@ -322,215 +272,97 @@
         "authority_fit": 8,
         "weighted_total": 8.35
       },
-      "brief_status": "generated",
-      "research_evidence": "Verbatim: 'The spreken examen is often named as one of the hardest exams for internationals because, unlike with reading, listening, or writing, there's almost no chance to edit your work' (DutchReview). 'Many internationals have stepped nervously into DUO's exam halls' (DutchReview)."
+      "brief_status": "pending",
+      "research_evidence": "SERP shows DutchReview guide, YouTube practice videos, inburgering.org practice section, and official inburgeren.nl materials. Competitive but high volume. Nina: 'The spreken examen is often named as one of the hardest exams... A lot of people struggle with that one.' Opportunity to differentiate by connecting exam prep to production-based practice methodology.",
+      "serp_competitors": ["DutchReview (strong)", "YouTube (multiple)", "inburgering.org", "official DUO materials"]
     },
     {
-      "topic_id": "recognition-vs-production-language-learning",
+      "topic_id": "best-dutch-course-a2-inburgering",
+      "title": "Best Dutch Course for Passing the A2 Inburgering Exam (2026)",
+      "category": "best_in_class",
+      "primary_keyword": "best dutch course inburgering",
+      "secondary_keywords": ["best inburgering course", "best A2 dutch course", "inburgering exam preparation course 2026"],
+      "persona": "Both",
+      "pain_cluster": "Decision paralysis",
+      "funnel_stage": "BOFU",
+      "priority_score": {
+        "buyer_intent": 10,
+        "differentiator_fit": 8,
+        "serp_weakness": 5,
+        "business_priority": 10,
+        "mini_volume": 8,
+        "authority_fit": 7,
+        "weighted_total": 8.45
+      },
+      "brief_status": "pending",
+      "research_evidence": "SERP dominated by InburgeringOnline, DutchReview guide, and passinburgering.com resource list. Highly competitive but essential BOFU content. Must provide genuine evaluation criteria, not just self-promotion. Test: would criteria help someone choose a competitor if that's the right fit?",
+      "serp_competitors": ["InburgeringOnline (dominant)", "DutchReview", "passinburgering.com", "thedutchminds.com"]
+    },
+    {
+      "topic_id": "inburgering-course-worth-it",
+      "title": "Are Inburgering Courses Worth the Money? Honest Cost-Benefit Analysis",
+      "category": "cost",
+      "primary_keyword": "inburgering course worth it",
+      "secondary_keywords": ["is inburgering course worth it", "inburgering course scam", "should i pay for inburgering course"],
+      "persona": "Both",
+      "pain_cluster": "Course Value Uncertainty",
+      "funnel_stage": "BOFU",
+      "priority_score": {
+        "buyer_intent": 10,
+        "differentiator_fit": 7,
+        "serp_weakness": 7,
+        "business_priority": 8,
+        "mini_volume": 7,
+        "authority_fit": 7,
+        "weighted_total": 8.15
+      },
+      "brief_status": "pending",
+      "research_evidence": "SERP shows Trustpilot reviews, Reddit discussions, and course marketing pages. No honest cost-benefit analysis exists. Nina verbatim on Taalthuis: 'It was actually very boring... a bunch of really boring grammar rules that I had to memorize. But I didn't feel like I retained anything.' On courses generally: 'It's a bit of a scam.' Trust-building opportunity with honest assessment.",
+      "serp_competitors": ["Trustpilot reviews", "Reddit r/learndutch", "Course marketing pages"]
+    },
+    {
+      "topic_id": "understand-dutch-cant-speak",
       "title": "The Recognition vs Production Gap: Why You Understand Dutch But Can't Speak It",
       "category": "deviant",
       "primary_keyword": "understand Dutch but can't speak",
-      "secondary_keywords": ["i understand dutch cant speak", "recognize dutch vocabulary cant use", "passive vs active dutch"],
+      "secondary_keywords": ["I understand dutch cant speak", "recognize dutch vocabulary cant use", "passive vs active dutch"],
       "persona": "Partner Visa Holder",
       "pain_cluster": "Recognition vs. Production Gap",
       "funnel_stage": "MOFU",
       "priority_score": {
         "buyer_intent": 7,
         "differentiator_fit": 10,
-        "serp_weakness": 9,
+        "serp_weakness": 8,
         "business_priority": 9,
         "mini_volume": 5,
         "authority_fit": 9,
-        "weighted_total": 8.10
+        "weighted_total": 8.15
       },
       "brief_status": "pending",
-      "research_evidence": "Core positioning. Exact customer language from multiple sources. No competitor owns this concept. Thought leadership opportunity."
+      "research_evidence": "SERP shows Luca Lampariello blog on input-only learning, YouTube videos, and general language learning content. No Dutch-specific deep dive. Core positioning content. Nina on past courses: 'No speaking at all. Just memorizing words and rules.' Also: 'I just keep memorizing shit that doesn't stick because I don't know how to use it.'",
+      "serp_competitors": ["Luca Lampariello (general)", "YouTube", "polyglot blogs"]
     },
     {
-      "topic_id": "self-paced-vs-classroom-dutch-courses",
-      "title": "Self-Paced vs Classroom Dutch Courses: An Honest Comparison",
-      "category": "comparison",
-      "primary_keyword": "self-paced dutch course vs classroom",
-      "secondary_keywords": ["online dutch course vs classroom", "learn dutch online or in person", "inburgering course types"],
-      "persona": "Both",
-      "pain_cluster": "learning format decision",
-      "funnel_stage": "MOFU",
-      "priority_score": {
-        "buyer_intent": 8,
-        "differentiator_fit": 9,
-        "serp_weakness": 7,
-        "business_priority": 8,
-        "mini_volume": 7,
-        "authority_fit": 8,
-        "weighted_total": 8.1
-      },
-      "brief_status": "generated",
-      "research_evidence": "Classroom average €1,160 vs our €399. Documented complaints about fixed schedules and limited speaking time per person in group settings."
-    },
-    {
-      "topic_id": "memorizing-vs-practice-learning-dutch",
-      "title": "Memorizing vs Practice: Which Actually Works for Learning Dutch?",
-      "category": "comparison",
-      "primary_keyword": "learn dutch memorization vs practice",
-      "secondary_keywords": ["best way to learn dutch", "dutch learning methods", "how to actually learn dutch"],
-      "persona": "Both",
-      "pain_cluster": "method uncertainty",
-      "funnel_stage": "MOFU",
-      "priority_score": {
-        "buyer_intent": 7,
-        "differentiator_fit": 10,
-        "serp_weakness": 8,
-        "business_priority": 8,
-        "mini_volume": 6,
-        "authority_fit": 9,
-        "weighted_total": 8.0
-      },
-      "brief_status": "pending",
-      "research_evidence": "Verbatim: 'If you memorize only the dictionary form, you won't recognize it in real conversation' (Clozemaster). Validates production-based approach."
-    },
-    {
-      "topic_id": "duolingo-for-inburgering",
-      "title": "Can Duolingo Prepare You for the Inburgering Exam? Honest Assessment",
-      "category": "comparison",
-      "primary_keyword": "Duolingo inburgering exam",
-      "secondary_keywords": ["duolingo for inburgering", "duolingo dutch inburgering", "is duolingo enough for inburgering"],
-      "persona": "Partner Visa Holder",
-      "pain_cluster": "Course Selection",
-      "funnel_stage": "MOFU",
-      "priority_score": {
-        "buyer_intent": 8,
-        "differentiator_fit": 7,
-        "serp_weakness": 6,
-        "business_priority": 6,
-        "mini_volume": 7,
-        "authority_fit": 7,
-        "weighted_total": 7.20
-      },
-      "brief_status": "pending",
-      "research_evidence": "Blog post: 'On Useless Language Learning in DuoLingo Dutch'. Community meme about impractical phrases. Duolingo is default starting point for many learners."
-    },
-    {
-      "topic_id": "what-500-days-duolingo-wont-teach",
-      "title": "What 500 Days on Duolingo Won't Teach You About Dutch",
+      "topic_id": "taalcafe-language-exchange-dont-work",
+      "title": "Why Taalcafés and Language Exchange Apps Don't Work for Dutch Learners",
       "category": "deviant",
-      "primary_keyword": "Duolingo Dutch",
-      "secondary_keywords": ["duolingo dutch review", "duolingo dutch useless", "duolingo 500 days"],
-      "persona": "Partner Visa Holder",
-      "pain_cluster": "Recognition vs. Production Gap",
-      "funnel_stage": "TOFU",
-      "priority_score": {
-        "buyer_intent": 6,
-        "differentiator_fit": 8,
-        "serp_weakness": 8,
-        "business_priority": 6,
-        "mini_volume": 7,
-        "authority_fit": 7,
-        "weighted_total": 6.90
-      },
-      "brief_status": "pending",
-      "research_evidence": "References actual YouTube video 'I spent 500 days learning Dutch on Duolingo'. Thought leadership angle without trashing competitor."
-    },
-    {
-      "topic_id": "how-to-remember-dutch-vocabulary",
-      "title": "How to Remember Dutch Vocabulary Long-Term (Not Just for the Exam)",
-      "category": "jtbd",
-      "primary_keyword": "how to remember Dutch vocabulary",
-      "secondary_keywords": ["remember dutch words", "dutch vocabulary retention", "memorize dutch vocabulary"],
+      "primary_keyword": "taalcafe dutch learning",
+      "secondary_keywords": ["language exchange dutch", "tandem dutch partner", "free dutch speaking practice", "dutch conversation partner"],
       "persona": "Both",
-      "pain_cluster": "Retention Problem",
+      "pain_cluster": "Access to Practice",
       "funnel_stage": "MOFU",
       "priority_score": {
-        "buyer_intent": 7,
+        "buyer_intent": 6,
         "differentiator_fit": 9,
-        "serp_weakness": 5,
+        "serp_weakness": 9,
         "business_priority": 7,
-        "mini_volume": 8,
-        "authority_fit": 8,
-        "weighted_total": 7.45
+        "mini_volume": 5,
+        "authority_fit": 9,
+        "weighted_total": 7.40
       },
       "brief_status": "pending",
-      "research_evidence": "Reddit thread: 'How did you memorize all these words?' Quora question: 'How can I remember Dutch words for the long-term?' Multiple sources document forgetting problem."
-    },
-    {
-      "topic_id": "inburgering-self-study-vs-course",
-      "title": "Inburgering Self-Study vs Paid Course: What Actually Works?",
-      "category": "comparison",
-      "primary_keyword": "inburgering self study",
-      "secondary_keywords": ["inburgering without course", "free inburgering preparation", "inburgering course necessary"],
-      "persona": "Both",
-      "pain_cluster": "Course Value Uncertainty",
-      "funnel_stage": "MOFU",
-      "priority_score": {
-        "buyer_intent": 9,
-        "differentiator_fit": 7,
-        "serp_weakness": 7,
-        "business_priority": 7,
-        "mini_volume": 6,
-        "authority_fit": 7,
-        "weighted_total": 7.70
-      },
-      "brief_status": "pending",
-      "research_evidence": "Reddit success story: 'After 4 months with AI, I passed all exams first try straight 10s' — validates AI/self-study. But speaking practice remains documented pain."
-    },
-    {
-      "topic_id": "learn-dutch-busy-schedule",
-      "title": "How to Learn Dutch with a Busy Work Schedule",
-      "category": "jtbd",
-      "primary_keyword": "learn dutch busy schedule",
-      "secondary_keywords": ["learn dutch working full time", "dutch course for busy people", "self-paced dutch learning"],
-      "persona": "Work Visa Holder",
-      "pain_cluster": "time constraints",
-      "funnel_stage": "MOFU",
-      "priority_score": {
-        "buyer_intent": 7,
-        "differentiator_fit": 8,
-        "serp_weakness": 7,
-        "business_priority": 7,
-        "mini_volume": 6,
-        "authority_fit": 8,
-        "weighted_total": 7.2
-      },
-      "brief_status": "pending"
-    },
-    {
-      "topic_id": "inburgering-partner-visa-guide",
-      "title": "Inburgering with a Partner Visa: Timeline, Deadlines, and What You Need to Know",
-      "category": "jtbd",
-      "primary_keyword": "inburgering partner visa",
-      "secondary_keywords": ["partner visa netherlands inburgering", "verblijfsvergunning inburgering deadline", "3 year inburgering deadline"],
-      "persona": "Partner Visa Holder",
-      "pain_cluster": "deadline anxiety",
-      "funnel_stage": "TOFU",
-      "priority_score": {
-        "buyer_intent": 6,
-        "differentiator_fit": 6,
-        "serp_weakness": 7,
-        "business_priority": 7,
-        "mini_volume": 7,
-        "authority_fit": 7,
-        "weighted_total": 6.5
-      },
-      "brief_status": "pending"
-    },
-    {
-      "topic_id": "reasons-learn-dutch-english-bubble",
-      "title": "Thinking of Settling in the Netherlands? Here Are 7 Reasons to Learn Dutch (Even If Everyone Speaks English)",
-      "category": "awareness",
-      "primary_keyword": "reasons to learn dutch",
-      "secondary_keywords": ["why learn dutch in netherlands", "should I learn dutch", "learn dutch expat"],
-      "persona": "Work Visa Holder",
-      "pain_cluster": "motivation gap",
-      "funnel_stage": "TOFU",
-      "priority_score": {
-        "buyer_intent": 4,
-        "differentiator_fit": 5,
-        "serp_weakness": 6,
-        "business_priority": 5,
-        "mini_volume": 7,
-        "authority_fit": 6,
-        "weighted_total": 5.0
-      },
-      "brief_status": "pending"
+      "research_evidence": "SERP shows taalcafe listings and language exchange app recommendations but no content addressing WHY they fail. Nina verbatim: 'Everyone comes with different levels. They're not teachers. So you're just mumbling together. You don't even know if what you're learning is correct.' On language exchange apps: 'I haven't heard anyone say that it worked for them really.' Counter-positioning content that validates free alternatives' limitations.",
+      "serp_competitors": ["Taalcafe listings", "Language exchange app directories", "Reddit recommendations"]
     }
   ]
 }

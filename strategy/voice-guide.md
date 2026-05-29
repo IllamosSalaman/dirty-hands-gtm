@@ -257,6 +257,8 @@ Fewer than 13% of websites use structured data. Implementing it puts you ahead o
 - Never use negative parallelisms: "It's not X, it's Y" / "It's not just X, it's Y"
 - Never use rule of three for emphasis: "It's X, Y, and Z"
 - Never use reassurance-reframe patterns: "This is not your failure. It is a systemic problem." This structure is a telltale AI pattern. Rewrite as direct statements.
+- Never use "in the market" or "the Dutch learning market" when referring to people. It sounds dehumanizing. Say "many people" or "the common expectation" instead.
+- Never make absolute claims about what people "can't" do. Say "it's difficult" or "requires training" instead. Example: "Native speakers can't slow down" → "Slowing down is difficult without training."
 
 ### Technical Jargon Anti-Patterns
 

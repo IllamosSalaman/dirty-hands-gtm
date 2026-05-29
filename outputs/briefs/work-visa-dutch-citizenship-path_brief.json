@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "topic_id": "work-visa-dutch-citizenship-path",
+    "priority_score": 6.35,
+    "stage": "tofu",
+    "format": "guide",
+    "target_word_count": 2000,
+    "estimated_effort": "3-4 hours"
+  },
+  "keyword": {
+    "primary": "work visa dutch citizenship",
+    "variants": [
+      "work visa netherlands naturalization",
+      "5 year citizenship netherlands",
+      "expat citizenship anxiety",
+      "work permit to dutch passport",
+      "how to get dutch citizenship work visa"
+    ],
+    "searcher_intent": "Work visa holders researching the path to Dutch citizenship, understanding requirements, or experiencing the anxiety of temporary status and wanting to resolve it permanently"
+  },
+  "audience": {
+    "persona": "Pattern B: Work Visa + Security Focus",
+    "industry_focus": null,
+    "pain_summary": "Living with constant background anxiety about visa renewal, job security, and the fragility of their status. Wants to understand the citizenship path and what it takes to remove this anxiety permanently.",
+    "awareness_level": "solution-aware"
+  },
+  "angle": "Go beyond the factual requirements (which are available elsewhere) to address the emotional reality of work visa anxiety. Validate the experience while providing the practical path forward. Position Dutch proficiency as security investment, not just compliance.",
+  "thesis_sentence": "The path from work visa to Dutch citizenship is clearer than the anxiety makes it feel — here's the reality of the 5-year journey and why Dutch matters more than you think.",
+  "outline": [
+    {
+      "section": "The Anxiety Nobody Talks About",
+      "notes": "Open by naming the emotional reality. The constant proving, the inability to show weakness, the fragility of status. Most guides skip this — we validate it first.",
+      "word_target": 250,
+      "evidence_needed": "Nina: 'You continuously have to prove your existence almost... your actions now will determine whether it will be renewed. So you're continuously anxious.'"
+    },
+    {
+      "section": "Why Citizenship Isn't Really 'Voluntary'",
+      "notes": "Address the framing. Technically optional for work visa holders, but practically essential for anyone from a non-EU country. The passport disparity, the work permit requirements, the limitations. It's not a choice.",
+      "word_target": 300,
+      "evidence_needed": "Nina: 'If you come from a non-EU country, it's not really a choice. It's not really volunteer... Everyone who is from a non-EU country wants that passport because you come from a weaker passport.'"
+    },
+    {
+      "section": "The 5-Year Continuous Residency Rule",
+      "notes": "Explain the requirement clearly. The trap: a 2-day gap resets everything. This adds to anxiety because even a job loss at year 4 can erase progress. Be factual but acknowledge the weight.",
+      "word_target": 250,
+      "evidence_needed": "Nina: 'You have to have five continuous years. That means if your visa gets discontinued for two days, the whole chain is gone. It's gone. Your whole progress is gone. You start over.'"
+    },
+    {
+      "section": "The 'Be Better Than Dutch' Burden",
+      "notes": "Work visa holders must justify their existence continuously. Can't take sick leave, can't ask for help, can't show weakness. The psychological toll of always having to be 'productive' for visa purposes.",
+      "word_target": 250,
+      "evidence_needed": "Nina: 'You cannot crumble, you cannot ask for help... if you rely on the government financially in any way, your visa is not going to be renewed... You have to be really better. You can't fail.'"
+    },
+    {
+      "section": "What the Citizenship Requirements Actually Are",
+      "notes": "Factual section: 5 years continuous residence, clean record, integration requirements. For work visa holders, inburgering is technically voluntary but practically advisable. Clear, accurate, actionable.",
+      "word_target": 300,
+      "evidence_needed": "ICP document for accuracy. Link to factual-accuracy-checklist.md for verified requirements."
+    },
+    {
+      "section": "Why Dutch Language Matters More Than the Requirement",
+      "notes": "Even if inburgering isn't required for work visa holders, Dutch proficiency is a career security investment. Non-Dutch speakers hit ceilings, are first laid off, miss relationships. Dutch = insurance.",
+      "word_target": 300,
+      "evidence_needed": "Nina: 'If you speak Dutch, you are favored over the others. If you don't, it hurts you a lot.' Story of woman who got hired because she spoke Dutch. Career protection angle."
+    },
+    {
+      "section": "The Dual Citizenship Question",
+      "notes": "Address the complication: some countries require giving up original citizenship. This makes the decision harder. Be factual about which countries are affected and the tradeoffs.",
+      "word_target": 200,
+      "evidence_needed": "Nina: 'There's actually a lot of countries where you have to give up your citizenship... He really debated it whether he wanted it or not.'"
+    },
+    {
+      "section": "Removing the Background Anxiety",
+      "notes": "Close with the emotional payoff. Citizenship removes the constant proving, the fragility, the anxiety. You can finally feel at home. Frame Dutch learning as the investment that pays off in security.",
+      "word_target": 150,
+      "evidence_needed": "Implied from all anxiety documentation. The endpoint is security and belonging."
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "No deadline creates procrastination, but career risk is real",
+      "prop": "Self-paced course that fits around work schedule",
+      "proof": "Nina: 'I didn't have like a 9 to 5 job so I have to be flexible time and time wise but also place wise.'"
+    },
+    {
+      "pain": "Course skepticism from past failures",
+      "prop": "Production-based learning that creates actual speaking ability, not just exam passage",
+      "proof": "Nina: 'The words that you learn you use which is really useful... it helps me communicate.'"
+    },
+    {
+      "pain": "Uncertainty about whether investment is worth it",
+      "prop": "One-time €399 pricing, clear outcome",
+      "proof": "Competitive positioning: transparent pricing vs subscription complexity"
+    }
+  ],
+  "originality_nuggets": [
+    "Emotional reality of work visa anxiety that factual guides ignore",
+    "The 'be better than Dutch' burden and psychological toll",
+    "Citizenship as 'not really a choice' for non-EU workers",
+    "Dutch proficiency as career security investment, not just compliance",
+    "The 2-day gap trap that can reset 5 years of progress"
+  ],
+  "seo": {
+    "title_tag": "Work Visa to Dutch Citizenship: The 5-Year Reality",
+    "meta_description": "The path from work visa to Dutch citizenship is clearer than the anxiety makes it feel. Here's what the 5-year journey really looks like and why Dutch matters.",
+    "url_slug": "work-visa-dutch-citizenship-path"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "How do I get Dutch citizenship with a work visa?",
+    "definition_paragraph": "Work visa holders can apply for Dutch citizenship after 5 continuous years of legal residence, a clean record, and meeting integration requirements. While the inburgering exam is technically voluntary for work visa holders, Dutch proficiency significantly improves career security and integration. The key challenge is the continuity requirement: any gap in legal residence, even two days, resets the 5-year clock to zero.",
+    "faq_questions": [
+      "Do work visa holders need to pass the inburgering exam?",
+      "How long does it take to get Dutch citizenship with a work visa?",
+      "Can I keep my original citizenship when getting a Dutch passport?",
+      "What happens if I lose my job while waiting for citizenship?"
+    ]
+  },
+  "customer_intelligence_quotes": [
+    {
+      "quote": "You continuously have to prove your existence almost... your actions now will determine whether it will be renewed. So you're continuously anxious, you continuously feel like you have to do your best, you cannot crumble, you cannot ask for help.",
+      "source": "Nina interview",
+      "use_context": "Opening — naming the anxiety"
+    },
+    {
+      "quote": "If you come from a non-EU country, it's not really a choice. It's not really volunteer... Everyone who is from a non-EU country wants that passport because you come from a weaker passport. Everywhere you go you need a visa.",
+      "source": "Nina interview",
+      "use_context": "Why citizenship isn't voluntary"
+    },
+    {
+      "quote": "You have to have five continuous years. That means if your visa gets discontinued for two days, the whole chain is gone. Your whole progress is gone. You start over.",
+      "source": "Nina interview",
+      "use_context": "The fragility of the 5-year requirement"
+    },
+    {
+      "quote": "She learned Dutch to be one level in one year. And she interviewed for a company... and they picked her. They told her that one big reason was because they were impressed that she learned that so quickly.",
+      "source": "Nina interview",
+      "use_context": "Dutch as career advantage"
+    }
+  ]
+}

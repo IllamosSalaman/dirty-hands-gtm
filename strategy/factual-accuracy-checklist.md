@@ -56,6 +56,12 @@ The inburgering exam tests **both recognition AND production**. This is a common
 - A2 is the minimum requirement for most people under the 2013 Act
 - Under the 2021 Act, some people must achieve B1 (depends on the "leerroute" assigned by the municipality)
 
+**CEFR A2 definition (accurate framing):**
+- A2 is NOT defined solely as "basic conversational proficiency"
+- CEFR A2 means: ability to communicate in simple, routine tasks and describe aspects of background, immediate environment, and matters of immediate need
+- A2 includes basic conversation but also covers reading, writing, and listening at a basic level
+- **Use this phrasing:** "A2 includes the ability to communicate in simple, routine situations" (not "A2 is defined as basic conversational proficiency")
+
 **Source:** [inburgeren.nl/en/integration-in-the-netherlands](https://www.inburgeren.nl/en/integration-in-the-netherlands/)
 
 ### Integration period and deadlines
@@ -259,7 +265,15 @@ These are verifiable facts about our product. Use these when making claims.
 
 **Correct:** "Under the 2013 Act, the standard requirement is A2. Under the 2021 Act, your required level depends on your learning track (B1 track requires B1; self-reliance track requires A1 with optional A2)."
 
-### Error 3: Overstating the speaking exam difficulty
+### Error 3: Mentioning only A2 when content applies to both A2 and B1
+
+**Wrong:** "This experience is common among expats preparing for the A2 inburgering exam."
+
+**Correct:** "This experience is common among expats preparing for the A2 or B1 inburgering exam."
+
+**Why this matters:** Under the 2021 Act, many people are required to pass at B1 level (not A2). Content about the recognition-production gap, speaking practice, or course selection applies to both levels. Always include "A2 or B1" unless you're specifically discussing A2-only requirements.
+
+### Error 4: Overstating the speaking exam difficulty
 
 **Wrong:** "The speaking exam is the hardest part."
 
@@ -267,13 +281,13 @@ These are verifiable facts about our product. Use these when making claims.
 
 **Why:** "Hardest" is a subjective claim. What's hard varies by person. The phrasing "many people find it challenging" is more accurate.
 
-### Error 4: Misrepresenting exam format
+### Error 5: Misrepresenting exam format
 
 **Wrong:** "The writing exam is on a computer."
 
 **Correct:** "The writing exam at A2 level is done with pen and paper." (Per DUO: "Het examen Schrijven op niveau A2 maakt u met pen en papier.")
 
-### Error 5: Confusing ONA and MAP
+### Error 6: Confusing ONA and MAP
 
 - **ONA (Orientation on the Dutch Labour Market):** Required under 2013 Act (for those integrating from 1 Jan 2015 or later)
 - **MAP (Module Labour Market and Participation):** Required under 2021 Act, taken with municipality (not DUO)

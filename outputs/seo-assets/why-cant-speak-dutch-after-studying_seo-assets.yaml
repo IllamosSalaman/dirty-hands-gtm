@@ -1,0 +1,38 @@
+# SEO Assets: Why Can't I Speak Dutch After Studying?
+
+title: "Why Can't I Speak Dutch After Studying? The Recognition vs Production Gap"
+description: "Most Dutch courses train recognition (understanding) but speaking requires production (generating language). Learn why this gap exists and how to close it."
+excerpt: "You finished the course. You passed the exam. But you still freeze when someone speaks Dutch to you. Here's why — and what actually works to fix it."
+slug: why-cant-speak-dutch-after-studying
+category: dutch-learning
+tags:
+  - dutch learning
+  - inburgering
+  - speaking practice
+  - language learning
+  - recognition vs production
+  - A2 Dutch
+
+faqs:
+  - question: "Why can I understand Dutch but not speak it?"
+    answer: "Understanding uses recognition (matching input to meaning). Speaking uses production (constructing output from meaning). These are different cognitive skills. Most Dutch courses train recognition through videos and exercises. Without production practice, you build the input pathway but not the output pathway."
+  - question: "Is it normal to pass the inburgering exam but not speak Dutch?"
+    answer: "It's common. The exam tests both recognition and production, but many courses focus on exam format preparation rather than language production. You can pass by recognizing correct answers. Speaking in real life requires producing them."
+  - question: "What is the difference between recognition and production in language learning?"
+    answer: "Recognition is passive: you see or hear Dutch and understand it. Production is active: you start with meaning and construct Dutch yourself. Research shows these use different brain pathways. Training one doesn't automatically train the other."
+  - question: "How do I practice speaking Dutch when I have no one to talk to?"
+    answer: "Three options: AI conversation tools that let you practice anytime, language exchange apps that match you with partners, or courses that build speaking practice into the structure. The key is producing Dutch out loud, not just thinking it."
+  - question: "Why do Dutch courses focus on memorization instead of speaking?"
+    answer: "Recognition-based content is easier to build and grade. Video lessons, matching exercises, and multiple choice tests scale well. Production practice requires more complex feedback systems. Many courses optimize for completion metrics rather than speaking outcomes."
+
+internal_link_targets:
+  - slug: passed-inburgering-cant-speak-dutch
+    anchor_context: "passed the exam but can't speak"
+  - slug: how-to-practice-dutch-speaking-alone
+    anchor_context: "practice speaking Dutch alone"
+  - slug: fear-of-speaking-dutch
+    anchor_context: "fear of speaking" or "shame cycle"
+  - slug: dutch-speaking-practice-online
+    anchor_context: "speaking practice online"
+  - slug: what-is-production-based-language-learning
+    anchor_context: "production-based learning"

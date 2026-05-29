@@ -436,6 +436,14 @@ Traditional language learning apps. Occasionally mentioned in inburgering contex
 
 8. **Never position competitors as the enemy.** The enemy is not speaking Dutch. Competitors are just different approaches to the same goal.
 
+9. **Never imply competitor courses are "easy to build" or that they took shortcuts.** Phrases to avoid:
+   - "easier to build and assess"
+   - "straightforward to create and grade"
+   - "optimize for what's easy to deliver"
+   - "courses favor X because it's easier"
+
+   Instead, simply state what those courses train without explaining *why* they were built that way. We don't know their intentions, and implying laziness or shortcuts is dismissive.
+
 ---
 
 ## Quick Reference: Per-Competitor Summary

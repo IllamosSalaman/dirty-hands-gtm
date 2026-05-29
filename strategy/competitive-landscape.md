@@ -103,19 +103,13 @@ These insights inform the barrier profiles and motivation layers in `strategy/pe
 
 **Community Sentiment (from recent discussions):**
 
-1. **AI as a learning tool is rising**: A highly upvoted success story (550+ upvotes) shows someone passed all A2 inburgering exams with straight 10s using **ChatGPT and Google Gemini** — no formal class, no paid course. Quote: "After 4 months with AI, I passed all exams first try straight 10s."
+1. **Speaking practice is a documented pain point**: Users actively post looking for speaking partners. One user noted they've been "trying to find other beginners to practice speaking with, but it's been harder than I expected."
 
-2. **Speaking practice is a documented pain point**: Users actively post looking for speaking partners. One user noted they've been "trying to find other beginners to practice speaking with, but it's been harder than I expected."
-
-3. **Self-study without courses is validated**: The community proves you can pass inburgering without expensive courses — but finding speaking practice remains difficult.
-
-4. **Taalify.com** mentioned as a peer speaking practice network (learner-to-learner matching).
+2. **Taalify.com** mentioned as a peer speaking practice network (learner-to-learner matching).
 
 **Competitive Implications:**
-- Reddit community validates free/AI alternatives over paid courses
 - Speaking practice gap is real and acknowledged
 - Dutchwithjoost's "unlimited speaking practice" directly addresses the pain point the community discusses
-- AI conversation practice aligns with emerging self-study behavior
 
 ### Trust & Review Landscape
 

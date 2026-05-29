@@ -217,7 +217,6 @@ The visa type matters less than the motivation profile: someone with a work visa
 
 **Evidence**:
 - "Within 45 days I passed all exams" (common success metric in reviews)
-- "After 4 months with AI, I passed all exams first try straight 10s" (Reddit success story)
 - Pass rate claims are primary trust signals for courses
 
 **Emotional dimension**: Fear of failure, deadline pressure, visa/residency anxiety.
@@ -657,7 +656,7 @@ Dutch language learning for inburgering exam preparation (A2 level). Positioned 
 - "Most learners don't fail because they don't know Dutch — they underestimate speaking and writing." (Dutch-online.com)
 - "The spreken examen is often named as one of the hardest exams" (DutchReview)
 - AI conversation practice is emerging (LangBuddy.ai, ChatGPT success stories on Reddit)
-- Reddit r/learndutch validates free/AI alternatives; no paid courses in official sidebar
+- Reddit r/learndutch recommends free resources; no paid courses in official sidebar
 - **From customer intelligence**: "Most people complain that even though they take classes and pass the inburgering, they still don't speak... people don't even expect that at A2 you can have a conversation." The expectation of non-fluency after passing is normalized.
 
 ### How We Win

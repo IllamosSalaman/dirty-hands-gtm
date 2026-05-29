@@ -46,18 +46,24 @@ The inburgering exam tests both recognition AND production. The speaking and wri
 ### The two-phase structure
 
 **Phase 1: Practice**
-Each lesson is built around an everyday scenario (ordering at a restaurant, making a doctor's appointment, introducing yourself). You practice a scripted conversation in small chunks:
+Each lesson is built around an everyday scenario (ordering at a restaurant, making a doctor's appointment, introducing yourself). You practice a scripted conversation in small chunks called sentence units.
 
-- Read the Dutch and say it aloud
-- Listen to the Dutch and repeat it
-- Write the sentence yourself
+For each sentence unit, you practice three skills in order:
 
-You do all three for each sentence before moving to the next. This builds reading, listening, writing, and speaking together, not as separate skills to check off.
+1. Read the Dutch and say it aloud
+2. Listen to the Dutch and repeat it
+3. Write the sentence yourself
+
+You do all three for each sentence before moving to the next. This interleaved pattern builds reading, listening, writing, and speaking together, not as separate skills to check off.
+
+Practice is split into sessions. Each session mixes new material with review from earlier sessions, so you encounter words multiple times before relying on them in conversation.
 
 The scenario topics are also the KNM (Knowledge of Dutch Society) topics, so you learn Dutch culture as you learn the language.
 
 **Phase 2: Conversation**
-After enough practice, you have a conversation with Joost on the same topic. This is NOT repeating the script. It's a new conversation every time. The flow changes based on what you say, ask, and answer.
+After completing 3 practice sessions, you unlock conversation with Joost on the same topic. This is NOT repeating the script. It's a new conversation every time. The flow changes based on what you say, ask, and answer.
+
+Joost only uses vocabulary from the practice sessions you've completed. As you finish more sessions, more vocabulary becomes available for conversation.
 
 Joost:
 
@@ -66,7 +72,15 @@ Joost:
 - Asks questions that prompt you to use the words yourself
 - Corrects gently by showing better phrasing, not lecturing
 
-The lesson completes when you can have conversations on the topic. This means you've demonstrated you can use the vocabulary, not just recognize it.
+The lesson completes when you've used the lesson vocabulary successfully in conversation. A word counts as learned after you've used it correctly multiple times. This means you've demonstrated you can use the vocabulary, not just recognize it.
+
+**Practice completion vs. lesson completion**
+
+These are different milestones:
+- Practice completion = you've finished all practice sessions (read, listen, write)
+- Lesson completion = you've used the vocabulary in conversation with Joost
+
+You can unlock conversation before finishing all practice sessions. The lesson itself completes based on active vocabulary use, not just finishing exercises.
 
 ### What you actually learn
 
@@ -88,6 +102,10 @@ Use these:
 - "Each lesson teaches you to handle an everyday situation in Dutch"
 - "The conversation changes based on what you say. It's not repeating a script."
 - "You learn all five exam parts together, not as separate modules"
+- "For each sentence, you read it, listen to it, then write it — all three before moving on"
+- "Practice sessions mix new material with review"
+- "Conversation unlocks after you've practiced the basics"
+- "A word counts as learned when you've used it in conversation, not when you've seen it"
 
 Avoid these:
 
@@ -96,6 +114,8 @@ Avoid these:
 - "Active recall" (jargon)
 - "Spaced repetition" (jargon, unless explaining the method)
 - "Real conversations" (implies human conversation partner)
+- "3 practice sessions to unlock" (too implementation-specific for content)
+- "2 successful uses = learned" (too implementation-specific for content)
 
 ---
 
@@ -168,6 +188,91 @@ Avoid these:
 - "Gamified" (not accurate)
 - "Immersive" (vague)
 - "Real conversations" (implies human partner)
+
+---
+
+## How Feedback Works
+
+Feedback is a key differentiator. Many apps either correct everything (feels like a test) or correct nothing (no improvement). Dutchwithjoost adapts feedback to the learning moment.
+
+### The core principle
+
+| Phase | Goal | Feedback style |
+|-------|------|----------------|
+| Practice | Accurate production | Direct, specific, requires correction before moving on |
+| Conversation | Fluent communication | Available but non-blocking, keeps conversation flowing |
+
+### Pronunciation feedback (in practice)
+
+What happens:
+- You say the sentence aloud
+- You see which specific words need work, not just "try again"
+- You can replay your own recording
+- You can play the correct pronunciation for comparison, word by word
+- You see scores for pronunciation and completeness
+- You can adjust strictness to match your confidence level
+
+**Approved descriptions:**
+- "You see exactly which words need work"
+- "Compare your pronunciation to the correct one, word by word"
+- "Replay your own recording to hear what the app heard"
+- "Adjust the strictness to match your confidence level"
+
+**Do not say:**
+- "AI speech recognition" (describe what it does, not the technology)
+- "Perfect pronunciation required" (not true — you can adjust strictness)
+
+### Writing feedback (in practice)
+
+What happens:
+- You see the English meaning, write the Dutch
+- If correct: simple acknowledgment
+- If incorrect: feedback tells you what's already correct, then guides you to fix one thing
+- Hints help you discover the answer instead of just showing it
+- If your Dutch is correct but misses the target vocabulary, you're asked to try again with specific words (not marked wrong)
+
+**Approved descriptions:**
+- "Feedback tells you what's already good, then guides you to fix one thing"
+- "Hints help you discover the answer instead of just showing it"
+- "If your Dutch is correct but misses the lesson vocabulary, you're not marked wrong — you're asked to try again with specific words"
+- "The app coaches you toward the answer instead of judging your attempt"
+
+**Do not say:**
+- "Corrects your grammar" (implies blocking correction; we guide, not block)
+
+### Conversation feedback (with Joost)
+
+What happens:
+- You say something to Joost
+- You see immediately whether your answer showed comprehension (did you answer the question?)
+- Joost keeps responding — the conversation continues
+- If there's a grammar issue, a feedback icon appears beside your message (doesn't interrupt)
+- Tapping the icon shows a short coaching note with better phrasing
+- After the conversation, you can see patterns across your messages
+
+**Approved descriptions:**
+- "Grammar feedback appears beside your message, not blocking the conversation"
+- "Joost keeps talking even if you make mistakes"
+- "Corrections are available when you want them, not forced on every message"
+- "You see whether you answered the question, not just whether your grammar was right"
+- "After the conversation, you see patterns across your messages — the habits worth fixing"
+
+**Do not say:**
+- "Real-time grammar correction" (implies interruption)
+- "AI tutor corrects you" (sounds like blocking correction)
+
+### Pain points this addresses
+
+Use these mappings when threading feedback into content:
+
+| Reader concern | Lead with |
+|----------------|-----------|
+| "I don't know what I'm doing wrong" | Word-level pronunciation feedback, specific not vague |
+| "I can't hear my own mistakes" | Recording playback, word-by-word comparison |
+| "Apps just tell me I'm wrong" | Writing feedback coaches toward answer, acknowledges what's correct |
+| "I'm scared to speak Dutch" | Conversation feedback is non-blocking, Joost keeps responding |
+| "Constant correction breaks my flow" | Corrections available but optional, comprehension shown separately |
+| "I make the same mistakes over and over" | Pattern feedback after conversations |
 
 ---
 
@@ -249,7 +354,11 @@ Describe what each approach does. Do not explain why their approach is inferior 
 - €399 one-time payment, 5-year access
 - Exam Pass Guarantee: complete all lessons, fail the exam, get refunded
 - Practice anytime, on your own schedule
-- Real-time feedback on grammar, comprehension, and pronunciation
+- Feedback on grammar, comprehension, and pronunciation
+- Pronunciation feedback shows which specific words need work
+- You can replay your own recordings and compare to correct pronunciation
+- Writing feedback guides you to the answer instead of just showing it
+- Conversation feedback is available but doesn't interrupt the flow
 
 ### Experience claims (supported by user feedback)
 
@@ -347,6 +456,66 @@ Keep it simple: confidence + guarantee + complete the course.
 
 ---
 
+## Pain Points by Topic (for Brief Creation)
+
+Use this section when creating content briefs. It maps common article topics to the product messaging that should be threaded through.
+
+### Speaking Dutch / conversation practice
+
+| Pain point | Messaging to thread |
+|------------|---------------------|
+| "I can understand but can't speak" | Lessons complete based on conversation use, not exercises |
+| "Native speakers switch to English" | Joost speaks at your level, doesn't switch |
+| "I'm scared to make mistakes" | Conversation feedback is non-blocking, corrections available but optional |
+| "I don't get enough speaking practice" | Unlimited conversation practice on your schedule |
+| "Speaking practice is expensive" | One price, unlimited practice vs. per-hour tutoring |
+
+### Pronunciation
+
+| Pain point | Messaging to thread |
+|------------|---------------------|
+| "I don't know what I'm doing wrong" | Feedback shows which specific words need work |
+| "I can't hear my own mistakes" | Replay your recording, compare word by word |
+| "Feedback feels arbitrary" | See pronunciation and completeness scores, adjust strictness |
+| "Apps just say 'try again'" | See exactly what to fix, not just pass/fail |
+
+### Writing Dutch
+
+| Pain point | Messaging to thread |
+|------------|---------------------|
+| "Apps just mark me wrong without helping" | Feedback acknowledges what's correct, guides you to fix one thing |
+| "I learn better when I figure it out myself" | Hints help you discover the answer, not just reveal it |
+| "My Dutch was correct but marked wrong" | Correct Dutch with different words acknowledged, asked to use lesson vocabulary |
+
+### Exam preparation / inburgering
+
+| Pain point | Messaging to thread |
+|------------|---------------------|
+| "I passed but can't actually speak Dutch" | Lessons require conversation use, not just recognition |
+| "I'm worried about the speaking exam" | You practice speaking from lesson 1, not as a separate module |
+| "I don't know if I'm ready" | Lesson completes when you've demonstrated vocabulary use |
+| "Other courses feel like memorization" | Two approaches exist — describe both, let reader choose |
+
+### Self-study / structure
+
+| Pain point | Messaging to thread |
+|------------|---------------------|
+| "I don't know what to study next" | Course guides you step by step |
+| "I forget what I learned" | Practice sessions mix new material with review |
+| "I need accountability" | Clear progress, lessons complete based on demonstrated ability |
+| "ChatGPT doesn't give me structure" | Curriculum covers what you need, conversation practice built in |
+
+### Learning Dutch as an adult / expat
+
+| Pain point | Messaging to thread |
+|------------|---------------------|
+| "Dutch people speak too fast" | Joost speaks at your level |
+| "My partner can't teach me" | Native speakers can't slow down to match your level |
+| "I don't have time for classes" | Practice whenever you want, any amount |
+| "Classes don't give me enough speaking time" | Unlimited speaking practice vs. time divided among students |
+
+---
+
 ## Quick Reference: Approved vs. Prohibited Language
 
 | Prohibited                                    | Approved alternative                                               |
@@ -365,6 +534,10 @@ Keep it simple: confidence + guarantee + complete the course.
 | "Real conversations"                          | "Practical conversations" or "everyday conversations"              |
 | "AI-powered" / "AI conversation"              | Describe what Joost does, not what technology powers it            |
 | "Progress = words you can use"                | "Progress = situations you can handle in Dutch"                    |
+| "AI speech recognition"                       | "Shows which specific words need work"                             |
+| "Real-time correction"                        | "Feedback appears beside your message" or describe what happens    |
+| "Intelligent feedback"                        | Describe specifically what the feedback does                       |
+| "Corrects your grammar" (in conversation)     | "Grammar coaching available but doesn't interrupt"                 |
 
 ---
 
@@ -387,4 +560,4 @@ These questions have been answered and should guide all content:
 ---
 
 _Document created: 2026-05-28_
-_Last updated: 2026-05-28_
+_Last updated: 2026-05-29_

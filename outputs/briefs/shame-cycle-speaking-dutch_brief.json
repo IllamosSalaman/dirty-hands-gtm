@@ -7,7 +7,9 @@
     "target_word_count": 2200,
     "estimated_effort": "3-4 hours",
     "serp_analysis_date": "2026-05-28",
-    "firecrawl_verified": true
+    "firecrawl_verified": true,
+    "last_updated": "2026-05-29",
+    "messaging_context_version": "strategy/product/messaging.md"
   },
   "keyword": {
     "primary": "afraid to speak dutch",
@@ -92,20 +94,33 @@
   "value_props_to_weave": [
     {
       "pain": "Every practice attempt involves human judgment and potential embarrassment",
-      "prop": "Practice with AI where no human watches you struggle",
-      "proof": "Personas: 'Judgment-free AI practice. No human watching you struggle. Can make mistakes privately.'"
+      "prop": "You can make mistakes without anyone watching or switching to English",
+      "proof": "Personas: 'Judgment-free practice. Can make mistakes privately.'",
+      "approved_phrasing": "Conversation feedback is non-blocking — Joost keeps responding. Grammar coaching available but doesn't interrupt. You see whether you answered the question, not just whether your grammar was right."
     },
     {
       "pain": "Can't track progress, feels like you're not getting better",
-      "prop": "Clear progress tracking that shows consistent effort",
-      "proof": "Nina: 'It's very clear how much effort I'm putting in every day... I can feel that I'm consistent.'"
+      "prop": "Clear progress showing what you can now do in Dutch",
+      "proof": "Nina: 'It's very clear how much effort I'm putting in every day... I can feel that I'm consistent.'",
+      "approved_phrasing": "A lesson completes when you've used the lesson vocabulary successfully in conversation. You know you're making progress because you can have conversations you couldn't before."
     },
     {
       "pain": "Practice feels like painful work, easy to avoid",
-      "prop": "Engaging practice where time flies",
-      "proof": "Nina: 'A lot of times I see time passing by. I don't see time passing by with Joost because I'm having fun, because I am very engaged.'"
+      "prop": "The course guides you step by step. You don't have to figure out what to study next.",
+      "proof": "Nina: 'I don't see time passing by because I'm having fun, because I am very engaged.'",
+      "approved_phrasing": "Practice sessions mix new material with review, so you don't forget what you learned. Each lesson teaches you to handle an everyday situation in Dutch."
     }
   ],
+  "prohibited_language": [
+    "Do NOT trivialize the shame — validate it fully before offering solutions",
+    "Do NOT blame Dutch people for switching to English — explain the cultural context",
+    "Do NOT promise shame will disappear — it lessens with practice and confidence",
+    "Do NOT say 'AI tutor' without context"
+  ],
+  "feedback_mechanics_for_threading": {
+    "conversation_feedback": "Grammar feedback appears beside your message, not blocking the conversation. Joost keeps talking even if you make mistakes. Corrections are available when you want them, not forced on every message.",
+    "comprehension_vs_grammar": "You see whether you answered the question, not just whether your grammar was right. After the conversation, you see patterns across your messages — the habits worth fixing."
+  },
   "originality_nuggets": [
     "Explicit naming of 'shame cycle' as a structural pattern, not personal failure",
     "The mechanism of feeling responsible for Dutch people's discomfort when they switch to English",

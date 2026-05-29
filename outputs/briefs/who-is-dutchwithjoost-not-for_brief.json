@@ -7,7 +7,9 @@
     "target_word_count": 1600,
     "estimated_effort": "2-3 hours",
     "serp_analysis_date": "2026-05-28",
-    "firecrawl_verified": true
+    "firecrawl_verified": true,
+    "last_updated": "2026-05-29",
+    "messaging_context_version": "strategy/product/messaging.md"
   },
   "keyword": {
     "primary": "is dutchwithjoost right for me",
@@ -73,19 +75,36 @@
   "value_props_to_weave": [
     {
       "pain": "Don't know if this is worth €399",
-      "prop": "One-time pricing is transparent—compare to €300-600 subscription math or €1,160 average classroom",
-      "proof": "Competitive pricing matrix"
+      "prop": "€399 one-time payment, 5-year access. Exam Pass Guarantee.",
+      "proof": "Competitive pricing matrix",
+      "approved_phrasing": "43 lessons covering A1 to A2. Covers all 5 inburgering exam parts. Exam Pass Guarantee: complete all lessons, fail the exam, get refunded."
     },
     {
       "pain": "Worried it's just another memorization course",
-      "prop": "Production-based completion requires using vocabulary in conversation",
-      "proof": "Nina: 'The words that you learn you use'"
+      "prop": "Lessons complete when you can have conversations on the topic",
+      "proof": "Nina: 'The words that you learn you use'",
+      "approved_phrasing": "You learn vocabulary by using it in conversation, not memorizing it. A word counts as learned when you've used it in conversation."
     },
     {
       "pain": "Need flexibility for irregular schedule",
-      "prop": "Self-paced, no fixed times, practice anytime",
-      "proof": "Nina: 'I have to be flexible time and time wise but also place wise'"
+      "prop": "Practice whenever you want, as much as you want",
+      "proof": "Nina: 'I have to be flexible time and time wise but also place wise'",
+      "approved_phrasing": "Self-paced. 15 minutes or 2 hours. Fits around any schedule. Learn at home."
     }
+  ],
+  "prohibited_language": [
+    "Do NOT use urgency tactics or fake scarcity",
+    "Do NOT disparage competitors when recommending them as alternatives",
+    "Do NOT make claims beyond what's in the messaging guide",
+    "Do NOT say 'production-based learning' — describe what happens"
+  ],
+  "factual_claims_allowed": [
+    "43 lessons covering A1 to A2",
+    "Covers all 5 inburgering exam parts: reading, listening, writing, speaking, KNM",
+    "€399 one-time payment, 5-year access",
+    "Exam Pass Guarantee: complete all lessons, fail the exam, get refunded",
+    "Practice anytime, on your own schedule",
+    "Feedback on grammar, comprehension, and pronunciation"
   ],
   "originality_nuggets": [
     "Explicit disqualification content—rarely done by competitors",

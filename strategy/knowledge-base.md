@@ -8,7 +8,7 @@ These standalone documents provide specialized guidance that works alongside the
 
 | Document | Purpose |
 |----------|---------|
-| `strategy/dutchwithjoost-messaging.md` | Product descriptions, one-sentence explanations, claims we can/cannot make |
+| `strategy/product/messaging.md` | Product descriptions, one-sentence explanations, claims we can/cannot make |
 | `strategy/competitor-stance-addendum.md` | Per-competitor guidelines, language tables, red lines |
 | `strategy/factual-accuracy-checklist.md` | Verified facts about the exam, Dutchwithjoost, and competitors (from DUO sources) |
 
@@ -123,7 +123,7 @@ This is the core differentiator: **active production is the success criterion, n
 
 Other courses complete when you click through all the screens. Dutchwithjoost completes when you can produce the language.
 
-> See `strategy/product-curriculum.md` for the full curriculum design document.
+> See `strategy/product/curriculum.md` for the full curriculum design document.
 
 ### Critical Distinction: Active Production, Not Just Speaking
 

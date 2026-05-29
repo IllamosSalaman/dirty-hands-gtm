@@ -7,7 +7,9 @@
     "target_word_count": 2000,
     "estimated_effort": "2-3 hours",
     "serp_analysis_date": "2026-05-28",
-    "firecrawl_verified": true
+    "firecrawl_verified": true,
+    "last_updated": "2026-05-29",
+    "messaging_context_version": "strategy/product/messaging.md"
   },
   "keyword": {
     "primary": "Dutch partner can't teach me Dutch",
@@ -86,19 +88,27 @@
   "value_props_to_weave": [
     {
       "pain": "Native partner can't calibrate to beginner level",
-      "prop": "Joost speaks at exactly your lesson level, not native level",
-      "proof": "Nina verbatim: 'It's like speaking to somebody who is good in Dutch but only at my level, which is great.'"
+      "prop": "Joost speaks at your level and only uses words you've already practiced",
+      "proof": "Nina: 'It's like speaking to somebody who is good in Dutch but only at my level.'",
+      "approved_phrasing": "Joost speaks at your level. Joost only uses words you've already practiced. The conversation changes based on what you say."
     },
     {
       "pain": "Partner can't explain why grammar works the way it does",
-      "prop": "Structured lessons with tips that explain the rules",
-      "proof": "Nina: 'There are tips as well... sometimes you do get some rules here and there that you get to infer.'"
+      "prop": "Feedback guides you to the answer instead of just showing it",
+      "proof": "Nina: 'There are tips as well... sometimes you do get some rules here and there.'",
+      "approved_phrasing": "Hints help you discover the answer instead of just revealing it. Joost corrects gently by modeling better phrasing, not lecturing."
     },
     {
       "pain": "Partner fatigue and relationship strain",
-      "prop": "Unlimited practice that doesn't burden anyone",
-      "proof": "Positioning: judgment-free AI practice, no scheduling, no human watching you struggle"
+      "prop": "You can practice whenever you want, as much as you want",
+      "proof": "Positioning: judgment-free practice, no scheduling",
+      "approved_phrasing": "You can make mistakes without anyone watching or switching to English. Grammar feedback appears beside your message, not blocking the conversation."
     }
+  ],
+  "prohibited_language": [
+    "Do NOT blame the Dutch partner — validate both sides",
+    "Do NOT say 'AI tutor' without explanation — describe what Joost does",
+    "Do NOT imply partner should do more — reframe their role positively"
   ],
   "originality_nuggets": [
     "Counter-intuitive framing: having a native speaker partner is actually a disadvantage for systematic learning",

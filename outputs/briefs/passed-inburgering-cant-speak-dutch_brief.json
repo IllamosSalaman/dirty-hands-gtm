@@ -1,11 +1,13 @@
 {
   "meta": {
     "topic_id": "passed-inburgering-cant-speak-dutch",
-    "priority_score": 8.95,
+    "priority_score": 9.05,
     "stage": "mofu",
     "format": "guide",
     "target_word_count": 1800,
-    "estimated_effort": "2-3 hours"
+    "estimated_effort": "2-3 hours",
+    "last_updated": "2026-05-29",
+    "messaging_context_version": "strategy/product/messaging.md"
   },
   "keyword": {
     "primary": "passed inburgering but can't speak Dutch",
@@ -66,19 +68,28 @@
   "value_props_to_weave": [
     {
       "pain": "Passed exam but can't speak",
-      "prop": "Production-based courses require speaking to complete lessons",
-      "proof": "Nina friend who 'couldn't pronounce inburgering' after passing"
+      "prop": "Lessons complete when you can have conversations on the topic",
+      "proof": "Nina friend who 'couldn't pronounce inburgering' after passing",
+      "approved_phrasing": "A word counts as learned when you've used it in conversation, not when you've seen it. You pass the exam because you can actually use Dutch."
     },
     {
       "pain": "Feel like fraud with certificate",
-      "prop": "Methodology built for people who want to 'deserve the passport'",
-      "proof": "Nina: 'I don't feel I deserve that passport'"
+      "prop": "The exam becomes straightforward because you've actually learned the language",
+      "proof": "Nina: 'I don't feel I deserve that passport'",
+      "approved_phrasing": "You learn vocabulary by using it, not memorizing it. The exam becomes a natural result of what you've learned."
     },
     {
       "pain": "Need level-appropriate practice",
-      "prop": "AI adapts to your level—no native speaker mismatch",
-      "proof": "Nina on Dutch partner: 'level mismatch makes it impossible'"
+      "prop": "Joost speaks at your level and only uses words you've already practiced",
+      "proof": "Nina: 'It's like speaking to somebody who is good in Dutch but only at my level.'",
+      "approved_phrasing": "Joost speaks at your level. The conversation changes based on what you say. It's not repeating a script."
     }
+  ],
+  "prohibited_language": [
+    "Do NOT say 'the exam only tests recognition' — the exam tests both recognition AND production",
+    "Do NOT say competitors are 'cheat sheets' or use dismissive language",
+    "Do NOT imply memorization courses are lazy or easy to build",
+    "Do NOT say 'AI tutor' without context — describe what Joost does"
   ],
   "originality_nuggets": [
     "Friend story: 'He had just gotten his passport. He couldn't even pronounce inburgering.'",

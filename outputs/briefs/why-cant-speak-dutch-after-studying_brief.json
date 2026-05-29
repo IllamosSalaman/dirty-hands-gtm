@@ -7,7 +7,9 @@
     "target_word_count": 2200,
     "estimated_effort": "3-4 hours",
     "serp_analysis_date": "2026-05-28",
-    "firecrawl_verified": true
+    "firecrawl_verified": true,
+    "last_updated": "2026-05-29",
+    "messaging_context_version": "strategy/product/messaging.md"
   },
   "keyword": {
     "primary": "why can't I speak Dutch after studying",
@@ -84,20 +86,35 @@
   "value_props_to_weave": [
     {
       "pain": "Courses complete when you finish exercises, not when you can speak",
-      "prop": "Production-based completion - lessons are done when you've used vocabulary in conversation",
-      "proof": "Nina contrast: previous courses = memorization, DWJ = 'the words you learn you use'"
+      "prop": "Lessons complete when you can have conversations on the topic, not when you finish exercises",
+      "proof": "Nina contrast: previous courses = memorization, DWJ = 'the words you learn you use'",
+      "approved_phrasing": "A lesson is complete when you can have conversations on the topic. The conversation adapts to what you say, ask, and answer. It's not repeating a script."
     },
     {
       "pain": "No one to practice speaking with at the right level",
-      "prop": "Unlimited speaking practice with level-matched AI",
-      "proof": "Nina on Dutch partner: 'Your level is native and mine is total beginner... impossible to learn.' Joost stays at lesson difficulty level."
+      "prop": "Joost speaks at your level and only uses words you've already practiced",
+      "proof": "Nina: 'It's like speaking to somebody who is good in Dutch but only at my level.'",
+      "approved_phrasing": "Joost speaks at your level. Joost only uses words you've already practiced. You can practice whenever you want, as much as you want."
     },
     {
       "pain": "Time and money invested in courses that didn't work",
-      "prop": "One-time pricing, production-based guarantee",
-      "proof": "Nina spent €300 Taalthuis + €390 UVA + InburgeringOnline subscription, still couldn't speak. DWJ = €399 total, production-based completion."
+      "prop": "€399 one-time payment, 5-year access, exam pass guarantee",
+      "proof": "Nina spent €300 Taalthuis + €390 UVA + InburgeringOnline subscription, still couldn't speak.",
+      "approved_phrasing": "Covers all 5 inburgering exam parts: reading, listening, writing, speaking, KNM. Exam Pass Guarantee: complete all lessons, fail the exam, get refunded."
     }
   ],
+  "prohibited_language": [
+    "Do NOT say 'production-based learning' — use 'lessons complete when you can have conversations'",
+    "Do NOT say 'clicking through screens' or 'just exercises' — describe what approaches do neutrally",
+    "Do NOT compare speed of methods",
+    "Do NOT mention track record differences or that we are newer",
+    "Do NOT say 'AI tutor' without explanation — describe what Joost does"
+  ],
+  "lesson_structure_for_threading": {
+    "practice_phase": "Each lesson is built around an everyday scenario. For each sentence unit, you read it, listen to it, then write it — all three before moving on.",
+    "conversation_phase": "After completing practice sessions, you unlock conversation with Joost on the same topic. The conversation changes based on what you say. It's not repeating a script.",
+    "completion_definition": "A lesson completes when you've used the lesson vocabulary successfully in conversation. A word counts as learned after you've used it correctly multiple times."
+  },
   "originality_nuggets": [
     "Nina's friend got Dutch citizenship through InburgeringOnline but 'couldn't even pronounce inburgering' the day he got his passport - validates the exam-vs-speaking disconnect",
     "Explicit framing that 'people don't even expect A2 learners to have conversations' - low expectations are baked into the market",

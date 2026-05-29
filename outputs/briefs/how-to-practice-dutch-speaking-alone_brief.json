@@ -1,11 +1,13 @@
 {
   "meta": {
     "topic_id": "how-to-practice-dutch-speaking-alone",
-    "priority_score": 8.8,
+    "priority_score": 8.55,
     "stage": "mofu",
     "format": "how-to",
     "target_word_count": 1800,
-    "estimated_effort": "2-3 hours"
+    "estimated_effort": "2-3 hours",
+    "last_updated": "2026-05-29",
+    "messaging_context_version": "strategy/product/messaging.md"
   },
   "keyword": {
     "primary": "how to practice Dutch speaking alone",
@@ -78,19 +80,28 @@
   "value_props_to_weave": [
     {
       "pain": "Can't find speaking partners at my level",
-      "prop": "AI conversation adapts to lesson difficulty",
-      "proof": "Nina: 'He's not gonna use C2 level Dutch to reply to you'"
+      "prop": "Joost speaks at your level and only uses words you've already practiced",
+      "proof": "Nina: 'It's like speaking to somebody who is good in Dutch but only at my level.'",
+      "approved_phrasing": "Joost speaks at your level. The conversation changes based on what you say. It's not repeating a script."
     },
     {
       "pain": "No external accountability for speaking practice",
-      "prop": "Production-based completion requires conversation before lesson counts as done",
-      "proof": "Built-in speaking requirement, not optional"
+      "prop": "Lessons complete when you can have conversations on the topic",
+      "proof": "Built-in speaking requirement, not optional",
+      "approved_phrasing": "A lesson completes when you've used the lesson vocabulary successfully in conversation. A word counts as learned after you've used it correctly multiple times."
     },
     {
       "pain": "Ashamed to practice with humans",
-      "prop": "Judgment-free AI practice—no one watching you struggle",
-      "proof": "Nina shame cycle quotes"
+      "prop": "You can make mistakes without anyone watching or switching to English",
+      "proof": "Nina shame cycle quotes",
+      "approved_phrasing": "Conversation feedback is non-blocking — Joost keeps responding. Grammar coaching is available but doesn't interrupt."
     }
+  ],
+  "prohibited_language": [
+    "Do NOT disparage free options — give honest pros and cons",
+    "Do NOT say we're the only solution — position as one strong option",
+    "Do NOT use jargon like 'production-based learning'",
+    "Do NOT say 'AI tutor' without describing what Joost does"
   ],
   "originality_nuggets": [
     "Nina on taalcafes: 'Everyone comes with different levels. They're not teachers. So you're just mumbling together.'",

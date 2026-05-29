@@ -1,174 +1,181 @@
 # How to Practice Dutch Speaking Alone: 5 Methods That Work
 
-You can practice Dutch speaking alone with the right combination of methods. Some build foundational skills: shadowing trains your pronunciation, self-recording helps you hear your gaps, and thinking in Dutch builds the habit of forming sentences. Conversation practice is harder to solve alone. It requires either a patient partner or a structured approach that gives feedback without constantly interrupting you.
+The most effective way to practice Dutch speaking alone is AI conversation practice. Tools that let you practice speaking at your level, anytime, with no judgment. Other effective methods include shadowing (repeating after audio), self-recording and review, and thinking in Dutch throughout your day. Each method has trade-offs, but AI conversation provides the closest substitute for a human partner.
 
-## The Speaking Practice Gap
+You already know speaking is your weak point. The problem is finding practice. This article ranks five methods by effectiveness and explains how to use each one. No vague advice about "just talk more." Specific techniques you can start today.
 
-Finding opportunities to practice speaking Dutch is genuinely difficult. Dutch speakers often switch to English the moment they sense you're struggling. It's not unkind. They're trying to help. But it means fewer chances to practice.
+## Why Finding Dutch Speaking Practice Is Hard
 
-If you have a Dutch-speaking partner, you've probably discovered the level mismatch problem. As one learner described it: "Your level of Dutch is native and mine is total beginner. I don't understand a lot of what she's saying and you have to explain so much."
+Finding Dutch speaking practice is hard because the common advice fails for real reasons. "Find a speaking partner" ignores why you're searching for solo methods. "Talk to your Dutch partner" ignores the level mismatch. "Go to taalcafes" ignores what actually happens there.
 
-Native speakers learned Dutch as children. They can't always explain why something works the way it does. "When I ask why is it this way, the native person learned it since they're little so they can't really explain. They just do it."
+**Dutch people switch to English.** When you struggle, they switch. You feel responsible for their discomfort. They feel uncomfortable watching you search for words. So everyone switches to English, and you get no practice. This creates a cycle: you avoid situations where you might need Dutch, which means less practice, which means more avoidance.
 
-Language cafes and conversation groups work well for some people. They build confidence and get you speaking in a low-pressure environment. But levels vary, and there's no structured feedback. You might practice the same mistakes repeatedly without realizing it.
+**Dutch partners can't teach.** If you have a Dutch partner, you've probably tried practicing with them. It doesn't work. The level mismatch makes conversation frustrating for both of you. As one expat described it: "They learned it since they were little, so they can't really explain why things work the way they do." Native speakers aren't teachers. They can't slow down to match your level, and they can't explain grammar rules they've never consciously learned.
 
-The deeper challenge isn't just finding someone to talk to. It's getting consistent practice with feedback that helps you improve without making the experience frustrating.
+**Taalcafes don't provide effective practice.** Language cafes sound good in theory. In practice, many expats describe them as "mumbling together." Everyone comes with different levels. No one is a teacher. You practice, but you don't know if what you're saying is correct. You might reinforce mistakes without realizing it.
 
-## Method 1: Shadowing (Build Your Foundation)
+**Language exchange apps have mixed results.** Expats in Dutch learning communities report trying apps that match you with native speakers. The common pattern: people try them, and no one says "this worked for me." The scheduling is difficult, the levels don't match, and the conversations fizzle.
 
-Shadowing means listening to Dutch audio and repeating immediately after the speaker. You hear a phrase, you say it. No pause to translate, no thinking about grammar. This builds pronunciation, rhythm, and the muscle memory of forming Dutch sounds.
+These are real problems, not excuses. Here are methods that actually work for solo practice.
 
-### Why It Works
+## Method 1: AI Conversation Practice (Most Effective)
 
-Research on the production effect (MacLeod & Bodner, 2017) shows that speaking words aloud produces better memory than reading silently. When you shadow, you're engaging your mouth, throat, and breath in the physical act of producing Dutch sounds. This creates stronger memory traces than passive listening.
+AI conversation practice ranks highest for solo Dutch speaking because it's interactive. You say something, it responds, you have an actual exchange. Unlike passive methods, you must produce Dutch in the moment. Tools range from free (ChatGPT) to structured courses with curriculum and pronunciation feedback.
 
-Shadowing also trains the rhythm and intonation patterns of Dutch. Native speakers stress certain syllables, connect words in specific ways, and use intonation to signal meaning. Shadowing helps you absorb these patterns through imitation.
+### Why AI works for this problem
 
-### How to Do It
+AI conversation solves the core problems with human practice partners:
 
-Start with slower content. Dutch podcasts for learners, YouTube videos with clear speech, or language learning apps with audio. Play a sentence, pause, repeat it exactly as you heard it. Then move to the next sentence.
+- **Available whenever you have time.** No scheduling, no time zones, no cancelled sessions.
+- **No judgment, no one switching to English.** You can make mistakes without anyone feeling uncomfortable.
+- **Matches your level.** This is the key insight. One learner described it as "like speaking to somebody who is good in Dutch but only at my level." Native speakers can't do this. AI can.
+- **Unlimited practice.** No hourly rates, no session limits. Practice as much as you want.
 
-As you improve, try shadowing without pausing. Let the audio play continuously and speak along with it, staying just behind the speaker. This is harder but builds faster processing speed.
+Learners in Dutch communities report passing the A2 inburgering exam using AI conversation practice as their primary speaking method. It's not a replacement for all human interaction, but it's the closest substitute for a practice partner.
 
-### The Limitation
+### How to practice with generic AI (ChatGPT)
 
-Standard shadowing gives you no feedback on whether you're doing it right. You might mispronounce the same sounds repeatedly without knowing.
+If you're using ChatGPT or similar tools:
 
-If you want feedback while shadowing, look for tools that score your pronunciation and let you hear yourself back. Some structured courses build this into the practice: you listen to a sentence, say it yourself, get feedback on your pronunciation, see which specific words need work, and can replay your own recording word by word. That turns shadowing from a guessing game into targeted practice.
+1. **Prompt for conversation at your level.** Example: "Let's have a simple Dutch conversation about ordering coffee. Speak slowly and use basic vocabulary. Correct my mistakes."
+2. **Speak out loud even when typing.** Train your mouth, not just your fingers. Say the sentence before you type it.
+3. **Ask for corrections after each exchange.** Don't let mistakes pass without feedback.
+4. **Ask follow-up questions to extend the conversation.** The longer you stay in Dutch, the more practice you get.
 
-## Method 2: Self-Recording and Review
+### Trade-offs with generic AI
 
-Self-recording means recording yourself speaking Dutch, then listening back to identify problems. This creates a feedback loop that helps you hear gaps you missed while speaking.
+Generic AI tools work, but they have limitations:
 
-### Why It Works
+- **No curriculum.** You decide what to practice. This requires self-direction.
+- **No pronunciation feedback.** Text-based tools can't hear you speak.
+- **No exam-specific structure.** No KNM (Knowledge of Dutch Society) coverage, no inburgering exam format.
 
-Research on retrieval practice (Karpicke & Roediger, 2008) demonstrates that actively recalling information produces better learning than restudying. When you record yourself answering a question or describing your day, you're forcing retrieval. You pull vocabulary and grammar from memory instead of recognizing it on a screen.
+### Structured AI courses as an alternative
 
-The playback reveals things you didn't notice in the moment. Hesitations. Pronunciation patterns. Vocabulary gaps. You hear yourself from the outside.
+Some courses build AI conversation into a structured curriculum. Dutchwithjoost is one example. The difference: lessons complete when you can have conversations on the topic, not when you've finished exercises. Joost speaks at your level and only uses words you've already practiced. The conversation changes based on what you say. It's not repeating a script.
 
-### How to Do It
+This removes the planning burden. You follow the course, and speaking practice is built in. The trade-off: it costs money and follows a set curriculum. If you want full control over what you practice, generic AI gives you that flexibility.
 
-Use voice memos on your phone. Describe your day in Dutch. Answer common questions: Waar werk je? Wat heb je gisteren gedaan? Wat ga je dit weekend doen? Record for one to three minutes, then listen back.
+## Method 2: Shadowing (Highly Effective)
 
-Compare your pronunciation to native speakers. If you shadowed a podcast earlier, try saying the same phrases and see how close you get.
+Shadowing means listening to Dutch audio and repeating immediately after. Not waiting until the end, but speaking alongside or right after the speaker. This builds pronunciation, rhythm, and natural phrasing by training your mouth to produce Dutch sounds. Research shows repeated speaking practice improves fluency without sacrificing accuracy (Boers et al., 2021).
 
-### The Limitation
+### How to shadow effectively
 
-You can't always tell if your grammar is correct or your pronunciation is close enough. Without external feedback, you might reinforce mistakes. This method works best when combined with other practice that provides correction.
+1. **Choose audio slightly above your level.** You should understand 70-80% of what you hear.
+2. **Start with slower content.** Dutch learning podcasts, slow news, YouTube videos for learners.
+3. **Work up to natural-speed content.** Netflix with Dutch audio, Dutch podcasts, radio.
+4. **Repeat immediately.** Within 1-2 seconds of hearing the phrase. Don't wait until the sentence ends.
+5. **Focus on rhythm and intonation, not just words.** Copy how they say it, not just what they say.
 
-## Method 3: Thinking in Dutch
+### Good sources for shadowing
 
-Thinking in Dutch means narrating your day internally. "Nu maak ik koffie. De koffie is heet. Ik drink koffie met melk." No one hears you, no one judges you, and you can do it anywhere.
+- Dutch learning podcasts (search "learn Dutch podcast")
+- YouTube channels for Dutch learners
+- Netflix or streaming with Dutch audio (use subtitles as a crutch initially)
+- NOS Journaal in eenvoudig Nederlands (slow news)
 
-### Why It Helps
+### Trade-offs
 
-This method builds the habit of forming Dutch sentences. Instead of translating from English when you need to speak, you're already producing Dutch throughout the day. The more you practice forming sentences, the faster it becomes.
+Shadowing trains mimicry, not spontaneous production. You're copying, not creating your own sentences. There's no feedback on whether you're correct. You might repeat mistakes without knowing.
 
-It's also zero-stakes. You can't embarrass yourself thinking in Dutch on the train. The low pressure makes it sustainable as a daily habit.
+Shadowing works best paired with interactive practice (Method 1). Use shadowing to build the sounds and rhythms, then use conversation practice to build spontaneous production.
 
-### How to Do It
+## Method 3: Self-Recording and Review (Effective)
 
-Start with simple narration. Name objects as you see them. Describe what you're doing. "Ik loop naar de keuken. Ik open de koelkast. Er is melk." Keep sentences short and use vocabulary you know.
+Self-recording helps you hear yourself the way others hear you. Record yourself speaking Dutch, listen back, and identify patterns. Where do you hesitate? Where does pronunciation break down? Where do you fall into English? This builds awareness of your weak points without needing a teacher to point them out.
 
-As you improve, add complexity. Describe why you're doing something. Speculate about the future. "Die man kijkt naar zijn telefoon. Misschien wacht hij op een bericht."
+### How to practice
 
-### The Limitation
+1. **Use voice memos on your phone.** No special tools needed.
+2. **Record yourself on specific topics:**
+   - Describe your day in Dutch
+   - Introduce yourself
+   - Explain your job
+   - Describe your neighborhood
+   - Answer common conversation questions
+3. **Listen back with specific focus.** Don't try to evaluate everything at once.
+   - First listen: pronunciation. Which sounds feel awkward?
+   - Second listen: fluency. Does it flow or stop-start?
+   - Third listen: vocabulary. Do you use the same words repeatedly?
+4. **Compare to native speakers.** Find similar content spoken by native speakers. How does yours differ?
 
-No feedback. You might think incorrect sentences repeatedly. But for building the habit of production, this method is unmatched.
+### Trade-offs
 
-## Method 4: Written-to-Spoken Practice
+Self-recording gives you awareness but not correction. You can hear that something sounds wrong without knowing the right way to say it. This method can reinforce bad habits if not paired with feedback from Method 1 (AI conversation) or another source of correction.
 
-Written-to-spoken practice means writing in Dutch first, then speaking what you wrote. This reduces the pressure of real-time production and gives you time to organize your thoughts.
+Use self-recording to track your progress over time. Record the same content monthly and compare. You'll hear improvement you don't notice day-to-day.
 
-### Why It Works
+## Method 4: Written-to-Spoken Practice (Moderately Effective)
 
-Research by Hulstijn and Laufer (2001) shows that writing produces higher vocabulary retention than reading or fill-in-the-blank exercises. Writing forces you to produce complete sentences, choose between similar words, and think about word order.
+Writing your response first, then speaking it aloud, separates the "what do I say" problem from the "how do I say it" problem. This reduces cognitive load and builds confidence. Research shows that writing with target vocabulary leads to better retention than reading alone (Hulstijn & Laufer, 2001). Once you've written it, speaking becomes easier.
 
-When you then speak what you wrote, you're converting written knowledge to spoken output. This is easier than spontaneous speaking because you've already solved the "what do I want to say" problem.
+### How to practice
 
-### How to Do It
+1. **Journal in Dutch (even 3-5 sentences), then read aloud.** Write about your day, your plans, your thoughts. Then speak what you wrote.
+2. **Text in Dutch, then verbalize.** If you text friends or language partners in Dutch, say the message out loud before sending.
+3. **Write answers to common conversation questions, then practice saying them:**
+   - How do you introduce yourself?
+   - What do you do for work?
+   - What are your weekend plans?
+   - Why are you learning Dutch?
 
-Journal in Dutch for five minutes. Write about your day, your plans, or a topic you're studying. Don't use a translator. Use the vocabulary you know.
+### Trade-offs
 
-Then read your journal entry aloud. Say the sentences as if you were telling someone about your day. Notice where you stumble. Those are gaps to work on.
+This method builds confidence but not spontaneous production. You have time to think, which real conversations don't give you. It can become a crutch if overused. The goal is to eventually produce Dutch without writing first.
 
-### The Limitation
+Use written-to-spoken practice as a stepping stone. It's good for building confidence with specific topics. Once you're comfortable, move to real-time conversation practice.
 
-This isn't spontaneous production. In real conversation, you don't get time to write first. Use this method to build confidence, then graduate to real-time practice.
+## Method 5: Thinking in Dutch (Foundation)
 
-## The Conversation Practice Problem
+Thinking in Dutch means narrating your actions internally as you do them. "Ik maak koffie. De koffie is heet. Ik ga naar mijn werk." This builds the habit of reaching for Dutch instead of English. It's low stakes and constant practice, but there's no feedback. You can't know if your internal Dutch is correct.
 
-The methods above build foundational skills. Conversation practice is harder to solve alone. Here's an honest look at the options.
+### How to practice
 
-### Human Conversation Partners
+- **Narrate simple actions as you do them.** "Now I'm making breakfast. The bread is in the toaster. I need butter."
+- **Describe what you see.** People on the street, items in a store, your surroundings.
+- **Think through conversations before you have them.** What will you say at the bakery? At the doctor? Practice internally first.
+- **Don't aim for perfection.** Aim for the habit of reaching for Dutch.
 
-When available, human partners offer the best experience. You get natural flow, real-time feedback, and the social element that makes practice feel meaningful.
+### Why it's ranked lowest
 
-The challenges are practical. Scheduling. Finding someone at your level. Not wanting to burden friends or partners who have their own lives.
+Thinking in Dutch builds the habit of production but not the quality. There's no feedback on correctness. You might think grammatically incorrect sentences repeatedly, reinforcing mistakes. There's no interaction, so you're not responding to anything unexpected.
 
-Language cafes can help you build confidence and get used to speaking. They work well for some people. But levels vary, and there's no structured correction. You're practicing, which is valuable, but you might not know what you're doing wrong.
+This method works best as a foundation. It keeps Dutch active in your mind throughout the day. But it should supplement the other methods, not replace them.
 
-### AI Conversation Tools
+## Why Some Common Advice Doesn't Work
 
-Tools like ChatGPT are accessible anytime and judgment-free. You can practice at 11pm in your pajamas. No scheduling, no social pressure.
+Not all Dutch practice builds speaking ability. Some common advice sounds helpful but doesn't address the actual problem.
 
-But there's a significant trade-off. When AI tools give grammar or pronunciation feedback, they break the conversation flow each time. You say something, the AI stops to correct you, you try again, you continue. This constant stopping and starting doesn't match real conversation. It can make practice feel more like a grammar drill than a flowing exchange.
+**"Just watch Dutch TV."** Watching Dutch TV trains your ear, not your mouth. You can understand more without being able to say more. Recognition and production are different skills. TV builds recognition. Speaking practice builds production. Watch Dutch TV for listening comprehension, but don't expect it to improve your speaking.
 
-There's also no curriculum. You decide what to practice, with no clear progression. And text-based tools can't hear your pronunciation at all.
+**"Find a speaking partner."** This is the problem, not the solution. If finding a speaking partner were easy, you wouldn't be searching for solo methods. The advice assumes the problem doesn't exist.
 
-AI conversation tools are better than nothing. But they don't solve the feedback problem in a way that feels natural.
+**"Talk to your Dutch partner."** Already covered above: native speakers can't slow down to your level, can't explain grammar rules they've never consciously learned, and often switch to English when you struggle. It's not their fault. They're not teachers.
 
-### Structured Speaking Courses
+## Building a Practice Routine That Works
 
-Structured courses solve the feedback-without-flow-breaking problem differently. Instead of interrupting you mid-sentence, feedback comes at natural points in the practice. You're having a conversation, not constantly stopping to correct errors.
+Consistency matters more than intensity for speaking practice. Research on 3,400+ language learners found that spaced practice (shorter sessions spread out) beats massed practice (long cramming sessions) for retention (Kim & Webb, 2022). Build speaking practice into your daily routine rather than saving it for big study sessions.
 
-They also provide curriculum. You don't have to decide what to practice next. The progression is built in.
-
-The trade-off is commitment. Time, money, and the discipline to show up regularly. Free tools have no barrier to entry. Courses require you to invest.
-
-### The Real Distinction
-
-The difference isn't "AI vs. human" or "free vs. paid." It's how feedback is delivered.
-
-The best practice happens when you get feedback that helps you improve without constantly interrupting you. When corrections come at natural pause points rather than mid-sentence. When you can stay in the flow of conversation while still learning from your mistakes.
-
-If you're using free tools, be aware of their limitations. If you're considering a structured course, look for one where conversation practice feels like conversation, not like a series of corrections.
-
-## Building a Practice Routine
-
-Consistency matters more than intensity. Research by Bahrick et al. (1993) shows that spaced practice over months produces better retention than concentrated practice over weeks. Fifteen minutes daily for six months beats two hours daily for one month.
-
-### A Sample Weekly Routine
+### Sample routine
 
 **Daily (5-10 minutes):**
-- Think in Dutch throughout the day
-- Shadow one Dutch audio clip
+- Think in Dutch during routine activities (making coffee, commuting, cooking)
+- 5 minutes of shadowing with a podcast or YouTube video
 
-**Three times weekly (15-30 minutes):**
-- Conversation practice with feedback
-- Self-record and review once per session
+**A few times weekly (15-30 minutes):**
+- AI conversation practice for interactive feedback
+- Self-recording to track progress
 
-### The Key: Consistency Over Intensity
+### The key insight
 
-You need multiple retrievals of the same vocabulary for durable learning. Research by Nakata (2017) shows that five or more retrievals significantly improves retention compared to fewer attempts. Daily practice gives you more retrieval opportunities than weekly marathons.
+Short, consistent practice builds habits. Long sessions create intensity but not consistency. Even 10 minutes daily beats 2 hours weekly. The goal is to make Dutch production automatic, and that requires regular repetition.
 
-Build speaking practice into your routine so you don't have to decide whether to do it. "After my morning coffee, I shadow one video." "On my commute, I think in Dutch." The habit removes the friction.
+### If you want structure
 
-If deciding what to practice feels overwhelming, structured courses remove that decision. You don't have to plan your own curriculum. "I don't have to think about what now what do I do now. It's just guided."
+Building your own routine takes discipline. If you want speaking practice built into a curriculum, structured courses handle this for you. Dutchwithjoost, for example, completes lessons when you've used the vocabulary in conversation, not when you've finished exercises. A word counts as learned after you've used it correctly multiple times. This means speaking practice isn't optional or separate. It's how you progress.
 
-## What Doesn't Work as Well as You'd Hope
-
-Some common advice sounds helpful but doesn't build speaking ability.
-
-### "Just watch Dutch TV"
-
-Watching Dutch TV builds recognition, not production. Research by Webb (2005) shows that productive ability requires more practice than receptive ability. You can understand a sentence without being able to produce it. TV helps with listening, but it won't make you a speaker.
-
-### "Practice with your Dutch partner"
-
-The level mismatch is real. Your partner speaks native Dutch. You're still learning. There's no middle ground where you can have a flowing conversation. They get tired of explaining everything. You feel bad for not understanding. Neither of you enjoys it.
-
-This isn't a criticism of anyone's partner. It's just a structural challenge. Native speakers aren't trained teachers, and the gap between native and beginner is hard to bridge in casual conversation.
+The trade-off: you follow the course's curriculum rather than choosing your own topics. For some learners, that structure is the point. For others, the flexibility of building their own routine matters more.
 
 ---
 
@@ -176,42 +183,33 @@ This isn't a criticism of anyone's partner. It's just a structural challenge. Na
 
 ### How do I practice Dutch speaking without a partner?
 
-Combine methods. Shadowing builds pronunciation. Self-recording helps you hear your gaps. Thinking in Dutch builds the habit of forming sentences. For conversation practice, look for structured options that give feedback without constantly interrupting you.
+Focus on methods that work solo: AI conversation tools (most effective), shadowing Dutch audio, self-recording and review, and thinking in Dutch throughout your day. AI conversation practice provides the closest substitute for a human partner because it responds at your level and gives feedback on what you say.
 
 ### Can I learn to speak Dutch alone?
 
-You can build strong foundational skills alone. Conversation practice is harder to solve without either a patient human partner or a structured course that provides feedback naturally.
+You can make significant progress speaking Dutch alone with the right methods. AI conversation tools provide interactive practice. Shadowing builds pronunciation and rhythm. Self-recording builds awareness. Solo practice prepares you for real conversations by building production habits and confidence. Eventually, speaking to humans matters for cultural context and real-world confidence, but solo methods get you ready.
 
-### Is ChatGPT good for Dutch speaking practice?
+### Is AI good for Dutch speaking practice?
 
-It's accessible and judgment-free, but feedback interrupts the conversation flow, there's no curriculum, and text-based tools can't hear your pronunciation. Better than no practice, but not a complete solution.
+AI is one of the most effective solo practice methods. It responds at your level, is available anytime, and doesn't judge mistakes. Generic AI tools like ChatGPT work for unstructured practice. Structured AI courses add curriculum, exam preparation, and pronunciation feedback. The trade-off with generic AI is that you must decide what to practice.
 
 ### Why doesn't my Dutch partner help me practice?
 
-Level mismatch. They speak native-level Dutch while you're still learning. It's hard to have a real conversation with that gap, and they learned intuitively so they can't always explain why things work the way they do.
+Native Dutch speakers learned the language as children. They speak at a level far above yours, can't easily explain grammar rules, and often switch to English when you struggle. This level mismatch makes conversation frustrating for both of you. It's not your partner's fault. They're not trained as teachers. This is a common experience among expats with Dutch partners.
 
 ### What's the best way to practice Dutch at home?
 
-Daily: 5-10 minutes of shadowing and thinking in Dutch. Several times weekly: conversation practice with feedback that doesn't break your flow. The key is consistency over intensity.
+Combine methods for best results. Daily: think in Dutch during routine activities, 5 minutes of shadowing. A few times per week: AI conversation practice for interactive feedback, self-recording to hear your progress. Consistency matters more than intensity. If you want structure, look for courses that build speaking practice into the curriculum so you don't have to plan your own routine.
 
-<!--
-EDITORIAL SUMMARY (Stage 4)
-===========================
-Changes made: None required.
-
-Style verification completed:
-- No prohibited terms found
-- No em dashes found
-- No AI slop patterns found
-- Consistent terminology throughout
-- All claims backed by specific research citations (6 citations)
-- Heading hierarchy correct (H1 > H2 > H3, no skipped levels)
-- Word count: ~1,750 words (within target)
-- Customer quotes used: 2 (all anonymized, respectful framing)
-- Respectful treatment of alternatives (taalcafes, ChatGPT, human partners)
-- ChatGPT limitations clearly stated (flow-breaking, no curriculum, no pronunciation)
-- Dutchwithjoost features woven naturally (shadowing with feedback, conversation without interruption)
-- No "partner visa holders" language - uses natural phrasing
-
-No corrections needed.
+<!-- Editorial Summary:
+Changes made during editing pass:
+1. Line "don't expect it to make you speak better" → "don't expect it to improve your speaking" (cleaner phrasing)
+2. Verified no prohibited terms present (no em-dashes, no "leverage," "seamless," "robust," etc.)
+3. Verified consistent terminology: "speaking practice" used throughout, not alternating with "oral practice" or similar
+4. Verified all claims have proof points: research citations include author + year (Boers et al. 2021, Hulstijn & Laufer 2001, Kim & Webb 2022)
+5. Heading hierarchy verified: H1 > H2 > H3, no skipped levels
+6. Internal consistency verified: "five methods" promised, five methods delivered
+7. Customer quotes properly anonymized: "one expat," "one learner," "learners in Dutch communities"
+8. No dedicated sales section: Dutchwithjoost mentioned twice as one option among several
+9. Word count: ~2,050 words (slightly over 1,800 target but within acceptable range for comprehensive coverage)
 -->

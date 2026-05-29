@@ -7,7 +7,9 @@
     "target_word_count": 2400,
     "estimated_effort": "3-4 hours",
     "serp_analysis_date": "2026-05-28",
-    "firecrawl_verified": true
+    "firecrawl_verified": true,
+    "last_updated": "2026-05-29",
+    "messaging_context_version": "strategy/product/messaging.md"
   },
   "keyword": {
     "primary": "dutchwithjoost vs inburgeringonline",
@@ -89,20 +91,35 @@
   "value_props_to_weave": [
     {
       "pain": "Worried about subscription surprises",
-      "prop": "One-time €399 pricing, no auto-renewal",
-      "proof": "InburgeringOnline Trustpilot complaints about billing ('charged without notification')"
+      "prop": "€399 one-time payment, 5-year access",
+      "proof": "InburgeringOnline Trustpilot complaints about billing ('charged without notification')",
+      "approved_phrasing": "€399 one-time payment, 5-year access. No subscription, no surprise charges."
     },
     {
       "pain": "Previous courses didn't teach speaking",
-      "prop": "Production-based completion requires conversation",
-      "proof": "Nina: 'The words that you learn you use... it helps me communicate' vs 'just memorizing'"
+      "prop": "Lessons complete when you can have conversations on the topic",
+      "proof": "Nina: 'The words that you learn you use... it helps me communicate'",
+      "approved_phrasing": "A lesson is complete when you can have conversations on the topic. You learn vocabulary by using it, not memorizing it."
     },
     {
       "pain": "Want to speak Dutch, not just pass",
-      "prop": "Built for retention and production, not just exam gaming",
-      "proof": "Contrast: pass with memorization vs pass with production ability"
+      "prop": "The exam becomes straightforward because you've actually learned the language",
+      "proof": "Contrast: pass with memorization vs pass with speaking ability",
+      "approved_phrasing": "You pass the exam because you can actually use Dutch. Exam Pass Guarantee: complete all lessons, fail the exam, get refunded."
     }
   ],
+  "prohibited_language": [
+    "Do NOT say 'cheat sheet to the exam' — even though Nina said it",
+    "Do NOT say InburgeringOnline is 'just memorization' — describe what their approach does neutrally",
+    "Do NOT mention that we have less track record or are newer",
+    "Do NOT say their approach is 'easy to build' or 'cheaper to scale'",
+    "Do NOT compare speed of methods"
+  ],
+  "competitor_framing": {
+    "inburgeringonline_neutral_description": "Memorization-based course with video lessons and mock exams. Covers all exam components. Subscription pricing (€14.95-49.95/month). Established track record.",
+    "fair_comparison": "InburgeringOnline trains you to recognize correct answers and pass the exam format. Dutchwithjoost trains you to produce Dutch in conversation.",
+    "when_they_win": "If you just want to pass quickly and don't care about retention, InburgeringOnline works. If you want a well-known course with lots of testimonials, they have track record."
+  },
   "originality_nuggets": [
     "Honest acknowledgment of InburgeringOnline strengths rather than pure attack (builds credibility)",
     "Nina's direct experience: used InburgeringOnline, now using Dutchwithjoost—can compare firsthand",

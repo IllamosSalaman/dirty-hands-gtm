@@ -2,7 +2,7 @@
 
 > Derived from the master knowledgebase. Every differentiator needs a proof point — if you can't prove it, it's not a differentiator.
 
-> **Companion document:** See `strategy/dutchwithjoost-messaging.md` for approved product descriptions, one-sentence explanations, and claims we can/cannot make.
+> **Companion document:** See `strategy/product/messaging.md` for approved product descriptions, one-sentence explanations, and claims we can/cannot make.
 
 ---
 

@@ -4,7 +4,7 @@
 
 > **Companion documents:**
 > - `strategy/factual-accuracy-checklist.md` — Who needs to integrate, requirements by migrant category, exemptions
-> - `strategy/dutchwithjoost-messaging.md` — How to describe the product when addressing persona pain points
+> - `strategy/product/messaging.md` — How to describe the product when addressing persona pain points
 
 ---
 

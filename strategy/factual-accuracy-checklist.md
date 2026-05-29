@@ -148,7 +148,7 @@ These are verifiable facts about our product. Use these when making claims.
 | Price | €399 one-time | Pricing page |
 | Access period | 5 years | Pricing page |
 
-### Lesson structure (verified from product-curriculum.md)
+### Lesson structure (verified from product/curriculum.md)
 
 - Each lesson teaches one realistic scenario (everyday interaction)
 - Two-phase structure: Practice → Conversation
@@ -303,7 +303,7 @@ Before publishing any content, check:
 1. **Exam claims:** Does the content accurately describe what each exam tests?
 2. **Level claims:** Does the content correctly identify A2 vs. B1 requirements?
 3. **Cost claims:** Are exam fees current? (Check inburgeren.nl)
-4. **Product claims:** Do claims match product-curriculum.md?
+4. **Product claims:** Do claims match product/curriculum.md?
 5. **Competitor claims:** Are competitor prices and features current? (Check their websites)
 6. **Time claims:** Are integration deadlines accurate?
 

@@ -460,4 +460,4 @@ Traditional language learning apps. Occasionally mentioned in inburgering contex
 ---
 
 _Document created: 2026-05-28_
-_Use alongside: dutchwithjoost-messaging.md, factual-accuracy-checklist.md_
+_Use alongside: product/messaging.md, factual-accuracy-checklist.md_

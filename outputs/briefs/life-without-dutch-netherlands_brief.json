@@ -1,11 +1,13 @@
 {
   "meta": {
     "topic_id": "life-without-dutch-netherlands",
-    "priority_score": 7.00,
+    "priority_score": 6.85,
     "stage": "tofu",
     "format": "guide",
     "target_word_count": 1800,
-    "estimated_effort": "2-3 hours"
+    "estimated_effort": "2-3 hours",
+    "last_updated": "2026-05-29",
+    "messaging_context_version": "strategy/product/messaging.md"
   },
   "keyword": {
     "primary": "living in netherlands without dutch",
@@ -79,14 +81,21 @@
   "value_props_to_weave": [
     {
       "pain": "Years of avoiding practice due to shame and inconvenience",
-      "prop": "Self-paced learning that fits any schedule, no judgment",
-      "proof": "Nina: 'I didn't have like a 9 to 5 job so I have to be flexible time and time wise but also place wise.'"
+      "prop": "Practice whenever you want, on your own schedule",
+      "proof": "Nina: 'I didn't have like a 9 to 5 job so I have to be flexible time and time wise but also place wise.'",
+      "approved_phrasing": "Self-paced. Learn at home. You can practice whenever you want, as much as you want."
     },
     {
       "pain": "Tried courses before and didn't retain anything",
-      "prop": "Production-based learning where you use vocabulary, not just recognize it",
-      "proof": "Nina: 'The words that you learn you use which is really useful because if I'm learning new words and I'm using them in a sentence... it helps me communicate.'"
+      "prop": "Each lesson teaches you to handle an everyday situation in Dutch",
+      "proof": "Nina: 'The words that you learn you use... it helps me communicate.'",
+      "approved_phrasing": "You learn vocabulary by using it, not memorizing it. The scenario topics are also the KNM topics, so you learn Dutch culture as you learn the language."
     }
+  ],
+  "prohibited_language": [
+    "Do NOT guilt readers for not speaking Dutch — present information, let them decide",
+    "Do NOT minimize English-only life as 'wrong' — acknowledge it works for some",
+    "Keep product mentions very light — this is TOFU awareness content"
   ],
   "originality_nuggets": [
     "The 'narrow world became my new world' insight — forgetting that inaccessible things even exist",

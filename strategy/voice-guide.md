@@ -528,6 +528,6 @@ These documents work alongside the voice guide:
 | Document | Purpose |
 |----------|---------|
 | `.claude/rules/writing-quality.md` | Anti-slop enforcement, structural patterns, citation standards |
-| `strategy/dutchwithjoost-messaging.md` | Product descriptions, one-sentence explanations, claims we can/cannot make |
+| `strategy/product/messaging.md` | Product descriptions, one-sentence explanations, claims we can/cannot make |
 | `strategy/competitor-stance-addendum.md` | Per-competitor guidelines, language tables, red lines |
 | `strategy/factual-accuracy-checklist.md` | Verified facts about the exam, Dutchwithjoost, and competitors |

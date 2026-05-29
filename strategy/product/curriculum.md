@@ -144,9 +144,9 @@ A lesson is finished when the learner has:
 
 Current lesson completion target:
 
-> The learner must learn at least **90% of the lesson vocabulary**.
+> The learner must learn at least **all of the lesson vocabulary**.
 
-Because a word currently counts as learned after 2 successful uses, finishing a lesson means the learner has actively used roughly 90% of the target words enough times in conversation.
+Because a word currently counts as learned after 2 successful uses, finishing a lesson means the learner has actively used roughly all of the target words enough times in conversation.
 
 When this threshold is reached, the lesson is marked as completed.
 
@@ -222,4 +222,4 @@ The central idea is:
 
 If you need to explain this curriculum to another agent, use this summary:
 
-> Each lesson is a scenario-based Dutch conversation lesson. The learner first practices the lesson script in small sentence units. Every unit is practiced through read/speak, listen/speak, and writing. Lessons are split into spaced practice sessions with both new and review content. After 3 completed practice sessions, the learner unlocks a Joost conversation scoped to the material they have practiced. Joost guides a natural Dutch conversation and encourages the learner to use the lesson's target words. Words count as learned after 2 successful uses. The lesson is completed when the learner has learned about 90% of the lesson vocabulary through active conversation use. Practice completion means all sessions are done; lesson completion means the learner has demonstrated active vocabulary mastery.
+> Each lesson is a scenario-based Dutch conversation lesson. The learner first practices the lesson script in small sentence units. Every unit is practiced through read/speak, listen/speak, and writing. Lessons are split into spaced practice sessions with both new and review content. After 3 completed practice sessions, the learner unlocks a Joost conversation scoped to the material they have practiced. Joost guides a natural Dutch conversation and encourages the learner to use the lesson's target words. Words count as learned after 2 successful uses. The lesson is completed when the learner has learned all of the lesson vocabulary through active conversation use. Practice completion means all sessions are done; lesson completion means the learner has demonstrated active vocabulary mastery.

@@ -1,11 +1,13 @@
 {
   "meta": {
     "topic_id": "work-visa-dutch-citizenship-path",
-    "priority_score": 6.35,
+    "priority_score": 6.40,
     "stage": "tofu",
     "format": "guide",
     "target_word_count": 2000,
-    "estimated_effort": "3-4 hours"
+    "estimated_effort": "3-4 hours",
+    "last_updated": "2026-05-29",
+    "messaging_context_version": "strategy/product/messaging.md"
   },
   "keyword": {
     "primary": "work visa dutch citizenship",
@@ -79,19 +81,32 @@
   "value_props_to_weave": [
     {
       "pain": "No deadline creates procrastination, but career risk is real",
-      "prop": "Self-paced course that fits around work schedule",
-      "proof": "Nina: 'I didn't have like a 9 to 5 job so I have to be flexible time and time wise but also place wise.'"
+      "prop": "Practice whenever you want, fits irregular work schedules",
+      "proof": "Nina: 'I didn't have like a 9 to 5 job so I have to be flexible time and time wise but also place wise.'",
+      "approved_phrasing": "Self-paced. Learn at home, on your own schedule. 15 minutes or 2 hours."
     },
     {
       "pain": "Course skepticism from past failures",
-      "prop": "Production-based learning that creates actual speaking ability, not just exam passage",
-      "proof": "Nina: 'The words that you learn you use which is really useful... it helps me communicate.'"
+      "prop": "You learn vocabulary by using it in conversation, not memorizing it",
+      "proof": "Nina: 'The words that you learn you use... it helps me communicate.'",
+      "approved_phrasing": "Lessons complete when you can have conversations on the topic. A word counts as learned when you've used it in conversation."
     },
     {
       "pain": "Uncertainty about whether investment is worth it",
-      "prop": "One-time €399 pricing, clear outcome",
-      "proof": "Competitive positioning: transparent pricing vs subscription complexity"
+      "prop": "€399 one-time payment, exam pass guarantee",
+      "proof": "Competitive positioning: transparent pricing vs subscription complexity",
+      "approved_phrasing": "€399 one-time payment, 5-year access. Exam Pass Guarantee: complete all lessons, fail the exam, get refunded."
     }
+  ],
+  "prohibited_language": [
+    "Keep product mentions very light — this is TOFU",
+    "Do NOT guilt readers for delaying Dutch learning",
+    "Verify factual claims about citizenship requirements against official sources"
+  ],
+  "factual_verification_required": [
+    "5-year continuous residency requirement — verify current rules",
+    "Renunciation requirements and exceptions — verify current rules",
+    "Link to official government source for procedural requirements"
   ],
   "originality_nuggets": [
     "Emotional reality of work visa anxiety that factual guides ignore",

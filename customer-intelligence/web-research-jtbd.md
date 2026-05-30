@@ -6,11 +6,11 @@
 
 ## Source Summary
 
-| Source Type | Platforms Searched | Key Themes Found |
-|-------------|-------------------|------------------|
-| Community Discussions | Reddit r/learndutch, Facebook groups, Quora, Expat forums | Speaking practice gaps, course value debates, self-study struggles |
-| Competitor Reviews | Trustpilot, Google Reviews | Billing complaints, "pass but can't speak" frustration |
-| YouTube/Content Comments | Dutch learning videos, exam prep content | Pronunciation struggles, retention problems, exam anxiety |
+| Source Type              | Platforms Searched                                        | Key Themes Found                                                   |
+| ------------------------ | --------------------------------------------------------- | ------------------------------------------------------------------ |
+| Community Discussions    | Reddit r/learndutch, Facebook groups, Quora, Expat forums | Speaking practice gaps, course value debates, self-study struggles |
+| Competitor Reviews       | Trustpilot, Google Reviews                                | Billing complaints, "pass but can't speak" frustration             |
+| YouTube/Content Comments | Dutch learning videos, exam prep content                  | Pronunciation struggles, retention problems, exam anxiety          |
 
 ---
 
@@ -39,8 +39,6 @@
 
 **Evidence collected**:
 
-- "If you've ever tried learning Dutch, you've probably noticed how quickly isolated words fade away. You can memorize fiets, huis, and eten all week — and still stumble when trying to use them in conversation" (Taalhammer)
-- "Many learners struggle because they can recognize Dutch vocabulary but cannot use it" (Clozemaster)
 - "They read, they listen, they understand… but when it's time to talk, they freeze. Maybe you felt this before? I understand… but I can't speak." (Facebook group comment)
 - "The speaking exam is not a casual conversation. It tests timed responses to prompts" (Inburgering.org)
 
@@ -92,11 +90,8 @@
 
 **Evidence collected**:
 
-- "How quickly isolated words fade away" (Taalhammer)
-- "If you memorize only the dictionary form, you won't recognize it in real conversation" (Clozemaster)
 - "Cards repeat right before you forget them" (Spaced repetition marketing — acknowledges the problem)
 - "Pass but can't speak" complaint pattern documented across multiple sources
-- "The De vs Het Problem — One of the biggest challenges when you learn Dutch words is remembering the correct article" (Clozemaster)
 
 **Emotional dimension**: Frustration at forgetting, wasted effort, desire for "real" learning
 
@@ -126,14 +121,8 @@
 
 ### Pain Point 2: Recognition vs. Production Gap
 
-> "Many learners struggle because they can recognize Dutch vocabulary but cannot use it."
-> — Clozemaster
-
 > "They read, they listen, they understand… but when it's time to talk, they freeze."
 > — Facebook group
-
-> "If you've ever tried learning Dutch, you've probably noticed how quickly isolated words fade away."
-> — Taalhammer
 
 **Implication for Dutchwithjoost**: This is the core positioning. Other courses train recognition. Dutchwithjoost requires production. Use this exact language in content.
 
@@ -152,12 +141,6 @@
 ---
 
 ### Pain Point 4: Isolated Word Memorization Doesn't Stick
-
-> "You can memorize fiets, huis, and eten all week — and still stumble when trying to use them in conversation."
-> — Taalhammer
-
-> "If you memorize only the dictionary form, you won't recognize it in real conversation."
-> — Clozemaster
 
 **Implication for Dutchwithjoost**: Context-based learning is validated by competitors' own content. Position vocabulary lessons as conversation-embedded, not isolated flashcards.
 
@@ -192,12 +175,14 @@
 ### InburgeringOnline (Market Leader)
 
 **Praise patterns**:
+
 - "Within 45 days I passed all exams"
 - "It's truly a 'one-stop shop' when it comes to exam preparation"
 - "Worth every penny"
 - DutchReview promotes it as the default recommendation
 
 **Complaint patterns**:
+
 - Billing/subscription issues documented on Trustpilot
 - "Charged without notification" complaints
 - "Refund requests ignored" reports
@@ -207,6 +192,7 @@
 ### Duolingo (General Language App)
 
 **Documented limitations**:
+
 - "On Useless Language Learning in DuoLingo Dutch" (blog post title)
 - Does not prepare for inburgering exam format
 - "Duolingo: Pros and cons for inburgering" content exists — acknowledging limitations
@@ -217,11 +203,13 @@
 ### Classroom Courses (Koentact, TaalBoost, etc.)
 
 **Documented complaints**:
+
 - Expensive (€500-2,000 for A2)
 - Fixed schedules don't fit work/family
 - Limited actual speaking time per person in group settings
 
 **Documented praise**:
+
 - "Fun" social experience (Koentact)
 - Human accountability
 - Networking with other expats
@@ -234,18 +222,18 @@
 
 These phrases appear in actual customer discussions:
 
-| Phrase | Context | Usage |
-|--------|---------|-------|
-| "passed all exams" | Success metric | Use in proof points |
-| "can't speak" / "I understand but can't speak" | Recognition vs. production gap | Core positioning language |
-| "speaking practice" | Documented need | Feature description |
-| "speaking partner" | What people search for | SEO opportunity |
-| "nervous" / "fear" | Exam anxiety | Address in messaging |
-| "worth it" | Value assessment | Answer directly in content |
-| "forget" / "fade away" | Retention problem | Problem framing |
-| "isolated words" | Memorization critique | Contrast with context-based |
-| "recognize but cannot use" | Production gap | Exact positioning language |
-| "Dutch partner won't speak Dutch" | Real-world frustration | Validates need for practice partner |
+| Phrase                                         | Context                        | Usage                               |
+| ---------------------------------------------- | ------------------------------ | ----------------------------------- |
+| "passed all exams"                             | Success metric                 | Use in proof points                 |
+| "can't speak" / "I understand but can't speak" | Recognition vs. production gap | Core positioning language           |
+| "speaking practice"                            | Documented need                | Feature description                 |
+| "speaking partner"                             | What people search for         | SEO opportunity                     |
+| "nervous" / "fear"                             | Exam anxiety                   | Address in messaging                |
+| "worth it"                                     | Value assessment               | Answer directly in content          |
+| "forget" / "fade away"                         | Retention problem              | Problem framing                     |
+| "isolated words"                               | Memorization critique          | Contrast with context-based         |
+| "recognize but cannot use"                     | Production gap                 | Exact positioning language          |
+| "Dutch partner won't speak Dutch"              | Real-world frustration         | Validates need for practice partner |
 
 ---
 
@@ -286,22 +274,24 @@ These phrases appear in actual customer discussions:
 ## Sources
 
 ### Community Discussions
+
 - https://www.reddit.com/r/learndutch/ (thread titles, sidebar analysis)
 - https://www.facebook.com/groups/basisexameninburgering/
 - https://www.quora.com/How-can-I-remember-Dutch-words-for-the-long-term
 
 ### Competitor Content
+
 - https://www.trustpilot.com/review/www.inburgeringonline.nl
 - https://inburgering.org/
 - https://dutchreview.com/expat/pass-dutch-integration-speaking-exam/
 - https://www.dutch-online.com/blog/how-to-prepare-inburgering-a2-exam-netherlands
 
 ### Learning Resources (Pain Point Documentation)
-- https://www.clozemaster.com/blog/best-ways-to-learn-dutch-vocabulary/
-- https://www.taalhammer.com/taalhammer-vs-anki-which-language-learning-app-is-better-for-memorizing-dutch-vocabulary-in-context/
+
 - https://learn-dutch-with-ai.com/inburgering/dealing-exam-failure-emotionally/
 
 ### YouTube (Titles/Descriptions)
+
 - "I spent 500 days learning Dutch on Duolingo"
 - "Pass the Dutch-speaking Exam with FLYING Colours!"
 - "How I passed the A2 inburgering exam (and You Can Too!)"
@@ -309,5 +299,5 @@ These phrases appear in actual customer discussions:
 
 ---
 
-*Research conducted: May 24, 2026*
-*Next steps: Run /extract-insights if transcripts available, or /research-brief to generate topic backlog from this intelligence*
+_Research conducted: May 24, 2026_
+_Next steps: Run /extract-insights if transcripts available, or /research-brief to generate topic backlog from this intelligence_

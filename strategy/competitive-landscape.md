@@ -23,7 +23,7 @@ The gap: a self-paced course where completion requires active production, not pa
 ### Market Alerts (May 2026)
 
 1. **AI scoring is now table stakes** — Every major competitor offers AI-scored writing and speaking. No longer a differentiator.
-2. **Aggressive price competition** — New entrants pricing at €4.99-€9.99/month undercut InburgeringOnline's €24.95-€34.95/month.
+2. **Aggressive price competition** — New entrants pricing at €4.99-€9.99/month undercut InburgeringOnline's €24.95-€49.95/month.
 3. **"Pass but can't speak" is documented** — Multiple sources confirm learners pass the exam but cannot hold conversations. Validates our core positioning.
 4. **Normalized non-fluency** — From customer intelligence: "People don't even expect that at A2 you can have a conversation." The expectation of post-exam inability is baked into the market.
 
@@ -148,7 +148,7 @@ These insights inform the barrier profiles and motivation layers in `strategy/pe
 - **Product**: Self-paced online inburgering exam preparation course
 - **Founder**: Bart (NT2 teacher)
 - **Market position**: Most recognized self-paced option, frequently recommended in expat forums
-- **Trustpilot**: 4 stars (41 reviews)
+- **Trustpilot / reviews**: OFF-LIMITS in content (Red Line 6) — never cite their rating, review counts, or billing/review complaints
 
 ### Pricing (Current)
 
@@ -156,10 +156,13 @@ These insights inform the barrier profiles and motivation layers in `strategy/pe
 
 | Plan | Monthly Price | Notes |
 |--------------|---------------|-------|
+| Monthly plan | €49.95/month | full A2 coverage |
 | 6-month plan | €34.95/month | ~€210 total |
 | 12-month plan | €24.95/month | ~€300 total |
 
-**Total cost to complete A2**: roughly €210-300 depending on plan length
+**Total cost to complete A2**: roughly €210-300 depending on plan length (€49.95/month if paying monthly).
+
+> **Pricing honesty:** the prices above are for full A2 coverage (all skills + KNM). Their advertised "from ~€8.95–€14.95/month" is a single-module rate (e.g. Reading only), NOT full coverage — always quote the full-coverage equivalent, never the teaser floor. And never claim Dutchwithjoost is cheaper: at equivalent coverage it is not (our 6-month €234 vs their ~€210; our one-time €399 has no competitor equivalent). The differentiator is method, not price.
 
 ### Course Content
 
@@ -671,7 +674,7 @@ DIY approach using textbooks, YouTube videos, free online resources, government 
 | Inburgering.org | €4.99 | ~€60 | €60-120 | Subscription |
 | InburgeringPrep | €9.99 (free tier) | €79 | €80-120 | Subscription |
 | Dutch Online | €10 | ~€120 | €120+ | Subscription/Lifetime |
-| InburgeringOnline | €24.95-€34.95 | ~€300 | €210-300 | Subscription |
+| InburgeringOnline | €24.95-€49.95 | ~€300 | €210-300 | Subscription |
 | Dutch Ready | Varies | — | €200-400 | Subscription + bundles |
 | **Dutchwithjoost** | **€39-49** | **—** | **€234-399** | **One-time or subscription** |
 | Dutch First | €119-159 | — | €447-1,428 | Subscription |

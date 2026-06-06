@@ -264,7 +264,7 @@ These topics surface from actual customer discussions:
 
 1. InburgeringOnline vs. classroom: honest trade-offs
 2. Free resources (Duolingo, YouTube) vs. structured courses
-3. Pricing model and total cost (BOFU/comparison content only — never in educational/MOFU pieces; frame as a neutral cost comparison, never as a billing-complaint attack). We offer a one-time €399 option AND monthly/6-month subscriptions, so the differentiator is that a one-time, non-recurring option exists at all (most competitors are subscription-only). Because we also run an auto-renewing monthly plan, never contrast on auto-renewal — see Claims Guardrails.
+3. Pricing model and total cost (BOFU/comparison content only — never in educational/MOFU pieces; frame as a neutral cost comparison, never as a billing-complaint attack). We offer a one-time €399 option AND monthly/6-month subscriptions, so the differentiator is that a one-time, non-recurring option exists at all (most competitors are subscription-only). Because we also run an auto-renewing monthly plan, never contrast on auto-renewal — see Claims Guardrails. Do NOT claim Dutchwithjoost is cheaper: at equivalent full coverage it is not (6-month: our €234 vs their ~€210; our one-time €399 has no competitor equivalent). The only cost angle is that a one-time, non-recurring option exists at all; the real differentiator is method, not price.
 
 ### Thought Leadership Angles
 

@@ -197,8 +197,8 @@ These are verifiable facts about our product. Use these when making claims.
 | Fact | Value | Verification |
 |------|-------|--------------|
 | Pricing model | Subscription | Public website |
-| Price range | €14.95 - €49.95/month | Public website (verify before publishing) |
-| Trustpilot rating | 4.4 stars | Trustpilot (check current rating before publishing) |
+| Price range (full A2: all skills + KNM) | €49.95/month (monthly), €34.95/month (6-month, ~€210), €24.95/month (12-month, ~€300). "From ~€8.95–€14.95/month" is a single-module rate (e.g. Reading only), NOT full coverage — never quote the teaser floor. | Public website (verify before publishing) |
+| Trustpilot / reviews | OFF-LIMITS in content (Red Line 6) — never cite rating, review counts, or billing/review complaints | Do not use |
 | Method | Video lessons, mock exams, practice exercises | Public website |
 
 **What we can say:**

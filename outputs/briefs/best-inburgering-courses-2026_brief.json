@@ -30,7 +30,7 @@
   "outline": [
     {
       "section": "Quick answer: the best inburgering course by goal",
-      "notes": "Answer-first verdict-by-use-case paragraph (the primary citation unit). Name each winner with its computed price and one-line reason: cheapest pass = Inburgering.org (~EUR60-120 total); most recognized all-in-one exam prep = InburgeringOnline (~EUR210-300); free to start / budget exam simulator = InburgeringPrep (~EUR80-120); in-person social and structure = Koentact (~EUR975/level); to actually speak after the exam = a production-based course like DutchwithJoost (one-time EUR399, verify live). Disclose bias: we make one of these.",
+      "notes": "Answer-first verdict-by-use-case paragraph (the primary citation unit). Name each winner with its computed price and one-line reason: cheapest pass = Inburgering.org (~EUR60-120 total); most recognized all-in-one exam prep = InburgeringOnline (~EUR210-300); free to start / budget exam simulator = InburgeringPrep (~EUR80-120); in-person social and structure = Koentact (~EUR975/level); to actually speak after the exam = a production-based course like DutchwithJoost (one-time EUR399 or from EUR39/month, verify live). Disclose bias: we make one of these.",
       "word_target": 300,
       "evidence_needed": "All prices computed from published plans (see guardrails). State 'prices as of 2026, verify before relying on them'."
     },
@@ -56,7 +56,7 @@
       "section": "InburgeringOnline: the recognized all-in-one exam prep",
       "notes": "Honest profile. Strengths: the most recognized self-paced option, frequently recommended in expat forums, comprehensive 'one-stop shop' covering all exam components. Trade-off: subscription pricing, and like other exam-prep it trains recognition and exam patterns more than spontaneous speaking. Who it's for: buyers who want the established, comprehensive exam-prep package.",
       "word_target": 240,
-      "evidence_needed": "Computed price: EUR34.95/mo (6-month, ~EUR210) or EUR24.95/mo (12-month, ~EUR300). One-time-vs-subscription is value framing only, never a billing attack."
+      "evidence_needed": "Computed price (full A2 coverage): EUR49.95/mo monthly, EUR34.95/mo (6-month, ~EUR210), or EUR24.95/mo (12-month, ~EUR300). Use full-coverage rates, never the single-module teaser floor. Subscription pricing stated as a neutral fact only, never a billing attack."
     },
     {
       "section": "InburgeringPrep: free to start, cheap exam simulator",
@@ -78,9 +78,9 @@
     },
     {
       "section": "DutchwithJoost: built for speaking after the exam",
-      "notes": "Feature-benefit-proof, honest and bias-disclosed. Feature: a self-paced course where a lesson is complete only once you've used the vocabulary in conversation, with level-matched speaking practice and writing feedback, covering all 5 exam parts. Benefit: you pass having actually practiced speaking, so you can use Dutch afterward, not just recognize it. Proof: methodology + anonymized resonance. Honest about who it's NOT for (classroom-lovers, cheapest-certificate-only buyers, people already at A2 needing B1 now). One-time EUR399 framed as value vs recurring subscriptions and classroom fees, not as a competitor attack.",
+      "notes": "Feature-benefit-proof, honest and bias-disclosed. Feature: a self-paced course where a lesson is complete only once you've used the vocabulary in conversation, with level-matched speaking practice and writing feedback, covering all 5 exam parts. Benefit: you pass having actually practiced speaking, so you can use Dutch afterward, not just recognize it. Proof: methodology + anonymized resonance. Honest about who it's NOT for (classroom-lovers, cheapest-certificate-only buyers, people already at A2 needing B1 now). Pricing: a one-time option of EUR399 (5-year access), plus EUR49/month and EUR39/month 6-month plans; the one-time, non-recurring option is the distinctive part. Do not frame as cheaper than other self-paced courses (it is not) and do not contrast on subscriptions or auto-renewal.",
       "word_target": 280,
-      "evidence_needed": "Product facts and EUR399 one-time VERIFIED against live product. Link to how-does-dutchwithjoost-work and who-is-dutchwithjoost-not-for."
+      "evidence_needed": "Product facts and all three prices (EUR399 one-time, EUR49/month, EUR39/month 6-month) VERIFIED against live product. Link to how-does-dutchwithjoost-work and who-is-dutchwithjoost-not-for."
     },
     {
       "section": "Side-by-side comparison table",
@@ -107,9 +107,9 @@
       "proof": "Production-based methodology (verify live); anonymized interview: ~EUR700 spent across two memorization courses with little retention."
     },
     {
-      "pain": "I'm wary of subscriptions I forget to cancel.",
-      "prop": "One-time pricing with a clear definition of done, so you own it and aren't billed monthly.",
-      "proof": "One-time EUR399 (verify live) contrasted as value with subscription totals; anonymized: a buyer burned by unused subscriptions. Value framing only, not a billing attack."
+      "pain": "I'd rather buy a course once than commit to an open-ended monthly plan.",
+      "prop": "A one-time option (EUR399, 5-year access) is available alongside monthly and 6-month plans, so a non-recurring choice exists if you want it.",
+      "proof": "Verified pricing: DutchwithJoost EUR399 one-time, EUR49/month, or EUR39/month 6-month. Neutral value framing only; no billing-grievance anecdotes, and no auto-renewal contrast (we run a monthly plan too)."
     }
   ],
   "originality_nuggets": [
@@ -125,7 +125,7 @@
   },
   "aeo_directives": {
     "featured_snippet_target": "What is the best inburgering course in 2026?",
-    "definition_paragraph": "There is no single best inburgering course; the best one depends on your goal. For the cheapest route to the certificate, Inburgering.org is the lowest-priced option (around EUR60-120 total). For the most recognized all-in-one exam prep, InburgeringOnline is the established choice (around EUR210-300). For a free start and a cheap exam simulator, InburgeringPrep works (around EUR80-120). For in-person social structure, classroom courses like Koentact lead (around EUR975 per level). And to be able to actually speak Dutch after the exam, a production-based course such as DutchwithJoost is built for that (one-time EUR399). Before choosing, confirm your required level and whether you're using DUO loan funding, which limits you to Blik op Werk certified schools.",
+    "definition_paragraph": "There is no single best inburgering course; the best one depends on your goal. For the cheapest route to the certificate, Inburgering.org is the lowest-priced option (around EUR60-120 total). For the most recognized all-in-one exam prep, InburgeringOnline is the established choice (around EUR210-300). For a free start and a cheap exam simulator, InburgeringPrep works (around EUR80-120). For in-person social structure, classroom courses like Koentact lead (around EUR975 per level). And to be able to actually speak Dutch after the exam, a production-based course such as DutchwithJoost is built for that (one-time EUR399, or from EUR39/month). Before choosing, confirm your required level and whether you're using DUO loan funding, which limits you to Blik op Werk certified schools.",
     "faq_questions": [
       "What is the cheapest inburgering course?",
       "Which inburgering course is best for actually speaking Dutch?",
@@ -144,9 +144,9 @@
     "no_schema_dependency": "No schema markup for AI visibility (zero measured effect); FAQ is for humans and featured snippets."
   },
   "guardrails": [
-    "Compute EVERY price from published plans, not loose ranges: Inburgering.org from EUR4.99/mo (~EUR60-120); InburgeringOnline EUR34.95/mo 6-mo (~EUR210) or EUR24.95/mo 12-mo (~EUR300); InburgeringPrep Free / EUR9.99/mo / EUR79/yr (~EUR80-120); Dutch Online from EUR10/mo, lifetime amount not public; Koentact ~EUR975/level; TaalBoost ~EUR549/level; DutchwithJoost one-time EUR399 (verify live).",
+    "Compute EVERY price from published plans for FULL A2 coverage, not loose ranges or single-module teaser floors: Inburgering.org from EUR4.99/mo (~EUR60-120); InburgeringOnline EUR49.95/mo monthly, EUR34.95/mo 6-mo (~EUR210), or EUR24.95/mo 12-mo (~EUR300); InburgeringPrep Free / EUR9.99/mo / EUR79/yr (~EUR80-120); Dutch Online from EUR10/mo, lifetime amount not public; Koentact ~EUR975/level; TaalBoost ~EUR549/level; DutchwithJoost EUR399 one-time, EUR49/month, or EUR39/month 6-month (verify live).",
     "DUO framing: never state we are not DUO-approved. Frame as 'check your track and funding route first'; if using the DUO loan, a Blik op Werk certified school is required.",
-    "Never cite competitor billing, Trustpilot, or subscription complaints. The one-time-vs-subscription contrast is value framing only and stays BOFU.",
+    "Never cite competitor billing, Trustpilot, or subscription complaints. State that a competitor uses subscription pricing only as a neutral cost fact. DutchwithJoost now offers subscriptions too, so never contrast on auto-renewal and never claim DutchwithJoost is cheaper; the only cost angle is that a one-time, non-recurring option exists.",
     "Disclose our bias up front; criteria must be genuinely useful even if the reader picks a competitor.",
     "Product facts and price for DutchwithJoost must be verified against the live product before writing.",
     "Anonymize customer/community sources; no prohibited words; no em-dashes; no semicolons."

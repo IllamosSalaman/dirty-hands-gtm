@@ -1002,7 +1002,7 @@ Dutch language learning for inburgering exam preparation (A2 level). Positioned 
 
 **About InburgeringOnline**:
 - Praise: "Within 45 days I passed all exams", "It's truly a 'one-stop shop'", "Worth every penny"
-- Differentiator vs. them: method, not billing — they own "pass the exam," we own "actually speak Dutch afterward." (They have some billing/subscription complaints online, but those are OFF-LIMITS in content — see Red Lines. Never use them.)
+- Differentiator vs. them: method, not billing or price — they own "pass the exam," we own "actually speak Dutch afterward." (They have some billing/subscription complaints online, but those are OFF-LIMITS in content — see Red Lines. Never use them.)
 - Gap: They dominate "pass the exam" but don't own "actually speak Dutch afterward"
 - **From customer intelligence**: "It's basically cards to memorize... It's a cheat sheet to the exam." One user's friend got citizenship through InburgeringOnline but "couldn't even pronounce inburgering" the day he got his passport.
 
@@ -1171,7 +1171,7 @@ When giving advice (e.g., "What to look for in a Dutch course"), criteria must b
 **Comparison content angles**:
 - InburgeringOnline vs. classroom: honest trade-offs
 - Free resources vs. structured courses
-- Pricing model and total cost (BOFU/comparison content only — never in educational/MOFU pieces; frame as a neutral cost comparison, never as a billing-complaint attack). Note: we now offer a one-time €399 option AND monthly/6-month subscriptions, so the differentiator is that a one-time, non-recurring option exists at all (most competitors are subscription-only). Because we also have an auto-renewing monthly plan, never contrast on auto-renewal — see Red Lines.
+- Pricing model and total cost (BOFU/comparison content only — never in educational/MOFU pieces; frame as a neutral cost comparison, never as a billing-complaint attack). Note: we now offer a one-time €399 option AND monthly/6-month subscriptions, so the differentiator is that a one-time, non-recurring option exists at all (most competitors are subscription-only). Because we also have an auto-renewing monthly plan, never contrast on auto-renewal — see Red Lines. Do NOT claim Dutchwithjoost is cheaper: at equivalent full coverage it is not (6-month: our €234 vs their ~€210; our one-time €399 has no competitor equivalent). The only cost angle is that a one-time, non-recurring option exists at all; the real differentiator is method, not price.
 
 **Thought leadership angles**:
 - "Why you pass the exam but can't order coffee in Dutch"
@@ -1297,8 +1297,8 @@ These facts must be verified on competitor websites before publishing. Prices an
 
 | Fact | Value | Verification needed? |
 |------|-------|---------------------|
-| Pricing | €24.95/month (12-month plan) to €34.95/month (6-month plan) — roughly €210–€300 total to reach A2 | Check their website before publishing |
-| Trustpilot rating | ~4.4 stars | Check current rating before publishing |
+| Pricing (full A2: all skills + KNM) | €49.95/month (monthly), €34.95/month (6-month plan, ~€210 total), or €24.95/month (12-month plan, ~€300 total) — roughly €210–€300 total to reach A2. Their advertised "from ~€8.95–€14.95/month" is a single-module rate (e.g. Reading only), NOT full coverage. Always quote the full-coverage equivalent, never the teaser floor. | Check their website before publishing |
+| Trustpilot / reviews | OFF-LIMITS in content (Red Line 6) — never cite their rating, review counts, or billing/review complaints | Do not use |
 | Method | Video lessons, practice exercises, mock exams | Verified from website |
 | Coverage | All exam components | Verified |
 | Endorsed by | DutchReview recommends them | Verified |

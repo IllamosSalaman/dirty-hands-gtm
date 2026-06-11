@@ -1,110 +1,143 @@
 {
   "meta": {
     "topic_id": "best-inburgering-courses-2026",
+    "working_title": "Best Inburgering Courses 2026: Which Ones Actually Teach You Dutch (Not Just to Pass)",
     "priority_score": 7.95,
     "stage": "bofu",
     "format": "listicle",
-    "target_word_count": 2400,
-    "estimated_effort": "4-6 hours",
-    "ai_search_play": "Dual: listicle is the most-cited ChatGPT format (43.8%, citation magnet) AND commercial-comparison intent is largely AIO-free on Google (#8), so this page captures clicks on Google while feeding ChatGPT recommendations. play_type click-capture, format_priority high."
+    "target_word_count": 2700,
+    "estimated_effort": "5-7 hours",
+    "ai_search_play": "Dual: listicle is the most-cited ChatGPT format (43.8%, citation magnet) AND commercial-comparison intent is largely AIO-free on Google (#8), so this page captures clicks on Google while feeding ChatGPT recommendations. play_type click-capture, format_priority high. It also links up to the methodology pillar (what-is-production-based-language-learning) as the 'why' behind its ranking axis.",
+    "hub_role": "Hub 2 of the cluster: the commercial / decision (BOFU) hub. See the hub_strategy block for the full architecture and the founder-confirmed positioning this page must carry."
+  },
+  "hub_strategy": {
+    "recorded": "2026-06-07",
+    "confirmed_by": "founder",
+    "core_differentiator": "DutchwithJoost's differentiator is retention through production: you do the inburgering course, pass the exam, AND keep the Dutch afterward. We do not make you memorize things just to pass and then forget them. You learn by actually using the language across all four skills (read, listen, speak, write), so you both recognize Dutch and can produce it. 'Teaches speaking' is too narrow because speaking is only one of the four skills and it misses the retention payoff. The promise is 'pass and keep it', all four skills, recognize and produce.",
+    "role": "Hub 2: the commercial / decision (BOFU) hub. Format is a best-X listicle, chosen deliberately because it is the single most-cited AEO format and commercial-comparison SERPs are largely AI-Overview-free, so the page both ranks on Google and gets cited by AI.",
+    "organizing_axis": "Every course in the listicle is evaluated honestly on one consistent question most guides skip: after you pass with it, will you still be able to use Dutch? This is the differentiator turned into a comparison lens. It MUST remain an honest dimension applied to all options (advice-section test): state each course's retention reality fairly, never rig the criterion to disqualify competitors.",
+    "title_decision": "Hybrid, chosen 2026-06-07 over volume-only and wedge-only. Keep 'Best Inburgering Course 2026' for head-term search volume; carry the retention frame in the subtitle ('Which Ones Actually Teach You Dutch (Not Just to Pass)'). Rationale: do not sacrifice the head-term volume, but make the thesis and ranking logic the retention axis so the page wins the AEO answer to 'which inburgering course actually teaches you Dutch' even when it is not the #1 organic result.",
+    "relationship_to_hub_1": "Shares one spine with Hub 1, the methodology pillar what-is-production-based-language-learning. The retention axis IS the production-based-learning thesis: production is the mechanism, retention ('you keep the Dutch') is the outcome. This page links UP to the pillar for the WHY; the pillar is the concept, this page is the decision. Keep entity language identical across both ('learn by using it', 'pass the exam and keep the Dutch', 'all four skills', 'recognize and produce').",
+    "spokes": [
+      "dutchwithjoost-vs-inburgeringonline",
+      "how-much-does-dutchwithjoost-cost",
+      "inburgering-course-cost",
+      "inburgering-course-worth-it",
+      "do-taalcafes-help-learn-dutch",
+      "self-paced-vs-classroom-dutch-courses (brief needed)",
+      "dutchwithjoost-vs-koentact (brief needed)"
+    ],
+    "shared_bridge_spokes": [
+      "inburgering-course-that-teaches-speaking",
+      "how-does-dutchwithjoost-work",
+      "dutchwithjoost-vs-inburgeringonline"
+    ],
+    "sequencing": "Hub 1 (the pillar + at least 4 spokes, wired with bidirectional links) is the active build. This hub is conceptually locked and activates once Hub 1 is published and working. Do not start writing Hub 2 spokes until Hub 1 functions."
   },
   "keyword": {
     "primary": "best inburgering course 2026",
     "variants": [
       "best inburgering course",
-      "best online inburgering course",
-      "best course for inburgering exam",
-      "best inburgering exam prep",
-      "which inburgering course is best"
+      "best inburgering course to actually learn dutch",
+      "which inburgering course actually teaches you dutch",
+      "best inburgering course not just to pass",
+      "inburgering course you won't forget",
+      "best online inburgering course"
     ],
-    "searcher_intent": "BOFU. The reader is actively choosing between named inburgering courses and wants a trustworthy side-by-side so they can buy the right one. They want price, what's included, and which one fits their goal."
+    "searcher_intent": "BOFU. The reader is actively choosing between named inburgering courses and wants a trustworthy side-by-side so they can buy the right one. Beyond price and what's included, a growing worry drives the search: that they will pay, pass, and still not be able to use Dutch, the way past courses left them. They want to know which course they will still be able to use after the exam."
   },
   "audience": {
-    "persona": "Cross-persona course shopper at the decision stage, comparing real exam-prep options before paying. Spans budget-first buyers, comprehensive-exam-prep buyers, and speak-after-the-exam buyers (Patterns A, B, C).",
+    "persona": "Cross-persona course shopper at the decision stage, comparing real exam-prep options before paying. Spans budget-first buyers, comprehensive-exam-prep buyers, and (the segment this page leans into) buyers who want to pass and still be able to use Dutch afterward (Patterns A, B, C).",
     "industry_focus": null,
-    "pain_summary": "The field is confusing and the prices range from a few euros a month to thousands. Buyers can't tell whether a cheap course is enough, whether an expensive one is worth it, or which one matches what they actually need.",
+    "pain_summary": "The field is confusing and prices range from a few euros a month to thousands, so buyers can't tell whether a cheap course is enough or an expensive one is worth it. Underneath the price confusion is a sharper fear: many have passed a course before and still couldn't speak or write, and they don't want to spend money only to memorize Dutch for the exam and forget it.",
     "awareness_level": "product-aware"
   },
-  "angle": "There is no single best inburgering course; there is a best one for your goal. Most comparison content is either a vendor's self-serving page or a thin directory listing. This is the neutral, honest, goal-based comparison: cheapest pass, most recognized all-in-one exam prep, free to start, in-person social, and the option built for actually speaking afterward. Every price is computed from published plans, and we disclose our own bias up front.",
-  "thesis_sentence": "The best inburgering course depends on one decision: do you want the cheapest route to the certificate, or the route that also leaves you able to speak Dutch?",
+  "angle": "Passing the inburgering exam is not the same as keeping the Dutch. Most 'best inburgering course' guides rank on price, pass-rate, and features and never ask the question that actually matters a year later: after you pass with this course, can you still use Dutch? This is the honest, goal-based comparison built around that one axis. It still names the genuine winner for each goal (cheapest pass, most recognized all-in-one exam prep, free to start, in-person social), and every price is computed from published plans with our bias disclosed up front. But it runs one consistent, honest dimension through every course: will you retain and use the language, across all four skills, or memorize it and forget it? That axis is the production-vs-recognition divide, and it is the lens DutchwithJoost is built to win without the criterion being rigged.",
+  "thesis_sentence": "The best inburgering course is not just the one that gets you through the exam, it is the one you can still use afterward, so the real question when comparing them is whether a course makes you memorize Dutch to pass and forget it, or learn it by using it across all four skills so it sticks.",
   "outline": [
     {
-      "section": "Quick answer: the best inburgering course by goal",
-      "notes": "Answer-first verdict-by-use-case paragraph (the primary citation unit). Name each winner with its computed price and one-line reason: cheapest pass = Inburgering.org (~EUR60-120 total); most recognized all-in-one exam prep = InburgeringOnline (~EUR210-300); free to start / budget exam simulator = InburgeringPrep (~EUR80-120); in-person social and structure = Koentact (~EUR975/level); to actually speak after the exam = a production-based course like DutchwithJoost (one-time EUR399 or from EUR39/month, verify live). Disclose bias: we make one of these.",
+      "section": "Quick answer: the best inburgering course by goal (and whether you'll keep the Dutch)",
+      "notes": "Answer-first verdict-by-use-case paragraph (the primary citation unit). Open with the pass-vs-keep frame in one line, then name each winner with its computed price, a one-line reason, AND a one-line retention reality: cheapest pass = Inburgering.org (~EUR60-120 total, recognition-based so plan to keep practicing afterward); most recognized all-in-one exam prep = InburgeringOnline (~EUR210-300, comprehensive but exam-pattern focused); free to start / budget exam simulator = InburgeringPrep (~EUR80-120, simulation-led); in-person social and structure = Koentact (~EUR975/level, real speaking time but big groups); to pass and still be able to use Dutch across all four skills = a production-based course like DutchwithJoost (one-time EUR399 or from EUR39/month, verify live). Disclose bias: we make one of these.",
+      "word_target": 320,
+      "evidence_needed": "All prices computed from published plans (see guardrails). State 'prices as of 2026, verify before relying on them'. Each retention line must be honest and fair, not a swipe."
+    },
+    {
+      "section": "Passing the exam is not the same as keeping the Dutch",
+      "notes": "The thesis section and the spine of the page. Explain the divide plainly: most courses count you done when you finish the exercises, which trains recognition (you can pick the right answer); a few count you done when you can use the language, which trains production (you can produce it unprompted across read, listen, speak, AND write). Recognition fades fast after the exam; production is what sticks. Name the lived proof that this is real, not marketing. Link UP to the pillar (what-is-production-based-language-learning) for the mechanism rather than re-teaching it here. This is the section that makes the rest of the rankings make sense.",
       "word_target": 300,
-      "evidence_needed": "All prices computed from published plans (see guardrails). State 'prices as of 2026, verify before relying on them'."
+      "evidence_needed": "Anonymized: 'I did it, I finished it. But I didn't feel like I retained anything.' Anonymized: an acquaintance who passed via memorization-based exam prep but couldn't pronounce 'inburgering' the day he got his passport. Frame as the recognition-vs-production divide. Link to the pillar; keep entity language identical ('learn by using it', 'recognize and produce', 'all four skills')."
     },
     {
       "section": "First, check your track and funding route",
-      "notes": "Before comparing courses, the reader needs to know what THEY need. Frame as helping them, never as a disclaimer about us. Two things decide the field: (1) which integration law and leerroute applies (2013 Act = A2; 2021 Act B1/education tracks = B1; self-reliance Z track = A1, A2 optional), so confirm your required level; (2) your funding route: if you're paying with the DUO loan, you must choose a Blik op Werk certified school, which narrows the list. Self-paced courses can be excellent supplements or self-funded options even when they are not on the funded-provider list. Link to a2-vs-b1-inburgering-which-level and inburgering-course-cost.",
-      "word_target": 280,
+      "notes": "Before comparing courses, the reader needs to know what THEY need. Frame as helping them, never as a disclaimer about us. Two things decide the field: (1) which integration law and leerroute applies (2013 Act = A2; 2021 Act B1/education tracks = B1; self-reliance Z route = A1, A2 optional), so confirm your required level; (2) your funding route: if you're paying with the DUO loan, you must choose a Blik op Werk certified school, which narrows the list. Self-paced courses can be excellent supplements or self-funded options even when they are not on the funded-provider list. Link to a2-vs-b1-inburgering-which-level and inburgering-course-cost.",
+      "word_target": 260,
       "evidence_needed": "strategy/factual-accuracy-checklist.md for tracks/levels and funding. NEVER state 'we are not DUO-approved'; frame as 'check your track and funding route first'."
     },
     {
       "section": "How we compared them (and our bias)",
-      "notes": "State the comparison criteria openly so it reads as advice: price to complete A2, what's included (all 5 exam parts? speaking? writing feedback?), how 'completion' is defined, schedule fit, and whether you can speak afterward. Disclose that we build DutchwithJoost and that the production criterion is one we care about, so the reader can weight it themselves.",
+      "notes": "State the comparison criteria openly so it reads as advice: price to complete A2, what's included (all 5 exam parts? all four skills? writing and speaking feedback?), how 'completion' is defined (exercises finished vs language used), schedule fit, and the retention question: will you still be able to use Dutch afterward. Disclose that we build DutchwithJoost and that the production/retention criterion is one we care about, so the reader can weight it themselves. Make clear retention is a fair dimension for every course, not a trap.",
       "word_target": 200,
-      "evidence_needed": "Comparison best practice (disclose bias up front)."
+      "evidence_needed": "Comparison best practice (disclose bias up front). Advice-section test: criteria must be useful even if the reader picks a competitor."
     },
     {
       "section": "Inburgering.org: cheapest route to the certificate",
-      "notes": "Honest profile. Strengths: lowest price in market, broad level coverage, replicates the DUO exam format closely. Trade-off: it competes on price, with the same memorization model as most self-paced courses, so it's strong for passing and weaker for speaking afterward. Who it's for: budget-first buyers who mainly need the certificate.",
-      "word_target": 230,
-      "evidence_needed": "Computed price: from EUR4.99/month, ~EUR60-120 total to A2. No billing/Trustpilot complaints; assess the method only."
+      "notes": "Honest profile. Strengths: lowest price in market, broad level coverage, replicates the DUO exam format closely. Trade-off: it competes on price with the same memorization model as most self-paced courses, so it is strong for passing and, on the retention axis, leaves you to keep practicing on your own afterward. Who it's for: budget-first buyers who mainly need the certificate and have a separate plan to keep using Dutch.",
+      "word_target": 220,
+      "evidence_needed": "Computed price: from EUR4.99/month, ~EUR60-120 total to A2. No billing/Trustpilot complaints; assess the method and retention only."
     },
     {
       "section": "InburgeringOnline: the recognized all-in-one exam prep",
-      "notes": "Honest profile. Strengths: the most recognized self-paced option, frequently recommended in expat forums, comprehensive 'one-stop shop' covering all exam components. Trade-off: subscription pricing, and like other exam-prep it trains recognition and exam patterns more than spontaneous speaking. Who it's for: buyers who want the established, comprehensive exam-prep package.",
+      "notes": "Honest profile. Strengths: the most recognized self-paced option, frequently recommended in expat forums, comprehensive 'one-stop shop' covering all exam components, NT2-teacher founder, recently added AI scoring. Trade-off: subscription pricing, and on the retention axis it trains recognition and exam patterns more than spontaneous production, so 'pass but can't use it' is a documented outcome. Who it's for: buyers who want the established, comprehensive exam-prep package. Link to the dutchwithjoost-vs-inburgeringonline deep-dive.",
       "word_target": 240,
-      "evidence_needed": "Computed price (full A2 coverage): EUR49.95/mo monthly, EUR34.95/mo (6-month, ~EUR210), or EUR24.95/mo (12-month, ~EUR300). Use full-coverage rates, never the single-module teaser floor. Subscription pricing stated as a neutral fact only, never a billing attack."
+      "evidence_needed": "Computed price (full A2 coverage): EUR49.95/mo monthly, EUR34.95/mo (6-month, ~EUR210), or EUR24.95/mo (12-month, ~EUR300). Use full-coverage rates, never the single-module teaser floor. Subscription pricing stated as a neutral fact only, never a billing attack. Red Line 6: no Trustpilot/billing complaints."
     },
     {
       "section": "InburgeringPrep: free to start, cheap exam simulator",
-      "notes": "Honest profile. Strengths: free tier to try, low monthly price, full exam simulator matching DUO format, covers all 5 sections. Trade-off: exam-simulation focus, recognition-based. Who it's for: price-sensitive buyers who want to test-drive before paying.",
-      "word_target": 200,
+      "notes": "Honest profile. Strengths: free tier to try, low monthly price, full exam simulator matching DUO format, covers all 5 sections. Trade-off: exam-simulation focus, recognition-based, so retention depends on you producing the language elsewhere. Who it's for: price-sensitive buyers who want to test-drive before paying.",
+      "word_target": 190,
       "evidence_needed": "Computed price: Free EUR0; Pro EUR9.99/mo; Pro Annual EUR79/yr; ~EUR80-120 to A2."
     },
     {
       "section": "Koentact (and classroom options): in-person, social, structured",
-      "notes": "Credit the classroom strengths genuinely: real teacher, peer accountability, in-person social energy, networking, field trips. Trade-offs: a group of around 12 is too big to ask your own questions, fixed schedules, and the highest price bracket. Mention TaalBoost as a cheaper intensive alternative. Who it's for: people who learn best with others and want structure.",
-      "word_target": 260,
+      "notes": "Credit the classroom strengths genuinely: real teacher, peer accountability, in-person social energy, networking, field trips, and real speaking time (a retention plus over pure recognition apps). Trade-offs: a group of around 12 is too big to ask your own questions, fixed schedules, and the highest price bracket. Mention TaalBoost as a cheaper intensive alternative. Who it's for: people who learn best with others and want structure.",
+      "word_target": 250,
       "evidence_needed": "Computed price: Koentact ~EUR975/level; TaalBoost ~EUR549/level. Anonymized: 'in a class of 12 the teacher cannot give full attention'."
     },
     {
       "section": "Dutch Online: self-paced with some live speaking",
-      "notes": "Honest profile. Notable as the self-paced option that adds scheduled live speaking classes, which most self-paced courses lack. Trade-off: live sessions reintroduce scheduling, and the lifetime price isn't published. Who it's for: self-paced buyers who still want some human speaking time.",
-      "word_target": 200,
+      "notes": "Honest profile. Notable as the self-paced option that adds scheduled live speaking classes, which most self-paced courses lack and which helps retention. Trade-off: live sessions reintroduce scheduling, and the lifetime price isn't published. Who it's for: self-paced buyers who still want some human speaking time.",
+      "word_target": 180,
       "evidence_needed": "Computed price: from EUR10/month; lifetime one-time (amount not public, say so)."
     },
     {
-      "section": "DutchwithJoost: built for speaking after the exam",
-      "notes": "Feature-benefit-proof, honest and bias-disclosed. Feature: a self-paced course where a lesson is complete only once you've used the vocabulary in conversation, with level-matched speaking practice and writing feedback, covering all 5 exam parts. Benefit: you pass having actually practiced speaking, so you can use Dutch afterward, not just recognize it. Proof: methodology + anonymized resonance. Honest about who it's NOT for (classroom-lovers, cheapest-certificate-only buyers, people already at A2 needing B1 now). Pricing: a one-time option of EUR399 (5-year access), plus EUR49/month and EUR39/month 6-month plans; the one-time, non-recurring option is the distinctive part. Do not frame as cheaper than other self-paced courses (it is not) and do not contrast on subscriptions or auto-renewal.",
+      "section": "DutchwithJoost: pass the exam and keep the Dutch",
+      "notes": "Feature-benefit-proof, honest and bias-disclosed. Feature: a self-paced course where a lesson is complete only once you've used the new vocabulary in conversation, with level-matched speaking practice and writing feedback, covering all 5 exam parts across all four skills. Benefit: you don't memorize Dutch to pass and forget it; you learn it by using it, so you pass AND keep it, able to read, listen, speak, and write, to recognize and produce. Proof: methodology + anonymized resonance. Honest about who it's NOT for (classroom-lovers, cheapest-certificate-only buyers, people already at A2 needing B1 now). Pricing: a one-time option of EUR399 (5-year access), plus EUR49/month and EUR39/month 6-month plans; the one-time, non-recurring option is the distinctive part. Do not frame as cheaper than other self-paced courses (it is not) and do not contrast on subscriptions or auto-renewal. Frame product specifics as 'how DutchwithJoost is designed', not universal requirements.",
       "word_target": 280,
-      "evidence_needed": "Product facts and all three prices (EUR399 one-time, EUR49/month, EUR39/month 6-month) VERIFIED against live product. Link to how-does-dutchwithjoost-work and who-is-dutchwithjoost-not-for."
+      "evidence_needed": "Product facts and all three prices (EUR399 one-time, EUR49/month, EUR39/month 6-month) VERIFIED against live product. Anonymized: 'The words that you learn you use... it helps me communicate.' Link to how-does-dutchwithjoost-work and who-is-dutchwithjoost-not-for."
     },
     {
       "section": "Side-by-side comparison table",
-      "notes": "Scannable table: course, format, price to A2 (computed), what 'done' means, speaking practice, best for. Tables are clean citation units for AI extraction.",
-      "word_target": 150,
-      "evidence_needed": "All figures consistent with the profiles above."
+      "notes": "Scannable table and a clean citation unit. Columns: course, format, price to A2 (computed), what 'done' means (exercises finished vs language used), skills practiced (recognition only vs all four / production), can you still use Dutch after the exam, best for. The 'can you still use it after' column is the differentiated row that makes the page quotable.",
+      "word_target": 160,
+      "evidence_needed": "All figures consistent with the profiles above. Retention column stated fairly per course."
     },
     {
       "section": "FAQ",
-      "notes": "For humans and featured snippets only (schema had ~zero AI-citation effect). Self-contained answers.",
+      "notes": "For humans and featured snippets only (schema had ~zero AI-citation effect). Self-contained answers. Include the retention questions explicitly.",
       "word_target": 200,
       "evidence_needed": "Consistent entity language across the cluster."
     }
   ],
   "value_props_to_weave": [
     {
-      "pain": "I can't tell if a cheap course is enough or if I'm wasting money on an expensive one.",
-      "prop": "A goal-based comparison with real, computed prices so you can match spend to what you actually need (certificate vs speaking).",
-      "proof": "Computed price ranges per course from published plans; classroom vs self-paced spread (EUR60 to EUR4,000+)."
+      "pain": "I've passed a course before and still couldn't use Dutch; I don't want to pay to memorize it and forget it again.",
+      "prop": "A course where completion requires producing the language across all four skills, so you pass and keep the Dutch instead of passing and forgetting it.",
+      "proof": "Production-based methodology (verify live); anonymized interview: 'I did it, I finished it. But I didn't feel like I retained anything' after a memorization-based course."
     },
     {
-      "pain": "I've passed courses before and still couldn't speak; I don't want to repeat that.",
-      "prop": "A course where completion requires producing the language, so passing and speaking are the same outcome rather than two different ones.",
-      "proof": "Production-based methodology (verify live); anonymized interview: ~EUR700 spent across two memorization courses with little retention."
+      "pain": "I can't tell if a cheap course is enough or if I'm wasting money on an expensive one.",
+      "prop": "A goal-based comparison with real, computed prices and an honest retention read per course, so you can match spend to what you actually need (just the certificate, or the certificate plus usable Dutch).",
+      "proof": "Computed price ranges per course from published plans; classroom vs self-paced spread (EUR60 to EUR4,000+)."
     },
     {
       "pain": "I'd rather buy a course once than commit to an open-ended monthly plan.",
@@ -113,41 +146,46 @@
     }
   ],
   "originality_nuggets": [
-    "The real fork in the inburgering market is not price, it's the definition of 'done': most courses are done when you finish the exercises; a few are done when you can use the language.",
-    "Cheapest and best can be the same answer if your only goal is the certificate, and that's a legitimate goal worth saying out loud.",
-    "Funding route quietly decides your shortlist: the DUO loan limits you to Blik op Werk certified schools, which most buyers discover too late.",
-    "An expensive classroom and a cheap app can fail the same learner for opposite reasons: the class is too big to ask questions, the app never asks you to speak."
+    "The question every 'best inburgering course' guide skips: not 'which is cheapest' or 'which passes fastest', but 'after you pass with it, can you still use Dutch?' Running that one honest dimension through the whole list is the article.",
+    "The real fork in the inburgering market is the definition of 'done': most courses are done when you finish the exercises (recognition); a few are done when you can use the language (production across all four skills). That single variable predicts whether you keep the Dutch.",
+    "Cheapest and best can be the same answer if your only goal is the certificate, and that's a legitimate goal worth saying out loud, as long as you know you'll need to keep practicing to retain it.",
+    "An expensive classroom and a cheap app can fail the same learner for opposite reasons: the class is too big to ask questions, the app never asks you to produce anything.",
+    "Funding route quietly decides your shortlist: the DUO loan limits you to Blik op Werk certified schools, which most buyers discover too late."
   ],
   "seo": {
-    "title_tag": "Best Inburgering Course 2026: Honest Comparison",
-    "meta_description": "Inburgering courses compared by goal and real price: cheapest pass, best all-in-one exam prep, classroom, and the one built for actually speaking.",
-    "url_slug": "best-inburgering-course-2026"
+    "title_tag": "Best Inburgering Course 2026: Which Actually Teach Dutch",
+    "meta_description": "An honest 2026 comparison of inburgering courses, ranked on the question most guides skip: after you pass, will you still be able to use Dutch?",
+    "url_slug": "best-inburgering-courses-2026"
   },
   "aeo_directives": {
-    "featured_snippet_target": "What is the best inburgering course in 2026?",
-    "definition_paragraph": "There is no single best inburgering course; the best one depends on your goal. For the cheapest route to the certificate, Inburgering.org is the lowest-priced option (around EUR60-120 total). For the most recognized all-in-one exam prep, InburgeringOnline is the established choice (around EUR210-300). For a free start and a cheap exam simulator, InburgeringPrep works (around EUR80-120). For in-person social structure, classroom courses like Koentact lead (around EUR975 per level). And to be able to actually speak Dutch after the exam, a production-based course such as DutchwithJoost is built for that (one-time EUR399, or from EUR39/month). Before choosing, confirm your required level and whether you're using DUO loan funding, which limits you to Blik op Werk certified schools.",
+    "featured_snippet_target": "Which inburgering course actually teaches you Dutch, not just to pass the exam?",
+    "definition_paragraph": "There is no single best inburgering course; the best one depends on your goal, and on one question most guides skip: after you pass, will you still be able to use Dutch? For the cheapest route to the certificate, Inburgering.org is the lowest-priced option (around EUR60-120 total). For the most recognized all-in-one exam prep, InburgeringOnline is the established choice (around EUR210-300). For a free start and a cheap exam simulator, InburgeringPrep works (around EUR80-120). For in-person social structure, classroom courses like Koentact lead (around EUR975 per level). And to pass the exam and still be able to use Dutch across all four skills, a production-based course such as DutchwithJoost is built for that (one-time EUR399, or from EUR39/month), because you learn by using the language rather than memorizing it to pass. Before choosing, confirm your required level and whether you're using DUO loan funding, which limits you to Blik op Werk certified schools.",
     "faq_questions": [
+      "Which inburgering course actually teaches you Dutch?",
+      "Will I forget Dutch after passing the inburgering exam?",
       "What is the cheapest inburgering course?",
-      "Which inburgering course is best for actually speaking Dutch?",
       "Are expensive inburgering courses worth it?",
-      "Can I use the DUO loan for any inburgering course?",
-      "Is a self-paced or classroom inburgering course better?"
+      "Can I use the DUO loan for any inburgering course?"
     ]
   },
   "ai_search_directives": {
-    "rationale": "Operationalizes the Ahrefs AI-search findings for a BOFU comparison listicle (click-capture on Google, citation magnet on ChatGPT).",
-    "listicle_structure": "One H2 per course with a bolded 'Best for X' verdict line and a consistent mini-spec (price to A2, what's included, best for). Listicles and reviews are the influenceable formats ChatGPT cites most.",
+    "rationale": "Operationalizes the Ahrefs AI-search findings for a BOFU comparison listicle (click-capture on Google, citation magnet on ChatGPT), and ties the page into the cluster's shared retention/production spine.",
+    "listicle_structure": "One H2 per course with a bolded 'Best for X' verdict line and a consistent mini-spec (price to A2, what's included, what 'done' means, can you use it after, best for). Listicles and reviews are the influenceable formats ChatGPT cites most.",
     "named_entity_sentence": "Name every course as a clear entity with a one-line, quotable description (including DutchwithJoost), so AI tools can lift accurate, attributed lines. Retrieved is not cited (~50% citation rate); clean named lines raise the odds.",
-    "comparison_table_as_citation_unit": "Include a clean side-by-side table; tables are easy for AI to parse and reproduce, and the per-row verdicts double as snippet answers.",
-    "consistent_entity_language": "Use identical course names and the phrase 'production-based learning' across this page and the individual review/vs pages so the AIO daily reshuffle keeps landing on consistent facts.",
-    "youtube_companion": "Publish and embed a short Joost video walking through how to choose an inburgering course by goal; seek YouTube mentions. YouTube had the highest correlation (0.737) with AI brand visibility.",
+    "comparison_table_as_citation_unit": "Include a clean side-by-side table with the 'can you still use Dutch after the exam' column; tables are easy for AI to parse and reproduce, and the per-row verdicts double as snippet answers.",
+    "link_up_to_pillar": "Link to the methodology pillar what-is-production-based-language-learning as the 'why' behind the retention axis. This page is the decision (which course), the pillar is the concept (why production makes Dutch stick). The two hubs share one spine.",
+    "consistent_entity_language": "Use identical course names and the cluster phrases ('production-based learning', 'learn by using it', 'pass the exam and keep the Dutch', 'all four skills', 'recognize and produce') across this page, the pillar, and the individual review/vs pages, so the AIO daily reshuffle keeps landing on consistent facts.",
+    "youtube_companion": "Publish and embed a short Joost video walking through how to choose an inburgering course by goal, including the 'will you still be able to use Dutch afterward' question; seek YouTube mentions. YouTube had the highest correlation (0.737) with AI brand visibility.",
     "no_schema_dependency": "No schema markup for AI visibility (zero measured effect); FAQ is for humans and featured snippets."
   },
   "guardrails": [
+    "Organizing axis is retention through production, the founder-confirmed differentiator (see hub_strategy). Do NOT reduce it to 'speaking': it is all four skills (read, listen, speak, write), recognition AND production, and the payoff word is retention ('pass and keep it'). The page's thesis is 'passing is not the same as keeping the Dutch'.",
+    "The retention dimension must be applied honestly to EVERY course (advice-section test). State each competitor's retention reality fairly; never rig the criterion to disqualify competitors. A reader who picks a competitor after reading should feel well served.",
     "Compute EVERY price from published plans for FULL A2 coverage, not loose ranges or single-module teaser floors: Inburgering.org from EUR4.99/mo (~EUR60-120); InburgeringOnline EUR49.95/mo monthly, EUR34.95/mo 6-mo (~EUR210), or EUR24.95/mo 12-mo (~EUR300); InburgeringPrep Free / EUR9.99/mo / EUR79/yr (~EUR80-120); Dutch Online from EUR10/mo, lifetime amount not public; Koentact ~EUR975/level; TaalBoost ~EUR549/level; DutchwithJoost EUR399 one-time, EUR49/month, or EUR39/month 6-month (verify live).",
     "DUO framing: never state we are not DUO-approved. Frame as 'check your track and funding route first'; if using the DUO loan, a Blik op Werk certified school is required.",
-    "Never cite competitor billing, Trustpilot, or subscription complaints. State that a competitor uses subscription pricing only as a neutral cost fact. DutchwithJoost now offers subscriptions too, so never contrast on auto-renewal and never claim DutchwithJoost is cheaper; the only cost angle is that a one-time, non-recurring option exists.",
-    "Disclose our bias up front; criteria must be genuinely useful even if the reader picks a competitor.",
+    "Never cite competitor billing, Trustpilot, or subscription complaints (Red Line 6). State that a competitor uses subscription pricing only as a neutral cost fact. DutchwithJoost now offers subscriptions too, so never contrast on auto-renewal and never claim DutchwithJoost is cheaper; the only cost angle is that a one-time, non-recurring option exists.",
+    "Frame DutchwithJoost product specifics as 'how the course is designed' (e.g. 'a lesson is complete once you've used the words in conversation'), never as universal requirements that all learning must meet.",
+    "Link UP to the pillar what-is-production-based-language-learning for the mechanism; keep entity language identical across the cluster.",
     "Product facts and price for DutchwithJoost must be verified against the live product before writing.",
     "Anonymize customer/community sources; no prohibited words; no em-dashes; no semicolons."
   ]

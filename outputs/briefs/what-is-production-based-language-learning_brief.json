@@ -4,115 +4,143 @@
     "priority_score": 6.8,
     "stage": "mofu",
     "format": "guide",
-    "target_word_count": 2200,
-    "estimated_effort": "3-4 hours",
-    "role": "Pillar/methodology page. Several cluster articles link into this as the deep explainer of the recognition-vs-production thesis."
-  },
-  "serp_analysis": {
-    "analyzed_date": "2026-06-01",
-    "tool": "firecrawl search (global)",
-    "top_results": "PubMed (#1, #4 'Production Practice During Language Learning Improves...'), Wikipedia 'Language production', ResearchGate, ScienceDirect, plus 'project-based language learning (PBLL)' pages (Columbia, teacheracademy.eu, nysed).",
-    "gap": "Entirely academic/teacher-facing; no learner-facing piece applies production-based learning to adult Dutch/inburgering. The term also collides with 'project-based language learning', a different concept.",
-    "implication": "Weak for our niche (serp_weakness 7) but the head term is academic and ambiguous. Disambiguate explicitly from project-based learning, lean on winnable variants ('why memorizing Dutch doesn't stick', 'active vs passive vocabulary'), and cite the PubMed production-practice study as proof."
+    "target_word_count": 2400,
+    "estimated_effort": "4-6 hours",
+    "ai_search_play": "ai-citation, format_priority standard, youtube_companion true. Informational intent: AI Overviews and ChatGPT will summarize this rather than send clicks, so the win condition is being the cited, named source for the recognition-vs-production concept and the retention payoff. Educational explainers are an influenceable citation surface, and deep concept pages can be cited even with low search volume (28.3% of most-cited ChatGPT pages have zero Google organic visibility), so mini_volume is de-emphasized here.",
+    "hub_role": "Hub 1 of the cluster: the concept / methodology hub. It owns the defensible mechanism (production-based learning) that the whole cluster points back to. It shares one spine with Hub 2, the commercial decision hub (best-inburgering-courses-2026): production is the mechanism, retention ('pass the exam and keep the Dutch') is the outcome. This page is the WHY; Hub 2 is the WHICH. Keep entity language identical across both. The pillar's own term is mechanism-language, not buyer-language, so its success metric is internal-link consolidation + AEO citations, not its own search ranking.",
+    "rebuild_note": "Regenerated 2026-06-07 within the research-brief run, retuned to lead with the founder-confirmed differentiator: retention through production. Prior version led mechanism-first (recognition vs production) and leaned on speaking. This version leads with the retention outcome (you understand Dutch but forget it / can't use it), names production-based learning as the mechanism, frames production across all four skills (receptive = reading + listening; productive = speaking + writing), and lands retention + 'recognize and produce' as the payoff. Built against the full 5-interview corpus (nina, alysa, anna, molly, monika) + web-research-jtbd. Entity language deliberately matched to the hub_strategy recorded in best-inburgering-courses-2026_brief.json."
   },
   "keyword": {
     "primary": "production based language learning",
     "variants": [
-      "production vs recognition language learning",
-      "learn vocabulary by using it",
-      "output hypothesis language learning",
+      "why do I forget Dutch after a course",
+      "how to learn Dutch so it sticks",
       "why memorizing Dutch doesn't stick",
-      "active vs passive vocabulary"
+      "understand Dutch but can't speak it",
+      "production vs recognition language learning",
+      "active vs passive vocabulary",
+      "output hypothesis language learning"
     ],
-    "searcher_intent": "Understand why they can understand a language but can't produce it, and what learning approach closes that gap. Solution-aware, looking for a mechanism and a method, not a product pitch."
+    "searcher_intent": "Understand why they can understand a language but cannot use it, and why what they 'learned' faded after the course ended. They want a name for the mechanism and an approach that makes Dutch stick. Solution-aware. Most arrive via the retention/outcome long-tails ('why do I forget Dutch', 'how to learn Dutch so it sticks', 'understand but can't speak') rather than the academic head term."
   },
   "audience": {
-    "persona": "Production Gap + Prior Course Skepticism barrier profiles; cross-persona, strongest for Pattern C (Nina) and Pattern D (long-term resident, integration focus)",
+    "persona": "Production Gap + Prior Course Skepticism barrier profiles; cross-persona, strongest for Pattern C (work-visa expat, full motivation stack) and Pattern D (long-term resident, integration focus). Also fits EU nationals outside the inburgering track who want to actually use Dutch.",
     "industry_focus": null,
-    "pain_summary": "Finished courses and exercises, passed or nearly passed, but still freeze when speaking. They are starting to suspect the method, not their own ability.",
+    "pain_summary": "They finished courses, drills, or an app, can read and follow a fair amount, but freeze when they have to produce Dutch, and most of what they 'learned' has faded. They are starting to suspect the method, not their own ability, and they want to understand why it didn't stick and what would.",
     "awareness_level": "solution-aware"
   },
-  "angle": "The pillar explainer that names the mechanism behind 'I passed but can't speak': recognition versus production. It grounds an abstract second-language-acquisition concept (Swain's Output Hypothesis, 1985) in the concrete inburgering experience, then gives an operational definition of 'production-based': a lesson is finished when you have used the words in conversation, not when the exercises are done. Critical guardrail: describe production-based learning as a general principle and Dutchwithjoost's specific rules as 'how we designed the course,' never as universal requirements (per specificity rules).",
-  "thesis_sentence": "You cannot speak a language you have only recognized, because production is a separate skill that has to be trained directly, and production-based learning trains it by making you use the words yourself before a lesson counts as done.",
+  "angle": "The pillar explainer that starts from the outcome learners actually feel: you passed or finished, you can recognize Dutch, but you can't use it and most of it faded. It names why: recognition and production are two different skills, and almost every course only trains the receptive half (reading, listening) while leaving the productive half (speaking, writing) untrained, which is also the half that makes the language stick. Production-based learning is the mechanism that fixes this: you learn each word and rule by producing it, so a lesson is finished when you have used the language, not when the exercises are done. The payoff is retention: you keep the Dutch and can use all four skills, recognizing and producing, rather than memorizing to pass and forgetting. Critical guardrail: production-based learning is described as a general principle, and DutchwithJoost's specific rules are described as 'how we designed the course,' never as universal requirements.",
+  "thesis_sentence": "You forget the Dutch you only recognized, because recognition (reading and listening) and production (speaking and writing) are different skills and only production makes the language stick, so production-based learning trains the productive half directly by making you use the words yourself before a lesson counts as done, which is why you keep what you learn instead of memorizing it for the exam and losing it.",
   "outline": [
     {
       "section": "What production-based language learning is",
-      "notes": "Lead with the AEO definition paragraph. Disambiguate up front from 'project-based language learning (PBLL)', a different concept that shares the search term. Define the term plainly, then contrast with recognition-based study in one line.",
+      "notes": "Lead with the AEO definition paragraph, no windup, and connect the mechanism to the payoff in the definition itself (you learn by producing the language, which is why it sticks). Disambiguate immediately from 'project-based language learning (PBLL)', a different concept that shares the search term. Use the exact entity phrase 'production-based language learning' here for AEO. No product mention yet.",
       "word_target": 250,
-      "evidence_needed": "Operational definition: completion gated on producing the language, not finishing exercises. No product mention yet."
+      "evidence_needed": "Operational definition: completion is gated on producing the language (speaking and writing it), not on finishing exercises, and that is what makes it retain. One clean PBLL-disambiguation sentence so AI tools don't conflate the two."
     },
     {
-      "section": "Recognition vs production: two different skills",
-      "notes": "Concrete examples (see 'appel' / sentence construction). Input-to-meaning vs meaning-to-output. Explain why training one does not transfer to the other.",
-      "word_target": 350,
-      "evidence_needed": "Swain Output Hypothesis (1985) cited by name and year, plus Hopman & MacDonald (2018), 'Production Practice During Language Learning Improves Comprehension' (Psychological Science, DOI 10.1177/0956797618754486) as peer-reviewed support that producing language improves later comprehension. Keep cognitive framing plain, not jargon-heavy."
+      "section": "Recognition and production are two different skills (and only one of them sticks)",
+      "notes": "The conceptual core, framed across all four skills. Map it cleanly: recognition is the receptive half (reading, listening) where Dutch goes in; production is the productive half (speaking, writing) where you build Dutch yourself. Training the receptive half does not transfer to the productive half. Then the retention point: producing the language is what moves it into durable, retrievable memory, so the skills you never produce are the ones you lose first. Concrete contrast: recognizing 'appel' on a flashcard vs constructing a sentence with it unprompted. Keep cognitive framing plain.",
+      "word_target": 380,
+      "evidence_needed": "Anonymized learner who described the gap exactly: 'My vocabulary is okayish, I understand a lot, but speaking and pronunciation is... no. This is something my brain just cannot work around.' Academic support, cited by name and year: Swain's Output Hypothesis (1985), and Hopman & MacDonald (2018), 'Production Practice During Language Learning Improves Comprehension', Psychological Science, DOI 10.1177/0956797618754486, as peer-reviewed evidence that producing language improves later comprehension and retention. Verify the DOI and finding before publishing."
     },
     {
-      "section": "Why recognition-based courses feel productive but leave a gap",
-      "notes": "Completion = finished exercises trains recognition. Re-watching/re-reading feels like progress, builds the skill you already have.",
-      "word_target": 350,
-      "evidence_needed": "Anonymized learner: 'I did it, I finished it. But I didn't feel like I retained anything' (Nina, anonymize to 'one learner who finished an A1 course')."
+      "section": "Why you forget what you 'learned'",
+      "notes": "The retention section, and the emotional hook. Finishing exercises and re-reading feels like progress, but it mostly exercises the receptive skill you already have, and recognition fades fast once the course ends. Name the comfort trap: recognition is smooth because it asks almost nothing of you, and that smoothness is exactly why almost nothing sticks. Name how low the bar has been set, so the reader stops blaming themselves. This is the section that reframes 'I'm bad at languages' into 'the method never made me produce anything.'",
+      "word_target": 340,
+      "evidence_needed": "Anonymized learner after finishing an A1 course: 'I did it, I finished it. But I didn't feel like I retained anything.' Anonymized on the normalized low bar: 'People don't even expect that at A2 you can have a conversation.' Frame both as symptoms of recognition-gated completion, not learner failure. Link to not-bad-at-dutch-its-the-method for the self-blame angle rather than fully developing it here."
+    },
+    {
+      "section": "The clearest symptom: apps that teach phrases you will never say",
+      "notes": "A short, vivid section that makes the abstract concept undeniable. Pure-recognition tools optimize for streaks and right answers, so learners end up able to produce only a few canned, useless sentences and retain almost nothing usable. Use the convergence: two unrelated learners independently reported being able to produce almost nothing beyond a single absurd phrase. Near-identical wording from strangers is the signature of recognition-only practice, and it lands harder than any theory.",
+      "word_target": 250,
+      "evidence_needed": "Anonymized convergence (the originality nugget): one learner, 'I can only say: I have a green apple'; another, 'I learned how to say phrases like: my elephant is green. Where am I gonna use this?' Duolingo may be named as a neutral, widely-understood example of the format (consistent with the cluster), but anonymize the learners. The point is the format, not that the tool is worthless."
     },
     {
       "section": "What production-based learning looks like in practice",
-      "notes": "Learn a word by using it; multiple successful uses across different sentences; say it and write it, not just read it. Be explicit this describes how Dutchwithjoost is built, not a universal rulebook.",
+      "notes": "Make it concrete and across all four skills. You learn a word by using it; you use it in several different sentences; you say it AND write it, not just read it; a word is not 'learned' until you have produced it successfully more than once. Because you produce it, it sticks. Be explicit that this describes how DutchwithJoost is built, not a universal rulebook, and that the same principle can be applied with other tools.",
       "word_target": 400,
-      "evidence_needed": "Anonymized: 'The words that you learn you use... it helps me communicate.' Frame product specifics as 'Dutchwithjoost does X,' per specificity rules."
+      "evidence_needed": "Anonymized: 'The words that you learn you use... it helps me communicate.' Frame product specifics with the specificity rule: 'DutchwithJoost considers a lesson complete when you have used most of the new vocabulary in conversation', not 'production-based learning requires X'. No pricing (MOFU)."
     },
     {
       "section": "How to add production to any study routine",
-      "notes": "Retrieval practice (cover the word, produce it), narrate aloud, level-matched conversation. Must be genuinely useful even if the reader uses a competitor or free tools.",
-      "word_target": 350,
-      "evidence_needed": "Advice-section test: a learner using Duolingo + a tutor should still benefit. No disqualifying criteria."
+      "notes": "Genuinely useful even if the reader uses a competitor or only free tools, and covering both productive skills. Retrieval practice (cover the word and produce it from meaning), narrate your day aloud in Dutch, write a few sentences before you check the answer, and seek level-matched conversation so the practice stays usable. Must pass the advice-section test: a learner pairing Duolingo with a tutor should still benefit.",
+      "word_target": 340,
+      "evidence_needed": "Advice-section test: no criteria written to disqualify competitors. Level-matched point supported by the anonymized Dutch-partner mismatch: 'your level is native and mine is total beginner... it's just impossible to learn' (use the principle, not a product pitch)."
     },
     {
-      "section": "Production-based vs other common approaches",
-      "notes": "Grammar-translation, app drilling, unstructured immersion with a native partner. Where each builds recognition without production.",
+      "section": "Production-based learning vs other common approaches",
+      "notes": "Briefly place it against approaches readers have actually tried: grammar-translation classes, app drilling, and unstructured immersion with a native partner. Show where each builds recognition without ever forcing production, and so without retention. Keep it fair, each has a real use; the gap is specifically production and what sticks.",
       "word_target": 300,
-      "evidence_needed": "Anonymized: native-partner level mismatch ('your level is native and mine is total beginner... impossible to learn'); apps that teach 'useless phrases.' Anonymize platform names per citation standards where the insight, not the brand, is the point."
+      "evidence_needed": "Anonymized: grammar-heavy class, 'very boring grammar rules... no speaking at all'; native-partner level mismatch, 'he's not gonna use C2-level Dutch to reply to you' / 'impossible to learn'; apps that teach 'useless phrases'. Anonymize platform and partner references per citation standards where the insight, not the brand, is the point."
     },
     {
       "section": "Frequently asked questions",
-      "notes": "Pull the AEO FAQ set below.",
+      "notes": "Definition-first answers, 2 to 4 sentences each, self-contained for AI lift. Use the FAQ set below. Include the retention questions explicitly.",
       "word_target": 200,
-      "evidence_needed": "Answer each in 2-4 sentences, definition-first."
+      "evidence_needed": "Each answer quotable on its own. No pricing, no product pitch in the answers."
     }
   ],
   "value_props_to_weave": [
     {
+      "pain": "I finished the course but forgot most of it and can't use Dutch",
+      "prop": "Learning each word by producing it, across speaking and writing, moves it into durable memory, so you keep the Dutch instead of memorizing it for the exam and losing it",
+      "proof": "Anonymized learner after a memorization-based course: 'I did it, I finished it. But I didn't feel like I retained anything.'"
+    },
+    {
       "pain": "Memorized vocabulary that never sticks",
-      "prop": "Learning each word by using it in conversation builds the retrieval pathway memorization skips",
+      "prop": "A word counts as learned only after you have used it yourself more than once, which builds the retrieval pathway memorization skips",
       "proof": "Anonymized learner: 'The words that you learn you use... it helps me communicate.'"
     },
     {
-      "pain": "Passed the exam but still can't speak",
-      "prop": "Completion gated on production means you cannot finish a lesson without speaking",
-      "proof": "Dutchwithjoost marks a lesson done only after you have used the new words in a conversation with Joost."
-    },
-    {
-      "pain": "Practice with a native partner is too hard, they speak over your head",
-      "prop": "Level-matched production practice keeps the conversation usable",
-      "proof": "Anonymized: 'He's not gonna use C2-level Dutch to reply to you.'"
+      "pain": "Apps and drills taught phrases that are useless in real life",
+      "prop": "Production practice anchored to real use means you build sentences you would actually say and write, not canned ones",
+      "proof": "Anonymized convergence: 'I can only say: I have a green apple' and 'my elephant is green... where am I gonna use this?'"
     }
   ],
   "originality_nuggets": [
-    "Reframes a dry SLA concept (the Output Hypothesis) through the lived inburgering experience of 'passed but can't speak.' No competitor connects the academic theory to the Dutch civic-integration context.",
-    "Operational definition of 'done': most courses count a lesson finished when the exercises are; production-based learning counts it finished when you have used the words in conversation. That single-variable difference is the whole article.",
-    "Names the comfort trap: recognition feels smooth because it asks almost nothing of you, and that smoothness is exactly why it builds almost nothing you can speak with."
+    "Reframes the whole problem from 'I'm bad at languages' to 'the method only ever trained the half of the language that fades': recognition is the receptive half (reading, listening), production is the productive half (speaking, writing), and only the half you produce sticks.",
+    "Connects a dry second-language-acquisition concept (the Output Hypothesis) to the lived, multi-source experience of understanding Dutch but forgetting it. No competitor connects the academic theory to the real retention problem.",
+    "Operational definition of 'done' as the whole article: most courses count a lesson finished when the exercises are; production-based learning counts it finished when you have used the language, and that single-variable difference is what decides whether you keep it.",
+    "The green-apple / green-elephant convergence: two unrelated learners independently reported being able to produce almost nothing beyond one absurd canned phrase. Near-identical wording from strangers is a concrete, memorable signature of recognition-only practice.",
+    "Names the comfort trap and the lowered bar: recognition feels smooth because it asks almost nothing of you, which is exactly why nothing sticks, and 'people don't even expect that at A2 you can have a conversation' shows the market has quietly accepted forgetting as normal."
   ],
   "seo": {
-    "title_tag": "Production-Based Language Learning, Explained",
-    "meta_description": "Why you understand Dutch but can't speak it, and the learning approach that closes the gap: producing the language, not just recognizing it.",
+    "title_tag": "Production-Based Learning: Why Dutch Actually Sticks",
+    "meta_description": "Why you forget Dutch after a course, and what makes it stick: you learn by producing the language across all four skills, not just recognizing it.",
     "url_slug": "what-is-production-based-language-learning"
   },
   "aeo_directives": {
     "featured_snippet_target": "What is production-based language learning?",
-    "definition_paragraph": "Production-based language learning is an approach where you learn vocabulary and grammar by producing the language yourself, speaking and writing it, rather than by recognizing it in exercises. A lesson is complete when you can use the material in a real conversation, not when you have finished the drills.",
+    "definition_paragraph": "Production-based language learning is an approach where you learn vocabulary and grammar by producing the language yourself, speaking and writing it, rather than by recognizing it in exercises. A lesson is complete when you can use the material in a real conversation, not when you have finished the drills. Because you practice producing the language and not just recognizing it, it sticks: you keep what you learn and can use all four skills, reading, listening, speaking, and writing, instead of memorizing it for a test and forgetting it. It is different from project-based language learning (PBLL), which organizes study around completing a project; production-based learning is about the completion standard, that you have produced the language, not just recognized it.",
     "faq_questions": [
       "What is the difference between recognition and production in language learning?",
+      "Why do I forget Dutch after finishing a course?",
       "Why can I understand Dutch but not speak it?",
-      "Is production-based learning better than memorization?",
-      "How do I practice language production on my own?"
+      "Does production-based learning help you remember Dutch longer?",
+      "Is production-based learning the same as project-based language learning?"
     ]
-  }
+  },
+  "ai_search_directives": {
+    "rationale": "Operationalizes the house AI-search lens for an informational pillar: this is an ai-citation play, so the page is engineered to be the named, quotable source for the recognition-vs-production concept and the retention payoff, rather than to win clicks.",
+    "self_contained_definition": "The opening definition paragraph must answer 'what is production-based language learning' completely on its own, including the retention payoff and the PBLL disambiguation, so AI tools can lift it without the rest of the article.",
+    "named_entity_consistency": "Use identical entity and definition language across the whole cluster ('production-based learning', 'learn by using it', 'pass the exam and keep the Dutch', 'all four skills', 'recognize and produce', 'a lesson is done when you have used the words in conversation') so the ~2-day AIO source reshuffle keeps landing on consistent phrasing. This is the shared spine with Hub 2 (best-inburgering-courses-2026).",
+    "quotable_units": "Write the comfort-trap line, the operational definition of 'done', the receptive-vs-productive framing, and the green-apple/green-elephant convergence as tight, standalone sentences. ChatGPT cites only about half the URLs it retrieves, and self-contained quotable lines are what get included.",
+    "citation_over_ranking": "Expect lower CTR. Success is being cited and named in AI answers about why learners understand but forget Dutch, not ranking number one. Cluster breadth across the linked spokes matters more than over-optimizing this single page.",
+    "link_down_to_spokes_and_up_from_hub2": "As the concept hub, this page is the link target the symptom spokes (why-cant-speak-dutch-after-studying, passed-inburgering-cant-speak-dutch, not-bad-at-dutch-its-the-method, duolingo-wont-teach-you-to-speak-dutch, dutch-partner-cant-teach-dutch) point up to, and that Hub 2 (best-inburgering-courses-2026) links up to for the mechanism. Link down to the practical spokes (how-to-practice-dutch-speaking-alone, how-does-dutchwithjoost-work) where relevant.",
+    "youtube_companion": "Pair with a short Joost video demonstrating recognition vs production and why producing makes it stick (recognize 'appel' on a card, then build and say a sentence with it live). YouTube mentions had the highest measured correlation with AI brand visibility.",
+    "no_schema_dependency": "No schema markup for AI visibility (no measured effect). The FAQ block is for humans and featured snippets only."
+  },
+  "guardrails": [
+    "Lead with the retention outcome, the founder-confirmed differentiator: the payoff is that you keep the Dutch and can use all four skills, not just that you can speak. Do not collapse the article into a speaking-only piece. Recognition = reading + listening (receptive); production = speaking + writing (productive). 'Recognize and produce' and 'all four skills' are required framing.",
+    "Specificity rule (hard): production-based learning is a general principle. DutchwithJoost's specific rules ('a lesson is complete when you have used most of the new vocabulary in conversation', 'a word needs multiple successful uses before it counts') must be written as 'how DutchwithJoost is designed', never as 'production-based learning requires X' or 'effective learning requires X'.",
+    "No pricing anywhere in this article. It is MOFU thought leadership; a price mention breaks the frame from education into sales.",
+    "Do not isolate product mentions into a 'Why DutchwithJoost' section. Thread the value props into the relevant context so the reader absorbs them without feeling the shift to a pitch.",
+    "Disambiguate from project-based language learning (PBLL) explicitly in the opening, because the term collides on the SERP and in AI retrieval.",
+    "Verify academic citations before publishing: Swain (1985) Output Hypothesis, and Hopman & MacDonald (2018), Psychological Science, DOI 10.1177/0956797618754486. Cite by name and year; confirm the DOI resolves and the finding (production practice improves later comprehension) is stated accurately.",
+    "The 'add production to any routine' section must pass the advice-section test: genuinely useful even if the reader uses a competitor or only free tools. No criteria written to disqualify competitors.",
+    "Keep entity language identical to Hub 2 (best-inburgering-courses-2026) so the two hubs share one spine; this page is the WHY (mechanism), Hub 2 is the WHICH (decision).",
+    "Anonymize all customer and community sources per the citation standards (learners become roles/descriptors; community quotes become 'many learners report...'). Duolingo may be named only as a neutral example of the recognition-only format, consistent with the rest of the cluster.",
+    "No prohibited words, no em-dashes, no semicolons. State claims with concrete proof, not significance puffery."
+  ]
 }

@@ -1,0 +1,55 @@
+title: "Production-Based Learning: Why Dutch Actually Sticks"
+description: "Why you forget Dutch after a course, and what makes it stick: you learn by producing the language across all four skills, not just recognizing it."
+excerpt: "You finished the course, you can read a fair bit, and you still can't use Dutch. The problem isn't you. Most courses only train the half of the language that fades. Here's the half that sticks, and how to learn that way."
+slug: "what-is-production-based-language-learning"
+category: "dutch-learning"
+tags:
+  - production-based learning
+  - learn Dutch
+  - language learning
+  - speaking Dutch
+  - active vs passive vocabulary
+  - output hypothesis
+  - Dutch retention
+  - recognition vs production
+
+faqs:
+  - question: "What is the difference between recognition and production in language learning?"
+    answer: "Recognition is understanding a language when you see or hear it: reading and listening, the receptive half. Production is building the language yourself: speaking and writing, the productive half. They are separate skills, and practicing one does not automatically train the other, which is why you can understand far more Dutch than you can say. Production is also the half that makes the language stick, because using a word yourself is what moves it into memory you can actually retrieve."
+  - question: "Why do I forget Dutch after finishing a course?"
+    answer: "Most courses count a lesson finished when you have clicked through the exercises, which mainly trains recognition, and recognition fades fastest once you stop. Re-reading and multiple-choice feel like progress because they are easy, but that ease is exactly why little of it stays. You keep the Dutch you have produced yourself, so if a course never made you speak or write the words, there is little for your memory to hold onto."
+  - question: "Why can I understand Dutch but not speak it?"
+    answer: "Because understanding and speaking are two different skills. Reading and listening let Dutch come in, and you can get good at those while still being unable to build a sentence on the spot. Speaking develops only when you practice producing the language yourself, out loud, in real exchanges. If your study has been mostly input, the gap you feel is expected, not a sign you are bad at languages."
+  - question: "Does production-based learning help you remember Dutch longer?"
+    answer: "Yes. When you learn a word by using it, speaking and writing it rather than only recognizing it, you build the retrieval pathway that memorization skips, so the word is there when you need it. Producing the language also improves how well you later understand it, so the benefit runs both ways. The practical payoff is retention: you keep what you learn instead of memorizing it for a test and losing it."
+  - question: "Is production-based learning the same as project-based language learning?"
+    answer: "No. Project-based language learning (PBLL) organizes study around completing a project, such as making a video or planning a trip. Production-based learning is about the completion standard for any lesson: it is finished when you have produced the language, spoken and written it, not just recognized it. The two share a search term but describe different things."
+
+internal_link_targets:
+  - slug: why-cant-speak-dutch-after-studying
+    anchor_intent: "Symptom spoke: the understand-but-can't-speak experience"
+    registry_status: published
+  - slug: not-bad-at-dutch-its-the-method
+    anchor_intent: "Self-blame reframe (it's the method, not you)"
+    registry_status: planned
+  - slug: duolingo-wont-teach-you-to-speak-dutch
+    anchor_intent: "Recognition-only apps and useless phrases"
+    registry_status: planned
+  - slug: how-does-dutchwithjoost-work
+    anchor_intent: "Lesson walkthrough of production-based learning in practice"
+    registry_status: planned
+  - slug: how-to-practice-dutch-speaking-alone
+    anchor_intent: "Solo production-practice tactics"
+    registry_status: planned
+  - slug: dutch-partner-cant-teach-dutch
+    anchor_intent: "Native-partner level mismatch in unstructured immersion"
+    registry_status: planned
+  - slug: passed-inburgering-cant-speak-dutch
+    anchor_intent: "Passed the exam but still can't use Dutch"
+    registry_status: planned
+  - slug: best-inburgering-courses-2026
+    anchor_intent: "Hub 2 handoff: which course (the WHICH to this page's WHY)"
+    registry_status: planned
+
+academic_citation_cap: 2
+academic_citation_planned: "Swain (1985) Output Hypothesis + Hopman & MacDonald (2018) Psychological Science (DOI 10.1177/0956797618754486) — both Section 2 only, on different claims, never stacked. Verify DOI resolves before publishing."

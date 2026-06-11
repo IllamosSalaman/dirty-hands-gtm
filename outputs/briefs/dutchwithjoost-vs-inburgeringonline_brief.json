@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "topic_id": "dutchwithjoost-vs-inburgeringonline",
+    "priority_score": 7.8,
+    "stage": "bofu",
+    "format": "comparison",
+    "target_word_count": 2300,
+    "estimated_effort": "4-6 hours",
+    "ai_search_play": "click-capture, format_priority high, youtube_companion true. Review and comparison intent is largely transactional/branded, so it sits mostly outside AI Overviews and ranking still wins the click. Reviews are also one of the two formats ChatGPT cites most, so a clean, honest, named-entity comparison doubles as a citation magnet. The win condition is both: rank for 'inburgeringonline review' and be the source AI quotes when asked 'is InburgeringOnline worth it'.",
+    "role": "BOFU buyer-decision page. The one us-vs-named-competitor comparison in the cluster. Links up to the methodology pillar (what-is-production-based-language-learning) for the recognition-vs-production mechanism and across to the product tour (how-does-dutchwithjoost-work) and the buyer guide (inburgering-course-that-teaches-speaking). Does not re-explain the mechanism; states the verdict and links."
+  },
+  "keyword": {
+    "primary": "inburgeringonline review",
+    "variants": [
+      "inburgeringonline vs dutchwithjoost",
+      "inburgeringonline alternative",
+      "is inburgeringonline worth it",
+      "inburgeringonline ervaringen",
+      "best inburgering course to actually speak Dutch"
+    ],
+    "searcher_intent": "Already evaluating InburgeringOnline by name and close to a decision. Wants an honest read on whether it is worth it, what the catch is, and whether something fits better if the goal is to actually speak Dutch and not only pass the exam. Product-aware, comparing two named options."
+  },
+  "audience": {
+    "persona": "Cross-persona course shopper, strongest for Production Gap + Prior Course Skepticism. Pattern C (work-visa expat who has already failed one or two courses) and Pattern B (busy work-visa professional weighing the most-recommended option).",
+    "industry_focus": null,
+    "pain_summary": "They keep seeing InburgeringOnline recommended as the default, but a nagging worry that it is 'just memorization' and that they will pass the exam and still freeze when they try to speak. They want permission to either trust the popular choice or pick differently for a reason they can defend to themselves.",
+    "awareness_level": "product-aware"
+  },
+  "angle": "The honest comparison that refuses to trash the market leader. Concede InburgeringOnline's real strengths up front (brand recognition, exam-mapped structure, a long record of people passing, an NT2-qualified founder, and recently-added AI scoring) and state plainly that it is a good buy for one specific reader: someone who needs to pass quickly and does not care whether they can speak afterward. Then draw the single real dividing line between the two courses: the completion criterion. InburgeringOnline counts a lesson done when you finish the exercises, which trains recognition. DutchwithJoost counts a lesson done only when you have used the words in a conversation, which trains production. Everything else (price, coverage, AI scoring) is close enough that the decision pivots on one question: do you just need the certificate, or do you want to speak Dutch on the other side of it?",
+  "thesis_sentence": "InburgeringOnline is the most proven, most recommended way to pass the inburgering exam, but because it marks a lesson finished when the exercises are done it trains recognition, so the real choice is not which course is better, it is whether you want to pass the test or be able to speak Dutch afterward, and that is the line DutchwithJoost is built on.",
+  "outline": [
+    {
+      "section": "The short answer (verdict box)",
+      "notes": "Lead with the decision, not a windup. Two or three sentences naming both products as clear entities, then a one-line verdict for each: pick InburgeringOnline if you want the most-recommended, exam-mapped path and your goal is to pass; pick DutchwithJoost if you have finished courses before and still cannot speak, because it only counts a lesson done once you have used the words in conversation. Disclose the bias in the same breath: we make DutchwithJoost, here is the honest case for both.",
+      "word_target": 200,
+      "evidence_needed": "Named-entity one-liners for both. The verdict box is the featured-snippet and AI-citation target, so it must stand alone and be quotable. No pricing claims of superiority."
+    },
+    {
+      "section": "What InburgeringOnline is (the honest version)",
+      "notes": "Describe it fairly and specifically: a self-paced online inburgering exam-prep course built by an NT2 teacher, the most recognized self-paced option, frequently recommended in expat forums, mapped clearly to the exam parts, and now offering AI-scored writing and speaking. Concede the genuine strengths so the reader trusts the rest of the page. State that many people pass all five exams with it, some quickly.",
+      "word_target": 300,
+      "evidence_needed": "Strengths to concede: brand recognition, exam-mapped structure, proven pass record, NT2-teacher founder credibility, recent AI scoring. Praise patterns may be referenced as general sentiment ('learners describe it as a one-stop shop for exam prep'). HARD RULE: do not cite their Trustpilot rating, review counts, or any billing/refund/subscription complaints (Red Line 6). This is a method review, not a billing attack."
+    },
+    {
+      "section": "What DutchwithJoost is",
+      "notes": "Symmetric, equally specific: a self-paced course where you learn vocabulary and grammar by using them, and a lesson completes only after you have used the new words in a conversation with Joost. Two-phase lesson: structured practice prepares, the conversation proves. Keep it factual and short, this is not the sales section.",
+      "word_target": 250,
+      "evidence_needed": "Frame product specifics as 'how DutchwithJoost is designed', not universal rules (specificity rule). Proof for the learn-by-using claim: anonymized learner, 'The words that you learn you use... it helps me communicate.' Verify all product facts against the live product before writing."
+    },
+    {
+      "section": "The one difference that actually matters: when a lesson counts as done",
+      "notes": "The crux of the page. Both courses cover all exam parts, both use AI scoring, both are self-paced and similarly priced. The single structural difference is the completion criterion. InburgeringOnline (like most courses) completes a lesson when the exercises are finished, which trains recognition: you can pick the right answer. DutchwithJoost completes a lesson only when you have produced the words yourself in conversation, which trains production: you can say it unprompted. Link out to the pillar (what-is-production-based-language-learning) for the mechanism rather than re-teaching it. Name the lived consequence: passing the exam and still freezing.",
+      "word_target": 400,
+      "evidence_needed": "Anonymized Nina: 'InburgeringOnline is just a bunch of things to memorize... a cheat sheet to the exam.' Anonymized anecdote: a learner's acquaintance got citizenship through it but could not pronounce the word inburgering the day he got his passport. Anonymize both (a self-employed expat on a work visa; an acquaintance). Use 'recognize but cannot use' and 'pass but can't speak' (customer lexicon). This is a method critique, not a quality or billing attack."
+    },
+    {
+      "section": "Side-by-side comparison",
+      "notes": "A clean comparison table, the citation unit of the page. Rows from the competitive feature matrix plus a neutral cost row. Keep verdict-style cells short so each doubles as a snippet answer. Follow the table with two or three sentences interpreting it, not restating it.",
+      "word_target": 250,
+      "evidence_needed": "Feature matrix rows: all exam parts (both yes), AI scoring (both yes), KNM included (both yes), learn-by-using completion (DutchwithJoost yes, InburgeringOnline no), conversation as proof mechanism (DutchwithJoost yes, InburgeringOnline no), unlimited production practice (DutchwithJoost yes, InburgeringOnline limited), one-time non-recurring option (DutchwithJoost yes, InburgeringOnline no). English UI for DutchwithJoost is TBD, verify before listing. Cost row stated as neutral fact only, see pricing section."
+    },
+    {
+      "section": "Pricing, honestly",
+      "notes": "State both prices as neutral facts for full A2 coverage. InburgeringOnline full coverage is roughly 210 to 300 euro depending on plan length (about 49.95/month monthly, about 34.95/month on the 6-month plan, about 24.95/month on the 12-month plan). DutchwithJoost is 399 euro one-time, or 49/month, or 39/month on a 6-month plan (234 euro total). Do not declare a winner on price: at equivalent coverage DutchwithJoost is not cheaper. The only honest cost angle is that a true one-time, non-recurring option exists, which is rare in this market. Never frame InburgeringOnline's subscription as a trap, and never contrast on auto-renewal, because DutchwithJoost also runs an auto-renewing monthly plan.",
+      "word_target": 250,
+      "evidence_needed": "Pricing facts from the competitive pricing matrix, verified on inburgeringonline.nl before publishing. Quote full-coverage prices only, never the single-module teaser floor (the advertised ~8.95 to 14.95/month is one module, e.g. reading only, not full A2). DUO note: do not state DutchwithJoost is or is not DUO-approved; if the reader uses the DUO loan, a Blik op Werk certified school is required, so tell them to check their track and funding route first."
+    },
+    {
+      "section": "Choose InburgeringOnline if...",
+      "notes": "Genuinely useful, not a strawman. Recommend it without hedging for the reader it actually fits: you want the most-recommended, well-trodden option; your priority is passing the exam efficiently and you are confident you will keep up your Dutch another way; you like a clearly exam-mapped structure. The advice-section test: a reader who picks InburgeringOnline after this section should feel well served, not tricked.",
+      "word_target": 200,
+      "evidence_needed": "Mirror the honest 'when they're in the deal' framing: it is a good option to pass quickly. No disqualifying criteria written to make the competitor look bad."
+    },
+    {
+      "section": "Choose DutchwithJoost if...",
+      "notes": "The mirror. For the reader who has finished a course before and still cannot speak, who hated memorizing isolated word lists, who wants the certificate to mean they can actually use Dutch, and who wants a non-recurring one-time option. Weave the value props here as fit criteria, not a pitch.",
+      "word_target": 250,
+      "evidence_needed": "Anonymized: 'I did it, I finished it. But I didn't feel like I retained anything.' Anonymized: 'I really hated spending two hours memorizing a million words that don't make sense together.' Tie each to the completion-criterion difference, not to vague superiority."
+    },
+    {
+      "section": "Frequently asked questions",
+      "notes": "Definition-first answers, 2 to 4 sentences each. Use the FAQ set below. Answer the 'is it worth it' and 'which is better' questions plainly, conceding InburgeringOnline where fair.",
+      "word_target": 200,
+      "evidence_needed": "Each answer self-contained and quotable for AI lift. No billing/Trustpilot references."
+    }
+  ],
+  "value_props_to_weave": [
+    {
+      "pain": "Worried they will pass the exam with the popular course and still not be able to speak",
+      "prop": "A lesson that only completes once you have used the words in conversation makes 'passed but can't speak' structurally hard to reach",
+      "proof": "Anonymized learner on the market leader: 'just a bunch of things to memorize... a cheat sheet to the exam', plus the acquaintance who got citizenship but couldn't pronounce inburgering."
+    },
+    {
+      "pain": "Memorized word lists from past courses never stuck",
+      "prop": "Learning each word by producing it in a sentence builds the retrieval pathway that flashcard memorization skips",
+      "proof": "Anonymized learner: 'The words that you learn you use... it helps me communicate.'"
+    },
+    {
+      "pain": "Tired of open-ended subscriptions and wants a defined, non-recurring cost",
+      "prop": "A true one-time option exists alongside monthly plans, which is rare among self-paced inburgering courses",
+      "proof": "Competitive pricing matrix: DutchwithJoost 399 one-time (no recurring charge); most self-paced competitors, including InburgeringOnline, are subscription-only. State as a neutral fact, not an auto-renewal attack."
+    }
+  ],
+  "originality_nuggets": [
+    "A us-vs-competitor page that openly recommends the competitor for a specific reader. Almost every 'X vs Y' page is a hit piece; this one concedes InburgeringOnline's real strengths and tells part of the audience to buy it, which is what makes the rest of the page credible.",
+    "The single-variable framing: both courses cover the same exam parts, both added AI scoring, both cost roughly the same, so the decision collapses to one structural difference, when a lesson counts as done. Naming that one variable is the whole article.",
+    "The lived proof that 'pass but can't speak' is real and not marketing: an acquaintance who earned citizenship through exam-prep memorization but could not pronounce the word inburgering on the day he got his passport (anonymized).",
+    "Reframes 'is InburgeringOnline worth it' from a quality question into a goals question: it is absolutely worth it for passing, and the honest disqualifier is your own goal, not any flaw in their product."
+  ],
+  "seo": {
+    "title_tag": "InburgeringOnline Review: Honest Take & Alternative",
+    "meta_description": "Is InburgeringOnline worth it? An honest review of the most-recommended inburgering course and who should pick a speaking-first alternative instead.",
+    "url_slug": "dutchwithjoost-vs-inburgeringonline"
+  },
+  "aeo_directives": {
+    "featured_snippet_target": "Is InburgeringOnline worth it?",
+    "definition_paragraph": "InburgeringOnline is a self-paced online course that prepares you for the Dutch inburgering exam, and it is the most recommended option of its kind. It is worth it if your goal is to pass the exam, because it is mapped closely to the exam parts and has a long record of learners passing. The trade-off is that it counts a lesson finished when you complete the exercises, which trains you to recognize Dutch rather than produce it, so many learners pass and still struggle to speak. If speaking afterward matters as much as passing, a production-based course like DutchwithJoost, which only completes a lesson once you have used the words in conversation, is the better fit.",
+    "faq_questions": [
+      "Is InburgeringOnline worth it?",
+      "What is the best alternative to InburgeringOnline?",
+      "Will InburgeringOnline help me actually speak Dutch or just pass the exam?",
+      "How much does InburgeringOnline cost for full A2 coverage?",
+      "InburgeringOnline vs DutchwithJoost: which should I choose?"
+    ]
+  },
+  "ai_search_directives": {
+    "rationale": "Operationalizes the house AI-search lens for a BOFU review/comparison: click-capture on Google (transactional/branded intent sits mostly outside AI Overviews, so ranking wins the click) and citation-magnet on ChatGPT (reviews are a top-cited format).",
+    "named_entity_sentence": "Give both InburgeringOnline and DutchwithJoost a single clean, quotable one-line description so AI tools can lift accurate, attributed lines for either. Retrieved is not the same as cited, so self-contained named lines raise the odds of being quoted.",
+    "comparison_table_as_citation_unit": "Include one clean side-by-side table; tables are easy for AI to parse and reproduce, and each per-row verdict doubles as a snippet answer.",
+    "verdict_box_first": "Put the two-line verdict at the very top. It is the unit most likely to be lifted into an AI answer or a featured snippet, so it must stand alone without the surrounding article.",
+    "consistent_entity_language": "Use the exact cluster phrasing ('production-based learning', 'learn by using the vocabulary', 'a lesson is done when you have used the words in conversation') identical to the pillar and the other vs/review pages, so the daily AIO reshuffle keeps landing on consistent facts.",
+    "youtube_companion": "Pair with a short Joost video: an honest 'should you use InburgeringOnline' walkthrough by goal. YouTube mentions had the highest measured correlation with AI brand visibility.",
+    "no_schema_dependency": "No schema markup for AI visibility (no measured effect). The FAQ block is for humans and featured snippets only."
+  },
+  "guardrails": [
+    "Red Line 6: never cite InburgeringOnline's Trustpilot rating, review counts, or any billing, refund, or subscription complaints. This is a review of the learning method, not their billing. Critiques must be about pedagogy (memorization vs production), never about quality-of-service grievances.",
+    "Never claim DutchwithJoost is cheaper. At equivalent full A2 coverage it is not (DutchwithJoost 6-month 234 vs InburgeringOnline ~210; the 399 one-time has no direct competitor equivalent). The only cost angle is that a true one-time, non-recurring option exists.",
+    "Never contrast on auto-renewal or frame subscriptions as a trap. DutchwithJoost also runs an auto-renewing monthly plan, so a subscription-shaming angle would be dishonest and self-defeating.",
+    "Quote InburgeringOnline full-coverage pricing only (~49.95/month monthly, ~34.95/month 6-month / ~210 total, ~24.95/month 12-month / ~300 total). Never quote the ~8.95 to 14.95/month single-module teaser as if it were full coverage. Verify all prices on inburgeringonline.nl before publishing.",
+    "DUO framing: never state DutchwithJoost is or is not DUO-approved. Frame as 'check your track and funding route first'; note that the DUO loan requires a Blik op Werk certified school.",
+    "Disclose the DutchwithJoost bias up front. Concede InburgeringOnline's genuine strengths. Every 'choose X if' criterion must be useful even to a reader who ends up picking InburgeringOnline.",
+    "Verify all DutchwithJoost product facts and prices against the live product before writing (legacy messaging docs are gone). English UI status is TBD, confirm before listing it.",
+    "Anonymize all customer and community sources per the citation standards (Nina to 'a self-employed expat on a work visa'; the citizenship anecdote to 'an acquaintance'). Frame DutchwithJoost specifics as 'how the course is designed', never as universal requirements.",
+    "No prohibited words, no em-dashes, no semicolons. No price mentions framed as a pitch; pricing stays a neutral decision fact in its own section."
+  ]
+}

@@ -1,27 +1,40 @@
-title: "InburgeringOnline Alternative: Dutchwithjoost Compared"
-description: "InburgeringOnline is built to pass the exam. Dutchwithjoost is built so you can speak after it. An honest comparison of price, method, and fit."
-excerpt: "InburgeringOnline gets you through the inburgering exam fast. But will you be able to speak Dutch when it's over? An honest, goals-based comparison of method, price, and who each course is actually for."
+title: "InburgeringOnline Review: Honest Take and the Speaking-First Alternative"
+description: "Is InburgeringOnline worth it? An honest review of the most-recommended inburgering course, and who should pick a speaking-first alternative like DutchwithJoost instead."
+excerpt: "InburgeringOnline is the most-recommended way to pass the inburgering exam. So why do so many people pass and still freeze when they try to speak? An honest, bias-disclosed comparison with DutchwithJoost, built on the one difference that actually decides it."
 slug: "dutchwithjoost-vs-inburgeringonline"
-category: "dutch-learning"
+category: "inburgering"
 tags:
-  - inburgering
-  - InburgeringOnline alternative
-  - InburgeringOnline review
-  - Dutch courses
-  - A2 exam
-  - learn Dutch
-  - course comparison
+  - inburgeringonline review
+  - inburgeringonline vs dutchwithjoost
+  - inburgeringonline alternative
+  - is inburgeringonline worth it
+  - inburgering course
+  - learn to speak dutch
+  - inburgering exam
+  - dutchwithjoost
+
 faqs:
   - question: "Is InburgeringOnline worth it?"
-    answer: "Yes, if your goal is passing the inburgering exam efficiently. It's the most established online option, it's clearly mapped to the exam, it was founded by an NT2 (Dutch-as-a-second-language) teacher, and it has years of testimonials from people who passed all five parts. It's less of a fit if your priority is being able to hold conversations in Dutch after the exam is over."
+    answer: "Yes, if your goal is to pass the inburgering exam. InburgeringOnline is a self-paced course mapped closely to the exam parts, and many learners pass all five exams with it. The trade-off is that it counts a lesson finished when you complete the exercises, which trains you to recognize Dutch rather than produce it. That is why some learners pass and still struggle to speak. If speaking afterward matters as much as passing, a production-based course is a better fit."
   - question: "What is the best alternative to InburgeringOnline?"
-    answer: "It depends on your goal. Dutchwithjoost is the alternative for people who want to speak Dutch after the exam and prefer a one-time price over a subscription. Inburgering.org is the alternative if your main concern is the cheapest possible option."
-  - question: "Does InburgeringOnline teach you to speak Dutch?"
-    answer: "It prepares you for the speaking part of the inburgering exam and now scores speaking with AI. At InburgeringOnline, speaking is one exam skill you practice toward the test, rather than the way each lesson is completed. That's the main difference from a course where a lesson only finishes once you've used the new words in a conversation."
-  - question: "How much does InburgeringOnline cost?"
-    answer: "InburgeringOnline is a monthly subscription. A full A2 package (all four language skills plus KNM) works out to about €210 on the 6-month plan or about €300 on the 12-month plan, with a no-commitment monthly option around €49.95 per month. The 'from €8.95/month' headline is the price of a single course on the 12-month plan, not the full exam package."
-  - question: "Is InburgeringOnline a subscription or a one-time payment?"
-    answer: "InburgeringOnline is a monthly subscription. Dutchwithjoost is a one-time payment of €399 that includes five-year access. If you'd rather pay once than pay monthly, that difference is worth weighing."
-  - question: "Is Dutchwithjoost worth it if I need B1 for inburgering?"
-    answer: "If you're starting from zero or close to it, yes. Dutchwithjoost builds the A1-to-A2 foundation that any B1 course assumes you already have, and a B1 course is coming soon. If you're already comfortable holding basic conversations at A2, your next step is a dedicated B1 course now."
-internal_link_targets: []
+    answer: "For learners whose goal is to actually speak Dutch and not only pass the exam, a production-based course like DutchwithJoost is the closest alternative. It covers the same five exam parts, but a lesson only completes once you have used the new words in a conversation, so finishing a lesson means you can produce the language, not just recognize it."
+  - question: "Will InburgeringOnline help me actually speak Dutch or just pass the exam?"
+    answer: "InburgeringOnline is built to get you through the exam, and it does that well. Speaking afterward is a separate skill that comes from producing the language, not recognizing it on a screen. If you use InburgeringOnline, plan to get real speaking practice somewhere else, through a Dutch-speaking workplace, a partner, or a tutor, so you do not pass the test and still freeze in conversation."
+  - question: "How much does InburgeringOnline cost for full A2 coverage?"
+    answer: "Full A2 coverage on InburgeringOnline runs roughly 210 to 300 euro depending on plan length, billed monthly (about 49.95 per month month-to-month, about 34.95 per month on the 6-month plan, about 24.95 per month on the 12-month plan). The much cheaper single-module price you may see advertised covers only one part of the exam, such as reading, not the full course. Confirm current pricing on inburgeringonline.nl before you buy."
+  - question: "InburgeringOnline vs DutchwithJoost: which should I choose?"
+    answer: "It is a goal question, not a quality question. Choose InburgeringOnline if you want the most-recommended, exam-mapped path and your priority is passing efficiently. Choose DutchwithJoost if you have finished a course before and still cannot speak, because it only counts a lesson done once you have used the words in conversation, which is built to close the gap between passing and speaking. We make DutchwithJoost, and InburgeringOnline is a fair choice for the right reader."
+
+internal_link_targets:
+  - slug: what-is-production-based-language-learning
+    role: pillar
+    anchor_context: "The one difference that actually matters (recognition vs production mechanism)"
+  - slug: how-does-dutchwithjoost-work
+    role: product-tour
+    anchor_context: "What DutchwithJoost is / Choose DutchwithJoost if"
+  - slug: inburgering-course-that-teaches-speaking
+    role: buyer-guide
+    anchor_context: "Choose DutchwithJoost if / FAQ"
+
+# Verify before publish (see enriched doc): InburgeringOnline pricing, AI-scoring, KNM, NT2-founder claim;
+# DutchwithJoost monthly plans (49/mo, 39/mo on 6-month) and English UI status.

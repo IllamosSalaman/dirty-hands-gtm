@@ -156,7 +156,15 @@ loop the clip. Measured-by-hand and auto-detected timings matched to within roun
   both a begin frame and an end frame; setting both to the scene image makes every loop boundary
   land on the same frame, so the hard cut is invisible. (Before we used the end frame, the wrap
   was a visible cut and a ~0.5s cross-dissolve was the planned fix — no longer needed with
-  matched begin/end frames.)
+  matched begin/end frames.) Drop that anchor image as `<slug>/starting-frame.png` so it is
+  obvious it is the clip's begin = end frame.
+- **The end card must fully clear before the last frame, or the loop carries a ghost.** The
+  `EndCard` fade-out finishes 8 frames before the end and clamps at 0, so the final frames are
+  pure scene with nothing left over. Earlier it faded across the very last frame and left a ~6%
+  blue ghost on the final frame — invisible at speed but it meant the reel's last frame was not
+  identical to its first. To confirm a clean loop, render two stills next to the MP4 in
+  `out/<week>/<slug>-stills/`: `reel-endcard.png` (a frame mid-hold, to check the CTA card) and
+  `reel-lastframe.png` (the true final frame, to check it returns to the scene and matches frame 0).
 - **Natural gaps matter.** A 0.35s gap between turns reads as conversation; back-to-back audio
   feels robotic. Tunable via `pacing` in props.
 - **Crisp Dutch is the whole point.** Never bake Dutch text into an AI image — render it here,

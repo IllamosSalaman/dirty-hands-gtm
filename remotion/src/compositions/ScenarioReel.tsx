@@ -124,7 +124,10 @@ const SwitchTag: React.FC<{text: string}> = ({text}) => (
 const EndCard: React.FC<{outro: ReelProps['outro']; frames: number}> = ({outro, frames}) => {
   const frame = useCurrentFrame();
   const fadeIn = interpolate(frame, [0, 10], [0, 1], {extrapolateRight: 'clamp'});
-  const fadeOut = interpolate(frame, [frames - 16, frames], [1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  // Finish the fade-out 8 frames early and clamp at 0, so the final frames are
+  // pure scene (no faint endcard ghost). This makes the reel's last frame match
+  // its first frame, so the Instagram loop is scene → scene with nothing left over.
+  const fadeOut = interpolate(frame, [frames - 24, frames - 8], [1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   const o = Math.min(fadeIn, fadeOut);
   const y = interpolate(frame, [0, 12], [40, 0], {extrapolateRight: 'clamp'});
   return (

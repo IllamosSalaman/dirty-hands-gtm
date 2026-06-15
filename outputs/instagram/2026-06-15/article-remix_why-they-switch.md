@@ -5,16 +5,18 @@
 > **Persona:** Belonging-motivated expat (Nina, Monika) who feels the switch as frustration and wasted effort more than shame — "I'm making the effort and they still switch". The reframe: the switch is kindness, not rejection.
 > **Positioning thread:** The switch is kindness, not a verdict on your Dutch. You turn the lost moment into practice by naming it first, and the nerve to do that comes from low-stakes practice, not one brave day.
 > **Render:** ScenarioReel — props: `remotion/props/2026-06-15/why-they-switch.json`
-> **Status:** draft   ← set to `approved` (after review + assets saved) to allow rendering
+> **Status:** Approved
 
 ## SOURCE
+
 - Article: `outputs/articles/passed-inburgering-cant-speak-dutch_enriched.md` (no `_final.mdx` yet — using the enriched draft + brief)
 - Primary keyword (from `outputs/briefs/passed-inburgering-cant-speak-dutch_brief.json`): **"passed inburgering but can't speak Dutch"**
-- Chosen angle (the ONE idea, not a summary): *The switch to English isn't a verdict on your Dutch. It's a habit and a kindness reflex. Name it first, and most people will gladly help you practice.*
+- Chosen angle (the ONE idea, not a summary): _The switch to English isn't a verdict on your Dutch. It's a habit and a kindness reflex. Name it first, and most people will gladly help you practice._
 - Format: reel (ScenarioReel).
 - Originality note: transform, do not paste. No verbatim sentences from the article. This is a new café scene that dramatizes one idea from it.
 
 ## Rules for this post (keep edits on-rails)
+
 - Dutch: A1 with light-A2 phrasing on the frame line and the close ("het makkelijker voor je maken", "helpen je graag oefenen"), always grammatically correct, usable; **je** register here (Joost + the learner are friendly peers at a café). Flag for a native check (Joost) before posting.
 - Remotion renders the final asset. Do not assemble in CapCut/Canva. Crisp Dutch text is rendered, never baked into the AI image.
 - Tier 1 only: one two-shot composition, no lip-sync, subtitles carry comprehension. Joost is locked from `brand/joost-reference.png`; the learner is **Roos**, the SAME recurring character from Monday's reel — keep her design identical (early 30s, shoulder-length dark hair, mustard scarf, canvas tote). Describe her by position ("the woman on the right"), not by name, in the image/motion prompts.
@@ -26,11 +28,11 @@
 
 STEP 1 — Voice (ElevenLabs). Joost voice **Ido** (`dLPO5AsXc3FZDbTh1IKa`); use the SAME Roos voice as Monday's reel. Stability ~50, Similarity high, Style low, slightly slow. Render each line separately and save with these exact names (order matters):
 
-    remotion/public/2026-06-15/why-they-switch/roos-1.mp3   "Ik doe zo mijn best. En toch schakelt iedereen over op Engels."                          (EN: I try so hard. And still everyone switches to English.)
-    remotion/public/2026-06-15/why-they-switch/joost-2.mp3  "Nee, het is niet persoonlijk. Het is een gewoonte. Ze willen aardig zijn en het makkelijker voor je maken."  (EN: No, it's not personal. It's a habit. They want to be nice and make it easier for you.)
+    remotion/public/2026-06-15/why-they-switch/roos-1.mp3   "Ik doe zo mijn best. En toch antwoordt iedereen in het Engels."                          (EN: I try so hard. And yet everyone answers in English.)
+    remotion/public/2026-06-15/why-they-switch/joost-2.mp3  "Het is niet persoonlijk. Het is een gewoonte. Ze willen aardig zijn en het makkelijker voor je maken."  (EN: It's not personal. It's a habit. They want to be nice and make it easier for you.)
     remotion/public/2026-06-15/why-they-switch/roos-3.mp3   "Wat kan ik doen?"                                                                        (EN: What can I do?)
-    remotion/public/2026-06-15/why-they-switch/joost-4.mp3  "Zeg het meteen: ik leer Nederlands, praat alsjeblieft Nederlands met me."                (EN: Say it right away: I'm learning Dutch, please speak Dutch with me.)
-    remotion/public/2026-06-15/why-they-switch/roos-5.mp3   "Oké. Ik zeg het gewoon."                                                                 (EN: Okay. I'll just say it.)
+    remotion/public/2026-06-15/why-they-switch/joost-4.mp3  "Je kunt zeggen: Ik leer Nederlands. Vind je het goed als we Nederlands praten?"                (EN: You can say: I am learning Dutch. Is it okay if we speak Dutch?)
+    remotion/public/2026-06-15/why-they-switch/roos-5.mp3   "Dat klinkt goed. Ik ga het proberen "                                                                 (EN: That sounds good. I'll try it.)
     remotion/public/2026-06-15/why-they-switch/joost-6.mp3  "De meeste mensen helpen je graag oefenen."                                               (EN: Most people are happy to help you practice.)
 
 (Remotion measures each file's length automatically; you do not note durations.)
@@ -78,6 +80,7 @@ Remotion loops the clip, sequences the six voice lines with auto-detected timing
 (or: `/instagram-render why-they-switch`)
 
 ## CAPTION (paste into Instagram)
+
 Passed inburgering but can't speak Dutch? Here's why people still switch to English on you.
 
 You make the effort. You order in Dutch. They answer in English anyway. The annoying part isn't your accent. It's the lost chance to practice the thing you've worked so hard on. It's easy to read the switch as rejection, like they're telling you your Dutch isn't good enough. Usually it's the opposite. Switching is a reflex, and most of the time it's kindness: they think they're making it easier for you. So you get to set the frame first: "Ik leer Nederlands, praat alsjeblieft Nederlands met me." Say it early, before the reflex kicks in. You won't always feel up for it in the moment, which is exactly why you practice it where the stakes are zero, until the line is just there when you need it.
@@ -89,4 +92,5 @@ Save this for the next time it happens. Send it to someone who gets that little 
 Keywords woven: passed inburgering but can't speak Dutch, switch to English, speaking Dutch confidence, practice Dutch speaking, inburgering after the exam.
 
 ## PINNED COMMENT
+
 "When someone switches to English on you, what's the first thing you feel? And does it land differently knowing they probably think they're helping?"

@@ -1,14 +1,55 @@
 {
   "clip": "2026-06-15/why-they-switch/clip.mp4",
-  "hook": {"l1": "It's not your accent", "l2": "— it's a", "emphasis": "HABIT"},
+  "hook": {
+    "l1": "It's not your accent",
+    "l2": "it's a",
+    "emphasis": "HABIT"
+  },
   "switchTagText": "",
   "lines": [
-    {"file": "2026-06-15/why-they-switch/roos-1.mp3", "speaker": "Roos", "nl": "Ik doe zo mijn best. En toch schakelt iedereen over op Engels.", "en": "I try so hard. And still everyone switches to English."},
-    {"file": "2026-06-15/why-they-switch/joost-2.mp3", "speaker": "Joost", "nl": "Nee, het is niet persoonlijk. Het is een gewoonte. Ze willen aardig zijn en het makkelijker voor je maken.", "en": "No, it's not personal. It's a habit. They want to be nice and make it easier for you."},
-    {"file": "2026-06-15/why-they-switch/roos-3.mp3", "speaker": "Roos", "nl": "Wat kan ik doen?", "en": "What can I do?"},
-    {"file": "2026-06-15/why-they-switch/joost-4.mp3", "speaker": "Joost", "recovery": true, "nl": "Zeg het meteen: ik leer Nederlands, praat alsjeblieft Nederlands met me.", "en": "Say it right away: I'm learning Dutch, please speak Dutch with me."},
-    {"file": "2026-06-15/why-they-switch/roos-5.mp3", "speaker": "Roos", "nl": "Oké. Ik zeg het gewoon.", "en": "Okay. I'll just say it."},
-    {"file": "2026-06-15/why-they-switch/joost-6.mp3", "speaker": "Joost", "nl": "De meeste mensen helpen je graag oefenen.", "en": "Most people are happy to help you practice."}
+    {
+      "file": "2026-06-15/why-they-switch/roos-1.mp3",
+      "speaker": "Roos",
+      "nl": "Ik doe zo mijn best. En toch antwoordt iedereen in het Engels.",
+      "en": "I try so hard. And yet everyone answers in English."
+    },
+    {
+      "file": "2026-06-15/why-they-switch/joost-2.mp3",
+      "speaker": "Joost",
+      "nl": "Het is niet persoonlijk. Het is een gewoonte. Ze willen aardig zijn en het makkelijker voor je maken.",
+      "en": "It's not personal. It's a habit. They want to be nice and make it easier for you."
+    },
+    {
+      "file": "2026-06-15/why-they-switch/roos-3.mp3",
+      "speaker": "Roos",
+      "nl": "Wat kan ik doen?",
+      "en": "What can I do?"
+    },
+    {
+      "file": "2026-06-15/why-they-switch/joost-4.mp3",
+      "speaker": "Joost",
+      "recovery": true,
+      "nl": "Je kunt zeggen: Ik leer Nederlands. Vind je het goed als we Nederlands praten?",
+      "en": "You can say: I am learning Dutch. Is it okay if we speak Dutch?"
+    },
+    {
+      "file": "2026-06-15/why-they-switch/roos-5.mp3",
+      "speaker": "Roos",
+      "nl": "Dat klinkt goed. Ik ga het proberen.",
+      "en": "That sounds good. I'll try it."
+    },
+    {
+      "file": "2026-06-15/why-they-switch/joost-6.mp3",
+      "speaker": "Joost",
+      "nl": "De meeste mensen helpen je graag oefenen.",
+      "en": "Most people are happy to help you practice."
+    }
   ],
-  "outro": {"kicker": "THE LINE THAT CHANGES IT", "nl": "Ik leer Nederlands. Praat alsjeblieft Nederlands met me.", "en": "I'm learning Dutch. Please speak Dutch with me.", "cta": "Say it early — before the reflex kicks in.", "handle": "@dutchwithjoost"}
+  "outro": {
+    "kicker": "THE LINE THAT CHANGES IT",
+    "nl": "Ik leer Nederlands. Vind je het goed als we Nederlands praten?",
+    "en": "I am learning Dutch. Is it okay if we speak Dutch?",
+    "cta": "Try it out next time!",
+    "handle": "@dutchwithjoost"
+  }
 }

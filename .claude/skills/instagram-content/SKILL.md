@@ -11,7 +11,7 @@ The split is the human gate. This skill ends at `Status: approved`. `/instagram-
 
 **Three modes:**
 
-- `/instagram-content plan [theme hint]` -- **plan**. Build or refresh the idea backlog of themed situation packs.
+- `/instagram-content plan [theme hint]` -- **plan**. Build or refresh the idea backlog of themed packs (each pack = one recurring moment, staged across settings).
 - `/instagram-content` or `/instagram-content batch [theme hint]` -- **batch** (default). Produce one themed week of reviewable runbooks + render props. Renders nothing.
 - `/instagram-content refine <slug-or-path>` -- **refine**. Iterate on one existing post's content (runbook + props).
 
@@ -59,7 +59,7 @@ If `brand/brand-kit.md` is missing or its asset slots are unfilled, warn that as
 
 This skill writes only authoring artifacts. The finished asset is produced later by `/instagram-render`.
 
-- `outputs/instagram/idea-backlog.json` -- the curated backlog of themed situation packs. **One persistent file at the top of the folder** (plan mode writes; batch mode reads and updates `status`).
+- `outputs/instagram/idea-backlog.json` -- the curated backlog of themed packs (one pack = one theme, staged across settings). **One persistent file at the top of the folder** (plan mode writes; batch mode reads and updates `status`).
 - `outputs/instagram/<week>/_plan.md` -- the produced week's overview grid (batch mode). `<week>` is the week-start date `YYYY-MM-DD`.
 - `outputs/instagram/<week>/{type}_{slug}.md` -- one reviewable runbook per post. `type` is `cheatsheet`, `quiz`, `scenario-reel`, or `article-remix`. **This is the human-gate artifact.** It carries `Status: draft` until the user approves. (The week folder carries the date, so the filename no longer repeats it.)
 - `remotion/props/<week>/{slug}.json` -- the render props for the post, written by batch alongside the runbook. The contract between this skill and the Remotion composition.
@@ -113,24 +113,24 @@ Read `instagram-playbook.md`, `brand/brand-kit.md`, `brand/instagram-voice.md`, 
 
 If no insights and no theme hint, tell the user to run /extract-insights first or pass a theme. Do not invent learner pains.
 
-### Step 2: Derive situations
+### Step 2: Derive the themes
 
-A situation is a real-life moment a learner named (the bakery, the doctor, a work intro, the supermarket checkout, a phone call). Mine `jtbd`, `quotes`, and `pains` for situations learners actually struggle with. Prefer situations that recur across multiple insight files (stronger signal). Also note article topics that map onto a situation, for the flex slot.
+A **theme** is a recurring *moment or tension* a learner lives through, not a single place. It is the experience ("the moment they switch to English on you", "freezing under exam pressure", "small talk you can't enter at the school gate"). Mine `jtbd`, `quotes`, and `pains` for the moments learners struggle with most. Prefer themes that recur across multiple insight files (stronger signal). For each theme, list the concrete **settings** it plays out in (the bakery, the supermarket checkout, the pharmacy, a café, the doctor's reception, a phone call), because those settings become the per-post backdrops that keep the week visually varied. Also note article topics that map onto a theme, for the flex slot.
 
-### Step 3: Build situation packs
+### Step 3: Build theme packs
 
-For each situation, draft one themed week's worth of ideas (a pack of 7, max 2 reels):
+For each theme, draft one week's worth of ideas (a pack of 7, max 2 reels). Stage each on-theme post in a **different setting** drawn from the theme's setting list, so the seven posts share one moment but never one backdrop:
 
-- **Two scenario-reel** ideas (Joost + an invented character in the situation), two distinct moments or settings within it, never the same shot.
-- **Two cheatsheet** ideas (the phrases for that situation, grounded in `lexicon`), split by angle, e.g. what to say vs. how to understand the reply.
-- **Two quiz** ideas (two different real mistakes from that situation, each with a reason-seeking prompt).
+- **Two scenario-reel** ideas (Joost + an invented character living the moment), each in a different setting.
+- **Two cheatsheet** ideas (the phrases for that moment, grounded in `lexicon`), each tied to a different setting and split by angle, e.g. what to say vs. how to understand the reply.
+- **Two quiz** ideas (two real mistakes from the moment, in two settings, each with a reason-seeking prompt).
 - A **flex** idea (usually an article-remix tied loosely to the theme, or off-theme for variety). Run it as a carousel so the week stays at 2 reels.
 
-Each idea is lightweight: type, hook, one-line angle, and source (which insight or article it came from), plus `on_theme`.
+Each idea is lightweight: type, hook, one-line angle, `setting` (the concrete place this post is staged in), source (which insight or article it came from), and `on_theme`.
 
 ### Step 4: Prioritize and dedupe
 
-Score each pack `high | medium | low` with a one-line reason, weighting: hook strength, save/send potential, grounding in a repeated pain, and persona coverage (favor packs that fill an under-served persona). Drop packs whose situation was already produced (check `status: produced` in the existing backlog).
+Score each pack `high | medium | low` with a one-line reason, weighting: hook strength, save/send potential, grounding in a repeated pain, and persona coverage (favor packs that fill an under-served persona). Drop packs whose theme was already produced (check `status: produced` in the existing backlog).
 
 Aim to generate 4-6 packs (a month or more of weeks).
 
@@ -144,30 +144,31 @@ Write or merge `outputs/instagram/idea-backlog.json`. Status lives on each post,
   "intelligence_sources": ["insight files and articles used"],
   "packs": [
     {
-      "pack_id": "slug -- e.g. the-bakery",
-      "situation": "string -- e.g. buying bread at the bakery",
+      "pack_id": "slug -- e.g. switch-to-english (a theme, not a place)",
+      "theme": "string -- the recurring moment/tension, e.g. the moment they switch to English on you",
+      "settings": ["the bakery", "the supermarket checkout", "the pharmacy", "a café", "the doctor's reception", "a phone call"],
       "persona": "string -- target persona",
       "priority": "high | medium | low",
       "priority_reason": "string -- one line",
       "posts": [
-        {"post_id": "the-bakery-reel-1",       "type": "scenario-reel", "hook": "string", "angle": "string", "source": "string", "on_theme": true,  "status": "idea"},
-        {"post_id": "the-bakery-cheatsheet-1", "type": "cheatsheet",    "hook": "string", "angle": "string", "source": "string", "on_theme": true,  "status": "idea"},
-        {"post_id": "the-bakery-quiz-1",       "type": "quiz",          "hook": "string", "angle": "string", "source": "string", "on_theme": true,  "status": "idea"},
-        {"post_id": "the-bakery-reel-2",       "type": "scenario-reel", "hook": "string", "angle": "string", "source": "string", "on_theme": true,  "status": "idea"},
-        {"post_id": "the-bakery-cheatsheet-2", "type": "cheatsheet",    "hook": "string", "angle": "string", "source": "string", "on_theme": true,  "status": "idea"},
-        {"post_id": "the-bakery-quiz-2",       "type": "quiz",          "hook": "string", "angle": "string", "source": "string", "on_theme": true,  "status": "idea"},
-        {"post_id": "the-bakery-remix",        "type": "article-remix", "hook": "string", "angle": "string", "source": "string", "on_theme": false, "status": "idea"}
+        {"post_id": "switch-to-english-reel-1",       "type": "scenario-reel", "setting": "the bakery",                "hook": "string", "angle": "string", "source": "string", "on_theme": true,  "status": "idea"},
+        {"post_id": "switch-to-english-cheatsheet-1", "type": "cheatsheet",    "setting": "the supermarket checkout", "hook": "string", "angle": "string", "source": "string", "on_theme": true,  "status": "idea"},
+        {"post_id": "switch-to-english-quiz-1",       "type": "quiz",          "setting": "the pharmacy",             "hook": "string", "angle": "string", "source": "string", "on_theme": true,  "status": "idea"},
+        {"post_id": "switch-to-english-reel-2",       "type": "scenario-reel", "setting": "a café",                   "hook": "string", "angle": "string", "source": "string", "on_theme": true,  "status": "idea"},
+        {"post_id": "switch-to-english-cheatsheet-2", "type": "cheatsheet",    "setting": "the doctor's reception",   "hook": "string", "angle": "string", "source": "string", "on_theme": true,  "status": "idea"},
+        {"post_id": "switch-to-english-quiz-2",       "type": "quiz",          "setting": "a phone call",             "hook": "string", "angle": "string", "source": "string", "on_theme": true,  "status": "idea"},
+        {"post_id": "switch-to-english-remix",        "type": "article-remix", "setting": "n/a (flex)",               "hook": "string", "angle": "string", "source": "string", "on_theme": false, "status": "idea"}
       ]
     }
   ]
 }
 ```
 
-Post `status` values: `idea` (suggested), `queued` (approved for production), `produced` (batch built it). To make a **themed week**, queue all of a pack's posts. To make a **mixed week**, queue individual posts across packs. Merging keeps existing `queued` and `produced` posts untouched and appends new `idea` packs.
+Post `status` values: `idea` (suggested), `queued` (approved for production), `produced` (batch built it). To make a **themed week**, queue all of a pack's posts. To make a **mixed week**, queue individual posts across packs. Merging keeps existing `queued` and `produced` posts untouched and appends new `idea` packs. (Older backlogs use a `situation` field and carry no per-post `setting`; treat a pack's `situation` as its `theme`, and assign a distinct `setting` per on-theme post when producing.)
 
 ### Step 6: Report
 
-List each pack: situation, priority + reason, persona, and the 7 idea hooks. Tell the user: "Queue what you want to make by setting a post's `status` to `queued` -- queue a whole pack for a themed week, or cherry-pick posts across packs for a mixed week. Then run `/instagram-content` to produce them. Edit, add, reorder, or delete freely. It's your editorial calendar."
+List each pack: theme, the settings it spans, priority + reason, persona, and the 7 idea hooks. Tell the user: "Queue what you want to make by setting a post's `status` to `queued` -- queue a whole pack for a themed week, or cherry-pick posts across packs for a mixed week. Then run `/instagram-content` to produce them. Edit, add, reorder, or delete freely. It's your editorial calendar."
 
 ---
 
@@ -182,15 +183,17 @@ Batch produces **reviewable runbooks + render props. It never renders.**
 3. Read all `.json` in `customer-intelligence/insights/`. Aggregate `lexicon`, `quotes`, `pains`, `jtbd`, `keyword_candidates`.
 4. Read `outputs/instagram/idea-backlog.json` if it exists.
 
-### Step 2: Compose the week from queued posts
+### Step 2: Name the theme of the week, then compose it
+
+**First, state the theme of the week in one line — before assembling any posts.** The theme is the recurring *moment or tension* this week is about (e.g. "the moment they switch to English on you"), not a place. Then list the spread of **settings** the seven posts will be staged in (bakery, supermarket, pharmacy, doctor, café, phone, ...): a moment, played out somewhere different each post. In the normal flow the theme comes from the queued pack; on the fly, name it first and derive posts under it. Surface this theme line and the per-post settings in `_plan.md` (Step 3).
 
 Status lives on individual posts (`idea | queued | produced`), so a week can be one theme or a mix.
 
 - **If the backlog has queued posts:** collect every post with `status: queued` across all packs. Take up to the cadence count (default 7), highest-priority first. That set is the week.
-  - If all selected posts belong to one pack/situation, treat it as a **themed week**: keep them coherent (the cheatsheet phrases match the reel's scene, the quiz tests a mistake from that situation, the second character can recur).
+  - If all selected posts belong to one pack/theme, treat it as a **themed week**: keep them coherent around the one moment (the cheatsheets hand over its phrases, the quizzes test a mistake from it, the second character can recur), but **stage each in a different setting** so the grid never duplicates. Use each post's `setting`; if a queued pack predates the setting field, assign a distinct setting per on-theme post now.
   - If they span themes, treat it as a **mixed week**: each post stands alone, no forced cross-references.
 - **If nothing is queued but a backlog exists:** take the highest-priority pack's `idea` posts as a themed week, and note you did so (the user can queue specific posts instead).
-- **If no backlog exists:** invent one themed week on the fly from a recurring situation in the insights, and tell the user they can run `/instagram-content plan` to build a curated backlog.
+- **If no backlog exists:** name a theme on the fly from a recurring moment in the insights, spread it across the week's settings, derive one post per setting (2 reels max), and tell the user they can run `/instagram-content plan` to build a curated backlog.
 - **If a theme hint was passed:** prefer matching posts/pack, or theme the on-the-fly week to it.
 
 Sanity-check the week's type mix before producing: aim for the cadence shape (2 reels, 2 cheatsheets, 2 quizzes, 1 flex/remix) and **a maximum of 2 reels** (never more). If the queued selection breaks that (e.g., three or more reels, or all of one type), warn the user and suggest a swap, but proceed if they confirm. Keep at least one reel. Honor an explicit count if the user asked for a different number. Assign each post a persona and a positioning thread.
@@ -204,19 +207,20 @@ Write `outputs/instagram/<week>/_plan.md`:
 ```markdown
 # Instagram Week — {start date} to {end date}
 
-Theme: {situation, or "Mixed"}
+Theme: {the recurring moment/tension, e.g. "the moment they switch to English on you", or "Mixed"}
+Settings this week: {the distinct setting per on-theme post, e.g. bakery, supermarket, pharmacy, café, doctor, phone}
 Cadence: 7 feed posts (one per day, max 2 reels) + daily Stories.
 Grounded in: {intelligence sources / pack id}
 
-| Day | Post file | Type | On-theme | Hook | Job | Status |
-|-----|-----------|------|----------|------|-----|--------|
-| Mon | scenario-reel_{slug}.md | scenario-reel | yes | {hook} | reach | draft |
-| Tue | cheatsheet_{slug}.md | cheatsheet | yes | {hook} | saves | draft |
-| Wed | quiz_{slug}.md | quiz | yes | {hook} | comments | draft |
-| Thu | scenario-reel_{slug}.md | scenario-reel | yes | {hook} | reach | draft |
-| Fri | cheatsheet_{slug}.md | cheatsheet | yes | {hook} | saves | draft |
-| Sat | quiz_{slug}.md | quiz | yes | {hook} | comments | draft |
-| Sun | article-remix_{slug}.md | article-remix | flex | {hook} | reach + SEO | draft |
+| Day | Post file | Type | Setting | On-theme | Hook | Job | Status |
+|-----|-----------|------|---------|----------|------|-----|--------|
+| Mon | scenario-reel_{slug}.md | scenario-reel | {setting} | yes | {hook} | reach | draft |
+| Tue | cheatsheet_{slug}.md | cheatsheet | {setting} | yes | {hook} | saves | draft |
+| Wed | quiz_{slug}.md | quiz | {setting} | yes | {hook} | comments | draft |
+| Thu | scenario-reel_{slug}.md | scenario-reel | {setting} | yes | {hook} | reach | draft |
+| Fri | cheatsheet_{slug}.md | cheatsheet | {setting} | yes | {hook} | saves | draft |
+| Sat | quiz_{slug}.md | quiz | {setting} | yes | {hook} | comments | draft |
+| Sun | article-remix_{slug}.md | article-remix | {flex} | flex | {hook} | reach + SEO | draft |
 
 ## Stories (daily)
 - Reshare each day's feed post to Stories.
@@ -237,7 +241,7 @@ Three hard rules on every post: (1) every image prompt contains the full Style B
 
 Asset paths inside the props JSON are relative to `remotion/public/`, so they begin with `<week>/{slug}/` (e.g. `"clip": "<week>/{slug}/clip.mp4"`, `"file": "<week>/{slug}/roos-1.mp3"`, `"coverImage": "<week>/{slug}/cover.png"`).
 
-Keep the on-theme posts coherent but **not visually identical**: the cheatsheet phrases should match the reel's scene, the quiz should test a mistake from that same situation, and the second character can recur across the theme. Coherent means same Joost, same style, same situation -- not the same opening image. Give each on-theme post a different setting or shot so the profile grid never shows the same picture three times (see the playbook's *Feed-grid differentiation* rule). Only reuse one shot if the user explicitly asks for a matched grid row.
+Keep the on-theme posts coherent but **not visually identical**: they all orbit the same moment, but each is staged in a different setting from the theme's setting list. The cheatsheets hand over the phrases for that moment, the quizzes test a mistake from it, and the second character can recur across the theme. Coherent means same Joost, same style, same *moment* -- a different *setting* each time, never the same opening image. Give each on-theme post a different setting (and shot) so the profile grid never shows the same picture several times (see the playbook's *Feed-grid differentiation* rule). Only collapse two onto one matched shot if the user explicitly asks for a matched grid row.
 
 Apply the playbook rules: hook in the first frame, sends/saves CTA, caption line 1 = searchable keyword, quiz prompts that ask for a reason (never A/B bait), scenario reels at Tier 1 (single composition, no lip-sync, subtitle-led) with Joost locked, visuals on-brand across all types, remixes that transform rather than paste.
 
@@ -285,7 +289,8 @@ The image steps below embed the brand **Style Block + Negative prompt verbatim**
 # {Day} {Date} — {Type}: {Working Title}
 
 > **Type:** {cheatsheet | quiz | scenario-reel | article-remix}
-> **Theme:** {situation}
+> **Theme:** {the recurring moment, e.g. "the moment they switch to English on you"}
+> **Setting:** {the concrete place this post is staged in, e.g. the bakery; "n/a" for the flex/remix}
 > **Persona:** {target persona}
 > **Positioning thread:** {one value prop woven as undercurrent}
 > **Render:** {ScenarioReel | Cheatsheet | Quiz} — props: `remotion/props/{week}/{slug}.json` — run `/instagram-render {slug}`

@@ -64,14 +64,14 @@ Steps you can skip on a given week: `plan` (only when you want fresh ideas), `re
 Four modes. Use them in this order, but only `batch` is needed every week (`plan`, `refine`, and `check` are optional).
 
 ### `plan` — build a backlog of ideas
-- **What it does:** mines your customer insights and articles for real-life situations (the bakery, a work intro, the supermarket checkout) and drafts themed "packs" of post ideas into `outputs/instagram/idea-backlog.json`. Each pack is roughly one week's worth: a reel, a cheatsheet, a quiz, and a flex (usually an article remix).
+- **What it does:** mines your customer insights and articles for recurring **moments** a learner struggles with (the moment people switch to English on you, freezing under exam pressure, small talk you can't enter) and drafts themed "packs" of post ideas into `outputs/instagram/idea-backlog.json`. A theme is a *moment*, not a single place: it plays out across many **settings** (the bakery, the supermarket checkout, the doctor's reception, a phone call), and each post in a pack is staged in a different one so the week never looks duplicated. Each pack is one week's worth: **7 posts with at most 2 reels** (2 scenario-reels, 2 cheatsheets, 2 quizzes, and a flex, usually an article remix run as a carousel).
 - **When to use it:** every few weeks, when your idea bank is running low, or to seed the system the first time. You do not run it weekly.
 - **How to use it:** run `/instagram-content plan` (optionally `/instagram-content plan doctor visits` to steer it). Then open `idea-backlog.json` and **queue** what you want to make by setting a post's `status` to `queued`. Queue a whole pack for a themed week, or cherry-pick posts across packs for a mixed week. Edit, add, and delete freely. It is your editorial calendar.
 
 ### `batch` — write this week's posts (the default)
 - **What it does:** turns your queued ideas into a week of **runbooks** (one Markdown file per post) plus a **render spec** (a props JSON) for each. A runbook is a step-by-step "do this, paste this, save it here" sheet with the Dutch dialogue, the exact image prompt, the asset filenames, the caption, and the pinned comment all filled in. As it writes, it runs the **Dutch language check** on every line (grammar + A1/A2 level) and puts a per-line verdict table in each runbook so you can scan the Dutch fast at review. It renders nothing.
 - **When to use it:** once a week, to produce the next batch of posts.
-- **How to use it:** run `/instagram-content` (or `/instagram-content batch`). It reads what you queued, composes a coherent ~4-post week, and writes everything to `outputs/instagram/<week>/`. If you have not queued anything, it picks the top idea or invents a week and tells you so.
+- **How to use it:** run `/instagram-content` (or `/instagram-content batch`). It first **names the theme of the week** (the recurring moment) and the settings it spans, then composes a coherent **7-post week, one per day, with at most 2 reels** (the rest carousels), and writes everything to `outputs/instagram/<week>/`. The `_plan.md` overview shows the theme and a Setting column, so you can see each post's backdrop at a glance. If you have not queued anything, it picks the top idea or invents a week and tells you so.
 
 ### `refine` — fix one post
 - **What it does:** edits a single post's writing and keeps its render spec in sync. Two styles of edit: a targeted change ("make slide 3 punchier", "this quiz is drifting into bait") or a regenerate ("give me 3 cover hooks", "rewrite the Dutch dialogue tighter") where it shows options and you pick.
@@ -131,11 +131,14 @@ Each week is a self-contained bundle named by its start date (`<week>` = `YYYY-M
 ```
 outputs/instagram/
   idea-backlog.json                 ← your editorial calendar (one file, always at the top)
-  2026-06-15/                       ← one week
-    _plan.md                        ← the week's overview grid
-    scenario-reel_switch-to-english.md   ← a runbook (this is what you review + approve)
+  2026-06-15/                       ← one week (themed on one moment; 7 posts, ≤2 reels)
+    _plan.md                        ← the week's overview grid (theme + a Setting column)
+    scenario-reel_switch-at-the-bakery.md   ← a runbook (this is what you review + approve)
     cheatsheet_keep-them-in-dutch.md
-    quiz_switched-to-english.md
+    quiz_switched-at-the-checkout.md
+    scenario-reel_switch-at-the-cafe.md
+    cheatsheet_understand-the-cashier.md
+    quiz_what-the-pharmacist-asked.md
     article-remix_why-they-switch.md
 
 remotion/

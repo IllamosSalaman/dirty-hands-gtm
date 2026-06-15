@@ -66,28 +66,30 @@ Default 7-post themed week the batch produces (2 reels, the rest carousels):
 
 Suggested posting: one post every day, Mon through Sun. Floor when busy: drop the flex first, then a quiz, but keep at least one reel. Never drop to zero.
 
-## Weekly theming (situation packs)
+## Weekly theming (theme packs)
 
-A week is **loosely themed** around one real-life situation (the bakery, a doctor's visit, small talk at work, the supermarket). The six on-theme posts (two reels, two cheatsheets, two quizzes) orbit that situation; the flex post (usually the article remix) can go off-theme for variety and a wider discovery net. Six posts on one situation is a lot of repetition, so give each a distinct moment, setting, or angle within the situation (see *Feed-grid differentiation* below).
+A week is **loosely themed** around one recurring *moment or tension* a learner lives through, not a single place. The theme is the experience ("the moment they switch to English on you", "freezing under exam pressure", "small talk you can't enter at the school gate"); it plays out across many concrete **settings** (the bakery, the supermarket checkout, the pharmacy, a café, the doctor's reception, the school gate, a phone call). The six on-theme posts (two reels, two cheatsheets, two quizzes) orbit that one moment; the flex post (usually the article remix) can go off-theme for a wider discovery net.
 
-Why loose theming:
-- **Topic authority:** repeating a situation across a week sharpens the account's identity for the algorithm and for searchers.
-- **Batching:** one situation = one production sitting. The reels' scene images, the cheatsheet covers, and the quiz scenario images come out of the same ChatGPT session — same Joost, same style references, same palette — but **not the same shot**. Vary the setting or framing per post so the on-theme posts never open on one identical image (see *Feed-grid differentiation* below).
-- **Within-week funnel:** the reel hooks, the cheatsheet earns the save ("the exact phrases from that scene"), the quiz earns the comment. Posts reference each other and drive profile visits.
+Stage each on-theme post in a **different setting** within the theme. Six posts under one *moment* but across six *places* is variety, not repetition: it is truer to life (the experience really does happen everywhere) and it gives six distinct profile tiles instead of one picture posted six times. The anti-pattern is collapsing a theme onto a single place — six bakery shots — which is what makes a grid look duplicated (see *Feed-grid differentiation* below).
 
-Repetition is a feature here, not a bug: organic reach per post is low, so orbiting one *situation* is how you reach the followers who missed the first post. But that is *topical* repetition. *Visual* repetition works against you: three posts opening on the same image make the profile grid look duplicated and train the scroll to skip the second and third as déjà vu. Keep the topic tight and the opening frames distinct.
+Why theme-first:
+- **Topic authority:** repeating one *moment* across a week sharpens the account's identity for the algorithm and for searchers, without making the grid look duplicated.
+- **Batching:** one theme = one production sitting. The reels' scene images, the cheatsheet covers, and the quiz scenario images come out of the same ChatGPT session — same Joost, same style references, same palette — but **a different setting and shot each time**, so the on-theme posts never open on one identical image (see *Feed-grid differentiation* below).
+- **Within-week funnel:** the reels hook, the cheatsheets earn the save ("the exact phrases for that moment"), the quizzes earn the comment. Posts reference each other and drive profile visits.
+
+Repetition is a feature here, not a bug: organic reach per post is low, so orbiting one *moment* is how you reach the followers who missed the first post. But that is *topical* repetition. *Visual* repetition works against you: the on-theme posts opening on the same image make the profile grid look duplicated and train the scroll to skip the repeats as déjà vu. Keep the moment tight and the opening frames distinct.
 
 ### Feed-grid differentiation (don't ship a duplicated grid)
 
 The first frame of each reel and slide 1 of each carousel are what land on the profile grid and in the feed. If the on-theme posts all open on the same shot, the grid reads as one picture posted several times. Three levers, in order of leverage:
 
-1. **Vary the setting within the situation.** The situation is a *moment* ("they switch to English"), not a *place*. It happens at the bakery, the supermarket checkout, the pharmacy, a café, a doctor's reception. Stage each on-theme post somewhere different. Same Joost, same style references, same palette keep it unmistakably one brand; the changed backdrop gives three distinct tiles and is truer to life.
+1. **Vary the setting within the situation.** The situation is a *moment* ("they switch to English"), not a *place*. It happens at the bakery, the supermarket checkout, the pharmacy, a café, a doctor's reception. Stage each on-theme post somewhere different. Same Joost, same style references, same palette keep it unmistakably one brand; the changed backdrop gives distinct tiles and is truer to life.
 2. **Vary the shot when you do reuse a setting.** If two posts share a place, change the camera: wide establishing vs. medium two-shot vs. tight reaction close-up, or switch POV (Joost's side of the counter vs. the customer's). Re-rolling the *same* prompt for a near-identical image is the weakest option — vary the shot, not the seed.
 3. **Lean on the graphic layer.** Remotion already gives each type a distinct cover treatment so the tiles differ even on a shared base image: the reel cover is photo-forward (the scene fills the frame, hook on a scrim), the cheatsheet cover is the bright "guide" tile (an image band over a solid colour panel that holds the headline), and the quiz cover is the dark "question" tile (heavy scrim, centred question, gold QUIZ marker). Keep choosing cover headlines and kickers that read differently at thumbnail size.
 
 When batch writes the on-theme image prompts, give each a different setting or shot by default. Only collapse two onto one matched shot if the user explicitly asks for a deliberately matched grid row.
 
-The plan-mode backlog is organized as **situation packs** (one pack = one themed week's ideas). But approval status lives on individual posts, so batch composes a week from whatever you queue: a whole pack for a themed week, or posts cherry-picked across packs for a mixed week.
+The plan-mode backlog is organized as **theme packs** (one pack = one theme's week of ideas, staged across settings). But approval status lives on individual posts, so batch composes a week from whatever you queue: a whole pack for a themed week, or posts cherry-picked across packs for a mixed week.
 
 ---
 

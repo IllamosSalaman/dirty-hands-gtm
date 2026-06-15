@@ -22,7 +22,7 @@ STEP 1 — Voice (ElevenLabs). Use the saved Joost voice **Ido** (ElevenLabs voi
 
     remotion/public/2026-06-15/switch-to-english/roos-1.mp3   "Hoi, mag ik een bruin brood, alsjeblieft?"            (EN: Hi, may I have one loaf of brown bread, please?)
     remotion/public/2026-06-15/switch-to-english/joost-2.mp3  "Of course, one loaf of brown bread. That's two euros."          (the switch — said warmly, in English)
-    remotion/public/2026-06-15/switch-to-english/roos-3.mp3   "Mag ik het in het Nederlands proberen? Ik wil graag oefenen."                (EN: May I try it in Dutch? I’d like to practice.)
+    remotion/public/2026-06-15/switch-to-english/roos-3.mp3   "Is het goed als we Nederlands praten? Ik wil graag oefenen."                (EN: Is it okay if we speak Dutch? I would like to practice.)
     remotion/public/2026-06-15/switch-to-english/joost-4.mp3  "Natuurlijk! Sorry. Een bruin brood. Dat is twee euro."  (EN: Of course! Sorry. One loaf of brown bread. That’s two euros.)
     remotion/public/2026-06-15/switch-to-english/roos-5.mp3   "Dankjewel!"                                          (EN: Thank you!)
 
@@ -78,7 +78,7 @@ What to say when Dutch people switch to English on you.
 
 They're not judging you. Switching to English is a reflex, usually a kind one. You don't have to accept it. One calm line keeps the conversation in Dutch:
 
-"Mag ik het in het Nederlands oefenen?" (Can I practice it in Dutch?)
+"Is het goed als we Nederlands praten? Ik wil graag oefenen." (Is it okay if we speak Dutch? I would like to practice.)
 
 Say it with a smile. Most people happily switch back and slow down. The trick is having said it a hundred times in practice first, so it comes out steady when you're standing at the counter.
 
@@ -88,4 +88,4 @@ Keywords woven: switch to English, speak Dutch, practice Dutch, Dutch bakery phr
 
 ## PINNED COMMENT
 
-"Where does this happen to you the most — the supermarket, the bakery, work? Tell me the exact place and I'll script the line for it."
+"Where does this happen to you the most? The supermarket, the bakery, work? How did you respond?"

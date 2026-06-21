@@ -4,7 +4,7 @@
 > **Theme:** Smiling and nodding at a Dutch table while the conversation runs too fast
 > **Setting:** the school gate
 > **Persona:** Belonging-motivated working parent (Facebook working-parent posts; Molly, making Dutch friends)
-> **Positioning thread:** There's no wrong reflex. Trying one line is just the lowest-stakes option, and you get comfortable with it by practicing where no one is watching.
+> **Positioning thread:** There's no wrong reflex. Trying one line is just the easiest option, and you get comfortable with it by practicing first, on your own.
 > **Render:** Quiz - props: `remotion/props/2026-06-22/school-gate-opener.json` - run `/instagram-render school-gate-opener`
 > **Status:** draft   ← set to `approved` (after review + assets saved) to allow rendering
 
@@ -14,7 +14,7 @@
 - Engagement prompt must ask for a **reason or personal angle**, never bare "A or B", never "tag a friend". This beats the 2026 engagement-bait filter.
 - No em-dash (—) anywhere in this post: not in the props JSON, the slides, the caption, the engagement prompt, or the pinned comment. Use a period, comma, colon, or parentheses. (Brand hard rule: brand/instagram-voice.md + .claude/rules/writing-quality.md.)
 - Scenario image prompt carries the full Style Block + Negative prompt text inline, verbatim. Copy-paste-ready, never a placeholder. Generate it at 4:5, full-bleed.
-- Distinct setting from the rest of the week (an outdoor school gate) so the grid doesn't repeat. Reveal declares no winner and gently offers the one line, without shaming the smile-and-nod.
+- Distinct setting from the rest of the week (an outdoor school gate) so the grid doesn't repeat. Reveal gently offers the one line, without shaming the smile-and-nod.
 
 ## Dutch check
 | # | Dutch line | Level | Correct? | Note |
@@ -85,15 +85,15 @@ The quiz (also written into props):
 - Scenario line: "Pick-up time. Another parent turns to you and starts chatting in Dutch."
 - Question: "Wat zeg jij?" (EN: What do you say?)
 - Options: A) Je lacht: 'Sorry, my Dutch is not great.' (smile and switch to English)  B) Je zegt: 'Ja, hè? Lekker weer vandaag.' (agree and add a weather line)  C) Je knikt vriendelijk en hoopt dat het stopt. (nod kindly and hope it ends)
-- No correct answer. It's whatever your reflex is, and all three are normal. (B is just the lowest-stakes way to stay in Dutch.)
-- Reveal: No winner. If B feels out of reach, it's the smallest win: one weather line and you're in a Dutch conversation. Most parents will happily carry the rest.
+- No correct answer. It's whatever your reflex is, and all three are normal. (B is just the easiest way to stay in Dutch.)
+- Reveal: If B feels hard, it's the smallest win: one weather line and you're in a Dutch conversation. Most parents will happily carry the rest.
 
 ## RENDER (after Status: approved and scenario.png saved)
 /instagram-render school-gate-opener
 (or, manually: cd remotion && npx remotion render src/index.ts Quiz out/2026-06-22/school-gate-opener --sequence --image-format=png --props=props/2026-06-22/school-gate-opener.json)
 
 ## ENGAGEMENT PROMPT (overlay / caption, beats the bait filter)
-"Be honest: A, B, or C? And what usually happens in the next ten seconds?"
+"Which one is you, A, B, or C? And what usually happens in the next ten seconds?"
 
 ## CAPTION (paste into Instagram)
 Small talk at the school gate in Dutch.
@@ -102,7 +102,7 @@ The school gate is the most reliable small talk in the Netherlands, and the easi
 
 If you want the one line: "Ja, hè? Lekker weer vandaag." (Yeah, right? Nice weather today.) The weather is always a safe way in, and the other parent usually carries the rest.
 
-Be honest in the comments: A, B, or C? And what usually happens in the next ten seconds? Read a few replies and you'll see you're not the only one at the edge of the playground.
+Which one is you, A, B, or C? And what usually happens in the next ten seconds?
 Start learning Dutch with Joost: link in bio.
 Keywords woven: school gate small talk, talk to Dutch parents, small talk in Dutch, Dutch weather phrases, make Dutch friends.
 

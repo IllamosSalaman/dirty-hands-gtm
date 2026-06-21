@@ -58,14 +58,16 @@ The gated production step. The **only** place a final asset is produced.
 1. **Resolve the post and its `<week>`** from the slug (see above). If ambiguous, list and ask.
 2. **Check the gate.** Read the runbook header. If `Status` is not `approved`, STOP and tell the user to review and approve in `/instagram-content` first. Do not proceed. Do not edit the `Status` yourself.
 3. **Check the assets.** Read `remotion/props/<week>/{slug}.json` and confirm every asset path it references exists under `remotion/public/`. Props paths are relative to `public/`, so they resolve to `remotion/public/<week>/{slug}/...` (the cover/scenario image for carousels; the clip + every voice mp3 for reels). If any are missing, list exactly which files to generate and where to save them, then stop.
-4. **Pick the composition.** Use the runbook's `Render:` line, or infer from the props shape: `clip` + `lines` → `ScenarioReel`; `coverImage` + `phrases` → `Cheatsheet`; `scenarioImage` + `options` → `Quiz`.
+4. **Pick the composition.** Use the runbook's `Render:` line, or infer from the props shape: `clip` + `lines` → `ScenarioReel`; `coverImage` + `phrases` → `Cheatsheet`; `scenarioImage` + `options` → `Quiz`; `coverImage` + `cards` (+ `variant`) → `ConceptGuide`; `sceneImage` + `labels` → `VocabScene`.
 5. **Render with Remotion** (run from the `remotion/` directory):
    - Reel: `npx remotion render src/index.ts ScenarioReel out/<week>/{slug}.mp4 --props=props/<week>/{slug}.json`
    - Cheatsheet: `npx remotion render src/index.ts Cheatsheet out/<week>/{slug} --sequence --image-format=png --props=props/<week>/{slug}.json`
    - Quiz: `npx remotion render src/index.ts Quiz out/<week>/{slug} --sequence --image-format=png --props=props/<week>/{slug}.json`
+   - ConceptGuide: `npx remotion render src/index.ts ConceptGuide out/<week>/{slug} --sequence --image-format=png --props=props/<week>/{slug}.json`
+   - VocabScene: `npx remotion render src/index.ts VocabScene out/<week>/{slug} --sequence --image-format=png --props=props/<week>/{slug}.json`
    - Reel durations are auto-detected from the audio/clip — no manual timing.
    - Create `remotion/out/<week>/` if it does not exist.
-6. **Reels must loop: verify the end frame matches the start frame.** A reel is posted to a feed that loops it forever, so the last frame must return to the same scene as the first or the wrap is a visible jump. This is **not optional** for `ScenarioReel` — always do it; carousels (`Cheatsheet`/`Quiz`) skip this step. Two things make the loop seamless, and you confirm both (full detail in `remotion/README.md` → *Production lessons*):
+6. **Reels must loop: verify the end frame matches the start frame.** A reel is posted to a feed that loops it forever, so the last frame must return to the same scene as the first or the wrap is a visible jump. This is **not optional** for `ScenarioReel` — always do it; carousels (`Cheatsheet`, `Quiz`, `ConceptGuide`, `VocabScene`) skip this step. Two things make the loop seamless, and you confirm both (full detail in `remotion/README.md` → *Production lessons*):
    - **The clip begins and ends on the scene image.** The user generates `clip.mp4` with `<slug>/starting-frame.png` as both the begin and end frame, so every loop boundary lands on the same frame. If the wrap shows a hard cut, the clip's end frame is wrong — hand back to the user to regenerate (do not try to fix it in Remotion).
    - **The end card fully clears before the final frame** (handled in the `EndCard` composition). If the last frame carries a faint endcard ghost, the fade-out is reaching the last frame — fix it in `remotion/src/compositions/ScenarioReel.tsx` and document it in `remotion/README.md`.
    Confirm by rendering three loop-check stills into `out/<week>/{slug}-stills/` and comparing the last frame to the first:
@@ -84,7 +86,7 @@ The gated production step. The **only** place a final asset is produced.
 Triggered by `/instagram-render studio [slug]`. For previewing and tweaking how a post **looks**, live, before or after rendering.
 
 1. Launch studio from the `remotion/` directory: `cd remotion && npm run studio`.
-2. If a slug was given, tell the user which composition to select (`ScenarioReel` / `Cheatsheet` / `Quiz`) and that this post's props are in `remotion/props/<week>/{slug}.json` — they can load/paste those into the Studio props panel to preview the exact post.
+2. If a slug was given, tell the user which composition to select (`ScenarioReel` / `Cheatsheet` / `Quiz` / `ConceptGuide` / `VocabScene`) and that this post's props are in `remotion/props/<week>/{slug}.json` — they can load/paste those into the Studio props panel to preview the exact post.
 3. Two kinds of look-changes:
    - **Per-post, data-level** (pacing/timing of a reel, the `pacing.leadIn`, slide order, emphasis flags): adjust the props. Small tuning can be done in Studio and copied back into `remotion/props/<week>/{slug}.json`; anything that is really *content* (the words) belongs in `/instagram-content refine`.
    - **Brand-level, layout/animation**: editing the composition itself (`remotion/src/compositions/*`) changes every post of that type. Document the reasoning in `remotion/README.md` → *Production lessons* so it carries forward.

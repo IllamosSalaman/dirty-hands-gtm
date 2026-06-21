@@ -4,7 +4,7 @@ import {brand} from '../theme';
 import {display, body} from '../fonts';
 import {Wordmark, Dots} from '../components';
 
-export type QuizOption = {key: string; text: string};
+export type QuizOption = {key: string; text: string; textEn?: string};
 export type QuizProps = {
   theme: string;
   handle: string;
@@ -15,6 +15,7 @@ export type QuizProps = {
   options: QuizOption[];
   correct?: string; // omit for reflex/"which one is you" quizzes with no right answer
   reveal: string; // reframe or teach text for the last slide
+  cta?: string; // closing save/send line on the reveal slide; falls back to a generic default
 };
 
 const PAD = 84;
@@ -30,10 +31,11 @@ export const quizDefaults: QuizProps = {
   options: [
     {key: 'A', text: 'Switch to English too. Honestly? A little relieved.'},
     {key: 'B', text: '"Mag ik het in het Nederlands proberen?"'},
-    {key: 'C', text: 'Say nothing, then think of the perfect Dutch reply on the bike home.'},
+    {key: 'C', text: 'Say nothing, switch to English, then think of the perfect Dutch reply on the bike home.'},
   ],
   reveal:
-    "No winner here — pick whichever one is honestly you. But if C is your reflex and you wish it weren't, B is the smallest way out: one sentence, no confrontation, still in Dutch.",
+    "If C is your reflex and you wish it weren't, B is the smallest way out: one line, no confrontation, still in Dutch. You don't have to be good. You just get to stay in.",
+  cta: 'Save this. Send it to someone learning Dutch with you.',
 };
 
 export const calcQuiz: CalculateMetadataFunction<QuizProps> = () => ({durationInFrames: TOTAL, fps: 1});
@@ -70,7 +72,10 @@ const OptionsSlide: React.FC<{p: QuizProps}> = ({p}) => (
           <div style={{flexShrink: 0, width: 76, height: 76, borderRadius: 18, background: brand.gold, color: brand.goldText, fontFamily: display, fontWeight: 600, fontSize: 42, display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
             {o.key}
           </div>
-          <div style={{fontFamily: body, fontWeight: 500, fontSize: 40, lineHeight: 1.2, color: brand.ink}}>{o.text}</div>
+          <div style={{display: 'flex', flexDirection: 'column', gap: 6}}>
+            <div style={{fontFamily: body, fontWeight: 500, fontSize: 40, lineHeight: 1.2, color: brand.ink}}>{o.text}</div>
+            {o.textEn ? <div style={{fontFamily: body, fontWeight: 500, fontSize: 30, lineHeight: 1.2, color: brand.mutedInk}}>{o.textEn}</div> : null}
+          </div>
         </div>
       ))}
     </div>
@@ -86,9 +91,9 @@ const RevealSlide: React.FC<{p: QuizProps}> = ({p}) => (
     <div style={{marginBottom: 44}}>
       <Wordmark onDark handle={p.handle} />
     </div>
-    <div style={{fontFamily: body, fontWeight: 800, fontSize: 30, letterSpacing: 3, color: brand.gold, marginBottom: 22}}>{p.correct ? `ANSWER: ${p.correct}` : 'NO WRONG ANSWER'}</div>
+    <div style={{fontFamily: body, fontWeight: 800, fontSize: 30, letterSpacing: 3, color: brand.gold, marginBottom: 22}}>{p.correct ? `ANSWER: ${p.correct}` : 'WHICH ONE IS YOU?'}</div>
     <div style={{fontFamily: display, fontWeight: 600, fontSize: 62, lineHeight: 1.15, color: brand.white, marginBottom: 50}}>{p.reveal}</div>
-    <div style={{fontFamily: body, fontWeight: 500, fontSize: 38, color: 'rgba(255,255,255,0.92)'}}>Save it. Send it to whoever keeps getting answered in English. {p.handle}</div>
+    <div style={{fontFamily: body, fontWeight: 500, fontSize: 38, color: 'rgba(255,255,255,0.92)'}}>{p.cta ?? 'Save this. Send it to someone learning Dutch with you.'} {p.handle}</div>
     <div style={{position: 'absolute', left: PAD, bottom: PAD}}>
       <Dots active={2} total={TOTAL} onDark />
     </div>

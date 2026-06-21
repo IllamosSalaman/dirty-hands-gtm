@@ -11,7 +11,7 @@
     {
       "nl": "Mag ik het in het Nederlands proberen?",
       "en": "Can I try it in Dutch?",
-      "when": "They switch to English to be helpful. The friendliest reset."
+      "when": "When someone replies in English to be kind. This nudges them back."
     },
     {
       "nl": "Je mag gewoon Nederlands met me praten.",

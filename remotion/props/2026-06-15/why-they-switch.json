@@ -1,7 +1,7 @@
 {
   "clip": "2026-06-15/why-they-switch/clip.mp4",
   "hook": {
-    "l1": "It's not your accent",
+    "l1": "It's not personal",
     "l2": "it's a",
     "emphasis": "HABIT"
   },
@@ -29,8 +29,8 @@
       "file": "2026-06-15/why-they-switch/joost-4.mp3",
       "speaker": "Joost",
       "recovery": true,
-      "nl": "Je kunt zeggen: Ik leer Nederlands. Vind je het goed als we Nederlands praten?",
-      "en": "You can say: I am learning Dutch. Is it okay if we speak Dutch?"
+      "nl": "Je kunt zeggen: Vind je het goed als we Nederlands praten?",
+      "en": "You can say: Is it okay if we speak Dutch?"
     },
     {
       "file": "2026-06-15/why-they-switch/roos-5.mp3",
@@ -47,8 +47,8 @@
   ],
   "outro": {
     "kicker": "THE LINE THAT CHANGES IT",
-    "nl": "Ik leer Nederlands. Vind je het goed als we Nederlands praten?",
-    "en": "I am learning Dutch. Is it okay if we speak Dutch?",
+    "nl": "Vind je het goed als we Nederlands praten?",
+    "en": "Is it okay if we speak Dutch?",
     "cta": "Try it out next time!",
     "handle": "@dutchwithjoost"
   }

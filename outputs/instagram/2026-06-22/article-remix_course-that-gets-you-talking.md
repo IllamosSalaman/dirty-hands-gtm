@@ -95,7 +95,7 @@ sits in the wordmark pill on every slide. Props: remotion/props/2026-06-22/cours
 The five questions (also written into props):
 1. Moet ik echt praten? (Do I really have to speak?) why: A course you can finish without speaking leaves you frozen in real life.
 2. Is het op mijn niveau? (Is it at my level?) why: A native partner or a big class rarely matches your level.
-3. Mag ik fouten maken? (Can I make mistakes safely?) why: You need hundreds of low-stakes tries before the real conversation.
+3. Mag ik fouten maken? (Can I make mistakes safely?) why: You need hundreds of safe tries before the real conversation.
 4. Leer ik alle vijf de delen? (Do I learn all five parts?) why: Reading, listening, writing, speaking, KNM, in one place.
 5. Past het in mijn week? (Does it fit my week?) why: If you can't make a fixed weekly time, self-paced wins.
 
@@ -108,7 +108,7 @@ How to pick the best inburgering course in 2026.
 
 Most "best course" lists compare price and features. The question that actually predicts whether you'll be able to talk afterward is a different one: does the course make you produce Dutch, or just recognize it? Here are five questions to ask before you pay, whichever course you end up choosing.
 
-The quiet fear behind the search is real: that you'll pay, pass the exam, and still freeze at the bakery. A course that requires you to speak, meets you at your level, and lets you make mistakes safely is the one you'll still be able to use after the exam.
+You pay, you pass the exam, and you can still freeze at the bakery. That is the risk those lists never measure. A course that requires you to speak, meets you at your level, and lets you make mistakes safely is the one you'll still be able to use after the exam.
 
 Save this before you pay for a course. Send it to whoever's about to start inburgering.
 Start learning Dutch with Joost: link in bio.

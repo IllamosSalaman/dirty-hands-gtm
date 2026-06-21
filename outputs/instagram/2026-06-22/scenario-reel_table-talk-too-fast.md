@@ -138,7 +138,7 @@ How to join the conversation at a Dutch family dinner.
 
 You know the moment. The table is laughing, the story is three sentences ahead of you, and you are smiling and nodding at something you did not catch. You are not rude and you are not slow. The talk is just fast.
 
-One calm line brings the table back to you: "Kunnen jullie iets langzamer praten?" (Can you speak a bit slower?). Most families are glad to slow down. They want you in the conversation as much as you do.
+One calm line gets them to slow down: "Kunnen jullie iets langzamer praten?" (Can you speak a bit slower?). Most families are glad to slow down. They want you in the conversation as much as you do.
 
 The trick is having said it out loud a hundred times before, so it comes out warm instead of panicked.
 

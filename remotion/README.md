@@ -36,7 +36,7 @@ Use this list when writing a runbook — it is the menu of edits available.
 - A branded outro card (blue, the DWJ logo mark in gold, the one line to remember, save/send CTA).
 - Export 9:16 1080×1920 H.264 with the voice track muxed in.
 
-**Carousels (`Cheatsheet`, `Quiz` → PNG slides):**
+**Carousels (`Cheatsheet`, `Quiz`, `ConceptGuide`, `VocabScene` → PNG slides):**
 - Composite a watercolor cover image with a branded headline, kicker, and gradient scrim. **Each type uses a distinct cover treatment** so the tiles differ on the feed grid even on a shared base image: the cheatsheet cover is the bright "guide" tile (image band over a solid cream panel that holds the headline); the quiz cover is the dark "question" tile (heavy scrim, centred question, gold QUIZ marker + faint "?" watermark). The reel's first frame is the photo-forward tile. See the playbook's *Feed-grid differentiation* rule.
 - Render crisp, correctly-spelled Dutch text every time (the thing AI image-gen garbles).
 - Phrase cards: NL hero line, EN translation, a "WHEN" context panel, a faint number watermark, progress dots, the `NN / NN` counter.
@@ -44,13 +44,15 @@ Use this list when writing a runbook — it is the menu of edits available.
 - One slide per phrase/option automatically (slide count follows the data).
 - Brand colors throughout (blue `#0025DB`, gold `#E0BB00`) — consistent with the app.
 - The DWJ logo mark in the wordmark pill on every slide (cover, phrase cards, CTA, quiz slides).
+- **`ConceptGuide`** (particles, mistakes, small words, idioms): a cover with a gold variant marker (LITTLE WORD / COMMON MISTAKE / DUTCH IDIOM / SOUND MORE DUTCH), an optional "what is it" intro slide, then one teaching card per concept (a hero term, an optional literal/gloss line, a meaning, one or two NL/EN example pairs, and a gold-underline "when to use it" note), then the CTA. One flexible composition, four post types, chosen by `variant`.
+- **`VocabScene`** (labeled vocabulary scenes): a full-bleed, label-free illustration with crisp NL/EN label chips and arrows composited on top from authored `x/y` positions, an optional recap list slide, then the CTA. The Dutch is rendered here, never baked into the image.
 
 **Everything is data-driven and deterministic:** the same props always render the same
 asset. Re-rendering never requires re-doing manual edits.
 
 ---
 
-## The three compositions and their props
+## The compositions and their props
 
 Props files live in `props/<week>/{slug}.json` (grouped by week-start date). Asset paths are relative to `public/`, so they start with the week segment: `<week>/{slug}/...`.
 
@@ -92,9 +94,53 @@ Slides = cover + one per phrase + CTA. 5–8 phrases is the sweet spot.
   "scenarioLine": "...", "questionNl": "...", "questionEn": "...",
   "options": [{"key": "A", "text": "..."}, {"key": "B", "text": "..."}, {"key": "C", "text": "..."}],
   "correct": "B",          // OMIT entirely for reflex/"which one is you" quizzes
-  "reveal": "..."
+  "reveal": "...",
+  "cta": "..."             // closing save/send line on the reveal slide; optional, generic fallback if omitted
 }
 ```
+
+### `ConceptGuide` (carousel → PNG per slide; `particle` / `small-words` / `mistake` / `idiom`)
+```jsonc
+{
+  "variant": "particle",                   // particle | small-words | mistake | idiom (sets the gold cover marker)
+  "theme": "nog",                          // small kicker on each card
+  "handle": "@dutchwithjoost",
+  "coverImage": "<week>/{slug}/cover.png", // watercolor Joost cover, 4:5, same treatment as the cheatsheet
+  "cover": {"kicker": "...", "title": "...", "sub": "..."},
+  "intro": {"title": "...", "body": "...", "points": ["...", "..."]},  // "what is it" slide; set to null to skip (do NOT omit, see merge note)
+  "cards": [
+    {"nl-note": "card fields: term (required) + sub? + meaning? + examples? + note?"},
+    {"term": "Nog = still", "meaning": "When something keeps going.", "examples": [{"nl": "Het regent nog.", "en": "It is still raining."}], "note": "Use nog when something continues."},
+    {"term": "door de vingers zien", "sub": "to see through the fingers", "meaning": "to turn a blind eye", "examples": [{"nl": "...", "en": "..."}]}
+  ],
+  "cta": {"title": "...", "sub": "..."}
+}
+```
+Card fields: only `term` is required. `sub` = the literal line (idioms) or a short gloss, `meaning` = a
+rule/meaning line, `examples` = 1–2 NL/EN pairs, `note` = the gold-underline "when to use it". Slides =
+cover + intro (if present) + one per card + CTA. 4–8 cards is the sweet spot. (The `nl-note` line above is
+just a comment; do not ship it.) **Props-merge note:** Remotion merges input props over `defaultProps`, so to
+skip the intro set `"intro": null` (omitting it inherits the sample intro from the defaults). Same for any
+optional field that exists in the defaults.
+
+### `VocabScene` (carousel → PNG per slide; labeled vocabulary scene)
+```jsonc
+{
+  "theme": "Dutch vocabulary",
+  "handle": "@dutchwithjoost",
+  "sceneImage": "<week>/{slug}/scene.png", // label-FREE illustration, 4:5, generated with NO text in it
+  "title": {"nl": "Een dagje koken", "en": "A day in the kitchen"},
+  "labels": [
+    {"nl": "de pan", "en": "the pan", "x": 0.24, "y": 0.5, "point": {"x": 0.4, "y": 0.58}}
+  ],
+  "recap": true,                           // recap list slide after the poster; set false to skip (omitting inherits default true)
+  "cta": {"title": "...", "sub": "..."}
+}
+```
+`x`/`y` are fractions (0–1) of the 1080×1350 canvas and place the label chip's centre; `point` is the spot
+its arrow targets (omit `point` for a chip with no arrow). Author the positions against the actual
+generated image (Studio is the fastest way). Slides = poster + recap (if `true`) + CTA. 8–12 labels is the
+sweet spot; keep them clear of the top title band.
 
 ### article-remix
 Not its own composition. Pick `Cheatsheet` (carousel) or `ScenarioReel` (reel) and fill
@@ -110,6 +156,8 @@ Generate each dropped image at the **same aspect as the composition that renders
 |-------------|--------|--------------------------|
 | `Cheatsheet` | 1080×1350 (4:5) | `cover.png` at **4:5**, Joost in the upper half (the cover shows only the top band) |
 | `Quiz` | 1080×1350 (4:5) | `scenario.png` at **4:5**, full-bleed |
+| `ConceptGuide` | 1080×1350 (4:5) | `cover.png` at **4:5**, Joost in the upper half (same as the cheatsheet cover) |
+| `VocabScene` | 1080×1350 (4:5) | `scene.png` at **4:5**, full-bleed, **no text in the image** (labels are rendered) |
 | `ScenarioReel` | 1080×1920 (9:16) | the scene image and the Seedance clip at **9:16** |
 
 Instagram feed carousels are 4:5; reels are 9:16. A 9:16 image dropped into a 4:5 carousel only shows its vertical top band. That is what cut Joost's head on the first cheatsheet cover.
@@ -124,8 +172,10 @@ drop assets in `public/<week>/{slug}/` first, then:
 npx remotion render src/index.ts ScenarioReel out/<week>/{slug}.mp4 --props=props/<week>/{slug}.json
 
 # Carousel → PNG slides in out/<week>/{slug}/  (element-0.png … element-N.png)
-npx remotion render src/index.ts Cheatsheet out/<week>/{slug} --sequence --image-format=png --props=props/<week>/{slug}.json
-npx remotion render src/index.ts Quiz      out/<week>/{slug} --sequence --image-format=png --props=props/<week>/{slug}.json
+npx remotion render src/index.ts Cheatsheet   out/<week>/{slug} --sequence --image-format=png --props=props/<week>/{slug}.json
+npx remotion render src/index.ts Quiz         out/<week>/{slug} --sequence --image-format=png --props=props/<week>/{slug}.json
+npx remotion render src/index.ts ConceptGuide out/<week>/{slug} --sequence --image-format=png --props=props/<week>/{slug}.json
+npx remotion render src/index.ts VocabScene   out/<week>/{slug} --sequence --image-format=png --props=props/<week>/{slug}.json
 
 # Preview / tweak props live before rendering (or: /instagram-render studio <slug>)
 npm run studio
@@ -181,6 +231,23 @@ loop the clip. Measured-by-hand and auto-detected timings matched to within roun
   over generic info-callout boxes.
 - **Hook overlaps the first line by design** (both visible while the hook fades). If it feels
   busy, raise `pacing.leadIn` so the first line starts after the hook clears.
+- **The quiz reveal slide is the closing CTA, so keep it earning a send and keep it props-driven.**
+  The save/send line comes from `cta` in props (a generic fallback renders if it is omitted), so it
+  is never hard-locked to one theme. It used to be hardcoded to "send it to whoever keeps getting
+  answered in English," which would have leaked the switch-to-English theme onto every other quiz.
+  For no-correct reflex quizzes the gold kicker reads **WHICH ONE IS YOU?**, not "NO WRONG ANSWER":
+  announcing "no wrong answer" on the slide is over-reassurance (see `brand/instagram-voice.md` →
+  Quiz design).
+- **`ConceptGuide` is one composition, four tiles.** The `variant` only changes the gold cover marker
+  (LITTLE WORD / COMMON MISTAKE / DUTCH IDIOM / SOUND MORE DUTCH); it exists so the four post types still
+  read as distinct tiles on the feed grid, the way the cheatsheet and quiz covers do. The card body is
+  shared and adapts to which fields are present (a long idiom term auto-shrinks so it never overflows).
+  Keep each card to one concept; 4–8 cards per post.
+- **`VocabScene` labels are rendered, never drawn by the image model.** The illustration is generated with
+  NO text and breathing room around each object; Remotion overlays the crisp NL/EN chips and arrows from
+  `x/y` props. That keeps Dutch spelling and articles exact (the whole point) and lets you nudge a label in
+  Studio without regenerating the art. If a chip sits awkwardly, move its `x/y`; if an arrow streaks across
+  the frame, the label was placed too far from its object.
 
 ---
 

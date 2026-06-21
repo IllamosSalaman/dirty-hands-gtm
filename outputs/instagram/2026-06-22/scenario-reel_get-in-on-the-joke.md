@@ -4,7 +4,7 @@
 > **Theme:** Smiling and nodding at a Dutch table while the conversation runs too fast
 > **Setting:** a garden BBQ
 > **Persona:** Belonging-motivated learner (Nina "feel at home"; Molly exclusion in volunteering groups)
-> **Positioning thread:** Judgment-free practice. Asking "what's funny" is low-stakes once you've said it a hundred times where no one is watching.
+> **Positioning thread:** Judgment-free practice. Asking "what's funny" feels easy once you've said it many times in practice first.
 > **Render:** ScenarioReel - props: `remotion/props/2026-06-22/get-in-on-the-joke.json` - run `/instagram-render get-in-on-the-joke`
 > **Status:** draft   ← set to `approved` (after review + assets saved) to allow rendering
 
@@ -125,7 +125,7 @@ scene, and Remotion loops it to fill the dialogue.)
 Remotion loops the clip, sequences the six voice lines with auto-detected timing, burns in NL/EN
 subtitles (Dutch large, English beneath), emphasizes "Wat is er zo grappig?" in gold with a
 "SAY THIS ↓" badge, adds the 3-second hook overlay ("Everyone is laughing in Dutch. Say THIS"),
-floats the "sound familiar?" tag on Roos's admission line, and ends on a branded blue outro card
+floats the "left out of the joke" tag on Roos's admission line, and ends on a branded blue outro card
 (DWJ logo mark + the one line to remember). The DWJ logo is baked into Remotion. Output: 9:16
 1080×1920 MP4 with audio. Props: remotion/props/2026-06-22/get-in-on-the-joke.json.
 
@@ -136,9 +136,9 @@ floats the "sound familiar?" tag on Roos's admission line, and ends on a branded
 ## CAPTION (paste into Instagram)
 How to get in on the joke when everyone is laughing in Dutch.
 
-There is a specific kind of lonely in standing in a laughing group and not knowing why. You smile along, half a beat behind, hoping nobody turns to ask you something. You do not have to stand there. One line lets you in: "Wat is er zo grappig?" (What's so funny?).
+It is a lonely feeling to stand in a laughing group and not know why. You smile along, always a moment behind, hoping nobody turns to ask you something. You do not have to stand there. One line lets you in: "Wat is er zo grappig?" (What's so funny?).
 
-Most people are glad you asked. They want you in on it. Asking is not weak. It is how you join.
+Most people are glad you asked. They want you to join in. Asking is not weak. It is how you join.
 
 Save this for the next BBQ. Send it to whoever smiles along at the edge of the group.
 Start learning Dutch with Joost: link in bio.

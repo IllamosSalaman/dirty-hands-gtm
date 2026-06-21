@@ -145,6 +145,37 @@ Anything marked "above A2" must be rewritten before approval. Anything at A2 nee
 
 ---
 
+## 7. Sanctioned exceptions (when above-A1 is the point)
+
+A few post types exist to teach an item that is above A1 **by design**. The default "rewrite anything above
+A1 down" would delete the very thing the post teaches (you cannot rewrite an idiom into A1 and still have an
+idiom). For these, the advanced item is allowed under four conditions:
+
+1. **Only the target item is above A1.** The idiom, the modal particle, the civic KNM term, the A2 quiz
+   line, is the single advanced element. Everything around it (the explanation, the other words in the
+   example, the option framing) stays A1.
+2. **It is always glossed.** The above-A1 item never appears without its English translation and a plain
+   explanation of what it means.
+3. **A2 still needs a reason; above A2 around it is still rewritten.** The carve-out covers the *taught
+   item*, not a free pass for the whole line. Surrounding language above A2 is rewritten as normal.
+4. **The runbook's Dutch-check table notes it** as a sanctioned exception, not a missed flag.
+
+The types this applies to, and their grounding banks:
+
+| Type | What is allowed above A1 | Bank |
+| --- | --- | --- |
+| `particle` | the particle and its nuance (`toch`, `nog`) | `modal-particles.md` |
+| `small-words` | the stance/filler word (`gezellig`, `hè`) | `sound-more-dutch.md` |
+| `idiom` | the figurative expression | `dutch-idioms.md` |
+| `knm-quiz` | A2 question + options, civic terms | `knm-facts.md` |
+| `mistake` | the wrong sentence being corrected | `common-mistakes.md` |
+
+`mistake` is a special case: the `❌` line may be a real, above-A1-feeling error a learner would write, but
+the `✅` fix and everything taught must be A1-clean. `vocab-scene` is **not** an exception: its labels are
+concrete A1 nouns and stay there.
+
+---
+
 ## Sources
 
 - A1/A2/B1 can-do, vocabulary sizes, and grammar per level (Dutch-specific): [Inburgering.org: Dutch Language Levels Explained](https://inburgering.org/exam-info/dutch-language-levels-cefr)

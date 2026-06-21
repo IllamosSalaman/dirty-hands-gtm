@@ -51,26 +51,42 @@ Default target: **7 feed posts per week (one per day), with a maximum of 2 reels
 
 The deeper rule, not the number: **sustainable daily consistency with no more than 2 reels a week** (reels are the discovery engine but the most work, so they are capped and the carousel and quiz formats carry the daily volume). Consistency beats volume, a missed day hurts less than a weak post, and the cadence is a dial set to the user's available time.
 
-Default 7-post themed week the batch produces (2 reels, the rest carousels):
+Default 7-post themed week the batch produces: **2 reels (fixed) + 5 carousels chosen from the full menu.** The 2 reels carry the theme; the 5 carousel slots are picked per week from any carousel type, and batch **proposes them for you to confirm before it builds anything** (see the lineup checkpoint in the skill's batch flow).
 
 | Day | Slot | Type | Format | On-theme? | Job |
 |-----|------|------|--------|-----------|-----|
 | Mon | 1 | scenario-reel | Reel | yes | Reach / discovery |
-| Tue | 2 | cheatsheet | Carousel | yes | Saves + sends |
-| Wed | 3 | quiz | Carousel or single | yes | Sentence-comments |
+| Tue | 2 | carousel (your pick) | Carousel | yes / evergreen | Saves + sends |
+| Wed | 3 | carousel (your pick) | Carousel | yes / evergreen | Sentence-comments |
 | Thu | 4 | scenario-reel | Reel | yes | Reach / discovery |
-| Fri | 5 | cheatsheet | Carousel | yes | Saves + sends |
-| Sat | 6 | quiz | Carousel or single | yes | Sentence-comments |
-| Sun | 7 | article-remix | Carousel (keeps reels at 2) | flex (off-theme ok) | Reach + SEO |
+| Fri | 5 | carousel (your pick) | Carousel | yes / evergreen | Saves + sends |
+| Sat | 6 | carousel (your pick) | Carousel | yes / evergreen | Sentence-comments |
+| Sun | 7 | carousel (your pick) | Carousel | flex / evergreen | Reach + SEO |
 | Daily | — | Stories | Stories | — | Reshare the day's post + a quiz sticker |
 
-Suggested posting: one post every day, Mon through Sun. Floor when busy: drop the flex first, then a quiz, but keep at least one reel. Never drop to zero.
+The **carousel menu** (any of the five non-reel slots can be one of these):
+
+| Type | Composition | Grounded in | On-theme or evergreen |
+|------|-------------|-------------|-----------------------|
+| `cheatsheet` | `Cheatsheet` | `lexicon`, `quotes` | on-theme (the phrases for the moment) |
+| `quiz` | `Quiz` | `pains`, `lexicon` | on-theme (a reflex from the moment) |
+| `article-remix` | `Cheatsheet` / `ScenarioReel` | an article | flex |
+| `vocab-scene` | `VocabScene` | `brand/vocab-scenes.md` | on-theme (the scene **is** the setting) or evergreen |
+| `particle` | `ConceptGuide` | `brand/modal-particles.md` | evergreen |
+| `small-words` | `ConceptGuide` | `brand/sound-more-dutch.md` | evergreen |
+| `mistake` | `ConceptGuide` | `brand/common-mistakes.md` | evergreen |
+| `idiom` | `ConceptGuide` | `brand/dutch-idioms.md` | evergreen |
+| `knm-quiz` | `Quiz` | `brand/knm-facts.md` | evergreen |
+
+Keep the week coherent: the 2 reels plus at least one or two on-theme carousels carry the moment; the remaining slots can be **evergreen reference posts** (a particle, an idiom, a KNM quiz, a vocab scene) that stand alone and are useful any week. A week can be mostly on-theme or a healthy mix. Batch proposes a balance and you confirm it.
+
+Suggested posting: one post every day, Mon through Sun. Floor when busy: drop an evergreen carousel first, then a quiz, but keep at least one reel. Never drop to zero.
 
 ## Weekly theming (theme packs)
 
-A week is **loosely themed** around one recurring *moment or tension* a learner lives through, not a single place. The theme is the experience ("the moment they switch to English on you", "freezing under exam pressure", "small talk you can't enter at the school gate"); it plays out across many concrete **settings** (the bakery, the supermarket checkout, the pharmacy, a café, the doctor's reception, the school gate, a phone call). The six on-theme posts (two reels, two cheatsheets, two quizzes) orbit that one moment; the flex post (usually the article remix) can go off-theme for a wider discovery net.
+A week is **loosely themed** around one recurring *moment or tension* a learner lives through, not a single place. The theme is the experience ("the moment they switch to English on you", "freezing under exam pressure", "small talk you can't enter at the school gate"); it plays out across many concrete **settings** (the bakery, the supermarket checkout, the pharmacy, a café, the doctor's reception, the school gate, a phone call). The two reels plus one or two on-theme carousels orbit that one moment; the remaining carousel slots can be **evergreen reference posts** (a particle, an idiom, a KNM quiz, a vocab scene) or an off-theme remix for a wider discovery net. A vocab scene staged in the theme's setting counts as on-theme.
 
-Stage each on-theme post in a **different setting** within the theme. Six posts under one *moment* but across six *places* is variety, not repetition: it is truer to life (the experience really does happen everywhere) and it gives six distinct profile tiles instead of one picture posted six times. The anti-pattern is collapsing a theme onto a single place — six bakery shots — which is what makes a grid look duplicated (see *Feed-grid differentiation* below).
+Stage each on-theme post in a **different setting** within the theme. On-theme posts under one *moment* but across different *places* is variety, not repetition: it is truer to life (the experience really does happen everywhere) and it gives distinct profile tiles instead of one picture posted several times. The anti-pattern is collapsing a theme onto a single place — six bakery shots — which is what makes a grid look duplicated (see *Feed-grid differentiation* below).
 
 Why theme-first:
 - **Topic authority:** repeating one *moment* across a week sharpens the account's identity for the algorithm and for searchers, without making the grid look duplicated.
@@ -85,7 +101,7 @@ The first frame of each reel and slide 1 of each carousel are what land on the p
 
 1. **Vary the setting within the situation.** The situation is a *moment* ("they switch to English"), not a *place*. It happens at the bakery, the supermarket checkout, the pharmacy, a café, a doctor's reception. Stage each on-theme post somewhere different. Same Joost, same style references, same palette keep it unmistakably one brand; the changed backdrop gives distinct tiles and is truer to life.
 2. **Vary the shot when you do reuse a setting.** If two posts share a place, change the camera: wide establishing vs. medium two-shot vs. tight reaction close-up, or switch POV (Joost's side of the counter vs. the customer's). Re-rolling the *same* prompt for a near-identical image is the weakest option — vary the shot, not the seed.
-3. **Lean on the graphic layer.** Remotion already gives each type a distinct cover treatment so the tiles differ even on a shared base image: the reel cover is photo-forward (the scene fills the frame, hook on a scrim), the cheatsheet cover is the bright "guide" tile (an image band over a solid colour panel that holds the headline), and the quiz cover is the dark "question" tile (heavy scrim, centred question, gold QUIZ marker). Keep choosing cover headlines and kickers that read differently at thumbnail size.
+3. **Lean on the graphic layer.** Remotion already gives each type a distinct cover treatment so the tiles differ even on a shared base image: the reel cover is photo-forward (the scene fills the frame, hook on a scrim), the cheatsheet cover is the bright "guide" tile (an image band over a solid colour panel that holds the headline), the quiz cover is the dark "question" tile (heavy scrim, centred question, gold QUIZ marker), the concept-guide cover carries a gold **variant marker** (LITTLE WORD / COMMON MISTAKE / DUTCH IDIOM / SOUND MORE DUTCH) so particles, mistakes, idioms, and small-words read apart from each other and from cheatsheets, and the vocab-scene is a labeled poster that looks like nothing else on the grid. Keep choosing cover headlines and kickers that read differently at thumbnail size.
 
 When batch writes the on-theme image prompts, give each a different setting or shot by default. Only collapse two onto one matched shot if the user explicitly asks for a deliberately matched grid row.
 
@@ -135,11 +151,13 @@ The Dutch in the content is the product on display. It must be correct, the righ
 - Every phrase must pass: "would a learner actually say this, in this situation, tomorrow?" No textbook-artificial lines (the "my elephant is green" trap the interviews complain about).
 - Always pair Dutch with the English translation and a one-line "when to use it." The viewer should finish able to say something new in a real scenario.
 
+**Sanctioned exceptions (some types teach an above-A1 item on purpose).** A few types exist to teach something above A1 by design: `particle` (the particle's nuance), `small-words` (the stance/filler word), `idiom` (the figurative expression), `knm-quiz` (an A2 question + options and the civic term), and `mistake` (the wrong sentence being corrected). For these, do **not** rewrite the taught item down to A1 out of existence. The carve-out has four conditions: (1) only the target item is above A1, everything around it stays A1; (2) it is always glossed in English with a plain explanation; (3) A2 surrounding language still needs a one-line reason and anything above A2 around it is still rewritten; (4) the Dutch-check table marks it as a sanctioned exception, not a missed flag. Full rule and per-type table: `brand/dutch-level-guide.md` → *Sanctioned exceptions*. `vocab-scene` is **not** an exception: its labels are concrete A1 nouns.
+
 **The Dutch language check (the explicit pass).**
 Run this over every Dutch line (the `nl` strings in props and any Dutch in the runbook) before a post reaches `Status: approved`. It runs automatically inside batch and refine, and on demand via `/instagram-content check`. For each line:
 - **Correctness:** check it against the grammar error checklist in `brand/dutch-grammar.md` (word order, conjugation and the `-t`/kofschip rules, de/het, niet/geen, register consistency).
 - **Level:** score it A1 / A2 / above A2 against the three difficulty axes in `brand/dutch-level-guide.md` (vocabulary, grammar structure, sentence length).
-- **Fix:** rewrite anything above A1 down toward A1 using the rewrite ladder. Keep A2 only when the scene truly needs it, and then with a one-line reason. Anything scored above A2 must be rewritten before approval.
+- **Fix:** rewrite anything above A1 down toward A1 using the rewrite ladder. Keep A2 only when the scene truly needs it, and then with a one-line reason. Anything scored above A2 must be rewritten before approval, **unless it is the sanctioned taught item for this post type** (an idiom, a particle, a civic term, the wrong line in a `mistake` post), in which case keep it, gloss it, and mark it as a sanctioned exception in the table.
 
 Write the result into the runbook as a per-line verdict table so the reviewer can scan it at the gate, and keep the checked Dutch in sync with the props JSON:
 
@@ -206,6 +224,44 @@ Transform an existing article into a native Instagram artifact. **Never paste pa
 - Pull _one_ angle from the article, not a summary.
 - Choose a format: carousel or reel. Then follow that type's rules and brand-kit visuals.
 - Reuse the article's primary keyword (from its `_brief.json`) as caption line 1 for SEO continuity.
+
+### Concept-guide carousels (particle, small-words, mistake, idiom)
+
+All four are **evergreen** teaching carousels rendered by the one `ConceptGuide` composition (the post `type` sets the `variant`, which sets the gold cover marker). They are not tied to the week's moment; they ride a themed week as standalone value. Shared rules:
+
+- **Cover** = a hook headline (5-8 words) over a Joost illustration, the same cover treatment as the cheatsheet (Joost in the upper half, 4:5, headline rendered by Remotion, no text in the generated image). The runbook gives a ready ChatGPT prompt with the full Style Block + Negative prompt inline.
+- **Intro slide (optional)** = "what is it / what's the difference"; used by `particle` and `mistake`, skipped for `small-words` and `idiom` where the cards speak for themselves.
+- **Cards** = 4-8, one concept each (`term` + optional `sub` + `meaning` + one or two NL/EN `examples` + a "when to use it" `note`). Pulled from the type's bank, never invented.
+- **Dutch:** the taught item (the particle, the idiom, the stance word, the `❌` line) is the sanctioned above-A1 exception; every example sentence around it stays A1 and glossed (see the Dutch standard's *Sanctioned exceptions*).
+- **Caption** per the formula, line 1 a searchable keyword. **Comment seed** pulls a sentence reply.
+
+**Particle** — one particle per post (`nog`, `toch`, `even`), from `brand/modal-particles.md`. The intro names what it does and that you can't translate it, you learn it. Cards = its senses/uses, two examples each. Cover marker: LITTLE WORD.
+
+**Small words** — a set of 5-7 small stance/filler words that share a job ("5 ways to agree", "little words Dutch people add"), from `brand/sound-more-dutch.md`. One card per word: word + one-line meaning + one example. Cover marker: SOUND MORE DUTCH.
+
+**Mistake** — one confusable pair or common error (`niet` vs `geen`, `kennen` vs `weten`, word order), from `brand/common-mistakes.md`. Teaching, not a quiz: the intro states the one-line difference, then a card per side (the rule + examples) and a "quick test" card. Show the contrast with `✅` / `❌`. Cover marker: COMMON MISTAKE.
+
+**Idiom** — a set of 5-6 related idioms (animals, food, body) or one idiom deep, from `brand/dutch-idioms.md`. Each card: idiom + literal translation (the funny line) + real meaning + one example. Lead the cover with the most surprising literal. Cover marker: DUTCH IDIOM.
+
+### Vocab scene
+
+A labeled illustration of one setting, rendered by `VocabScene` (Remotion draws the labels; the image is generated label-free). The scene **is** a setting, so it can be the on-theme post for that week's place, or an evergreen "a day at {place}".
+
+- **Image** = a label-FREE 4:5 illustration with breathing room around each object and **no text in it** (the runbook's prompt says so explicitly, full Style Block + Negative prompt inline).
+- **Labels** = 8-12 concrete A1 items from `brand/vocab-scenes.md`, each `{nl, en, x, y, point}`. Positions are authored against the generated image (Studio is the fastest way); keep labels clear of the top title band.
+- **Slides** = the labeled poster + optional recap list + CTA.
+- **Dutch:** concrete A1 nouns with correct articles (no carve-out). A wrong `de`/`het` on a rendered label is exactly what natives catch, so verify uncertain ones.
+- **Caption** line 1 a searchable keyword ("Dutch kitchen vocabulary"). **Comment seed:** "which word is new to you?"
+
+### KNM quiz
+
+An inburgering knowledge quiz, rendered by the existing `Quiz` composition with a real `correct` answer (KNM facts have right answers, so this is the sanctioned correct-answer quiz type, unlike the reflex quizzes that omit `correct`).
+
+- **Source:** one indicator from `brand/knm-facts.md`. Never invent a civic fact; pull it from there. (Volatile `⚠️` facts: re-check the source before posting.)
+- **Language:** the question and the three options are in **simple Dutch (A2)** with the **English under each** (`questionNl` / `questionEn`, and `textEn` on each option). The civic term is the sanctioned above-A1 item; keep the framing A2 and glossed.
+- **One question, three options, one correct**, with plausible distractors. The reveal teaches the fact in one line. Set `correct` in props.
+- **Scenario image:** Joost in the relevant civic situation (at the huisarts, the gemeente, reading a huurcontract); the same on-brand illustrated cover the reflex quiz uses. For an abstract fact with no natural scene, a simple Joost-at-a-desk works.
+- **Engagement prompt:** still ask for a reason or a guess, never bare A/B ("which did you pick, did the real answer surprise you?"). **Caption** line 1 a searchable keyword ("inburgering exam question", "KNM practice").
 
 ---
 

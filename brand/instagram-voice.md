@@ -13,16 +13,29 @@ Keep it tight — one principle per line. This loads on every run, so an essay b
 - Warmth and humor over shame. Self-deprecating jokes about the learner's own experience are good; shame-loaded framing aimed at the learner ("feel smaller", "it's your fault") is not.
 - When a moment carries a hard feeling, close on connection or good intent, not on the wound. The learner should finish a post feeling less othered, not more. _(e.g. the "switched to English" reel closes on "most people are glad to help you practice", not "it's not your fault".)_
 - Write to a peer who is mid-struggle, not to a beginner who needs rescuing.
+- Plain, concrete English beats abstract shorthand. Do not write "one low-stakes line." Write "one simple line you can actually use." And prefer the direct version of a sentence over the clever, roundabout one. _(Source: switched-to-English quiz refine, June 2026.)_
+- Address the reader as a trusted peer. Never use framing that presumes bad faith: "Be honest in the comments" implies they would lie, and it stings. Just ask the question. _(Source: same refine.)_
+- Our readers are mostly non-native English speakers, so keep the English itself at A1: avoid idioms and figurative shorthand ("set the frame", "where the stakes are zero", "the reflex kicks in"), even when they aren't slop. Write the literal version ("say it before they switch to English"). _(Source: why-they-switch remix refine, June 2026.)_
+- In a contrast ("it isn't X, it's Y"), say why the two connect instead of leaving the reader to guess. _(Source: why-they-switch remix refine, June 2026: "isn't your accent, it's the lost chance to practice" felt disconnected until the link was spelled out.)_
 
 ## Emotional accuracy
 
 - Name the real feeling, not the convenient one. Do not default to **shame** for hard moments — check what the audience actually feels first.
 - **"They switched to English on me"** reads as **frustration at a lost chance to practice** (plus a flash of "are they implying my Dutch isn't good enough?"), *not* shame. Shame about pronunciation sits underneath, but annoyance is on top. Address the annoyance, then reframe the switch as habit and kindness. _(Source: founder + expat conversations, June 2026.)_
+- Do not name the feeling you want the reader to have ("you're not the only one", "you'll feel seen"). Saying it out loud makes it ring hollow. Let the post earn the feeling. _(Source: switched-to-English quiz refine, June 2026.)_
+- On the switch to English specifically: never pin it on the reader's accent or level ("...the second they hear your accent"). It is a Dutch reflex, not their failing, and naming their accent hits a live insecurity. _(Reinforces the switch-to-English note above. Source: same refine.)_
+- Don't narrate the reader's insecurity back at them ("it's easy to read the switch as rejection"). Diagnosing how they take something reads as a lecture about a wound they never claimed. Name what the other person's action can seem to say ("like they're telling you your Dutch isn't good enough"), then reframe. _(Source: why-they-switch remix refine, June 2026.)_
+- Negating an insecurity by name still plants it. "It's not your accent" makes the reader feel the brand is sizing up their accent, even while the sentence denies it. Don't reassure by naming the thing and crossing it out. Drop the mention entirely and let the reframe ("switching is a habit, and a kindness") carry the relief. _(Source: why-they-switch remix refine, June 2026: pulled "It's not your accent" from both the caption and the reel hook; the hook became "It's not personal, it's a HABIT".)_
 
 ## Quiz design
 
 - Not every scenario has a right answer. When the situation is about **reflex or personal behavior**, do not force a `Correct: X`. Use a "which one is you + why" frame instead.
 - Reserve correct-answer quizzes for genuine facts: grammar, etiquette, vocabulary, a concrete do/don't. _(Source: the "switched to English" quiz — behaviour in that moment is reflex, not right/wrong.)_
+- On no-right-answer reflex quizzes, do not over-reassure. Repeating "no wrong answer / no winner" across the slide, caption, and reveal reads as condescending, as if you expect the reader to take it badly. Say it once at most. Better: let the three options stand and ask "which one is you?" _(Source: switched-to-English quiz refine, June 2026.)_
+
+## Captions
+
+- Never drop an untranslated Dutch sentence into a caption with no setup. The reel can carry subtitled Dutch, but a caption read on the feed needs every Dutch phrase glossed in plain English and given a reason to be there. _(Source: why-they-switch remix refine, June 2026: a stray closing "De meeste mensen helpen je graag oefenen." left the reader wondering what it was doing there.)_
 
 ---
 

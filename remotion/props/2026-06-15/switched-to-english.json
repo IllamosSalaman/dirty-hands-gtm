@@ -7,8 +7,9 @@
   "questionEn": "What do you do now?",
   "options": [
     {"key": "A", "text": "Switch to English too. Honestly? A little relieved."},
-    {"key": "B", "text": "\"Mag ik het in het Nederlands proberen?\""},
-    {"key": "C", "text": "Say nothing, then think of the perfect Dutch reply on the bike home."}
+    {"key": "B", "text": "\"Mag ik het in het Nederlands proberen?\"", "textEn": "Can I try it in Dutch?"},
+    {"key": "C", "text": "Say nothing, switch to English, then think of the perfect Dutch reply on the bike home."}
   ],
-  "reveal": "No winner here. Pick whichever one is honestly you. But if C is your reflex and you wish it weren't, B is the smallest way out: one sentence, no confrontation, still in Dutch."
+  "reveal": "If C is your reflex and you wish it weren't, B is the smallest way out: one line, no confrontation, and you're still speaking Dutch. You don't have to be good. You just get to stay in.",
+  "cta": "Save it for your next checkout. Send it to someone learning Dutch with you."
 }

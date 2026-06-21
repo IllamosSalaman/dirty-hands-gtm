@@ -3,8 +3,8 @@
 > **Type:** quiz (single scenario image + reveal)
 > **Theme:** A Dutch person switches to English the moment you try to speak Dutch
 > **Persona:** Belonging-motivated expat (Molly, Nina) who freezes the second a Dutch person switches to English. Going along with it is the easy reflex; staying in Dutch is the one you have to practice
-> **Positioning thread:** There's no wrong reflex here. Staying in Dutch is just one low-stakes option, and you get comfortable with it by practicing where no one is watching.
-> **Status:** approved
+> **Positioning thread:** Staying in Dutch is one simple option, and you get comfortable with it by practicing where no one is watching.
+> **Status:** approved   ← revised + re-approved 2026-06-19 from founder feedback. Re-render to apply the new caption, reveal, option C, and the quiz reveal CTA + kicker.
 
 ## Rules for this post (keep edits on-rails)
 
@@ -13,6 +13,16 @@
 - Engagement prompt must ask for a **reason or personal angle**. Never bare "A or B?", never "tag a friend". This beats the 2026 engagement-bait filter.
 - On-brand illustrated scenario image (Joost as the cashier at a supermarket checkout, intentionally a different setting from the bakery reel, so the on-theme posts don't share one image on the feed grid; see the playbook's _Feed-grid differentiation_ rule). Reveal = a gentle reframe (no winner declared) + the one phrase that buys you an exit from English, on slide 2 / pinned comment.
 - Caption line 1 = searchable phrase. Keep it tied to Monday's reel and Tuesday's cheatsheet (same situation, same fix).
+- Do not over-reassure. State "no wrong answer" at most once across the slides, caption, and reveal. Let the three options stand and ask "which one is you?" (brand/instagram-voice.md → Quiz design). Never presume bad faith ("be honest"), never blame the reader's accent, never spell out the feeling ("you're not the only one").
+
+## Dutch check
+
+| # | Dutch line | Level | Correct? | Note |
+|---|-----------|-------|----------|------|
+| 1 | Wat doe je nu? | A1 | yes | Question-word + V2 order, 3 words, all high-frequency. Informal "je" is right for a viewer-facing prompt. |
+| 2 | Mag ik het in het Nederlands proberen? | A1 | yes | Modal "mag" leads the yes/no question, infinitive "proberen" at the end: correct word order. "in het Nederlands" is the standard idiom for "in Dutch". 7 words, all common. This exact line is a vetted A1 calibration example in `brand/dutch-level-guide.md`. |
+
+Both lines are correct, natural, A1 Dutch. Still flag for a quick native check (Joost) before posting, per the standard.
 
 ## SCENARIO IMAGE (ChatGPT)
 
@@ -77,25 +87,29 @@ inconsistent character design.
   - A) Switch to English too. Honestly? A little relieved.
   - B) "Mag ik het in het Nederlands proberen?" (Can I try it in Dutch?)
   - C) Say nothing, switch to English, then think of the perfect Dutch reply on the bike home.
-- **No correct answer**. It's whatever your reflex is, and all three are normal. (B is just the lowest-stakes way to stay in Dutch, if you want one.)
+- **No correct answer** (by design: reflex, not right/wrong). B is just the simplest way to stay in Dutch, if you want one.
 
 ## ENGAGEMENT PROMPT (overlay / caption, beats the bait filter)
 
-"No wrong answer here. Which one is actually you, A, B, or C, and what's going through your head in that half-second?"
+"Which one is actually you, A, B, or C, and what's going through your head in that half-second?"
 
 ## REVEAL (slide 2 or pinned comment)
 
-No winner here. Pick whichever one is honestly you. All three are normal. But if C is your reflex and you wish it weren't, B is the smallest possible way out: one sentence, no confrontation, and you're still in Dutch. You don't have to be good. You just get to stay in.
+If C is your reflex and you wish it weren't, B is the smallest way out: one line, no confrontation, and you're still speaking Dutch. You don't have to be good. You just get to stay in.
+
+_Reveal slide also renders (from props): the gold kicker **WHICH ONE IS YOU?** (no "NO WRONG ANSWER" over-reassurance) and the closing CTA `cta`: "Save it for your next checkout. Send it to someone learning Dutch with you."_
 
 ## CAPTION (paste into Instagram)
 
 The cashier switched to English on you. What do you actually do?
 
-There's no right answer here. It's mostly whatever your reflex is. Some of us switch to English and feel a little relieved. Some freeze, go along with it, and then compose the perfect Dutch sentence three hours later on the bike home. And some stay in Dutch with one low-stakes line: "Mag ik het in het Nederlands proberen?" None of them is wrong. That last one is just the only one that keeps the practice you were going to get.
+It's mostly reflex. Some of us switch to English and feel a little relieved. Some freeze, go along with it, then compose the perfect Dutch sentence three hours later on the bike home. And some stay in Dutch with one simple line: "Mag ik het in het Nederlands proberen?" The last one keeps them speaking Dutch, so you actually get to practice.
 
-Be honest in the comments: A, B, or C. Which one is actually you, and what's going through your head in that half-second? Read a few replies and you'll see you're not the only one.
+Which one is actually you, A, B, or C, and what's going through your head in that half-second?
 
-Save this for your next checkout. Send it to whoever switches to English the second they hear your accent.
+Save this for your next checkout. Send it to someone who always gets switched to English too.
+
+Start learning Dutch with Joost: link in bio.
 
 Keywords woven: switch to English, what to say in Dutch, practice Dutch speaking, Dutch checkout phrases, inburgering speaking.
 

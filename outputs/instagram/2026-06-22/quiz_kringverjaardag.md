@@ -95,18 +95,18 @@ The quiz (also written into props):
 (or, manually: cd remotion && npx remotion render src/index.ts Quiz out/2026-06-22/kringverjaardag --sequence --image-format=png --props=props/2026-06-22/kringverjaardag.json)
 
 ## ENGAGEMENT PROMPT (overlay / caption, beats the bait filter)
-"Did you know this one already, or did you learn it the hard way? What Dutch custom caught you off guard the most?"
+"Did you already know this, or did you find out at your first one? Which Dutch custom surprised you the most?"
 
 ## CAPTION (paste into Instagram)
 The Dutch birthday circle, explained.
 
-The first time you walk into a kringverjaardag, the chairs are in a circle, everyone is sitting down, and you have no idea what to do. Here is the rule nobody tells you: you congratulate everyone, not just the birthday person. You go around the circle: "Gefeliciteerd met je moeder, met je zus, met je vriend."
+The first time you walk into a kringverjaardag, the chairs are in a circle, everyone is sitting down, and you have no idea what to do. Here is the rule nobody tells you: you congratulate everyone, not just the birthday person. You go around the circle: "Gefeliciteerd met je moeder, met je zus, met je vriend." (Congratulations on your mum, your sister, your partner.)
 
 It feels strange the first time. After that, you are the one who knows the custom and can quietly help the next newcomer.
 
-Did you know this one already, or did you learn it the hard way? Tell me about your first kringverjaardag in the comments.
+Did you already know this, or did you find out at your first one? Tell me about your first kringverjaardag in the comments.
 Start learning Dutch with Joost: link in bio.
 Keywords woven: kringverjaardag, Dutch birthday circle, gefeliciteerd, Dutch birthday customs, Dutch culture for expats.
 
 ## PINNED COMMENT
-"What is the Dutch custom that caught you most off guard? Mine was the three kisses."
+"Which Dutch custom surprised you the most? Mine was the three kisses."

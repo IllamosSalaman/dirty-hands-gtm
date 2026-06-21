@@ -71,7 +71,7 @@ Save the clip as: `remotion/public/2026-06-15/why-they-switch/clip.mp4`
 
 ## WHAT REMOTION PRODUCES (no CapCut)
 
-Remotion loops the clip, sequences the six voice lines with auto-detected timing, burns in NL/EN subtitles, emphasizes the frame line (Joost's "Zeg het meteen…") in gold with "SAY THIS ↓", adds the 3-second hook ("It's not your accent — it's a HABIT"), and ends on a branded card over the scene with the frame line, then fades back to the scene so the reel loops cleanly. Output: 9:16 MP4 with audio. Props: `remotion/props/2026-06-15/why-they-switch.json`.
+Remotion loops the clip, sequences the six voice lines with auto-detected timing, burns in NL/EN subtitles, emphasizes the frame line (Joost's "Zeg het meteen…") in gold with "SAY THIS ↓", adds the 3-second hook ("It's not personal, it's a HABIT"), and ends on a branded card over the scene with the frame line, then fades back to the scene so the reel loops cleanly. Output: 9:16 MP4 with audio. Props: `remotion/props/2026-06-15/why-they-switch.json`.
 
 ## RENDER (after Status: approved and all assets saved)
 
@@ -83,11 +83,21 @@ Remotion loops the clip, sequences the six voice lines with auto-detected timing
 
 Passed inburgering but can't speak Dutch? Here's why people still switch to English on you.
 
-You make the effort. You order in Dutch. They answer in English anyway. The annoying part isn't your accent. It's the lost chance to practice the thing you've worked so hard on. It's easy to read the switch as rejection, like they're telling you your Dutch isn't good enough. Usually it's the opposite. Switching is a reflex, and most of the time it's kindness: they think they're making it easier for you. So you get to set the frame first: "Ik leer Nederlands, praat alsjeblieft Nederlands met me." Say it early, before the reflex kicks in. You won't always feel up for it in the moment, which is exactly why you practice it where the stakes are zero, until the line is just there when you need it.
+You make the effort. You order in Dutch. They answer in English anyway.
 
-De meeste mensen helpen je graag oefenen.
+When they switch, you lose the one thing you actually wanted: a chance to practice. That's what stings.
+
+That switch can feel like they're telling you your Dutch isn't good enough. Almost always, it's the opposite. Switching is a habit, and most of the time it's kindness. They think they're making things easier for you.
+
+So you can say something first, before they switch to English:
+
+"Vind je het goed als we Nederlands praten?" (Is it okay if we speak Dutch?)
+
+Saying it in the moment can feel intimidating. That's why it helps to practice this one sentence on your own, many times, so it's ready when you need it. And most people are happy to help you practice.
 
 Save this for the next time it happens. Send it to someone who gets that little stab of frustration every time.
+
+Start learning Dutch with Joost: link in bio.
 
 Keywords woven: passed inburgering but can't speak Dutch, switch to English, speaking Dutch confidence, practice Dutch speaking, inburgering after the exam.
 

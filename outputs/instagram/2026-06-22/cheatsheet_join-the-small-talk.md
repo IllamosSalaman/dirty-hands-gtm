@@ -87,11 +87,11 @@ save/send CTA slide. One PNG per slide. The DWJ logo mark sits in the wordmark p
 Props: remotion/props/2026-06-22/join-the-small-talk.json.
 
 The phrases (also written into props):
-1. Hoi! Wat een leuk feest, hè? (Hi! What a nice party, right?) when: Break the ice with whoever is standing next to you.
+1. Hoi! Wat een leuk feest, hè? (Hi! What a nice party, right?) when: Start a conversation with whoever is standing next to you.
 2. Hoe ken jij de jarige? (How do you know the birthday person?) when: The easiest question to ask anyone at a Dutch birthday.
 3. Woon jij hier in de buurt? (Do you live nearby?) when: Simple small talk that keeps the chat going.
 4. Wat leuk! En wat doe jij? (Nice! And what do you do?) when: Show interest, then turn the question back to them.
-5. Leuk je te spreken! Tot straks. (Nice talking to you! See you later.) when: A warm way to leave a chat without the awkward shuffle.
+5. Leuk je te spreken! Tot straks. (Nice talking to you! See you later.) when: A warm way to leave a chat without an awkward exit.
 
 ## RENDER (after Status: approved and cover.png saved)
 /instagram-render join-the-small-talk
@@ -100,7 +100,7 @@ The phrases (also written into props):
 ## CAPTION (paste into Instagram)
 How to make small talk at a Dutch party.
 
-The hardest part of a Dutch party is not the Dutch. It is walking up to a group and saying the first word. So here are five lines that do the work for you: one to break the ice, two to keep it going, one to show interest, and one to leave a chat without the awkward shuffle.
+The hardest part of a Dutch party is not the Dutch. It is walking up to a group and saying the first word. So here are five lines that do the work for you: one to start the conversation, two to keep it going, one to show interest, and one to leave a chat without an awkward exit.
 
 You do not need perfect grammar to belong in the room. You need a few lines you have said enough times that they come out without thinking.
 

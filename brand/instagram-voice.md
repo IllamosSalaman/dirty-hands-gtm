@@ -4,7 +4,20 @@ Brand-specific voice, tone, and editorial decisions for **every** DutchwithJoost
 
 Keep it tight — one principle per line. This loads on every run, so an essay becomes context bloat.
 
-> **Not duplicated here:** the anti-slop rules in `.claude/rules/writing-quality.md` (prohibited words, no em-dashes, no semicolons) and the platform mechanics in the bundled `instagram-playbook.md` still apply. This file is brand taste layered on top of those, not a replacement.
+> **Not duplicated here:** the anti-slop rules in `.claude/rules/writing-quality.md` (prohibited words, the rhetorical-shape tells, no em-dashes, no semicolons) and the platform mechanics in the bundled `instagram-playbook.md` still apply. This file is brand taste layered on top of those, not a replacement.
+
+---
+
+## Structural slop (sound like a person, not a brand)
+
+The full catalogue of AI sentence-shape tells lives in `.claude/rules/writing-quality.md` → *Rhetorical-shape tells*. This is the Instagram-specific emphasis, because the caption is where it bites. This is the editorial half of the **Voice check** the skill runs in batch, refine, and check.
+
+- The **caption is the #1 slop surface.** Dutch dialogue, NL/EN phrase pairs, and short burn-in hooks are usually clean (grounded and short). The slop pools in the free editorial prose: captions, article-remix connective lines, the "when to use it" subheads, pinned comments. Read those hardest.
+- **Read it aloud as if to one friend over coffee.** If a sentence sounds like a slogan or a TED talk instead of a person talking, flatten it. This one test catches most of it.
+- **Flatten the balanced shapes.** A "not X, but Y" antithesis, a three-part list, a grand abstract opener or closer: rewrite as one plain, concrete sentence. _(e.g. ❌ "You are not trying to be fluent over one coffee. You are trying to stay in Dutch for six small lines." → ✅ "You just need to last six small lines in Dutch. That is the whole goal." Source: coffee-with-your-neighbor caption, June 2026.)_
+- **Open on the concrete moment, not an abstract thesis; close on a concrete detail, not a moral.** _(❌ open "Meeting your neighbors is how the expat bubble finally opens" then close "That is how a neighbor slowly becomes a friend." ✅ open on the coffee turning to English.)_
+- **Watch the tricolon in remixes especially.** _(❌ "A course that requires you to speak, meets you at your level, and lets you make mistakes safely..." reads as AI. Pick the one criterion that matters and say it plainly. Source: course-that-gets-you-talking remix, June 2026.)_
+- **Density, not zero tolerance.** One balanced sentence is fine. Flag when two or three stack in a row, or the same shape repeats across the caption. Do not make every post read flat and clipped.
 
 ---
 

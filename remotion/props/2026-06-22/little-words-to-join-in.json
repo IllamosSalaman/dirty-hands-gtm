@@ -1,0 +1,24 @@
+{
+  "variant": "small-words",
+  "theme": "Kleine woordjes",
+  "handle": "@dutchwithjoost",
+  "coverImage": "2026-06-22/little-words-to-join-in/cover.png",
+  "cover": {
+    "kicker": "Kleine woordjes",
+    "title": "Little words that get you in",
+    "sub": "Six tiny words Dutch people drop into every chat"
+  },
+  "intro": null,
+  "cards": [
+    {"term": "nou", "meaning": "well (gives you a second to think)", "examples": [{"nl": "Nou, even denken.", "en": "Well, let me think."}], "note": "Open a reply with it to buy a moment."},
+    {"term": "hè?", "meaning": "right? / isn't it?", "examples": [{"nl": "Gezellig, hè?", "en": "Cosy, isn't it?"}], "note": "Stick it on the end to invite a yes."},
+    {"term": "joh", "meaning": "friendly \"hey\" or \"come on\"", "examples": [{"nl": "Welnee, joh!", "en": "Oh no, don't worry!"}], "note": "Warm, only with friends."},
+    {"term": "even", "meaning": "for a sec (softens a request)", "examples": [{"nl": "Wacht even.", "en": "Hold on a sec."}], "note": "Drop it in to make any ask gentler."},
+    {"term": "toch?", "meaning": "right? (you expect a yes)", "examples": [{"nl": "Je komt toch?", "en": "You're coming, right?"}], "note": "Use it to check something you assume."},
+    {"term": "hoor", "meaning": "reassuring, warm", "examples": [{"nl": "Het is goed, hoor.", "en": "It's totally fine."}], "note": "Goes at the end to soften."}
+  ],
+  "cta": {
+    "title": "Save these and try one tomorrow",
+    "sub": "Send it to whoever you practice with."
+  }
+}

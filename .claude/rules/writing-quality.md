@@ -153,6 +153,24 @@ Only use "from X to Y" when X and Y are endpoints on a real, identifiable scale 
 
 Every claim needs a source. Vague attribution is no attribution.
 
+**Rhetorical-shape tells (the strongest AI signal):** The clearest sign of AI writing is not a banned word, it is a recurring sentence *shape* that fakes profundity through symmetry. These are the most-cited structural tells. Two rules govern them:
+
+- **Density, not presence.** Each shape appears in good human writing alone. Flag a passage when two or more stack in a few sentences, or when the same shape repeats. Do not sand every sentence flat.
+- **The read-aloud test.** Say it out loud as if to one person. If it sounds like a speech, a slogan, or a LinkedIn post instead of a human talking, rewrite it flatter and more concrete.
+
+| AI shape | What it looks like | Fix |
+| -------- | ------------------ | --- |
+| **Antithesis / negative parallelism** (the #1 tell) | "It isn't about speaking perfectly. It's about being understood." / "Not a tool, but a partner." | State the claim directly. "Being understood beats speaking perfectly." If it can't stand without the contrast, the idea isn't ready. |
+| **"Not just X, it's Y" inflation** | "It's not just a phrase, it's a doorway." / "No fluff. No filler. Just results." | Make one concrete claim. Drop the escalation. |
+| **Rule of three / tricolon** | "Fast, clean, and effortless." A third item added to look complete. | Use two if you only have two. Break the symmetry; let one item be longer or oddly specific. |
+| **Balanced epigram / aphorism** | "Clarity is speed." / "The most reliable habit, and the easiest to skip." | Replace the maxim with a specific, first-person observation. |
+| **Grand-frame bookends** | An abstract opener ("Connection is everything") + a fortune-cookie closer ("And that changes everything"). | Open and close on the most concrete detail, not the broadest. Or just stop; you don't owe the reader a moral. |
+| **Short-sentence stack + motivational pivot** | "Speed matters. Clarity matters more. Together, they win." | Keep the staccato only if each line carries real information. Kill the inspirational payoff line. |
+| **Hedge-then-assert** | "While results vary, the evidence consistently shows it works." | Pick one. Assert it, or lead with the interesting exception. |
+| **Curiosity-gap / reveal setup** | "Here's the thing nobody tells you." / "The result?" / "Here's why." | Open on the payoff itself. Cut the ramp. |
+| **Rhetorical-question opener** | "Ever wondered why you freeze up?" | Convert to a concrete observation or a specific stakes statement. |
+| **"Whether you're X or Y" false inclusion** | "Whether you're a beginner or fluent, this is for you." | Name the one reader. "If you froze at the counter this morning, this is for you." |
+
 ## Punctuation Rules
 
 **No em-dashes.** Rewrite every sentence that uses an em-dash. Options:

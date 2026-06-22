@@ -1,15 +1,16 @@
 {
-  "theme": "De kringverjaardag",
+  "theme": "Kringverjaardag",
   "handle": "@dutchwithjoost",
   "scenarioImage": "2026-06-22/kringverjaardag/scenario.png",
-  "scenarioLine": "You arrive at a Dutch birthday. Everyone is sitting in a circle.",
+  "scenarioLine": "You arrive at a Dutch birthday. There's a circle of chairs and everyone looks up.",
   "questionNl": "Wie feliciteer je?",
   "questionEn": "Who do you congratulate?",
   "options": [
-    {"key": "A", "text": "Alleen de jarige. (Only the birthday person.)"},
-    {"key": "B", "text": "Iedereen in de kring. (Everyone in the circle.)"},
-    {"key": "C", "text": "Niemand. Je gaat gewoon zitten. (No one. You just sit down.)"}
+    {"key": "A", "text": "Only the birthday person"},
+    {"key": "B", "text": "Everyone, not just the birthday person"},
+    {"key": "C", "text": "No one until someone greets you"}
   ],
   "correct": "B",
-  "reveal": "Correct: B. In the Netherlands you congratulate everyone, not just the birthday person. You go around the circle: 'Gefeliciteerd met je zus!' (Congrats on your sister!). It feels strange the first time. After that, you are the one who knows the custom."
+  "reveal": "You congratulate the family too, not only the jarige (the birthday person). A warm \"Gefeliciteerd met je dochter!\" (Congrats on your daughter!) does it. Then sit down for coffee and cake.",
+  "cta": "Save this before your next Dutch birthday."
 }

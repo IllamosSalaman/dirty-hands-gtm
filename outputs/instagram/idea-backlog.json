@@ -14,6 +14,11 @@
     "outputs/articles/inburgering-course-that-teaches-speaking_final.mdx",
     "outputs/articles/passed-inburgering-cant-speak-dutch"
   ],
+  "reference_log": {
+    "small-words": ["nou / hè / joh / even / toch / hoor (join a conversation)"],
+    "vocab-scene": ["In de woonkamer"],
+    "idiom": ["everyday idioms"]
+  },
   "packs": [
     {
       "pack_id": "switch-to-english",
@@ -284,8 +289,7 @@
           "angle": "Small-talk openers and follow-up questions so the coffee is not all in English",
           "source": "monika 'meet people who are not expats'; belonging",
           "on_theme": true,
-          "status": "produced",
-          "produced_file": "outputs/instagram/2026-06-22/cheatsheet_coffee-with-your-neighbor.md"
+          "status": "idea"
         },
         {
           "post_id": "smile-and-nod-quiz-2",
@@ -295,8 +299,7 @@
           "angle": "Reflex quiz, no forced correct answer: three openers, ask which one is you and what usually happens next, to pull sentence-length comments.",
           "source": "Facebook working parent; molly making Dutch friends",
           "on_theme": true,
-          "status": "produced",
-          "produced_file": "outputs/instagram/2026-06-22/quiz_school-gate-opener.md"
+          "status": "idea"
         },
         {
           "post_id": "smile-and-nod-remix",
@@ -306,8 +309,7 @@
           "angle": "Carousel, off-theme for a wider discovery net. Pull ONE idea from the comparison article: what to look for in a course if your goal is real conversation. Transform, do not paste.",
           "source": "outputs/articles/best-inburgering-courses-2026_final.mdx",
           "on_theme": false,
-          "status": "produced",
-          "produced_file": "outputs/instagram/2026-06-22/article-remix_course-that-gets-you-talking.md"
+          "status": "idea"
         }
       ]
     },

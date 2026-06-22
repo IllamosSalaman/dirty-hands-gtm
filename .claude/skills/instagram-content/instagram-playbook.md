@@ -2,7 +2,7 @@
 
 The platform-mechanics and per-type rules for DutchwithJoost Instagram content. The `/instagram-content` skill reads this file and embeds the relevant slice into every post it writes, so the rules travel with each file and edits stay on-rails.
 
-This playbook governs Instagram voice and structure. The global `.claude/rules/writing-quality.md` (anti-slop, prohibited words, no em-dashes) still applies to every caption and slide.
+This playbook governs Instagram voice and structure. The global `.claude/rules/writing-quality.md` (anti-slop: prohibited words, the rhetorical-shape sentence tells, no em-dashes) still applies to every caption and slide, and the **Voice check** enforces it (see *Caption & voice standard* below).
 
 ---
 
@@ -126,6 +126,22 @@ The plan-mode backlog is organized as **theme packs** (one pack = one theme's we
 - **The mini-quiz:** "Could you order this in Dutch? Most people pick the wrong one."
 
 Cover headline: 5-8 words, largest text, readable in under 2 seconds.
+
+**These are angles, not paste-shapes.** The formulas above are starting points for *what* to say, not templates to drop in verbatim. Pasted literally they read as AI: "The Dutch phrase everyone gets wrong at the {place}" is a curiosity-gap, "{N} things that actually sound Dutch" is a listicle shape. Rewrite each in a human voice and run it through the Voice check. Open the caption on the concrete moment (the coffee going to English), not an abstract thesis about it.
+
+---
+
+## Caption & voice standard (anti-slop)
+
+The English in the content is on display as much as the Dutch. It must sound like one person talking to a friend, not a brand performing. This standard is embedded in every post's rules block and checked before any post is finalized, the same shape as the Dutch standard. The authority is two files and the explicit check loads both: `.claude/rules/writing-quality.md` → *Rhetorical-shape tells* (the structural AI tells and their fixes) and `brand/instagram-voice.md` → *Structural slop* (the Instagram-specific emphasis and brand before/afters).
+
+**The slop is sentence shape, not vocabulary.** A caption can contain zero banned words and still read as AI because of its *architecture*: antithesis ("not X, but Y"), forced rule-of-three lists, a grand abstract opener and a fortune-cookie closer wrapped around a concrete middle, balanced epigrams, curiosity-gap hooks ("here's why"). The free-prose surfaces (caption, cover hook, slide "when to use it" subheads, engagement prompt, reel hook/outro, pinned comment) are where it pools. Dutch dialogue and NL/EN phrase pairs are usually clean because they are grounded and short.
+
+**Two rules govern the fix:**
+- **Density, not presence.** Each shape appears in good human writing alone. Flag a surface when two or three stack, or the same shape repeats. Do not flatten every sentence.
+- **The read-aloud test.** Say it as if to one friend over coffee. If it sounds like a slogan or a TED talk, rewrite it flatter and more concrete: one plain sentence over a balanced or clever one, open on the moment, close on a concrete detail.
+
+**The Voice check (the explicit pass).** Run this over every English free-prose surface before a post reaches `Status: approved`. It runs automatically inside batch and refine, and on demand via `/instagram-content check`, alongside the Dutch check. Rewrite what stacks or trips the read-aloud test, then record a one-line **Voice check** note in the runbook so the reviewer can see it ran.
 
 ---
 

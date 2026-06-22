@@ -1,0 +1,23 @@
+{
+  "variant": "idiom",
+  "theme": "Spreektaal",
+  "handle": "@dutchwithjoost",
+  "coverImage": "2026-06-22/dutch-sayings-you-will-hear/cover.png",
+  "cover": {
+    "kicker": "Spreektaal",
+    "title": "Sayings you'll actually hear",
+    "sub": "Strange literal meanings, used in normal talk"
+  },
+  "intro": null,
+  "cards": [
+    {"term": "door de vingers zien", "sub": "to see through the fingers", "meaning": "to turn a blind eye, let it slide", "examples": [{"nl": "De docent zag de fout door de vingers.", "en": "The teacher let the mistake slide."}]},
+    {"term": "met de deur in huis vallen", "sub": "to fall into the house with the door", "meaning": "to get straight to the point", "examples": [{"nl": "Ik val maar met de deur in huis.", "en": "Let me get straight to the point."}]},
+    {"term": "de knoop doorhakken", "sub": "to chop through the knot", "meaning": "to finally make a decision", "examples": [{"nl": "We moeten de knoop doorhakken.", "en": "We have to make the call."}]},
+    {"term": "de puntjes op de i zetten", "sub": "to put the dots on the i", "meaning": "to perfect the final details", "examples": [{"nl": "Even de puntjes op de i zetten.", "en": "Just adding the finishing touches."}]},
+    {"term": "het regent pijpenstelen", "sub": "it is raining pipe stems", "meaning": "it is pouring", "examples": [{"nl": "Neem een jas mee, het regent pijpenstelen.", "en": "Bring a coat, it's pouring."}]}
+  ],
+  "cta": {
+    "title": "Save these and listen for one",
+    "sub": "Send it to whoever is learning Dutch with you."
+  }
+}

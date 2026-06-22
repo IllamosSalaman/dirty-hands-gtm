@@ -53,9 +53,9 @@ export const calcVocabScene: CalculateMetadataFunction<VocabSceneProps> = ({prop
 
 const LabelChip: React.FC<{l: VocabLabel}> = ({l}) => (
   <div style={{position: 'absolute', left: `${l.x * 100}%`, top: `${l.y * 100}%`, transform: 'translate(-50%, -50%)', zIndex: 2}}>
-    <div style={{background: brand.white, border: `3px solid ${brand.blue}`, borderRadius: 16, padding: '12px 20px', boxShadow: '0 6px 18px rgba(0,0,0,0.22)', textAlign: 'center', maxWidth: 360}}>
-      <div style={{fontFamily: display, fontWeight: 600, fontSize: 38, lineHeight: 1.04, color: brand.blue, whiteSpace: 'nowrap'}}>{l.nl}</div>
-      <div style={{fontFamily: body, fontWeight: 500, fontSize: 27, lineHeight: 1.1, color: brand.ink, whiteSpace: 'nowrap'}}>{l.en}</div>
+    <div style={{background: 'rgba(255,255,255,0.82)', border: '1.5px solid rgba(0,37,219,0.28)', borderRadius: 14, padding: '8px 15px', boxShadow: '0 3px 10px rgba(0,0,0,0.12)', textAlign: 'center', maxWidth: 360}}>
+      <div style={{fontFamily: display, fontWeight: 600, fontSize: 31, lineHeight: 1.05, color: brand.blue, whiteSpace: 'nowrap'}}>{l.nl}</div>
+      <div style={{fontFamily: body, fontWeight: 500, fontSize: 21, lineHeight: 1.1, color: brand.ink, whiteSpace: 'nowrap'}}>{l.en}</div>
     </div>
   </div>
 );
@@ -68,8 +68,8 @@ const Poster: React.FC<{p: VocabSceneProps}> = ({p}) => (
       {p.labels.map((l, i) =>
         l.point ? (
           <g key={i}>
-            <line x1={l.x * W} y1={l.y * H} x2={l.point.x * W} y2={l.point.y * H} stroke={brand.blue} strokeWidth={4} strokeLinecap="round" opacity={0.85} />
-            <circle cx={l.point.x * W} cy={l.point.y * H} r={10} fill={brand.gold} stroke={brand.blue} strokeWidth={3} />
+            <line x1={l.x * W} y1={l.y * H} x2={l.point.x * W} y2={l.point.y * H} stroke={brand.blue} strokeWidth={3} strokeLinecap="round" opacity={0.6} />
+            <circle cx={l.point.x * W} cy={l.point.y * H} r={8} fill={brand.gold} stroke={brand.blue} strokeWidth={2} />
           </g>
         ) : null
       )}

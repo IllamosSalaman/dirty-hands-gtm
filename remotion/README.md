@@ -168,8 +168,8 @@ Instagram feed carousels are 4:5; reels are 9:16. A 9:16 image dropped into a 4:
 drop assets in `public/<week>/{slug}/` first, then:
 
 ```bash
-# Reel → MP4 (durations are auto-detected; no manual timing)
-npx remotion render src/index.ts ScenarioReel out/<week>/{slug}.mp4 --props=props/<week>/{slug}.json
+# Reel → MP4 in out/<week>/{slug}/ (its own folder, like a carousel; durations auto-detected, no manual timing)
+npx remotion render src/index.ts ScenarioReel out/<week>/{slug}/{slug}.mp4 --props=props/<week>/{slug}.json
 
 # Carousel → PNG slides in out/<week>/{slug}/  (element-0.png … element-N.png)
 npx remotion render src/index.ts Cheatsheet   out/<week>/{slug} --sequence --image-format=png --props=props/<week>/{slug}.json
@@ -259,4 +259,4 @@ loop the clip. Measured-by-hand and auto-detected timings matched to within roun
 - `src/theme.ts` — brand colors (mirror of `brand/brand-colors.json`).
 - `props/<week>/` — one JSON per post, grouped by week-start date (`/instagram-content` writes these).
 - `public/logo.tsx` — the source SVG of the logo (the shape of truth). `src/logo.tsx` mirrors it for rendering; `public/<week>/{slug}/` holds the generated per-post assets you drop in.
-- `out/<week>/` — rendered MP4s and PNG slide folders, grouped by week.
+- `out/<week>/{slug}/` — one folder per post (reel `{slug}.mp4` or carousel `element-*.png`), each also holding a `caption.md` ship-file the render skill writes for review/sharing. Grouped by week. (Reel loop-check stills go in a throwaway sibling `out/<week>/{slug}-stills/`.)

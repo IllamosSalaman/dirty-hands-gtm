@@ -64,8 +64,9 @@ This skill writes only authoring artifacts. The finished asset is produced later
 - `outputs/instagram/<week>/_plan.md` -- the produced week's overview grid (batch mode). `<week>` is the week-start date `YYYY-MM-DD`.
 - `outputs/instagram/<week>/{type}_{slug}.md` -- one reviewable runbook per post. `type` is `scenario-reel`, `cheatsheet`, `quiz`, `article-remix`, `particle`, `small-words`, `mistake`, `idiom`, `vocab-scene`, or `knm-quiz`. **This is the human-gate artifact.** It carries `Status: draft` until the user approves. (The week folder carries the date, so the filename no longer repeats it.)
 - `remotion/props/<week>/{slug}.json` -- the render props for the post, written by batch alongside the runbook. The contract between this skill and the Remotion composition.
+- `remotion/public/<week>/{slug}/` -- the asset-drop folder, **created empty by batch** so the user has a ready target for the voice/image/clip files the runbook names. The user fills it; this skill never writes assets into it.
 
-Create `outputs/instagram/<week>/` and `remotion/props/<week>/` if they do not exist. Each post file carries its own rules block plus the runbook, so plain conversational edits stay on-rails without re-invoking the skill.
+Create `outputs/instagram/<week>/`, `remotion/props/<week>/`, and the per-post `remotion/public/<week>/{slug}/` drop folders if they do not exist. Each post file carries its own rules block plus the runbook, so plain conversational edits stay on-rails without re-invoking the skill.
 
 ## Week-bundle layout (keep the folders tidy)
 
@@ -83,7 +84,7 @@ outputs/instagram/
 remotion/
   props/<week>/{slug}.json                 ← written here
   public/<week>/{slug}/...                 ← user drops generated assets here
-  out/<week>/{slug}.mp4 | out/<week>/{slug}/element-*.png   ← /instagram-render writes here
+  out/<week>/{slug}/...                     ← /instagram-render writes here ({slug}.mp4 or element-*.png, plus caption.md)
 ```
 
 When composing a week, pick `<week>` = the date the week starts (the date the user is planning from, or today's date if unspecified). Use the **same `<week>` value** for the plan file, every runbook, and every props file in that batch, and bake it into the asset-save paths and render command inside each runbook. Asset paths inside a props JSON are relative to `remotion/public/`, so they must start with `<week>/{slug}/...` (e.g. `"coverImage": "2026-06-15/keep-them-in-dutch/cover.png"`).
@@ -96,7 +97,7 @@ The gate sits between this skill (content) and `/instagram-render` (production),
 
 1. `batch` writes the runbook MD (`Status: draft`) and the props JSON. **No asset is rendered.**
 2. The user reads each runbook, verifies the content -- above all the Dutch (correct, A1-level, usable) -- and refines anything off (`/instagram-content refine <slug>`).
-3. The user generates the upstream assets named in the runbook (voice, image, clip) and drops them into `remotion/public/<week>/{slug}/`.
+3. The user generates the upstream assets named in the runbook (voice, image, clip) and drops them into `remotion/public/<week>/{slug}/` (batch already created this folder, empty and ready).
 4. The user approves by setting `Status: approved` at the top of the runbook.
 5. `/instagram-render <slug>` produces the asset -- and refuses if `Status` is not `approved` or assets are missing.
 
@@ -234,7 +235,7 @@ Grounded in: {intelligence sources / pack id}
 
 ## How to take these live
 1. Review each runbook. Fix content with `/instagram-content refine {slug}`.
-2. Generate the assets each runbook names, into `remotion/public/<week>/{slug}/`.
+2. Generate the assets each runbook names, into `remotion/public/<week>/{slug}/` (already created, ready to fill).
 3. Set `Status: approved` at the top of the runbook.
 4. Render it: `/instagram-render {slug}`.
 ```
@@ -250,6 +251,8 @@ This is the topic gate the user asked for: **choose the week together first, the
 ### Step 4: Write each post as a runbook + props
 
 For every slot **in the confirmed lineup**, write `outputs/instagram/<week>/{type}_{slug}.md` using the matching template in **Post Runbook Templates** below, AND write `remotion/props/<week>/{slug}.json` with the same content shaped to that composition's props (see `remotion/README.md` for the props contract). Fill every step completely: real Dutch dialogue, real slide text, the full image prompt with the **complete Style Block and Negative prompt written out verbatim** (the actual lines from `brand/brand-kit.md`, reproduced in full, never a placeholder, a bracket like `[inline the style block here]`, or a "see brand-kit" pointer), the exact brand files to attach, image-to-video settings, the asset filenames to save under `remotion/public/<week>/{slug}/`, and the render command. Nothing left as a template for the user to complete. **Do not render.**
+
+Also create the post's asset-drop folder, `remotion/public/<week>/{slug}/`, empty (`mkdir -p`), so the user never has to make it by hand before dropping in the voice, image, and clip files the runbook names. Do this for every post in the lineup. Do not write any asset into it -- the user generates those; batch only prepares the empty target.
 
 Three hard rules on every post: (1) every image prompt contains the full Style Block + Negative prompt text inline, so the user copy-pastes it with zero edits; (2) no em-dash (—) appears anywhere in the props JSON or in any caption, slide, prompt, engagement prompt, or pinned comment — use a period, comma, colon, or parentheses instead; (3) every caption ends with the standard bio CTA line, verbatim: `Start learning Dutch with Joost: link in bio.`, placed after the save/send or engagement CTA and before the woven keywords.
 
@@ -269,7 +272,7 @@ Run the **Voice check** on the English before writing the post out (the editoria
 - For each **evergreen reference post** produced (particle, small-words, mistake, idiom, vocab-scene, knm-quiz), append its specific topic to the backlog's `reference_log` so future weeks do not repeat it. `reference_log` is a flat object keyed by type, e.g. `{"particle": ["nog", "toch"], "idiom": ["animal idioms"], "knm-quiz": ["zorgverzekering eigen risico"], "vocab-scene": ["de keuken"]}`. Create it if it does not exist.
 - Report: the theme (or "mixed"), the date range, the `<week>` folder, the 7 posts (day, type, working title), runbook + props file paths, any gaps, and whether the brand kit had unfilled slots.
 - Before reporting, verify each runbook: every image prompt contains the full Style Block + Negative prompt text (not a placeholder), every caption ends with `Start learning Dutch with Joost: link in bio.`, and no props JSON or caption text contains an em-dash. Verify the **Voice check** ran: each English free-prose surface (caption, cover hook, slide subheads, engagement prompt, reel hook/outro, pinned comment) reads aloud like one person talking with no stacked AI-slop sentence shapes, and the runbook carries its one-line **Voice check** note.
-- Reminder, in this order: "These are drafts for your review -- nothing has been rendered. 1) Read each runbook and verify the content, especially the Dutch. 2) Refine any post with `/instagram-content refine <slug>`. 3) Generate the named assets into `remotion/public/<week>/<slug>/`. 4) Set `Status: approved`. 5) Render with `/instagram-render <slug>`."
+- Reminder, in this order: "These are drafts for your review -- nothing has been rendered. 1) Read each runbook and verify the content, especially the Dutch. 2) Refine any post with `/instagram-content refine <slug>`. 3) Generate the named assets into `remotion/public/<week>/<slug>/` (already created for you, just drop the files in). 4) Set `Status: approved`. 5) Render with `/instagram-render <slug>`."
 
 ---
 
@@ -284,7 +287,7 @@ Triggered by `/instagram-content refine <slug-or-path>`. Edits content **before*
    - **Regenerate a piece:** produce alternatives for one component and let the user pick. Examples: "give me 3 cover hooks", "rewrite the quiz", "two alternative scene-image prompts", "a different caption", "a tighter Dutch dialogue". Show options inline, let the user choose or blend, write the chosen version back.
    After each change, write **both** the runbook MD and `remotion/props/<week>/{slug}.json` so they stay in sync, then confirm what changed. Keep going until satisfied. When a change touches any Dutch, re-run the **Dutch language check** on the changed lines and update the runbook's **Dutch check** verdict table. When a change touches any English caption, slide, hook, or comment, re-run the **Voice check** on that surface and update the runbook's **Voice check** note. Every revision must still pass the post's rules block, including the Dutch language standard (A1 default, grammatically correct, usable), the **Voice check** (no stacked AI-slop sentence shapes; reads aloud like one person talking), the no-em-dash rule (props JSON and every caption/slide/prompt/comment), the full inlined Style Block + Negative prompt in every image step (never a placeholder), and the standard bio CTA line `Start learning Dutch with Joost: link in bio.` in the caption.
 4. **Capture durable lessons.** When the user's feedback is a *durable editorial rule* and not a one-off tweak to this single post (e.g. "don't force a correct answer on reflex quizzes", "the switch-to-English feeling is frustration, not shame", "keep the humor but drop the shame"), offer to remember it: ask *"Want me to save this as a durable rule in `brand/instagram-voice.md` so future posts follow it?"* If yes, append a one-line principle plus a short italic _(why / source)_ under the matching heading in `brand/instagram-voice.md` (Tone, Emotional accuracy, Quiz design, or a new heading). Keep it brand-level and reusable, never post-specific. If instead the lesson is about how Remotion *renders* (a visual/production lesson, not editorial), note it belongs in `remotion/README.md` and offer to add it there. All editorial learnings stay in `brand/instagram-voice.md` -- do not write them into `strategy/` files. Skip the offer entirely for purely local edits.
-5. **Close out.** Remind the user that content edits do not re-render anything; when the content is right, set `Status: approved`, generate/confirm assets in `remotion/public/<week>/<slug>/`, then run `/instagram-render <slug>`. If they already rendered and now want a different look (not different words), point them to `/instagram-render studio <slug>`.
+5. **Close out.** Remind the user that content edits do not re-render anything; when the content is right, set `Status: approved`, generate/confirm assets in `remotion/public/<week>/<slug>/` (create this drop folder if it is somehow missing, e.g. on an older post), then run `/instagram-render <slug>`. If they already rendered and now want a different look (not different words), point them to `/instagram-render studio <slug>`.
 
 ---
 
@@ -434,7 +437,7 @@ with audio. Props: remotion/props/{week}/{slug}.json (hook text, the lines + fla
 
 ## RENDER (after Status: approved and all assets saved)
 /instagram-render {slug}
-(or, manually: cd remotion && npx remotion render src/index.ts ScenarioReel out/{week}/{slug}.mp4 --props=props/{week}/{slug}.json)
+(or, manually: cd remotion && npx remotion render src/index.ts ScenarioReel out/{week}/{slug}/{slug}.mp4 --props=props/{week}/{slug}.json)
 
 ## CAPTION (paste into Instagram)
 {line 1: searchable keyword as a hook}

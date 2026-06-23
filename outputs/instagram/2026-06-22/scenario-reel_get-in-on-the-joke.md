@@ -94,7 +94,7 @@ Remotion loops the clip, sequences the three voice lines with auto-detected timi
 
 ## RENDER (after Status: approved and all assets saved)
 /instagram-render get-in-on-the-joke
-(or, manually: cd remotion && npx remotion render src/index.ts ScenarioReel out/2026-06-22/get-in-on-the-joke.mp4 --props=props/2026-06-22/get-in-on-the-joke.json)
+(or, manually: cd remotion && npx remotion render src/index.ts ScenarioReel out/2026-06-22/get-in-on-the-joke/get-in-on-the-joke.mp4 --props=props/2026-06-22/get-in-on-the-joke.json)
 
 ## CAPTION (paste into Instagram)
 How to get in on the joke when everyone is speaking Dutch

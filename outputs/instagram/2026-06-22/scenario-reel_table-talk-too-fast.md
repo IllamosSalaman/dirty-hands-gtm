@@ -99,7 +99,7 @@ Remotion loops the clip, sequences the three voice lines with auto-detected timi
 ## RENDER (after Status: approved and all assets saved)
 
 /instagram-render table-talk-too-fast
-(or, manually: cd remotion && npx remotion render src/index.ts ScenarioReel out/2026-06-22/table-talk-too-fast.mp4 --props=props/2026-06-22/table-talk-too-fast.json)
+(or, manually: cd remotion && npx remotion render src/index.ts ScenarioReel out/2026-06-22/table-talk-too-fast/table-talk-too-fast.mp4 --props=props/2026-06-22/table-talk-too-fast.json)
 
 ## CAPTION (paste into Instagram)
 

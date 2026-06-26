@@ -202,15 +202,13 @@ Based on citation-rate research from Animalz, Grow and Convert, and HubSpot (202
 - Bold key phrases sparingly (one per paragraph max)
 - Italics for emphasis on the word carrying the core argument
 
-### Schema Markup (High Impact)
+### Schema Markup (Indexing Hygiene, Not an AI-Citation Lever)
 
-Pages with FAQPage schema are 3.2x more likely to appear in Google AI Overviews. 41% citation rate with FAQ schema vs 15% without (Relixir 2025 study).
+Schema does not win AI citations. Controlled 2025-2026 tests (searchVIU's five-engine test; Mark Williams-Cook's February 2026 test) found ChatGPT, Claude, Perplexity, Gemini, and Google AI Mode ignore JSON-LD as a structured signal at retrieval. They read the visible rendered text on the page, and they read any text inside a schema block as plain page text, not as structured data. Adding schema to pages that were already cited did not raise their citation rate (Ahrefs, 2026). The thing that earns the citation is the visible content: question-style headings with self-contained 40-60 word answers, written as on-page text.
 
-- **FAQPage schema:** Apply to any page with question-and-answer content.
-- **Article schema:** Use on blog posts to surface authorship, publish date, and modification date.
-- **Skip HowTo schema:** Google deprecated it in January 2026. No answer engine grants it retrieval weight.
-
-Fewer than 13% of websites use structured data. Implementing it puts you ahead of the large majority.
+- **Write the FAQ content, do not rely on FAQ schema.** Question headings and self-contained answers are what get extracted. FAQPage rich results were limited to government and health sites in August 2023 and fully sunset in May 2026, so FAQPage schema now produces no rich result for anyone and carries no AI-citation weight. Keep the Q&A as visible text on the page.
+- **Keep Article and Organization schema as low-cost hygiene.** It still helps Google index the page and understand the author and publisher entity (John Mueller confirmed schema's indexing value in January 2026). Use Article schema to surface author, publish date, and last-updated date. Treat it as plumbing, not a citation lever. The blog framework generates this from frontmatter, so make sure the frontmatter (author, dates) is filled in.
+- **Skip HowTo schema.** Google deprecated HowTo rich results in September 2023. No answer engine grants it retrieval weight.
 
 ### Numbers and Sources
 
